@@ -5,6 +5,7 @@ const dayjs = require('dayjs');
 class Compiler {
   constructor () {
     this.rosters = require(path.join(__dirname, '../google/rosters.json'));
+    this.last_updated = require(path.join(__dirname, 'schedule.json')).generated_at;
     this.start_date = '2024-08-15';
     this.compileAllGames();
     this.compilePlayersRef();
@@ -56,8 +57,8 @@ class Compiler {
   }
 
   compileData () {
-    // console.log(this.teams_ref);
-    this.data = this.rosters.map(roster => {
+    this.data = { last_updated: this.last_updated };
+    this.data.teams = this.rosters.map(roster => {
       const players = roster.players.map(p => {
         // ~~ player ref ~~ //
         const playerRef = this.players_ref.find(d => d.sportradarId === p.ID);
@@ -110,6 +111,8 @@ class Compiler {
 
       return { team: roster.team, goals, assists, own_goals: ownGoals, points, players, pointsByDate };
     });
+
+    // console.log(this.data)
   }
 
   saveData () {

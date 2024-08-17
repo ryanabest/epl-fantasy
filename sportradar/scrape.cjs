@@ -3,9 +3,7 @@ const path = require('path');
 const keys = require('../keys.json');
 const options = {method: 'GET', headers: {accept: 'application/json'}};
 
-const save = (response) => {
-  const fileName = 'schedule.json';
-  const filePath = path.join(__dirname, fileName);
+const save = (response, fileName, filePath) => {
   fs.writeFileSync(filePath, JSON.stringify(response, null, 4));
   console.log(`~~~~~~ SAVED ${fileName} ~~~~~~`);
 }
@@ -26,8 +24,7 @@ const getMatches = (response) => {
         .then(r => {
           const fileName = `${id}.json`;
           const filePath = path.join(__dirname, `sport_event/${fileName}`);
-          fs.writeFileSync(filePath, JSON.stringify(r, null, 4));
-          console.log(`~~~~~~ SAVED ${fileName} ~~~~~~`);
+          save(r, fileName, filePath);
         })
         .catch(err => console.error(err));
     }, 3000 * i);
@@ -38,7 +35,9 @@ const getMatches = (response) => {
 fetch(`https://api.sportradar.com/soccer/trial/v4/en/seasons/sr%3Aseason%3A118689/schedules.json?api_key=${keys.sportradar}`, options)
   .then(response => response.json())
   .then(response => {
-    save(response);
+    const fileName = 'schedule.json';
+    const filePath = path.join(__dirname, fileName);
+    save(response, fileName, filePath);
     getMatches(response);
   })
   .catch(err => console.error(err));
