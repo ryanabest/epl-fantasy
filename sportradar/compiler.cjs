@@ -113,7 +113,7 @@ class Compiler {
   }
 
   saveData () {
-    const filePath = path.join(__dirname, "../src/data/data.json");
+    const filePath = path.join(__dirname, "../src/assets/data.json");
     fs.writeFileSync(filePath, JSON.stringify(this.data, null, 4));
   }
 }

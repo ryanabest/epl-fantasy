@@ -1,5 +1,5 @@
 {
-    "generated_at": "2024-08-12T16:10:19+00:00",
+    "generated_at": "2024-08-17T21:20:13+00:00",
     "competitor": {
         "id": "sr:competitor:45",
         "name": "Southampton FC",
@@ -58,8 +58,8 @@
         },
         {
             "type": "third",
-            "base": "090909",
-            "sleeve": "0c0c0c",
+            "base": "bed839",
+            "sleeve": "b2e01b",
             "number": "fcf3f3",
             "squares": false,
             "stripes": false,
@@ -139,6 +139,7 @@
             "country_code": "ENG",
             "height": 176,
             "weight": 70,
+            "jersey_number": 21,
             "preferred_foot": "left",
             "place_of_birth": "York",
             "gender": "male"
@@ -272,6 +273,7 @@
             "country_code": "CHL",
             "height": 185,
             "weight": 81,
+            "jersey_number": 17,
             "preferred_foot": "right",
             "place_of_birth": "Stoke-on-Trent (ENGLAND)",
             "gender": "male"
@@ -337,6 +339,7 @@
             "country_code": "ENG",
             "height": 188,
             "weight": 72,
+            "jersey_number": 15,
             "preferred_foot": "right",
             "gender": "male"
         },
@@ -362,7 +365,7 @@
             "country_code": "ENG",
             "height": 188,
             "weight": 82,
-            "jersey_number": 21,
+            "jersey_number": 6,
             "preferred_foot": "right",
             "gender": "male"
         },
@@ -375,9 +378,23 @@
             "country_code": "IRL",
             "height": 183,
             "weight": 80,
-            "jersey_number": 16,
+            "jersey_number": 8,
             "preferred_foot": "right",
             "place_of_birth": "Basingstoke",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:1868542",
+            "name": "Archer, Cameron",
+            "type": "forward",
+            "date_of_birth": "2001-12-09",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 181,
+            "weight": 72,
+            "jersey_number": 19,
+            "preferred_foot": "right",
+            "place_of_birth": "Walsall",
             "gender": "male"
         },
         {
@@ -434,6 +451,18 @@
             "gender": "male"
         },
         {
+            "id": "sr:player:2059271",
+            "name": "Ugochukwu, Lesley",
+            "type": "midfielder",
+            "date_of_birth": "2004-03-26",
+            "nationality": "France",
+            "country_code": "FRA",
+            "height": 188,
+            "weight": 82,
+            "preferred_foot": "right",
+            "gender": "male"
+        },
+        {
             "id": "sr:player:2200090",
             "name": "Edozie, Samuel",
             "type": "forward",
@@ -483,6 +512,16 @@
             "height": 174,
             "weight": 70,
             "jersey_number": 27,
+            "preferred_foot": "left",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2842921",
+            "name": "Dibling, Tyler Jay Robert",
+            "type": "forward",
+            "date_of_birth": "2006-02-17",
+            "height": 178,
+            "jersey_number": 33,
             "preferred_foot": "left",
             "gender": "male"
         }

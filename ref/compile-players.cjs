@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 const teamsFolder = path.join(__dirname, 'teams');
 const seasonPlayers = require(path.join(__dirname, 'players.json')).season_players;
-const leaders = require(path.join(__dirname, 'leaders.json'));
-const seasonPlayers2023 = require(path.join(__dirname, 'players_2023.json')).season_players;
+const leaders = require(path.join(__dirname, '2023/leaders.json'));
+const seasonPlayers2023 = require(path.join(__dirname, '2023/players_2023.json')).season_players;
 
 const players = [];
 
@@ -68,7 +68,7 @@ const csvString = [
   .map(e => e.join(",")) 
   .join("\n");
 
-fs.writeFile(path.join(__dirname, 'players_with_2023_data.csv'), csvString, 'utf8', function (err) {
+fs.writeFile(path.join(__dirname, '2023/players_with_2023_data.csv'), csvString, 'utf8', function (err) {
   if (err) {
     console.log('Some error occured - file either not saved or corrupted file saved.');
   } else{
