@@ -10,7 +10,7 @@
   const startDate = data.teams[0].pointsByDate[0].date;
   const endDate = data.teams[0].pointsByDate[data.teams[0].pointsByDate.length - 1].date;
 
-  const maxPts = data.teams.map(d => d.points).sort()[data.teams.length - 1];
+  const maxPts = Math.max(...data.teams.map(d => d.points));
 
   // scales and line
   $: xScale = d3.scaleUtc([new Date(startDate), new Date(endDate)],[margin.left, width - margin.right - margin.left]);
