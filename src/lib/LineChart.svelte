@@ -20,17 +20,67 @@
     .y((d) => yScale(d.points))
     .curve(d3.curveStepAfter);
 
-  const teamsSorted = data.teams.sort((a, b) => a.points - b.points)
+  let gy;
+  $: yAxisFunc = d3.axisLeft(yScale)
+    .ticks(6)
+    .tickSize(-width + margin.left + margin.right)
+    .tickSizeOuter(0)
+    .tickPadding(7);
+
+  $: d3.select(gy)
+    .call(yAxisFunc)
+    .call(g => {
+      if (!g.node()) return;
+      
+      const zeroTick = g.select('g.tick:nth-child(2)');
+      const lastTick = g.select('g.tick:last-child');
+
+      lastTick
+        .append('text').attr('class', 'pts-bg')
+        .attr('x', lastTick.select('text').attr('x'))
+        .attr('dy', lastTick.select('text').attr('dy'))
+        .attr('dx', '0.5em')
+        .attr('text-anchor', 'start')
+        .style('stroke', '#ffffff')
+        .style('stroke-width', '10px')
+        .text('points');
+
+      lastTick
+        .append('text').attr('class', 'pts')
+        .attr('x', lastTick.select('text').attr('x'))
+        .attr('dy', lastTick.select('text').attr('dy'))
+        .attr('dx', '0.5em')
+        .attr('text-anchor', 'start')
+        .text('points');
+
+      zeroTick.classed('zero', true);
+    });
+
+  const teamsSorted = data.teams.sort((a, b) => a.points - b.points);
 </script>
 
 <div class="chart-cont" bind:clientWidth={width} bind:clientHeight={height}>
   <svg>
     <g class="chart" transform="translate({margin.left},{margin.top})">
-      {#each teamsSorted as team}
-        <g class="team" data-team={team.team}>
-          <path stroke={colors[team.team]} stroke-width="4" d={line(team.pointsByDate)}></path>
-        </g>
-      {/each}
+      <g class="axis-g" bind:this={gy}></g>
+      <g class="line-g">
+        {#each teamsSorted as d}
+          <g class="team" data-team={d.team}>
+            <path stroke="#ffffff" stroke-width="6" d={line(d.pointsByDate)}></path>
+            <path stroke={colors[d.team]} stroke-width="4" d={line(d.pointsByDate)}></path>
+          </g>
+        {/each}
+      </g>
+      <g class="swoop-g">
+
+      </g>
+      <g class="circle-g">
+        {#each teamsSorted as d}
+          <circle
+            id='circle-{d.team}'
+          />
+        {/each}
+      </g>
     </g>
   </svg>
 </div>
@@ -47,6 +97,34 @@
 
       path {
         fill: none;
+      }
+    }
+  }
+
+  :global(g.axis-g) {
+    :global(path.domain) {
+      display: none;
+    }
+
+    :global(g.tick) {
+      :global(line) {
+        stroke: #cdcdcd;
+      }
+
+      :global(text) {
+        fill: #999797;
+        font-size: 14px;
+        font-family: Roboto Mono;
+      }
+    }
+
+    :global(g.tick.zero) {
+      :global(line) {
+        stroke: #555555;
+        stroke-width: 1.5px;
+      }
+      :global(text) {
+        fill: #555555;
       }
     }
   }
