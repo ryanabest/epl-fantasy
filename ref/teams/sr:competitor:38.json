@@ -1,5 +1,5 @@
 {
-    "generated_at": "2024-08-17T21:20:07+00:00",
+    "generated_at": "2024-09-19T16:45:56+00:00",
     "competitor": {
         "id": "sr:competitor:38",
         "name": "Chelsea FC",
@@ -29,13 +29,13 @@
             "horizontal_stripes": false,
             "split": false,
             "shirt_type": "short_sleeves",
-            "sleeve_detail": "0a0372"
+            "sleeve_detail": "e54612"
         },
         {
             "type": "away",
-            "base": "21415e",
+            "base": "f1e3d6",
             "sleeve": "095bc8",
-            "number": "ffffff",
+            "number": "033481",
             "squares": false,
             "stripes": false,
             "horizontal_stripes": false,
@@ -44,7 +44,7 @@
         },
         {
             "type": "goalkeeper",
-            "base": "f5ed00",
+            "base": "ffae00",
             "sleeve": "cbc750",
             "number": "050505",
             "squares": false,
@@ -55,9 +55,9 @@
         },
         {
             "type": "third",
-            "base": "b8d8cd",
-            "sleeve": "000000",
-            "number": "000000",
+            "base": "000000",
+            "sleeve": "cd015e",
+            "number": "ffffff",
             "squares": false,
             "stripes": false,
             "horizontal_stripes": false,
@@ -85,48 +85,6 @@
         "timezone": "Europe/London"
     },
     "players": [
-        {
-            "id": "sr:player:78893",
-            "name": "Lukaku, Romelu",
-            "type": "forward",
-            "date_of_birth": "1993-05-13",
-            "nationality": "Belgium",
-            "country_code": "BEL",
-            "height": 190,
-            "weight": 93,
-            "jersey_number": 9,
-            "preferred_foot": "left",
-            "place_of_birth": "Antwerpen",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:138534",
-            "name": "Sterling, Raheem",
-            "type": "forward",
-            "date_of_birth": "1994-12-08",
-            "nationality": "England",
-            "country_code": "ENG",
-            "height": 170,
-            "weight": 69,
-            "jersey_number": 7,
-            "preferred_foot": "both",
-            "place_of_birth": "Kingston",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:232422",
-            "name": "Arrizabalaga, Kepa",
-            "type": "goalkeeper",
-            "date_of_birth": "1994-10-03",
-            "nationality": "Spain",
-            "country_code": "ESP",
-            "height": 189,
-            "weight": 88,
-            "jersey_number": 1,
-            "preferred_foot": "right",
-            "place_of_birth": "Ondarroa",
-            "gender": "male"
-        },
         {
             "id": "sr:player:257993",
             "name": "Bettinelli, Marcus",
@@ -198,20 +156,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:936112",
-            "name": "Chalobah, Trevoh",
-            "type": "defender",
-            "date_of_birth": "1999-07-05",
-            "nationality": "England",
-            "country_code": "ENG",
-            "height": 190,
-            "weight": 84,
-            "jersey_number": 14,
-            "preferred_foot": "right",
-            "place_of_birth": "Freetown",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:940716",
             "name": "Disasi, Axel",
             "type": "defender",
@@ -226,6 +170,34 @@
             "gender": "male"
         },
         {
+            "id": "sr:player:1047147",
+            "name": "Sancho, Jadon",
+            "type": "forward",
+            "date_of_birth": "2000-03-25",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 180,
+            "weight": 76,
+            "jersey_number": 19,
+            "preferred_foot": "right",
+            "place_of_birth": "London",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:1050565",
+            "name": "Felix, Joao",
+            "type": "forward",
+            "date_of_birth": "1999-11-10",
+            "nationality": "Portugal",
+            "country_code": "PRT",
+            "height": 179,
+            "weight": 70,
+            "jersey_number": 14,
+            "preferred_foot": "right",
+            "place_of_birth": "Viseu",
+            "gender": "male"
+        },
+        {
             "id": "sr:player:1055173",
             "name": "Dewsbury-Hall, Kiernan",
             "type": "midfielder",
@@ -235,20 +207,7 @@
             "height": 178,
             "jersey_number": 22,
             "preferred_foot": "left",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:1060571",
-            "name": "Petrovic, Djordje",
-            "type": "goalkeeper",
-            "date_of_birth": "1999-10-08",
-            "nationality": "Serbia",
-            "country_code": "SRB",
-            "height": 194,
-            "weight": 89,
-            "jersey_number": 28,
-            "preferred_foot": "right",
-            "place_of_birth": "Pozarevac (SERBIA)",
+            "place_of_birth": "Shepshed (ENGLAND)",
             "gender": "male"
         },
         {
@@ -260,6 +219,7 @@
             "country_code": "PRT",
             "height": 172,
             "weight": 62,
+            "jersey_number": 7,
             "preferred_foot": "left",
             "place_of_birth": "Viana do Castelo",
             "gender": "male"
@@ -276,46 +236,6 @@
             "jersey_number": 24,
             "preferred_foot": "right",
             "place_of_birth": "London",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:1297742",
-            "name": "Gallagher, Conor",
-            "type": "midfielder",
-            "date_of_birth": "2000-02-06",
-            "nationality": "England",
-            "country_code": "ENG",
-            "height": 183,
-            "weight": 74,
-            "jersey_number": 23,
-            "preferred_foot": "right",
-            "place_of_birth": "Surrey",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:1297756",
-            "name": "Anjorin, Tino",
-            "type": "midfielder",
-            "date_of_birth": "2001-11-23",
-            "nationality": "England",
-            "country_code": "ENG",
-            "height": 185,
-            "weight": 81,
-            "preferred_foot": "right",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:1297776",
-            "name": "Broja, Armando",
-            "type": "forward",
-            "date_of_birth": "2001-09-10",
-            "nationality": "Albania",
-            "country_code": "ALB",
-            "height": 191,
-            "weight": 74,
-            "jersey_number": 19,
-            "preferred_foot": "right",
-            "place_of_birth": "Slough",
             "gender": "male"
         },
         {
@@ -454,6 +374,7 @@
             "weight": 73,
             "jersey_number": 25,
             "preferred_foot": "right",
+            "place_of_birth": "Santo Domingo (ECUADOR)",
             "gender": "male"
         },
         {
@@ -467,6 +388,7 @@
             "weight": 81,
             "jersey_number": 6,
             "preferred_foot": "left",
+            "place_of_birth": "Southampton (ENGLAND)",
             "gender": "male"
         },
         {
@@ -484,17 +406,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:1984739",
-            "name": "Humphreys, Bashir",
-            "type": "defender",
-            "date_of_birth": "2003-03-15",
-            "nationality": "England",
-            "country_code": "ENG",
-            "height": 187,
-            "preferred_foot": "left",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:2058863",
             "name": "Casadei, Cesare",
             "type": "midfielder",
@@ -505,6 +416,7 @@
             "weight": 79,
             "jersey_number": 31,
             "preferred_foot": "right",
+            "place_of_birth": "Ravenna (ITALY)",
             "gender": "male"
         },
         {
@@ -518,31 +430,7 @@
             "weight": 78,
             "jersey_number": 15,
             "preferred_foot": "right",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:2101810",
-            "name": "Angelo Gabriel",
-            "type": "forward",
-            "date_of_birth": "2004-12-21",
-            "nationality": "Brazil",
-            "country_code": "BRA",
-            "height": 173,
-            "weight": 65,
-            "jersey_number": 41,
-            "preferred_foot": "left",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:2123150",
-            "name": "Fofana, David Datro",
-            "type": "forward",
-            "date_of_birth": "2002-12-22",
-            "nationality": "Cote d ivoire",
-            "country_code": "CIV",
-            "height": 180,
-            "weight": 85,
-            "preferred_foot": "right",
+            "place_of_birth": "Djibonker (SENEGAL)",
             "gender": "male"
         },
         {
@@ -570,6 +458,7 @@
             "weight": 81,
             "jersey_number": 36,
             "preferred_foot": "right",
+            "place_of_birth": "Itumbiara (BRAZIL)",
             "gender": "male"
         },
         {
@@ -611,6 +500,19 @@
             "weight": 83,
             "jersey_number": 40,
             "preferred_foot": "left",
+            "place_of_birth": "Lisbon (PORTUGAL)",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2437845",
+            "name": "George, Tyrique",
+            "type": "midfielder",
+            "date_of_birth": "2006-02-04",
+            "nationality": "England",
+            "country_code": "ENG",
+            "jersey_number": 32,
+            "preferred_foot": "right",
+            "place_of_birth": "London (ENGLAND)",
             "gender": "male"
         },
         {
@@ -624,6 +526,21 @@
             "weight": 79,
             "jersey_number": 38,
             "preferred_foot": "right",
+            "place_of_birth": "Granollers (SPAIN)",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2844495",
+            "name": "Acheampong, Joshua",
+            "type": "defender",
+            "date_of_birth": "2006-05-05",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 185,
+            "weight": 79,
+            "jersey_number": 34,
+            "preferred_foot": "right",
+            "place_of_birth": "London (ENGLAND)",
             "gender": "male"
         }
     ]

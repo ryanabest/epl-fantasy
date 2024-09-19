@@ -1,5 +1,5 @@
 {
-    "generated_at": "2024-08-17T21:20:03+00:00",
+    "generated_at": "2024-09-19T16:45:50+00:00",
     "competitor": {
         "id": "sr:competitor:31",
         "name": "Leicester City",
@@ -29,12 +29,12 @@
             "horizontal_stripes": false,
             "split": false,
             "shirt_type": "short_sleeves",
-            "sleeve_detail": "ffffff"
+            "sleeve_detail": "2424eb"
         },
         {
             "type": "away",
             "base": "000000",
-            "sleeve": "54b7ca",
+            "sleeve": "000000",
             "number": "ffffff",
             "squares": false,
             "stripes": false,
@@ -56,15 +56,14 @@
         },
         {
             "type": "third",
-            "base": "e5b282",
-            "sleeve": "e5b282",
-            "number": "ffffff",
+            "base": "ffffff",
+            "sleeve": "ffffff",
+            "number": "242865",
             "squares": false,
             "stripes": false,
             "horizontal_stripes": false,
             "split": false,
-            "shirt_type": "short_sleeves",
-            "sleeve_detail": "e5b282"
+            "shirt_type": "short_sleeves"
         }
     ],
     "manager": {
@@ -115,6 +114,20 @@
             "gender": "male"
         },
         {
+            "id": "sr:player:103045",
+            "name": "Ayew, Jordan",
+            "type": "forward",
+            "date_of_birth": "1991-09-11",
+            "nationality": "Ghana",
+            "country_code": "GHA",
+            "height": 182,
+            "weight": 80,
+            "jersey_number": 18,
+            "preferred_foot": "right",
+            "place_of_birth": "Marseille",
+            "gender": "male"
+        },
+        {
             "id": "sr:player:120538",
             "name": "Vestergaard, Jannik",
             "type": "defender",
@@ -130,7 +143,7 @@
         },
         {
             "id": "sr:player:151499",
-            "name": "De cordova-Reid, Bobby",
+            "name": "De Cordova-Reid, Bobby",
             "type": "forward",
             "date_of_birth": "1993-02-02",
             "nationality": "Jamaica",
@@ -225,6 +238,19 @@
             "gender": "male"
         },
         {
+            "id": "sr:player:769147",
+            "name": "Edouard, Odsonne",
+            "type": "forward",
+            "date_of_birth": "1998-01-16",
+            "nationality": "France",
+            "country_code": "FRA",
+            "height": 182,
+            "weight": 75,
+            "preferred_foot": "right",
+            "place_of_birth": "Kourou",
+            "gender": "male"
+        },
+        {
             "id": "sr:player:795266",
             "name": "Ndidi, Wilfred",
             "type": "midfielder",
@@ -233,7 +259,7 @@
             "country_code": "NGA",
             "height": 183,
             "weight": 74,
-            "jersey_number": 25,
+            "jersey_number": 6,
             "preferred_foot": "right",
             "place_of_birth": "Lagos",
             "gender": "male"
@@ -294,6 +320,19 @@
             "gender": "male"
         },
         {
+            "id": "sr:player:1058725",
+            "name": "Skipp, Oliver",
+            "type": "midfielder",
+            "date_of_birth": "2000-09-16",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 175,
+            "weight": 70,
+            "jersey_number": 22,
+            "preferred_foot": "right",
+            "gender": "male"
+        },
+        {
             "id": "sr:player:1061592",
             "name": "Hermansen, Mads",
             "type": "goalkeeper",
@@ -319,19 +358,6 @@
             "jersey_number": 5,
             "preferred_foot": "right",
             "place_of_birth": "Vicenza (ITALY)",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:1982757",
-            "name": "Cannon, Thomas",
-            "type": "forward",
-            "date_of_birth": "2002-12-28",
-            "nationality": "Ireland",
-            "country_code": "IRL",
-            "height": 180,
-            "weight": 72,
-            "jersey_number": 28,
-            "preferred_foot": "right",
             "gender": "male"
         },
         {
@@ -395,17 +421,17 @@
             "country_code": "ARG",
             "height": 174,
             "weight": 66,
+            "jersey_number": 40,
             "preferred_foot": "left",
             "gender": "male"
         },
         {
             "id": "sr:player:2245351",
-            "name": "Wanya Marcal",
+            "name": "Marcal Madivadua, Wanya",
             "type": "midfielder",
             "date_of_birth": "2002-10-19",
             "nationality": "Portugal",
             "country_code": "PRT",
-            "jersey_number": 40,
             "place_of_birth": "Leicester",
             "gender": "male"
         },
@@ -426,12 +452,47 @@
             "name": "McAteer, Kasey",
             "type": "midfielder",
             "date_of_birth": "2001-11-22",
-            "nationality": "England",
-            "country_code": "ENG",
+            "nationality": "Ireland",
+            "country_code": "IRL",
             "height": 177,
             "weight": 69,
             "jersey_number": 35,
             "preferred_foot": "right",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2298727",
+            "name": "El Khannouss, Bilal",
+            "type": "midfielder",
+            "date_of_birth": "2004-05-10",
+            "nationality": "Morocco",
+            "country_code": "MAR",
+            "height": 180,
+            "weight": 70,
+            "jersey_number": 11,
+            "preferred_foot": "right",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2325853",
+            "name": "Popov, Christopher Petrov",
+            "type": "midfielder",
+            "date_of_birth": "2004-10-26",
+            "nationality": "Wales",
+            "country_code": "WAL",
+            "jersey_number": 48,
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2528461",
+            "name": "Alves, William",
+            "type": "midfielder",
+            "date_of_birth": "2005-05-04",
+            "nationality": "England",
+            "country_code": "ENG",
+            "jersey_number": 37,
+            "preferred_foot": "right",
+            "place_of_birth": "Leicester",
             "gender": "male"
         }
     ]

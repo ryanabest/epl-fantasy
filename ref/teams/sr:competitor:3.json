@@ -1,5 +1,5 @@
 {
-    "generated_at": "2024-08-17T21:19:58+00:00",
+    "generated_at": "2024-09-19T16:45:02+00:00",
     "competitor": {
         "id": "sr:competitor:3",
         "name": "Wolverhampton Wanderers",
@@ -33,15 +33,14 @@
         },
         {
             "type": "away",
-            "base": "9e0f1a",
-            "sleeve": "9e0f1a",
+            "base": "000000",
+            "sleeve": "000000",
             "number": "ffffff",
             "squares": false,
             "stripes": false,
             "horizontal_stripes": false,
             "split": false,
-            "shirt_type": "short_sleeves",
-            "sleeve_detail": "9e0f1a"
+            "shirt_type": "short_sleeves"
         },
         {
             "type": "goalkeeper",
@@ -99,6 +98,20 @@
             "jersey_number": 15,
             "preferred_foot": "right",
             "place_of_birth": "Rochdale",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:98427",
+            "name": "Johnstone, Sam",
+            "type": "goalkeeper",
+            "date_of_birth": "1993-03-25",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 193,
+            "weight": 80,
+            "jersey_number": 31,
+            "preferred_foot": "right",
+            "place_of_birth": "Preston",
             "gender": "male"
         },
         {
@@ -198,20 +211,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:308764",
-            "name": "Podence, Daniel",
-            "type": "forward",
-            "date_of_birth": "1995-10-21",
-            "nationality": "Portugal",
-            "country_code": "PRT",
-            "height": 165,
-            "weight": 58,
-            "jersey_number": 10,
-            "preferred_foot": "right",
-            "place_of_birth": "Oeiras",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:603922",
             "name": "King, Tom",
             "type": "goalkeeper",
@@ -301,7 +300,7 @@
             "country_code": "BRA",
             "height": 184,
             "weight": 75,
-            "jersey_number": 12,
+            "jersey_number": 10,
             "preferred_foot": "right",
             "place_of_birth": "Joao Pessoa",
             "gender": "male"
@@ -320,20 +319,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:1302644",
-            "name": "Silva, Fabio",
-            "type": "forward",
-            "date_of_birth": "2002-07-19",
-            "nationality": "Portugal",
-            "country_code": "PRT",
-            "height": 185,
-            "weight": 75,
-            "jersey_number": 9,
-            "preferred_foot": "right",
-            "place_of_birth": "Porto",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:1432949",
             "name": "Ait-Nouri, Rayan",
             "type": "defender",
@@ -345,33 +330,6 @@
             "jersey_number": 3,
             "preferred_foot": "left",
             "place_of_birth": "Montreuil",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:1626020",
-            "name": "Hoever, Ki-Jana",
-            "type": "defender",
-            "date_of_birth": "2002-01-18",
-            "nationality": "Netherlands",
-            "country_code": "NLD",
-            "height": 183,
-            "weight": 63,
-            "jersey_number": 35,
-            "preferred_foot": "right",
-            "place_of_birth": "Amsterdam",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:1644194",
-            "name": "Campbell, Chem",
-            "type": "defender",
-            "date_of_birth": "2002-12-30",
-            "nationality": "Wales",
-            "country_code": "WAL",
-            "height": 180,
-            "weight": 72,
-            "jersey_number": 77,
-            "place_of_birth": "Birmingham",
             "gender": "male"
         },
         {
@@ -402,19 +360,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:1737599",
-            "name": "Hodge, Joe",
-            "type": "midfielder",
-            "date_of_birth": "2002-09-14",
-            "nationality": "Ireland",
-            "country_code": "IRL",
-            "height": 172,
-            "weight": 65,
-            "jersey_number": 32,
-            "preferred_foot": "right",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:1769162",
             "name": "Mosquera, Yerson",
             "type": "defender",
@@ -437,7 +382,7 @@
             "country_code": "ENG",
             "height": 174,
             "weight": 67,
-            "jersey_number": 39,
+            "jersey_number": 34,
             "preferred_foot": "right",
             "place_of_birth": "Warrington",
             "gender": "male"
@@ -456,19 +401,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:2000165",
-            "name": "Chiquinho",
-            "type": "forward",
-            "date_of_birth": "2000-02-05",
-            "nationality": "Portugal",
-            "country_code": "PRT",
-            "height": 179,
-            "weight": 72,
-            "jersey_number": 23,
-            "place_of_birth": "Cascais",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:2014161",
             "name": "Gomes, Joao",
             "type": "midfielder",
@@ -479,6 +411,43 @@
             "weight": 71,
             "jersey_number": 8,
             "preferred_foot": "right",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2057387",
+            "name": "Andre",
+            "type": "midfielder",
+            "date_of_birth": "2001-07-16",
+            "nationality": "Brazil",
+            "country_code": "BRA",
+            "height": 176,
+            "weight": 74,
+            "jersey_number": 7,
+            "preferred_foot": "right",
+            "nickname": "Andre",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2194952",
+            "name": "Pond, Alfie",
+            "type": "defender",
+            "date_of_birth": "2004-03-01",
+            "nationality": "England",
+            "country_code": "ENG",
+            "jersey_number": 46,
+            "preferred_foot": "right",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2269359",
+            "name": "Borges, Carlos",
+            "type": "forward",
+            "date_of_birth": "2004-03-19",
+            "nationality": "Portugal",
+            "country_code": "PRT",
+            "height": 169,
+            "jersey_number": 26,
+            "preferred_foot": "left",
             "gender": "male"
         },
         {
@@ -504,15 +473,14 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:2491031",
-            "name": "Fraser, Nathan",
-            "type": "forward",
-            "date_of_birth": "2005-02-22",
-            "nationality": "Ireland",
-            "country_code": "IRL",
-            "height": 188,
-            "weight": 82,
-            "jersey_number": 63,
+            "id": "sr:player:2453609",
+            "name": "Meupiyou, Bastien",
+            "type": "defender",
+            "date_of_birth": "2006-03-19",
+            "nationality": "France",
+            "country_code": "FRA",
+            "height": 191,
+            "weight": 88,
             "gender": "male"
         },
         {
@@ -537,6 +505,34 @@
             "country_code": "BRA",
             "height": 174,
             "jersey_number": 37,
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2745535",
+            "name": "Sutherland, Ethan",
+            "type": "defender",
+            "date_of_birth": "2006-04-25",
+            "nationality": "Scotland",
+            "country_code": "SCO",
+            "height": 189,
+            "preferred_foot": "left",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2835169",
+            "name": "Lochhead, Sebastian",
+            "type": "midfielder",
+            "nationality": "Scotland",
+            "country_code": "SCO",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2849361",
+            "name": "Rawlings, Luke",
+            "type": "midfielder",
+            "nationality": "England",
+            "country_code": "ENG",
+            "jersey_number": 62,
             "gender": "male"
         }
     ]

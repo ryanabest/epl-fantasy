@@ -1,5 +1,5 @@
 {
-    "generated_at": "2024-08-17T21:20:11+00:00",
+    "generated_at": "2024-09-19T16:46:02+00:00",
     "competitor": {
         "id": "sr:competitor:43",
         "name": "Fulham FC",
@@ -22,7 +22,7 @@
         {
             "type": "home",
             "base": "ffffff",
-            "sleeve": "000000",
+            "sleeve": "ffffff",
             "number": "000000",
             "squares": false,
             "stripes": false,
@@ -32,15 +32,14 @@
         },
         {
             "type": "away",
-            "base": "e32468",
-            "sleeve": "e32468",
-            "number": "000000",
+            "base": "000000",
+            "sleeve": "000000",
+            "number": "ffffff",
             "squares": false,
             "stripes": false,
             "horizontal_stripes": false,
             "split": false,
-            "shirt_type": "short_sleeves",
-            "sleeve_detail": "e32468"
+            "shirt_type": "short_sleeves"
         },
         {
             "type": "goalkeeper",
@@ -56,11 +55,12 @@
         },
         {
             "type": "third",
-            "base": "011612",
-            "sleeve": "0d0d0d",
+            "base": "000000",
+            "sleeve": "6a3692",
             "number": "ffffff",
             "squares": false,
-            "stripes": false,
+            "stripes": true,
+            "stripes_color": "ff0000",
             "horizontal_stripes": false,
             "split": false,
             "shirt_type": "short_sleeves"
@@ -140,20 +140,6 @@
             "jersey_number": 7,
             "preferred_foot": "right",
             "place_of_birth": "Hidalgo",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:227900",
-            "name": "Mbabu, Kevin",
-            "type": "defender",
-            "date_of_birth": "1995-04-19",
-            "nationality": "Switzerland",
-            "country_code": "CHE",
-            "height": 184,
-            "weight": 83,
-            "jersey_number": 27,
-            "preferred_foot": "right",
-            "place_of_birth": "Chêne-Bougeries",
             "gender": "male"
         },
         {
@@ -254,6 +240,20 @@
             "gender": "male"
         },
         {
+            "id": "sr:player:362682",
+            "name": "Andersen, Joachim",
+            "type": "defender",
+            "date_of_birth": "1996-05-31",
+            "nationality": "Denmark",
+            "country_code": "DNK",
+            "height": 192,
+            "weight": 87,
+            "jersey_number": 5,
+            "preferred_foot": "right",
+            "place_of_birth": "Frederiksberg",
+            "gender": "male"
+        },
+        {
             "id": "sr:player:365802",
             "name": "Reed, Harrison",
             "type": "midfielder",
@@ -265,6 +265,20 @@
             "jersey_number": 6,
             "preferred_foot": "right",
             "place_of_birth": "Worthing",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:566232",
+            "name": "Berge, Sander",
+            "type": "midfielder",
+            "date_of_birth": "1998-02-14",
+            "nationality": "Norway",
+            "country_code": "NOR",
+            "height": 195,
+            "weight": 88,
+            "jersey_number": 16,
+            "preferred_foot": "right",
+            "place_of_birth": "Baerum",
             "gender": "male"
         },
         {
@@ -295,8 +309,22 @@
             "gender": "male"
         },
         {
+            "id": "sr:player:936316",
+            "name": "Nelson, Reiss",
+            "type": "forward",
+            "date_of_birth": "1999-12-10",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 176,
+            "weight": 66,
+            "jersey_number": 19,
+            "preferred_foot": "right",
+            "place_of_birth": "London",
+            "gender": "male"
+        },
+        {
             "id": "sr:player:937004",
-            "name": "Smith-Rowe, Emile",
+            "name": "Smith Rowe, Emile",
             "type": "midfielder",
             "date_of_birth": "2000-07-28",
             "nationality": "England",
@@ -387,16 +415,23 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:1990747",
-            "name": "Stansfield, Jay",
-            "type": "forward",
-            "date_of_birth": "2002-11-24",
+            "id": "sr:player:2426365",
+            "name": "Godo, Martial",
+            "type": "midfielder",
+            "date_of_birth": "2003-03-14",
             "nationality": "England",
             "country_code": "ENG",
-            "height": 187,
-            "weight": 75,
-            "jersey_number": 28,
-            "preferred_foot": "right",
+            "jersey_number": 47,
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2535377",
+            "name": "McFarlane, Callum",
+            "type": "forward",
+            "date_of_birth": "2003-09-08",
+            "nationality": "England",
+            "country_code": "ENG",
+            "jersey_number": 34,
             "gender": "male"
         }
     ]

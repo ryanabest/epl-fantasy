@@ -1,5 +1,5 @@
 {
-    "generated_at": "2024-08-17T21:20:08+00:00",
+    "generated_at": "2024-09-19T16:45:57+00:00",
     "competitor": {
         "id": "sr:competitor:39",
         "name": "Newcastle United",
@@ -22,23 +22,23 @@
         {
             "type": "home",
             "base": "ffffff",
-            "sleeve": "ffffff",
-            "number": "f03929",
+            "sleeve": "000000",
+            "number": "000000",
             "squares": false,
-            "stripes": true,
-            "stripes_color": "000000",
+            "stripes": false,
             "horizontal_stripes": false,
             "split": false,
             "shirt_type": "short_sleeves"
         },
         {
             "type": "away",
-            "base": "10ad98",
-            "sleeve": "0b0b0a",
-            "number": "0d0d0d",
+            "base": "842633",
+            "sleeve": "313c80",
+            "number": "ffffff",
             "squares": false,
             "stripes": false,
-            "horizontal_stripes": false,
+            "horizontal_stripes": true,
+            "horizontal_stripes_color": "2e3b7f",
             "split": false,
             "shirt_type": "short_sleeves"
         },
@@ -56,11 +56,12 @@
         },
         {
             "type": "third",
-            "base": "1b1d2e",
-            "sleeve": "ebff12",
-            "number": "f9fc29",
+            "base": "ffffff",
+            "sleeve": "137481",
+            "number": "000000",
             "squares": false,
-            "stripes": false,
+            "stripes": true,
+            "stripes_color": "000000",
             "horizontal_stripes": false,
             "split": false,
             "shirt_type": "short_sleeves"
@@ -193,19 +194,6 @@
             "height": 188,
             "weight": 77,
             "preferred_foot": "right",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:138261",
-            "name": "Fraser, Ryan",
-            "type": "forward",
-            "date_of_birth": "1994-02-24",
-            "nationality": "Scotland",
-            "country_code": "SCO",
-            "height": 163,
-            "weight": 70,
-            "preferred_foot": "right",
-            "place_of_birth": "Aberdeen",
             "gender": "male"
         },
         {
@@ -348,20 +336,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:978029",
-            "name": "Lewis, Jamal",
-            "type": "defender",
-            "date_of_birth": "1998-01-25",
-            "nationality": "Northern ireland",
-            "country_code": "NIR",
-            "height": 178,
-            "weight": 68,
-            "jersey_number": 12,
-            "preferred_foot": "left",
-            "place_of_birth": "Luton",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:1055187",
             "name": "Barnes, Harvey",
             "type": "forward",
@@ -459,20 +433,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:1428671",
-            "name": "Ashby, Harrison",
-            "type": "defender",
-            "date_of_birth": "2001-11-14",
-            "nationality": "Scotland",
-            "country_code": "SCO",
-            "height": 179,
-            "weight": 75,
-            "jersey_number": 30,
-            "preferred_foot": "right",
-            "place_of_birth": "Milton Keynes",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:1643746",
             "name": "Livramento, Tino",
             "type": "defender",
@@ -497,19 +457,6 @@
             "weight": 80,
             "jersey_number": 18,
             "preferred_foot": "right",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:2218918",
-            "name": "White, Joe",
-            "type": "midfielder",
-            "date_of_birth": "2002-10-01",
-            "nationality": "England",
-            "country_code": "ENG",
-            "height": 186,
-            "weight": 85,
-            "jersey_number": 40,
-            "preferred_foot": "left",
             "gender": "male"
         },
         {

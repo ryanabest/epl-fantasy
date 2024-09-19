@@ -135,7 +135,7 @@
     <defs>
       {#each teamsSorted as d}
         <pattern id="pattern-{slugify(d.team)}" height=100% width=100% patternContentUnits="objectBoundingBox">
-          <image x="0" y="0" height=1 width=1 preserveAspectRatio="xMidYMid slice" xlink:href="public/{slugify(d.team)}.png" />
+          <image x="0" y="0" height=1 width=1 preserveAspectRatio="xMidYMid slice" xlink:href="{slugify(d.team)}.png" />
         </pattern>
       {/each}
     </defs>

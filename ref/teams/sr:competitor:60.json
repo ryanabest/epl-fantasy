@@ -1,5 +1,5 @@
 {
-    "generated_at": "2024-08-17T21:20:15+00:00",
+    "generated_at": "2024-09-19T16:46:08+00:00",
     "competitor": {
         "id": "sr:competitor:60",
         "name": "AFC Bournemouth",
@@ -21,22 +21,21 @@
     "jerseys": [
         {
             "type": "home",
-            "base": "c4211f",
-            "sleeve": "c4211f",
-            "number": "ffffff",
+            "base": "ff0000",
+            "sleeve": "ff0000",
+            "number": "dbb85e",
             "squares": false,
             "stripes": true,
             "stripes_color": "000000",
             "horizontal_stripes": false,
             "split": false,
-            "shirt_type": "short_sleeves",
-            "sleeve_detail": "000000"
+            "shirt_type": "short_sleeves"
         },
         {
             "type": "away",
-            "base": "b5e6ff",
-            "sleeve": "2b577f",
-            "number": "326a9e",
+            "base": "ffffff",
+            "sleeve": "2b1d45",
+            "number": "cfb68d",
             "squares": false,
             "stripes": false,
             "horizontal_stripes": false,
@@ -45,7 +44,7 @@
         },
         {
             "type": "goalkeeper",
-            "base": "f1ee3f",
+            "base": "3fcdf1",
             "sleeve": "020300",
             "number": "020300",
             "squares": false,
@@ -56,16 +55,14 @@
         },
         {
             "type": "third",
-            "base": "181e2c",
-            "sleeve": "181e2c",
-            "number": "ffffff",
+            "base": "03879f",
+            "sleeve": "f0dbd6",
+            "number": "f2deda",
             "squares": false,
             "stripes": false,
             "horizontal_stripes": false,
-            "split": true,
-            "split_color": "d3c03c",
-            "shirt_type": "short_sleeves",
-            "sleeve_detail": "d3c03c"
+            "split": false,
+            "shirt_type": "short_sleeves"
         }
     ],
     "manager": {
@@ -103,17 +100,17 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:84844",
-            "name": "Neto",
+            "id": "sr:player:232422",
+            "name": "Arrizabalaga, Kepa",
             "type": "goalkeeper",
-            "date_of_birth": "1989-07-19",
-            "nationality": "Brazil",
-            "country_code": "BRA",
-            "height": 190,
-            "weight": 84,
-            "jersey_number": 1,
+            "date_of_birth": "1994-10-03",
+            "nationality": "Spain",
+            "country_code": "ESP",
+            "height": 189,
+            "weight": 88,
+            "jersey_number": 13,
             "preferred_foot": "right",
-            "place_of_birth": "Araxa",
+            "place_of_birth": "Ondarroa",
             "gender": "male"
         },
         {
@@ -234,7 +231,7 @@
             "country_code": "ARG",
             "height": 185,
             "weight": 80,
-            "jersey_number": 25,
+            "jersey_number": 5,
             "preferred_foot": "left",
             "gender": "male"
         },
@@ -253,32 +250,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:1069198",
-            "name": "Kilkenny, Gavin",
-            "type": "midfielder",
-            "date_of_birth": "2000-02-01",
-            "nationality": "Ireland",
-            "country_code": "IRL",
-            "height": 183,
-            "weight": 75,
-            "jersey_number": 28,
-            "preferred_foot": "right",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:1089958",
-            "name": "Mepham, Chris",
-            "type": "defender",
-            "date_of_birth": "1997-11-05",
-            "nationality": "Wales",
-            "country_code": "WAL",
-            "height": 190,
-            "weight": 84,
-            "jersey_number": 6,
-            "preferred_foot": "right",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:1124571",
             "name": "Sinisterra, Luis",
             "type": "forward",
@@ -289,20 +260,6 @@
             "weight": 60,
             "jersey_number": 17,
             "preferred_foot": "right",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:1265202",
-            "name": "Traore, Hamed Junior",
-            "type": "midfielder",
-            "date_of_birth": "2000-02-16",
-            "nationality": "Cote d ivoire",
-            "country_code": "CIV",
-            "height": 177,
-            "weight": 68,
-            "jersey_number": 22,
-            "preferred_foot": "both",
-            "place_of_birth": "Abidjan",
             "gender": "male"
         },
         {
@@ -381,7 +338,7 @@
             "country_code": "MEX",
             "height": 175,
             "weight": 68,
-            "jersey_number": 28,
+            "jersey_number": 22,
             "gender": "male"
         },
         {
@@ -393,6 +350,7 @@
             "country_code": "ENG",
             "height": 188,
             "weight": 109,
+            "jersey_number": 40,
             "preferred_foot": "right",
             "gender": "male"
         },
@@ -411,19 +369,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:2070595",
-            "name": "Anthony, Jaidon",
-            "type": "forward",
-            "date_of_birth": "1999-12-01",
-            "nationality": "England",
-            "country_code": "ENG",
-            "height": 183,
-            "weight": 72,
-            "jersey_number": 32,
-            "preferred_foot": "right",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:2131960",
             "name": "Scott, Alex",
             "type": "midfielder",
@@ -432,20 +377,7 @@
             "country_code": "ENG",
             "height": 178,
             "weight": 73,
-            "jersey_number": 14,
-            "preferred_foot": "right",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:2155654",
-            "name": "Jebbison, Daniel",
-            "type": "forward",
-            "date_of_birth": "2003-07-11",
-            "nationality": "England",
-            "country_code": "ENG",
-            "height": 190,
-            "weight": 84,
-            "jersey_number": 21,
+            "jersey_number": 8,
             "preferred_foot": "right",
             "gender": "male"
         },

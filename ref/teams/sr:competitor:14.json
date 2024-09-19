@@ -1,5 +1,5 @@
 {
-    "generated_at": "2024-08-17T21:20:00+00:00",
+    "generated_at": "2024-09-19T16:45:46+00:00",
     "competitor": {
         "id": "sr:competitor:14",
         "name": "Nottingham Forest",
@@ -33,15 +33,14 @@
         },
         {
             "type": "away",
-            "base": "ffffff",
-            "sleeve": "ffffff",
-            "number": "2f3b53",
+            "base": "1f2f60",
+            "sleeve": "243464",
+            "number": "ffffff",
             "squares": false,
             "stripes": false,
             "horizontal_stripes": false,
             "split": false,
-            "shirt_type": "short_sleeves",
-            "sleeve_detail": "ffffff"
+            "shirt_type": "short_sleeves"
         },
         {
             "type": "goalkeeper",
@@ -56,15 +55,14 @@
         },
         {
             "type": "third",
-            "base": "343f61",
+            "base": "49e8ff",
             "sleeve": "343f61",
             "number": "ffffff",
             "squares": false,
             "stripes": false,
             "horizontal_stripes": false,
             "split": false,
-            "shirt_type": "short_sleeves",
-            "sleeve_detail": "343f61"
+            "shirt_type": "short_sleeves"
         }
     ],
     "manager": {
@@ -86,20 +84,6 @@
         "timezone": "Europe/London"
     },
     "players": [
-        {
-            "id": "sr:player:36465",
-            "name": "Shelvey, Jonjo",
-            "type": "midfielder",
-            "date_of_birth": "1992-02-27",
-            "nationality": "England",
-            "country_code": "ENG",
-            "height": 184,
-            "weight": 80,
-            "jersey_number": 38,
-            "preferred_foot": "both",
-            "place_of_birth": "Romford",
-            "gender": "male"
-        },
         {
             "id": "sr:player:50480",
             "name": "Wood, Chris",
@@ -143,6 +127,20 @@
             "gender": "male"
         },
         {
+            "id": "sr:player:161717",
+            "name": "Ward Prowse, James",
+            "type": "midfielder",
+            "date_of_birth": "1994-11-01",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 177,
+            "weight": 66,
+            "jersey_number": 18,
+            "preferred_foot": "right",
+            "place_of_birth": "Southampton",
+            "gender": "male"
+        },
+        {
             "id": "sr:player:284421",
             "name": "Aina, Ola",
             "type": "defender",
@@ -154,6 +152,19 @@
             "jersey_number": 34,
             "preferred_foot": "right",
             "place_of_birth": "London",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:294593",
+            "name": "Moreno, Alex",
+            "type": "forward",
+            "date_of_birth": "1993-06-08",
+            "nationality": "Spain",
+            "country_code": "ESP",
+            "height": 179,
+            "weight": 68,
+            "jersey_number": 19,
+            "preferred_foot": "left",
             "gender": "male"
         },
         {
@@ -181,46 +192,6 @@
             "jersey_number": 9,
             "preferred_foot": "right",
             "place_of_birth": "Ilorin",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:377292",
-            "name": "Ui-jo, Hwang",
-            "type": "forward",
-            "date_of_birth": "1992-08-28",
-            "nationality": "Korea, republic of",
-            "country_code": "KOR",
-            "height": 184,
-            "weight": 82,
-            "jersey_number": 35,
-            "preferred_foot": "right",
-            "place_of_birth": "Seongnam",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:948682",
-            "name": "Worrall, Joe",
-            "type": "defender",
-            "date_of_birth": "1997-01-10",
-            "nationality": "England",
-            "country_code": "ENG",
-            "height": 193,
-            "weight": 64,
-            "jersey_number": 4,
-            "preferred_foot": "right",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:967039",
-            "name": "Turner, Matt",
-            "type": "goalkeeper",
-            "date_of_birth": "1994-06-24",
-            "nationality": "United states",
-            "country_code": "USA",
-            "height": 190,
-            "weight": 79,
-            "jersey_number": 1,
-            "preferred_foot": "right",
             "gender": "male"
         },
         {
@@ -319,32 +290,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:1132695",
-            "name": "Bowler, Josh",
-            "type": "midfielder",
-            "date_of_birth": "1999-03-05",
-            "nationality": "England",
-            "country_code": "ENG",
-            "height": 175,
-            "weight": 70,
-            "preferred_foot": "left",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:1249404",
-            "name": "Richards, Omar",
-            "type": "defender",
-            "date_of_birth": "1998-02-15",
-            "nationality": "England",
-            "country_code": "ENG",
-            "height": 185,
-            "weight": 69,
-            "jersey_number": 28,
-            "preferred_foot": "left",
-            "place_of_birth": "London",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:1298482",
             "name": "Williams, Neco",
             "type": "defender",
@@ -363,8 +308,8 @@
             "name": "Anderson, Elliot",
             "type": "midfielder",
             "date_of_birth": "2002-11-06",
-            "nationality": "Scotland",
-            "country_code": "SCO",
+            "nationality": "England",
+            "country_code": "ENG",
             "height": 179,
             "weight": 74,
             "jersey_number": 8,
@@ -399,19 +344,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:1724650",
-            "name": "Mighten, Alex",
-            "type": "forward",
-            "date_of_birth": "2002-04-11",
-            "nationality": "England",
-            "country_code": "ENG",
-            "height": 181,
-            "weight": 71,
-            "jersey_number": 17,
-            "preferred_foot": "right",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:1737595",
             "name": "Omobamidele, Andrew",
             "type": "defender",
@@ -434,6 +366,19 @@
             "height": 177,
             "weight": 72,
             "jersey_number": 28,
+            "preferred_foot": "left",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:1888546",
+            "name": "Morato",
+            "type": "defender",
+            "date_of_birth": "2001-06-30",
+            "nationality": "Portugal",
+            "country_code": "PRT",
+            "height": 192,
+            "weight": 82,
+            "jersey_number": 4,
             "preferred_foot": "left",
             "gender": "male"
         },
@@ -477,6 +422,19 @@
             "gender": "male"
         },
         {
+            "id": "sr:player:2426393",
+            "name": "Abbott, Zach",
+            "type": "defender",
+            "date_of_birth": "2006-05-13",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 180,
+            "weight": 70,
+            "jersey_number": 44,
+            "preferred_foot": "right",
+            "gender": "male"
+        },
+        {
             "id": "sr:player:2610745",
             "name": "Da Silva Moreira, Eric",
             "type": "defender",
@@ -488,6 +446,18 @@
             "jersey_number": 17,
             "preferred_foot": "right",
             "place_of_birth": "Hamburg",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2849367",
+            "name": "Perry, Ben",
+            "type": "midfielder",
+            "date_of_birth": "2004-10-11",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 183,
+            "jersey_number": 59,
+            "preferred_foot": "right",
             "gender": "male"
         }
     ]

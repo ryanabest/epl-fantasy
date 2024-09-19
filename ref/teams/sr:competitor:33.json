@@ -1,5 +1,5 @@
 {
-    "generated_at": "2024-08-17T21:20:05+00:00",
+    "generated_at": "2024-09-19T16:46:39+00:00",
     "competitor": {
         "id": "sr:competitor:33",
         "name": "Tottenham Hotspur",
@@ -22,26 +22,25 @@
         {
             "type": "home",
             "base": "ffffff",
-            "sleeve": "ffffff",
+            "sleeve": "252f50",
             "number": "001e6c",
             "squares": false,
             "stripes": false,
             "horizontal_stripes": false,
             "split": false,
             "shirt_type": "short_sleeves",
-            "sleeve_detail": "000000"
+            "sleeve_detail": "ffffff"
         },
         {
             "type": "away",
-            "base": "0f1628",
-            "sleeve": "0f1628",
+            "base": "7c9bd0",
+            "sleeve": "ecd469",
             "number": "e5f6ee",
             "squares": false,
             "stripes": false,
             "horizontal_stripes": false,
             "split": false,
-            "shirt_type": "short_sleeves",
-            "sleeve_detail": "456695"
+            "shirt_type": "short_sleeves"
         },
         {
             "type": "goalkeeper",
@@ -57,9 +56,9 @@
         },
         {
             "type": "third",
-            "base": "999297",
-            "sleeve": "3d3a4d",
-            "number": "3d3a4d",
+            "base": "345c62",
+            "sleeve": "e0b95a",
+            "number": "e6e6e6",
             "squares": false,
             "stripes": false,
             "horizontal_stripes": false,
@@ -81,7 +80,7 @@
         "capacity": 60463,
         "city_name": "London",
         "country_name": "England",
-        "map_coordinates": "51.604444, -0.066389",
+        "map_coordinates": "51.6042,0.0662",
         "country_code": "ENG",
         "timezone": "Europe/London"
     },
@@ -165,6 +164,7 @@
             "country_code": "ENG",
             "height": 187,
             "weight": 80,
+            "jersey_number": 19,
             "preferred_foot": "right",
             "place_of_birth": "Basingstoke",
             "gender": "male"
@@ -212,20 +212,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:858082",
-            "name": "Lo Celso, Giovani",
-            "type": "midfielder",
-            "date_of_birth": "1996-04-09",
-            "nationality": "Argentina",
-            "country_code": "ARG",
-            "height": 177,
-            "weight": 74,
-            "jersey_number": 18,
-            "preferred_foot": "left",
-            "place_of_birth": "Rosario",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:918722",
             "name": "Whiteman, Alfie",
             "type": "goalkeeper",
@@ -237,19 +223,6 @@
             "jersey_number": 41,
             "preferred_foot": "right",
             "place_of_birth": "London",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:936696",
-            "name": "Solomon, Manor",
-            "type": "midfielder",
-            "date_of_birth": "1999-07-24",
-            "nationality": "Israel",
-            "country_code": "ISR",
-            "height": 167,
-            "weight": 63,
-            "jersey_number": 27,
-            "preferred_foot": "right",
             "gender": "male"
         },
         {
@@ -309,19 +282,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:1058725",
-            "name": "Skipp, Oliver",
-            "type": "midfielder",
-            "date_of_birth": "2000-09-16",
-            "nationality": "England",
-            "country_code": "ENG",
-            "height": 175,
-            "weight": 70,
-            "jersey_number": 4,
-            "preferred_foot": "right",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:1065654",
             "name": "Kulusevski, Dejan",
             "type": "midfielder",
@@ -333,19 +293,6 @@
             "jersey_number": 21,
             "preferred_foot": "left",
             "place_of_birth": "Stockholm",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:1298208",
-            "name": "Bryan Gil",
-            "type": "midfielder",
-            "date_of_birth": "2001-02-11",
-            "nationality": "Spain",
-            "country_code": "ESP",
-            "height": 175,
-            "weight": 60,
-            "jersey_number": 11,
-            "preferred_foot": "left",
             "gender": "male"
         },
         {
@@ -444,19 +391,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:2116424",
-            "name": "Devine, Alfie",
-            "type": "midfielder",
-            "date_of_birth": "2004-08-01",
-            "nationality": "England",
-            "country_code": "ENG",
-            "height": 182,
-            "weight": 75,
-            "jersey_number": 45,
-            "preferred_foot": "right",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:2239979",
             "name": "Odobert, Wilson",
             "type": "forward",
@@ -483,19 +417,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:2284353",
-            "name": "Phillips, Ashley",
-            "type": "defender",
-            "date_of_birth": "2005-06-26",
-            "nationality": "England",
-            "country_code": "ENG",
-            "height": 192,
-            "weight": 86,
-            "jersey_number": 35,
-            "preferred_foot": "right",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:2397923",
             "name": "Bergvall, Lucas",
             "type": "midfielder",
@@ -508,16 +429,13 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:2834931",
-            "name": "Abbott, George",
-            "type": "midfielder",
-            "date_of_birth": "2005-08-17",
+            "id": "sr:player:2439499",
+            "name": "Moore, Mikey",
+            "type": "forward",
+            "date_of_birth": "2007-08-11",
             "nationality": "England",
             "country_code": "ENG",
-            "height": 175,
-            "weight": 70,
-            "jersey_number": 77,
-            "preferred_foot": "right",
+            "jersey_number": 47,
             "gender": "male"
         }
     ]

@@ -1,5 +1,5 @@
 {
-    "generated_at": "2024-08-17T21:20:06+00:00",
+    "generated_at": "2024-09-19T16:45:55+00:00",
     "competitor": {
         "id": "sr:competitor:37",
         "name": "West Ham United",
@@ -33,39 +33,36 @@
         },
         {
             "type": "away",
-            "base": "ffffff",
-            "sleeve": "ffffff",
-            "number": "121111",
-            "squares": false,
-            "stripes": false,
-            "horizontal_stripes": false,
-            "split": false,
-            "shirt_type": "short_sleeves",
-            "sleeve_detail": "590303"
-        },
-        {
-            "type": "goalkeeper",
-            "base": "81e175",
-            "sleeve": "4d9e43",
+            "base": "000000",
+            "sleeve": "590303",
             "number": "ffffff",
             "squares": false,
             "stripes": false,
             "horizontal_stripes": false,
             "split": false,
-            "shirt_type": "short_sleeves",
-            "sleeve_detail": "81e175"
+            "shirt_type": "short_sleeves"
         },
         {
-            "type": "third",
-            "base": "1d3f7f",
-            "sleeve": "1d3f7f",
-            "number": "fffafa",
+            "type": "goalkeeper",
+            "base": "fffa00",
+            "sleeve": "81e175",
+            "number": "ffffff",
             "squares": false,
             "stripes": false,
             "horizontal_stripes": false,
             "split": false,
-            "shirt_type": "short_sleeves",
-            "sleeve_detail": "1d3f7f"
+            "shirt_type": "short_sleeves"
+        },
+        {
+            "type": "third",
+            "base": "ffffff",
+            "sleeve": "702022",
+            "number": "000000",
+            "squares": false,
+            "stripes": false,
+            "horizontal_stripes": false,
+            "split": false,
+            "shirt_type": "short_sleeves"
         }
     ],
     "manager": {
@@ -186,20 +183,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:139227",
-            "name": "Zouma, Kurt",
-            "type": "defender",
-            "date_of_birth": "1994-10-27",
-            "nationality": "France",
-            "country_code": "FRA",
-            "height": 190,
-            "weight": 95,
-            "jersey_number": 4,
-            "preferred_foot": "right",
-            "place_of_birth": "Lyon",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:155997",
             "name": "Emerson",
             "type": "defender",
@@ -214,20 +197,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:161717",
-            "name": "Ward Prowse, James",
-            "type": "midfielder",
-            "date_of_birth": "1994-11-01",
-            "nationality": "England",
-            "country_code": "ENG",
-            "height": 173,
-            "weight": 66,
-            "jersey_number": 8,
-            "preferred_foot": "right",
-            "place_of_birth": "Southampton",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:187861",
             "name": "Foderingham, Wes",
             "type": "goalkeeper",
@@ -239,20 +208,6 @@
             "jersey_number": 21,
             "preferred_foot": "left",
             "place_of_birth": "London",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:280439",
-            "name": "Cornet, Maxwel",
-            "type": "midfielder",
-            "date_of_birth": "1996-09-27",
-            "nationality": "Cote d ivoire",
-            "country_code": "CIV",
-            "height": 179,
-            "weight": 69,
-            "jersey_number": 22,
-            "preferred_foot": "both",
-            "place_of_birth": "Bregbo",
             "gender": "male"
         },
         {
@@ -295,6 +250,20 @@
             "jersey_number": 24,
             "preferred_foot": "right",
             "place_of_birth": "Caseros",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:936000",
+            "name": "Soler, Carlos",
+            "type": "midfielder",
+            "date_of_birth": "1997-01-02",
+            "nationality": "Spain",
+            "country_code": "ESP",
+            "height": 180,
+            "weight": 76,
+            "jersey_number": 4,
+            "preferred_foot": "right",
+            "place_of_birth": "Valencia",
             "gender": "male"
         },
         {
@@ -366,20 +335,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:1117645",
-            "name": "Aguerd, Nayef",
-            "type": "defender",
-            "date_of_birth": "1996-03-30",
-            "nationality": "Morocco",
-            "country_code": "MAR",
-            "height": 190,
-            "weight": 76,
-            "jersey_number": 27,
-            "preferred_foot": "left",
-            "place_of_birth": "Kenitra",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:1263492",
             "name": "Kilman, Max",
             "type": "defender",
@@ -435,6 +390,18 @@
             "gender": "male"
         },
         {
+            "id": "sr:player:2439761",
+            "name": "Casey, Kaelan",
+            "type": "defender",
+            "date_of_birth": "2004-10-28",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 185,
+            "weight": 80,
+            "jersey_number": 42,
+            "gender": "male"
+        },
+        {
             "id": "sr:player:2582799",
             "name": "Guilherme, Luis",
             "type": "midfielder",
@@ -443,7 +410,7 @@
             "country_code": "BRA",
             "height": 175,
             "weight": 73,
-            "jersey_number": 11,
+            "jersey_number": 17,
             "preferred_foot": "left",
             "gender": "male"
         }

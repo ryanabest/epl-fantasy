@@ -1,0 +1,96 @@
+{
+  "generated_at": "2024-09-19T17:00:04+00:00",
+  "player": {
+    "id": "sr:player:2058611",
+    "name": "Mara, Sekou",
+    "type": "forward",
+    "date_of_birth": "2002-07-30",
+    "nationality": "France",
+    "country_code": "FRA",
+    "height": 183,
+    "weight": 80,
+    "jersey_number": 14,
+    "preferred_foot": "right",
+    "place_of_birth": "Paris",
+    "gender": "male"
+  },
+  "competitors": [
+    {
+      "id": "sr:competitor:5936",
+      "name": "France",
+      "country": "France",
+      "country_code": "FRA",
+      "abbreviation": "FRA",
+      "gender": "male",
+      "age_group": "U21"
+    },
+    {
+      "id": "sr:competitor:1659",
+      "name": "Strasbourg Alsace",
+      "country": "France",
+      "country_code": "FRA",
+      "abbreviation": "RCS",
+      "gender": "male"
+    }
+  ],
+  "roles": [
+    {
+      "type": "player",
+      "active": false,
+      "competitor": {
+        "id": "sr:competitor:45",
+        "name": "Southampton FC",
+        "country": "England",
+        "country_code": "ENG",
+        "abbreviation": "SOU",
+        "gender": "male"
+      },
+      "start_date": "2022-07-21 00:00:00",
+      "end_date": "2024-08-20 00:00:00",
+      "jersey_number": 18
+    },
+    {
+      "type": "player",
+      "active": false,
+      "competitor": {
+        "id": "sr:competitor:1645",
+        "name": "Girondins Bordeaux",
+        "country": "France",
+        "country_code": "FRA",
+        "abbreviation": "BOR",
+        "gender": "male"
+      },
+      "start_date": "2020-07-01 00:00:00",
+      "end_date": "2022-07-20 00:00:00",
+      "jersey_number": 11
+    },
+    {
+      "type": "player",
+      "active": true,
+      "competitor": {
+        "id": "sr:competitor:1659",
+        "name": "Strasbourg Alsace",
+        "country": "France",
+        "country_code": "FRA",
+        "abbreviation": "RCS",
+        "gender": "male"
+      },
+      "start_date": "2024-08-21 00:00:00",
+      "jersey_number": 14
+    },
+    {
+      "type": "player",
+      "active": true,
+      "competitor": {
+        "id": "sr:competitor:5936",
+        "name": "France",
+        "country": "France",
+        "country_code": "FRA",
+        "abbreviation": "FRA",
+        "gender": "male",
+        "age_group": "U21"
+      },
+      "jersey_number": 12
+    }
+  ]
+}

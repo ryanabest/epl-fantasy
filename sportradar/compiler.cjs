@@ -34,6 +34,14 @@ class Compiler {
       const teamData = require(path.join(__dirname, `../ref/teams/${file}`));
       allTeams.push(teamData);
     });
+
+    const allPlayersGone = [];
+    const playersGoneFolder = path.join(__dirname, '../ref/players_gone');
+    fs.readdirSync(playersGoneFolder).forEach(file => {
+      const playerData = require(path.join(__dirname, `../ref/players_gone/${file}`));
+      allPlayersGone.push(playerData);
+    });
+
     this.players_ref = []
     allTeams.forEach(t => {
       const playerTeam = t.competitor.short_name;
@@ -54,6 +62,24 @@ class Compiler {
         this.players_ref.push({ sportradarId, playerName, playerTeam, position, jersey });
       });
     });
+
+    allPlayersGone.forEach(p => {
+      const sportradarId = p.player.id;
+      const playerName = p.player.name
+        .split(",")
+        .map(d => d.replace(/\s/g, ''))
+        .reverse()
+        .join(' ');
+      const position = {
+        midfielder: "MID",
+        forward: "FWD",
+        defender: "DEF",
+        goalkeeper: "GK"
+      }[p.player.type];
+      const jersey = p.player.jersey_number;
+      const playerTeam = p.competitors.find(d => d.country_code !== "ENG" && d.name !== d.country)?.name || "N/A";
+      this.players_ref.push({ sportradarId, playerName, playerTeam, position, jersey });
+    });
   }
 
   compileData () {
@@ -62,6 +88,9 @@ class Compiler {
       const players = roster.players.map(p => {
         // ~~ player ref ~~ //
         const playerRef = this.players_ref.find(d => d.sportradarId === p.ID);
+        if (!playerRef) {
+          console.log(p);
+        }
         const sportradarId = playerRef.sportradarId;
         const playerName = playerRef.playerName;
         const playerTeam = playerRef.playerTeam;
