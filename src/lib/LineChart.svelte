@@ -1,5 +1,5 @@
 <script>
-  export let data;
+  export let teams;
   import d3 from "../js/d3";
   import { colors } from "../js/utils/teams";
   import { slugify } from "../js/utils/format";
@@ -8,10 +8,10 @@
   let height; // this will be populated with the height of our chart containers via svelte's bind:clientHeight={w}
   const margin = { top: 30, bottom: 20, left: 30, right: 100 };
 
-  const startDate = data.teams[0].pointsByDate[0].date;
-  const endDate = data.teams[0].pointsByDate[data.teams[0].pointsByDate.length - 1].date;
+  const startDate = teams[0].pointsByDate[0].date;
+  const endDate = teams[0].pointsByDate[teams[0].pointsByDate.length - 1].date;
 
-  const maxPts = Math.max(...data.teams.map(d => d.points));
+  const maxPts = Math.max(...teams.map(d => d.points));
 
   const strokeWidth = 4;
 
@@ -71,7 +71,7 @@
     const leftX = xScale(new Date(d.date))
     const leftY = yScale(d.points);
     const rightX = width - margin.right - margin.left + swoopyWidth
-    const rightY = radius + (((radius + (strokeWidth / 2)) * 2) * (data.teams.length - i - 1));
+    const rightY = radius + (((radius + (strokeWidth / 2)) * 2) * (teams.length - i - 1));
     const xDiff = rightX - leftX;
     const yDiff = rightY - leftY;
 
@@ -92,7 +92,7 @@
     .x(d => d.x)
     .y(d => d.y);
 
-  $: teamsSorted = data.teams
+  $: teamsSorted = teams
     .sort((a, b) => a.points - b.points)
     .map((team, i) => {
       const swoopyData = _genSwoopyData(team, i);
@@ -146,6 +146,7 @@
   .chart-cont {
     width: 100%;
     height: 500px;
+    margin-bottom: 50px;
     
     svg {
       width: 100%;

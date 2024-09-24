@@ -2,11 +2,13 @@
   import data from './assets/data.json';
   import Intro from "./lib/Intro.svelte";
   import LineChart from './lib/LineChart.svelte';
+  import Tables from './lib/Tables.svelte';
 </script>
 
 <main>
   <Intro lastUpdated={data.last_updated} />
-  <LineChart data={data} />
+  <LineChart teams={data.teams} />
+  <Tables teams={data.teams} />
 </main>
 
 <style>

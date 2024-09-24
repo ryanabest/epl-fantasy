@@ -45,11 +45,12 @@ class Compiler {
     this.players_ref = []
     allTeams.forEach(t => {
       const playerTeam = t.competitor.short_name;
+      console.log(t);
       t.players.forEach(p => {
         const sportradarId = p.id;
         const playerName = p.name
           .split(",")
-          .map(d => d.replace(/\s/g, ''))
+          .map(d => d.trim())
           .reverse()
           .join(' ');
         const position = {
@@ -67,7 +68,7 @@ class Compiler {
       const sportradarId = p.player.id;
       const playerName = p.player.name
         .split(",")
-        .map(d => d.replace(/\s/g, ''))
+        .map(d => d.trim())
         .reverse()
         .join(' ');
       const position = {

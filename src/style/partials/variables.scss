@@ -19,10 +19,10 @@ $mono: 'Roboto Mono', monospace;
 // ~~ http://breakpoint-sass.com/ ~~ //
 
 // mobile only (both portrait and landscape)
-$M: max-width 767px;
+$M: 767px;
 // tablet only
 $T: 768px 1023px;
 // desktop only
 $D: 1024px;
 // tablet and desktop
-$T-D: min-width 768px;
+$T-D: 768px;

@@ -1,5 +1,5 @@
 {
-    "generated_at": "2024-09-19T16:46:00+00:00",
+    "generated_at": "2024-09-24T19:21:55+00:00",
     "competitor": {
         "id": "sr:competitor:42",
         "name": "Arsenal FC",
@@ -44,14 +44,15 @@
         },
         {
             "type": "goalkeeper",
-            "base": "060606",
-            "sleeve": "0094ff",
-            "number": "ffffff",
+            "base": "b9dd27",
+            "sleeve": "c1d632",
+            "number": "030303",
             "squares": false,
             "stripes": false,
             "horizontal_stripes": false,
             "split": false,
-            "shirt_type": "short_sleeves"
+            "shirt_type": "short_sleeves",
+            "sleeve_detail": "b2b935"
         },
         {
             "type": "third",
@@ -432,6 +433,18 @@
             "gender": "male"
         },
         {
+            "id": "sr:player:2506009",
+            "name": "Butler-Oyedeji, Nathan",
+            "type": "midfielder",
+            "date_of_birth": "2003-01-04",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 177,
+            "jersey_number": 37,
+            "preferred_foot": "right",
+            "gender": "male"
+        },
+        {
             "id": "sr:player:2518835",
             "name": "Lewis-Skelly, Myles",
             "type": "midfielder",
@@ -441,6 +454,36 @@
             "height": 178,
             "weight": 75,
             "jersey_number": 49,
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2691826",
+            "name": "Kacurri, Maldini",
+            "type": "defender",
+            "date_of_birth": "2005-10-04",
+            "nationality": "England",
+            "country_code": "ENG",
+            "jersey_number": 47,
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2711838",
+            "name": "Gower, Jimi",
+            "type": "midfielder",
+            "date_of_birth": "2004-10-01",
+            "nationality": "England",
+            "country_code": "ENG",
+            "jersey_number": 44,
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2863029",
+            "name": "Porter, Jack",
+            "type": "goalkeeper",
+            "date_of_birth": "2008-07-15",
+            "nationality": "England",
+            "country_code": "ENG",
+            "jersey_number": 92,
             "gender": "male"
         }
     ]
