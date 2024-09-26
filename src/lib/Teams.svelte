@@ -152,6 +152,9 @@
         @media screen and (max-width: $M) {
           font-size: 15px;
         }
+        &.player {
+          padding-left: 0px;
+        }
         &.in_hand {
           border-left: 1px dotted $black;
           @media screen and (max-width: $M) {

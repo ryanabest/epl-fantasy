@@ -6,7 +6,7 @@
 </script>
 
 <div id="intro">
-  <h1>The Athletic 2024 Fantasy&nbsp;EPL</h1>
+  <h1>The Athletic's 2024 Fantasy&nbsp;EPL</h1>
   <p class="timestamp">Updated {date}, at {time}</p>
 </div>
 
