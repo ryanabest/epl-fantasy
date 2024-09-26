@@ -1,6 +1,7 @@
 <script>
   export let teams;
   import { formatNum } from "../js/utils/format";
+  import Sparkline from "./Sparkline.svelte";
   const teamsSorted = teams.sort((a, b) => b.points - a.points);
 
   const handleTeamClick = (e) => {
@@ -15,16 +16,19 @@
       table.style.maxHeight = table.scrollHeight + 'px';
     }
   }
+
+  const maxPts = Math.max(...teams.map(d => d.points));
 </script>
 
 
 {#each teamsSorted as team}
-  <div class="team">
+  <div class=team>
     <button class=h2 on:click={(e) => handleTeamClick(e)}>
       <span>{team.team}</span>
-      <span class="points">{team.points} point{team.points === 1 ? '' : 's'}</span>
+      <span class=points>{team.points} point{team.points === 1 ? '' : 's'}</span>
     </button>
-    <div class="table-cont">
+    <Sparkline team={team} maxPts={maxPts} />
+    <div class=table-cont>
       <table>
         <tbody>
           <tr>
@@ -66,8 +70,8 @@
   @import '../style/partials/variables';
 
   .team {
-    margin: 0px auto 50px auto;
-    max-width: 700px;
+    margin: 0px auto 100px auto;
+    max-width: 600px;
     position: relative;
     &:global(.no-margin-bottom) {
       margin-bottom: 25px;
@@ -94,6 +98,7 @@
           color: $gray-text;
           font-size: 20px;
           margin-left: 5px;
+          text-transform: uppercase;
         }
         &.trophy {
           position: absolute;

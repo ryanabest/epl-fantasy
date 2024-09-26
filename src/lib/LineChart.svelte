@@ -146,7 +146,7 @@
   .chart-cont {
     width: 100%;
     height: 500px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     
     svg {
       width: 100%;
