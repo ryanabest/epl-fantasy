@@ -6,7 +6,7 @@
 
   let width; // this will be populated with the width of our chart containers via svelte's bind:clientWidth={w}
   let height; // this will be populated with the height of our chart containers via svelte's bind:clientHeight={w}
-  const margin = { top: 30, bottom: 20, left: 30, right: 100 };
+  const margin = { top: 30, bottom: 20, left: 30, right: 80 };
 
   const startDate = teams[0].pointsByDate[0].date;
   const endDate = teams[0].pointsByDate[teams[0].pointsByDate.length - 1].date;
