@@ -45,7 +45,6 @@ class Compiler {
     this.players_ref = []
     allTeams.forEach(t => {
       const playerTeam = t.competitor.short_name;
-      console.log(t);
       t.players.forEach(p => {
         const sportradarId = p.id;
         const playerName = p.name
@@ -141,8 +140,6 @@ class Compiler {
 
       return { team: roster.team, goals, assists, own_goals: ownGoals, points, players, pointsByDate };
     });
-
-    // console.log(this.data)
   }
 
   saveData () {
