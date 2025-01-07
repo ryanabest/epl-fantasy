@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-01-06T15:22:38+00:00",
+    "generated_at": "2025-01-07T16:35:35+00:00",
     "schedules": [
         {
             "sport_event": {
@@ -24268,8 +24268,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 0,
+                "away_score": 3,
+                "winner_id": "sr:competitor:14",
+                "period_scores": [
+                    {
+                        "home_score": 0,
+                        "away_score": 2,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 0,
+                        "away_score": 1,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ]
             }
         },
         {
