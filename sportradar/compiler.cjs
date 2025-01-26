@@ -77,7 +77,7 @@ class Compiler {
         goalkeeper: "GK"
       }[p.player.type];
       const jersey = p.player.jersey_number;
-      const playerTeam = p.competitors.find(d => d.country_code !== "ENG" && d.name !== d.country)?.name || "N/A";
+      const playerTeam = p.competitors.find(d => d.name !== d.country)?.name || "N/A";
       this.players_ref.push({ sportradarId, playerName, playerTeam, position, jersey });
     });
   }

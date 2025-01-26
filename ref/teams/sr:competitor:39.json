@@ -1,5 +1,5 @@
 {
-    "generated_at": "2024-10-07T13:59:54+00:00",
+    "generated_at": "2025-01-26T22:45:15+00:00",
     "competitor": {
         "id": "sr:competitor:39",
         "name": "Newcastle United",
@@ -23,9 +23,10 @@
             "type": "home",
             "base": "ffffff",
             "sleeve": "000000",
-            "number": "000000",
+            "number": "e32d2b",
             "squares": false,
-            "stripes": false,
+            "stripes": true,
+            "stripes_color": "000000",
             "horizontal_stripes": false,
             "split": false,
             "shirt_type": "short_sleeves"
@@ -44,15 +45,14 @@
         },
         {
             "type": "goalkeeper",
-            "base": "4ed4e8",
-            "sleeve": "4ed4e8",
+            "base": "00d4f3",
+            "sleeve": "03ff30",
             "number": "000000",
             "squares": false,
             "stripes": false,
             "horizontal_stripes": false,
             "split": false,
-            "shirt_type": "short_sleeves",
-            "sleeve_detail": "4ed4e8"
+            "shirt_type": "short_sleeves"
         },
         {
             "type": "third",
@@ -195,6 +195,7 @@
             "weight": 77,
             "jersey_number": 19,
             "preferred_foot": "right",
+            "place_of_birth": "Stuttgart (GERMANY)",
             "gender": "male"
         },
         {
@@ -237,19 +238,6 @@
             "jersey_number": 22,
             "preferred_foot": "right",
             "place_of_birth": "Cambridge",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:190843",
-            "name": "Hayden, Isaac",
-            "type": "midfielder",
-            "date_of_birth": "1995-03-22",
-            "nationality": "England",
-            "country_code": "ENG",
-            "height": 185,
-            "weight": 79,
-            "preferred_foot": "right",
-            "place_of_birth": "Chelmsford",
             "gender": "male"
         },
         {
@@ -337,6 +325,20 @@
             "gender": "male"
         },
         {
+            "id": "sr:player:978029",
+            "name": "Lewis, Jamal",
+            "type": "defender",
+            "date_of_birth": "1998-01-25",
+            "nationality": "Northern ireland",
+            "country_code": "NIR",
+            "height": 178,
+            "weight": 68,
+            "jersey_number": 12,
+            "preferred_foot": "left",
+            "place_of_birth": "Luton",
+            "gender": "male"
+        },
+        {
             "id": "sr:player:1055187",
             "name": "Barnes, Harvey",
             "type": "forward",
@@ -375,6 +377,7 @@
             "weight": 70,
             "jersey_number": 25,
             "preferred_foot": "left",
+            "place_of_birth": "Bristol (ENGLAND)",
             "gender": "male"
         },
         {
@@ -458,6 +461,7 @@
             "weight": 80,
             "jersey_number": 18,
             "preferred_foot": "right",
+            "place_of_birth": "Copenhagen (DENMARK)",
             "gender": "male"
         },
         {
@@ -471,6 +475,7 @@
             "weight": 74,
             "jersey_number": 20,
             "preferred_foot": "left",
+            "place_of_birth": "Slough (ENGLAND)",
             "gender": "male"
         },
         {
@@ -484,19 +489,7 @@
             "weight": 67,
             "jersey_number": 38,
             "preferred_foot": "right",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:2306785",
-            "name": "Murphy, Alex",
-            "type": "defender",
-            "date_of_birth": "2004-06-25",
-            "nationality": "Ireland",
-            "country_code": "IRL",
-            "height": 188,
-            "weight": 78,
-            "jersey_number": 37,
-            "preferred_foot": "left",
+            "place_of_birth": "Cairo (EGYPT)",
             "gender": "male"
         },
         {
@@ -509,6 +502,18 @@
             "height": 185,
             "weight": 82,
             "jersey_number": 67,
+            "preferred_foot": "right",
+            "place_of_birth": "Stanley",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2604627",
+            "name": "Sanusi, Trevan",
+            "type": "forward",
+            "date_of_birth": "2007-04-25",
+            "nationality": "England",
+            "country_code": "ENG",
+            "jersey_number": 75,
             "preferred_foot": "right",
             "gender": "male"
         }

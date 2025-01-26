@@ -1,12 +1,12 @@
 {
-    "generated_at": "2024-10-07T14:05:05+00:00",
+    "generated_at": "2025-01-26T22:45:34+00:00",
     "competitor": {
         "id": "sr:competitor:44",
         "name": "Liverpool FC",
         "short_name": "Liverpool",
         "country": "England",
         "country_code": "ENG",
-        "abbreviation": "LIV",
+        "abbreviation": "LFC",
         "gender": "male"
     },
     "category": {
@@ -44,7 +44,7 @@
         },
         {
             "type": "goalkeeper",
-            "base": "faec00",
+            "base": "010300",
             "sleeve": "121820",
             "number": "f3f5f0",
             "squares": false,
@@ -387,9 +387,38 @@
             "nationality": "England",
             "country_code": "ENG",
             "height": 178,
+            "weight": 68,
             "jersey_number": 80,
             "preferred_foot": "right",
             "place_of_birth": "Wallasey",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:1939966",
+            "name": "Norris, James",
+            "type": "midfielder",
+            "date_of_birth": "2003-04-04",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 172,
+            "weight": 60,
+            "jersey_number": 77,
+            "preferred_foot": "left",
+            "place_of_birth": "Liverpool",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:1939984",
+            "name": "Davies, Harvey",
+            "type": "goalkeeper",
+            "date_of_birth": "2003-09-03",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 190,
+            "weight": 77,
+            "jersey_number": 95,
+            "preferred_foot": "left",
+            "place_of_birth": "Liverpool",
             "gender": "male"
         },
         {
@@ -417,7 +446,60 @@
             "weight": 76,
             "jersey_number": 84,
             "preferred_foot": "right",
-            "place_of_birth": "Tyrone",
+            "place_of_birth": "Castlederg",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2263163",
+            "name": "Mrozek, Fabian",
+            "type": "goalkeeper",
+            "date_of_birth": "2003-09-28",
+            "nationality": "Poland",
+            "country_code": "POL",
+            "height": 192,
+            "weight": 86,
+            "jersey_number": 93,
+            "preferred_foot": "right",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2263797",
+            "name": "McConnell, James",
+            "type": "midfielder",
+            "date_of_birth": "2004-09-13",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 180,
+            "weight": 75,
+            "jersey_number": 53,
+            "preferred_foot": "right",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2276763",
+            "name": "Danns, Jayden",
+            "type": "forward",
+            "date_of_birth": "2006-01-19",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 183,
+            "weight": 73,
+            "jersey_number": 76,
+            "preferred_foot": "right",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2439493",
+            "name": "Young, Ranel",
+            "type": "forward",
+            "date_of_birth": "2005-12-26",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 175,
+            "weight": 65,
+            "jersey_number": 82,
+            "preferred_foot": "right",
+            "place_of_birth": "Huddersfield (ENGLAND)",
             "gender": "male"
         },
         {
@@ -428,7 +510,35 @@
             "nationality": "England",
             "country_code": "ENG",
             "height": 180,
+            "weight": 75,
             "jersey_number": 98,
+            "preferred_foot": "right",
+            "place_of_birth": "Leicester (ENGLAND)",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2772009",
+            "name": "Nallo, Amara",
+            "type": "defender",
+            "date_of_birth": "2006-11-18",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 186,
+            "weight": 74,
+            "jersey_number": 65,
+            "preferred_foot": "both",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2915821",
+            "name": "Ngumoha, Rio",
+            "type": "forward",
+            "date_of_birth": "2008-08-29",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 174,
+            "weight": 62,
+            "jersey_number": 73,
             "preferred_foot": "right",
             "gender": "male"
         }

@@ -1,5 +1,5 @@
 {
-    "generated_at": "2024-10-07T14:05:08+00:00",
+    "generated_at": "2025-01-26T22:45:33+00:00",
     "competitor": {
         "id": "sr:competitor:45",
         "name": "Southampton FC",
@@ -45,15 +45,14 @@
         },
         {
             "type": "goalkeeper",
-            "base": "3cabb0",
+            "base": "affd69",
             "sleeve": "3cabb0",
             "number": "ffffff",
             "squares": false,
             "stripes": false,
             "horizontal_stripes": false,
             "split": false,
-            "shirt_type": "short_sleeves",
-            "sleeve_detail": "3cabb0"
+            "shirt_type": "short_sleeves"
         },
         {
             "type": "third",
@@ -68,13 +67,12 @@
         }
     ],
     "manager": {
-        "id": "sr:player:20378",
-        "name": "Martin, Russell",
-        "date_of_birth": "1986-01-04",
-        "nationality": "Scotland",
-        "country_code": "SCO",
-        "preferred_foot": "right",
-        "place_of_birth": "Brighton",
+        "id": "sr:player:27936",
+        "name": "Juric, Ivan",
+        "date_of_birth": "1975-08-25",
+        "nationality": "Croatia",
+        "country_code": "HRV",
+        "preferred_foot": "left",
         "gender": "male"
     },
     "venue": {
@@ -159,20 +157,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:280439",
-            "name": "Cornet, Maxwel",
-            "type": "midfielder",
-            "date_of_birth": "1996-09-27",
-            "nationality": "Cote d ivoire",
-            "country_code": "CIV",
-            "height": 179,
-            "weight": 69,
-            "jersey_number": 22,
-            "preferred_foot": "both",
-            "place_of_birth": "Bregbo",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:286085",
             "name": "Bednarek, Jan",
             "type": "defender",
@@ -197,6 +181,7 @@
             "weight": 84,
             "jersey_number": 32,
             "preferred_foot": "right",
+            "place_of_birth": "Lagos (NIGERIA)",
             "gender": "male"
         },
         {
@@ -210,6 +195,7 @@
             "weight": 66,
             "jersey_number": 3,
             "preferred_foot": "left",
+            "place_of_birth": "Galway (IRELAND)",
             "gender": "male"
         },
         {
@@ -237,6 +223,7 @@
             "weight": 74,
             "jersey_number": 14,
             "preferred_foot": "right",
+            "place_of_birth": "Wakefield (ENGLAND)",
             "gender": "male"
         },
         {
@@ -250,6 +237,7 @@
             "weight": 73,
             "jersey_number": 13,
             "preferred_foot": "right",
+            "place_of_birth": "Harlow (ENGLAND)",
             "gender": "male"
         },
         {
@@ -277,7 +265,7 @@
             "weight": 77,
             "jersey_number": 30,
             "preferred_foot": "right",
-            "place_of_birth": "Chesterton",
+            "place_of_birth": "Stoke-on-Trent",
             "gender": "male"
         },
         {
@@ -291,20 +279,7 @@
             "weight": 76,
             "jersey_number": 7,
             "preferred_foot": "left",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:1094200",
-            "name": "Brereton, Ben",
-            "type": "forward",
-            "date_of_birth": "1999-04-18",
-            "nationality": "Chile",
-            "country_code": "CHL",
-            "height": 185,
-            "weight": 81,
-            "jersey_number": 17,
-            "preferred_foot": "right",
-            "place_of_birth": "Stoke-on-Trent (ENGLAND)",
+            "place_of_birth": "London (ENGLAND)",
             "gender": "male"
         },
         {
@@ -318,6 +293,7 @@
             "weight": 85,
             "jersey_number": 11,
             "preferred_foot": "right",
+            "place_of_birth": "Irvine",
             "gender": "male"
         },
         {
@@ -331,6 +307,7 @@
             "weight": 70,
             "jersey_number": 4,
             "preferred_foot": "right",
+            "place_of_birth": "Brentwood (ENGLAND)",
             "gender": "male"
         },
         {
@@ -344,6 +321,7 @@
             "weight": 68,
             "jersey_number": 16,
             "preferred_foot": "right",
+            "place_of_birth": "Aichi (JAPAN)",
             "gender": "male"
         },
         {
@@ -357,6 +335,7 @@
             "weight": 79,
             "jersey_number": 31,
             "preferred_foot": "right",
+            "place_of_birth": "Dublin (IRELAND)",
             "gender": "male"
         },
         {
@@ -370,6 +349,7 @@
             "weight": 72,
             "jersey_number": 15,
             "preferred_foot": "right",
+            "place_of_birth": "Middlesbrough (ENGLAND)",
             "gender": "male"
         },
         {
@@ -383,6 +363,7 @@
             "weight": 87,
             "jersey_number": 37,
             "preferred_foot": "right",
+            "place_of_birth": "Paris (FRANCE)",
             "gender": "male"
         },
         {
@@ -396,6 +377,7 @@
             "weight": 82,
             "jersey_number": 6,
             "preferred_foot": "right",
+            "place_of_birth": "Stockport (ENGLAND)",
             "gender": "male"
         },
         {
@@ -427,6 +409,18 @@
             "gender": "male"
         },
         {
+            "id": "sr:player:1953370",
+            "name": "Welington",
+            "type": "defender",
+            "date_of_birth": "2001-02-19",
+            "nationality": "Brazil",
+            "country_code": "BRA",
+            "height": 170,
+            "weight": 73,
+            "preferred_foot": "left",
+            "gender": "male"
+        },
+        {
             "id": "sr:player:2021829",
             "name": "Sulemana, Kamaldeen",
             "type": "forward",
@@ -437,19 +431,21 @@
             "weight": 67,
             "jersey_number": 20,
             "preferred_foot": "right",
+            "place_of_birth": "Techiman (GHANA)",
             "gender": "male"
         },
         {
-            "id": "sr:player:2057757",
-            "name": "Edwards, Ronnie",
-            "type": "defender",
-            "date_of_birth": "2003-03-28",
-            "nationality": "England",
-            "country_code": "ENG",
+            "id": "sr:player:2032795",
+            "name": "Gronbaek, Albert",
+            "type": "midfielder",
+            "date_of_birth": "2001-05-23",
+            "nationality": "Denmark",
+            "country_code": "DNK",
             "height": 185,
-            "weight": 80,
-            "jersey_number": 12,
-            "preferred_foot": "right",
+            "weight": 73,
+            "jersey_number": 29,
+            "preferred_foot": "both",
+            "place_of_birth": "Risskov (DENMARK)",
             "gender": "male"
         },
         {
@@ -463,6 +459,7 @@
             "weight": 82,
             "jersey_number": 26,
             "preferred_foot": "right",
+            "place_of_birth": "Rennes (FRANCE)",
             "gender": "male"
         },
         {
@@ -476,6 +473,7 @@
             "weight": 72,
             "jersey_number": 18,
             "preferred_foot": "right",
+            "place_of_birth": "Olhao (PORTUGAL)",
             "gender": "male"
         },
         {
@@ -489,6 +487,7 @@
             "weight": 70,
             "jersey_number": 28,
             "preferred_foot": "left",
+            "place_of_birth": "Tomares (SPAIN)",
             "gender": "male"
         },
         {
@@ -498,7 +497,11 @@
             "date_of_birth": "2005-05-11",
             "nationality": "Ireland",
             "country_code": "IRL",
+            "height": 173,
+            "weight": 73,
             "jersey_number": 60,
+            "preferred_foot": "right",
+            "place_of_birth": "Cork (IRELAND)",
             "gender": "male"
         },
         {
@@ -508,6 +511,8 @@
             "date_of_birth": "2006-07-28",
             "nationality": "Ireland",
             "country_code": "IRL",
+            "height": 178,
+            "weight": 74,
             "jersey_number": 54,
             "preferred_foot": "right",
             "gender": "male"
@@ -520,8 +525,23 @@
             "nationality": "England",
             "country_code": "ENG",
             "height": 178,
+            "weight": 72,
             "jersey_number": 33,
             "preferred_foot": "left",
+            "place_of_birth": "Exeter (ENGLAND)",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2610845",
+            "name": "Sanda, Joachim Kayi",
+            "type": "defender",
+            "date_of_birth": "2006-11-29",
+            "nationality": "France",
+            "country_code": "FRA",
+            "height": 187,
+            "weight": 76,
+            "jersey_number": 39,
+            "preferred_foot": "right",
             "gender": "male"
         },
         {
@@ -535,6 +555,7 @@
             "weight": 70,
             "jersey_number": 27,
             "preferred_foot": "left",
+            "place_of_birth": "London",
             "gender": "male"
         },
         {
@@ -544,7 +565,10 @@
             "date_of_birth": "2007-03-15",
             "nationality": "England",
             "country_code": "ENG",
+            "height": 176,
+            "weight": 65,
             "jersey_number": 46,
+            "preferred_foot": "right",
             "gender": "male"
         },
         {
@@ -554,8 +578,10 @@
             "date_of_birth": "2006-12-12",
             "nationality": "England",
             "country_code": "ENG",
-            "height": 193,
+            "height": 183,
+            "weight": 68,
             "jersey_number": 57,
+            "preferred_foot": "right",
             "gender": "male"
         }
     ]

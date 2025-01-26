@@ -1,5 +1,5 @@
 {
-    "generated_at": "2024-10-07T13:59:55+00:00",
+    "generated_at": "2025-01-26T22:44:43+00:00",
     "competitor": {
         "id": "sr:competitor:3",
         "name": "Wolverhampton Wanderers",
@@ -44,8 +44,8 @@
         },
         {
             "type": "goalkeeper",
-            "base": "fe2e8c",
-            "sleeve": "fe2e8c",
+            "base": "00c32b",
+            "sleeve": "292225",
             "number": "ffffff",
             "squares": false,
             "stripes": false,
@@ -55,7 +55,7 @@
         },
         {
             "type": "third",
-            "base": "94e2ea",
+            "base": "cf94ea",
             "sleeve": "94e2ea",
             "number": "ffffff",
             "squares": false,
@@ -66,13 +66,11 @@
         }
     ],
     "manager": {
-        "id": "sr:player:29691",
-        "name": "O'Neil, Gary",
-        "date_of_birth": "1983-05-18",
-        "nationality": "England",
-        "country_code": "ENG",
-        "preferred_foot": "right",
-        "place_of_birth": "London",
+        "id": "sr:player:78208",
+        "name": "Pereira, Vitor",
+        "date_of_birth": "1968-07-26",
+        "nationality": "Portugal",
+        "country_code": "PRT",
         "gender": "male"
     },
     "venue": {
@@ -124,6 +122,8 @@
             "height": 193,
             "weight": 72,
             "jersey_number": 25,
+            "preferred_foot": "right",
+            "place_of_birth": "Basildon (ENGLAND)",
             "gender": "male"
         },
         {
@@ -263,6 +263,7 @@
             "weight": 76,
             "jersey_number": 4,
             "preferred_foot": "right",
+            "place_of_birth": "Montevideo (URUGUAY)",
             "gender": "male"
         },
         {
@@ -276,6 +277,7 @@
             "weight": 79,
             "jersey_number": 9,
             "preferred_foot": "right",
+            "place_of_birth": "Halden (NORWAY)",
             "gender": "male"
         },
         {
@@ -289,6 +291,7 @@
             "weight": 90,
             "jersey_number": 18,
             "preferred_foot": "right",
+            "place_of_birth": "Vienna",
             "gender": "male"
         },
         {
@@ -316,6 +319,7 @@
             "weight": 64,
             "jersey_number": 20,
             "preferred_foot": "right",
+            "place_of_birth": "Manchester (ENGLAND)",
             "gender": "male"
         },
         {
@@ -357,6 +361,7 @@
             "weight": 67,
             "jersey_number": 6,
             "preferred_foot": "right",
+            "place_of_birth": "Bamako",
             "gender": "male"
         },
         {
@@ -398,6 +403,7 @@
             "weight": 57,
             "jersey_number": 19,
             "preferred_foot": "right",
+            "place_of_birth": "Povoa de Varzim (PORTUGAL)",
             "gender": "male"
         },
         {
@@ -411,6 +417,7 @@
             "weight": 71,
             "jersey_number": 8,
             "preferred_foot": "right",
+            "place_of_birth": "Rio de Janeiro (BRAZIL)",
             "gender": "male"
         },
         {
@@ -424,7 +431,21 @@
             "weight": 74,
             "jersey_number": 7,
             "preferred_foot": "right",
+            "place_of_birth": "Ibirataia (BRAZIL)",
             "nickname": "Andre",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2062765",
+            "name": "Agbadou, Emmanuel",
+            "type": "defender",
+            "date_of_birth": "1997-06-17",
+            "nationality": "Cote d ivoire",
+            "country_code": "CIV",
+            "height": 192,
+            "weight": 78,
+            "jersey_number": 12,
+            "preferred_foot": "right",
             "gender": "male"
         },
         {
@@ -434,8 +455,11 @@
             "date_of_birth": "2004-03-01",
             "nationality": "England",
             "country_code": "ENG",
+            "height": 191,
+            "weight": 86,
             "jersey_number": 46,
             "preferred_foot": "right",
+            "place_of_birth": "Exeter (ENGLAND)",
             "gender": "male"
         },
         {
@@ -446,18 +470,10 @@
             "nationality": "Portugal",
             "country_code": "PRT",
             "height": 169,
+            "weight": 62,
             "jersey_number": 26,
             "preferred_foot": "left",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:2337541",
-            "name": "Chirewa, Tawanda",
-            "type": "midfielder",
-            "date_of_birth": "2003-10-11",
-            "nationality": "England",
-            "country_code": "ENG",
-            "jersey_number": 28,
+            "place_of_birth": "Sintra",
             "gender": "male"
         },
         {
@@ -469,7 +485,9 @@
             "country_code": "PRY",
             "height": 169,
             "weight": 65,
+            "jersey_number": 30,
             "preferred_foot": "left",
+            "place_of_birth": "Asuncion",
             "gender": "male"
         },
         {
@@ -481,6 +499,22 @@
             "country_code": "FRA",
             "height": 191,
             "weight": 88,
+            "jersey_number": 33,
+            "preferred_foot": "left",
+            "place_of_birth": "Paris (FRANCE)",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2491031",
+            "name": "Fraser, Nathan",
+            "type": "forward",
+            "date_of_birth": "2005-02-22",
+            "nationality": "Ireland",
+            "country_code": "IRL",
+            "height": 188,
+            "weight": 82,
+            "jersey_number": 63,
+            "preferred_foot": "right",
             "gender": "male"
         },
         {
@@ -494,6 +528,7 @@
             "weight": 82,
             "jersey_number": 84,
             "preferred_foot": "right",
+            "place_of_birth": "Brighton (ENGLAND)",
             "gender": "male"
         },
         {
@@ -504,7 +539,10 @@
             "nationality": "Brazil",
             "country_code": "BRA",
             "height": 174,
+            "weight": 68,
             "jersey_number": 37,
+            "preferred_foot": "right",
+            "place_of_birth": "Cabedelo",
             "gender": "male"
         },
         {
@@ -519,20 +557,39 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:2835169",
-            "name": "Lochhead, Sebastian",
-            "type": "midfielder",
-            "nationality": "Scotland",
-            "country_code": "SCO",
+            "id": "sr:player:2772691",
+            "name": "Okoduwa, Wesley",
+            "type": "forward",
+            "date_of_birth": "2008-05-12",
+            "nationality": "England",
+            "country_code": "ENG",
+            "jersey_number": 61,
             "gender": "male"
         },
         {
             "id": "sr:player:2849361",
             "name": "Rawlings, Luke",
             "type": "midfielder",
+            "date_of_birth": "2008-01-01",
             "nationality": "England",
             "country_code": "ENG",
+            "height": 178,
+            "weight": 70,
             "jersey_number": 62,
+            "preferred_foot": "right",
+            "place_of_birth": "Tokyo (JAPAN)",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2901489",
+            "name": "Edozie, Tom",
+            "type": "midfielder",
+            "date_of_birth": "2006-05-18",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 178,
+            "jersey_number": 74,
+            "preferred_foot": "right",
             "gender": "male"
         }
     ]

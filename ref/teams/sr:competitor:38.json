@@ -1,5 +1,5 @@
 {
-    "generated_at": "2024-10-07T13:59:54+00:00",
+    "generated_at": "2025-01-26T22:45:16+00:00",
     "competitor": {
         "id": "sr:competitor:38",
         "name": "Chelsea FC",
@@ -44,7 +44,7 @@
         },
         {
             "type": "goalkeeper",
-            "base": "ffae00",
+            "base": "fa8a00",
             "sleeve": "cbc750",
             "number": "050505",
             "squares": false,
@@ -156,6 +156,20 @@
             "gender": "male"
         },
         {
+            "id": "sr:player:936112",
+            "name": "Chalobah, Trevoh",
+            "type": "defender",
+            "date_of_birth": "1999-07-05",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 190,
+            "weight": 84,
+            "jersey_number": 23,
+            "preferred_foot": "right",
+            "place_of_birth": "Freetown",
+            "gender": "male"
+        },
+        {
             "id": "sr:player:940716",
             "name": "Disasi, Axel",
             "type": "defender",
@@ -205,6 +219,7 @@
             "nationality": "England",
             "country_code": "ENG",
             "height": 178,
+            "weight": 73,
             "jersey_number": 22,
             "preferred_foot": "left",
             "place_of_birth": "Shepshed (ENGLAND)",
@@ -448,20 +463,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:2200606",
-            "name": "Deivid Washington",
-            "type": "forward",
-            "date_of_birth": "2005-06-05",
-            "nationality": "Brazil",
-            "country_code": "BRA",
-            "height": 187,
-            "weight": 81,
-            "jersey_number": 36,
-            "preferred_foot": "right",
-            "place_of_birth": "Itumbiara (BRAZIL)",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:2221794",
             "name": "Lavia, Romeo",
             "type": "midfielder",
@@ -492,7 +493,7 @@
         {
             "id": "sr:player:2265643",
             "name": "Veiga, Renato",
-            "type": "midfielder",
+            "type": "defender",
             "date_of_birth": "2003-07-29",
             "nationality": "Portugal",
             "country_code": "PRT",
@@ -504,22 +505,14 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:2437829",
-            "name": "Dyer, Kiano",
-            "type": "midfielder",
-            "date_of_birth": "2006-11-21",
-            "nationality": "England",
-            "country_code": "ENG",
-            "jersey_number": 33,
-            "gender": "male"
-        },
-        {
             "id": "sr:player:2437845",
             "name": "George, Tyrique",
             "type": "midfielder",
             "date_of_birth": "2006-02-04",
             "nationality": "England",
             "country_code": "ENG",
+            "height": 181,
+            "weight": 75,
             "jersey_number": 32,
             "preferred_foot": "right",
             "place_of_birth": "London (ENGLAND)",
@@ -540,8 +533,8 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:2844495",
-            "name": "Acheampong, Joshua",
+            "id": "sr:player:2464223",
+            "name": "Acheampong, Josh-Ko",
             "type": "defender",
             "date_of_birth": "2006-05-05",
             "nationality": "England",
@@ -551,6 +544,16 @@
             "jersey_number": 34,
             "preferred_foot": "right",
             "place_of_birth": "London (ENGLAND)",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2625033",
+            "name": "Anselmino, Aaron",
+            "type": "midfielder",
+            "date_of_birth": "2005-04-29",
+            "nationality": "Argentina",
+            "country_code": "ARG",
+            "height": 186,
             "gender": "male"
         }
     ]

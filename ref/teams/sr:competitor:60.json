@@ -1,5 +1,5 @@
 {
-    "generated_at": "2024-10-07T14:05:17+00:00",
+    "generated_at": "2025-01-26T22:45:37+00:00",
     "competitor": {
         "id": "sr:competitor:60",
         "name": "AFC Bournemouth",
@@ -44,7 +44,7 @@
         },
         {
             "type": "goalkeeper",
-            "base": "3fcdf1",
+            "base": "f19c3f",
             "sleeve": "020300",
             "number": "020300",
             "squares": false,
@@ -76,7 +76,7 @@
     },
     "venue": {
         "id": "sr:venue:2990",
-        "name": "Dean Court",
+        "name": "Vitality Stadium",
         "capacity": 11700,
         "city_name": "Bournemouth",
         "country_name": "England",
@@ -156,19 +156,6 @@
             "gender": "male"
         },
         {
-            "id": "sr:player:548660",
-            "name": "Billing, Philip",
-            "type": "midfielder",
-            "date_of_birth": "1996-06-11",
-            "nationality": "Denmark",
-            "country_code": "DNK",
-            "height": 193,
-            "weight": 83,
-            "jersey_number": 29,
-            "preferred_foot": "left",
-            "gender": "male"
-        },
-        {
             "id": "sr:player:809778",
             "name": "Adams, Tyler",
             "type": "midfielder",
@@ -177,7 +164,7 @@
             "country_code": "USA",
             "height": 175,
             "weight": 72,
-            "jersey_number": 18,
+            "jersey_number": 12,
             "preferred_foot": "right",
             "place_of_birth": "New York",
             "gender": "male"
@@ -220,6 +207,7 @@
             "weight": 70,
             "jersey_number": 16,
             "preferred_foot": "left",
+            "place_of_birth": "Leeds (ENGLAND)",
             "gender": "male"
         },
         {
@@ -233,6 +221,7 @@
             "weight": 80,
             "jersey_number": 5,
             "preferred_foot": "left",
+            "place_of_birth": "Concordia",
             "gender": "male"
         },
         {
@@ -260,6 +249,7 @@
             "weight": 60,
             "jersey_number": 17,
             "preferred_foot": "right",
+            "place_of_birth": "Santander (COLOMBIA)",
             "gender": "male"
         },
         {
@@ -273,6 +263,7 @@
             "weight": 78,
             "jersey_number": 9,
             "preferred_foot": "both",
+            "place_of_birth": "Fortaleza (BRAZIL)",
             "gender": "male"
         },
         {
@@ -286,20 +277,6 @@
             "weight": 70,
             "jersey_number": 24,
             "preferred_foot": "both",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:1549771",
-            "name": "Aarons, Max",
-            "type": "defender",
-            "date_of_birth": "2000-01-04",
-            "nationality": "England",
-            "country_code": "ENG",
-            "height": 178,
-            "weight": 68,
-            "jersey_number": 37,
-            "preferred_foot": "right",
-            "place_of_birth": "London",
             "gender": "male"
         },
         {
@@ -327,6 +304,7 @@
             "weight": 73,
             "jersey_number": 23,
             "preferred_foot": "right",
+            "place_of_birth": "Bristol (ENGLAND)",
             "gender": "male"
         },
         {
@@ -339,6 +317,8 @@
             "height": 175,
             "weight": 68,
             "jersey_number": 22,
+            "preferred_foot": "left",
+            "place_of_birth": "Lompoc (UNITED STATES)",
             "gender": "male"
         },
         {
@@ -382,6 +362,19 @@
             "gender": "male"
         },
         {
+            "id": "sr:player:2155654",
+            "name": "Jebbison, Daniel",
+            "type": "forward",
+            "date_of_birth": "2003-07-11",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 190,
+            "weight": 84,
+            "jersey_number": 21,
+            "preferred_foot": "right",
+            "gender": "male"
+        },
+        {
             "id": "sr:player:2200344",
             "name": "Ouattara, Dango",
             "type": "forward",
@@ -393,6 +386,30 @@
             "jersey_number": 11,
             "preferred_foot": "left",
             "place_of_birth": "Ouagadougou",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2253905",
+            "name": "Silcott-Duberry, Zain",
+            "type": "forward",
+            "date_of_birth": "2005-07-09",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 177,
+            "jersey_number": 43,
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2336441",
+            "name": "Soler, Julio",
+            "type": "defender",
+            "date_of_birth": "2005-02-16",
+            "nationality": "Argentina",
+            "country_code": "ARG",
+            "height": 170,
+            "weight": 63,
+            "jersey_number": 20,
+            "preferred_foot": "left",
             "gender": "male"
         },
         {
@@ -410,13 +427,123 @@
             "gender": "male"
         },
         {
+            "id": "sr:player:2426401",
+            "name": "Sadi, Dominic",
+            "type": "forward",
+            "date_of_birth": "2003-09-02",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 174,
+            "weight": 72,
+            "jersey_number": 49,
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2431805",
+            "name": "Akinmboni, Matai",
+            "type": "defender",
+            "date_of_birth": "2006-10-17",
+            "nationality": "United states",
+            "country_code": "USA",
+            "height": 188,
+            "weight": 77,
+            "jersey_number": 45,
+            "preferred_foot": "left",
+            "gender": "male"
+        },
+        {
             "id": "sr:player:2539017",
             "name": "DaCosta, Michael",
             "type": "forward",
             "date_of_birth": "2005-03-05",
             "nationality": "Spain",
             "country_code": "ESP",
+            "height": 186,
+            "weight": 80,
+            "preferred_foot": "left",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2539033",
+            "name": "Adu-Adjei, Daniel",
+            "type": "forward",
+            "date_of_birth": "2005-06-21",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 180,
+            "weight": 75,
+            "jersey_number": 44,
+            "preferred_foot": "right",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2540939",
+            "name": "McKenna, Callan",
+            "type": "goalkeeper",
+            "date_of_birth": "2006-12-22",
+            "nationality": "Scotland",
+            "country_code": "SCO",
+            "jersey_number": 46,
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2552223",
+            "name": "Kinsey Wellings, Maxwell",
+            "type": "defender",
+            "date_of_birth": "2005-02-02",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 171,
+            "weight": 66,
+            "jersey_number": 48,
+            "preferred_foot": "left",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2904977",
+            "name": "Winterburn, Ben",
+            "type": "midfielder",
+            "date_of_birth": "2004-09-04",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 178,
+            "weight": 68,
+            "jersey_number": 47,
+            "preferred_foot": "right",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2921283",
+            "name": "Harris, Archie",
+            "type": "defender",
+            "date_of_birth": "2004-12-27",
+            "nationality": "England",
+            "country_code": "ENG",
             "jersey_number": 50,
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2922797",
+            "name": "Rees-Dottin, Remy",
+            "type": "forward",
+            "date_of_birth": "2003-03-06",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 174,
+            "jersey_number": 51,
+            "preferred_foot": "right",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2928081",
+            "name": "Crampton, Kai",
+            "type": "goalkeeper",
+            "date_of_birth": "2007-01-15",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 183,
+            "weight": 72,
+            "preferred_foot": "right",
             "gender": "male"
         }
     ]

@@ -1,5 +1,5 @@
 {
-    "generated_at": "2024-10-07T13:59:54+00:00",
+    "generated_at": "2025-01-26T22:45:15+00:00",
     "competitor": {
         "id": "sr:competitor:31",
         "name": "Leicester City",
@@ -44,15 +44,14 @@
         },
         {
             "type": "goalkeeper",
-            "base": "4a4a4a",
-            "sleeve": "545454",
+            "base": "5ee937",
+            "sleeve": "3d3d3d",
             "number": "ffffff",
             "squares": false,
             "stripes": false,
             "horizontal_stripes": false,
             "split": false,
-            "shirt_type": "short_sleeves",
-            "sleeve_detail": "3d3d3d"
+            "shirt_type": "short_sleeves"
         },
         {
             "type": "third",
@@ -67,11 +66,13 @@
         }
     ],
     "manager": {
-        "id": "sr:player:936282",
-        "name": "Cooper, Steve",
-        "date_of_birth": "1979-12-10",
-        "nationality": "Wales",
-        "country_code": "WAL",
+        "id": "sr:player:753",
+        "name": "Van Nistelrooy, Ruud",
+        "date_of_birth": "1976-07-01",
+        "nationality": "Netherlands",
+        "country_code": "NLD",
+        "preferred_foot": "right",
+        "place_of_birth": "Oos",
         "gender": "male"
     },
     "venue": {
@@ -311,8 +312,8 @@
             "name": "Choudhury, Hamza",
             "type": "midfielder",
             "date_of_birth": "1997-10-01",
-            "nationality": "England",
-            "country_code": "ENG",
+            "nationality": "Bangladesh",
+            "country_code": "BGD",
             "height": 178,
             "weight": 64,
             "jersey_number": 17,
@@ -362,6 +363,20 @@
             "gender": "male"
         },
         {
+            "id": "sr:player:1834494",
+            "name": "Coulibaly, Woyo",
+            "type": "defender",
+            "date_of_birth": "1999-05-26",
+            "nationality": "France",
+            "country_code": "FRA",
+            "height": 188,
+            "weight": 77,
+            "jersey_number": 25,
+            "preferred_foot": "both",
+            "place_of_birth": "Gonesse",
+            "gender": "male"
+        },
+        {
             "id": "sr:player:1982795",
             "name": "Thomas, Luke",
             "type": "defender",
@@ -396,7 +411,10 @@
             "date_of_birth": "2000-12-19",
             "nationality": "Poland",
             "country_code": "POL",
+            "height": 194,
+            "weight": 81,
             "jersey_number": 41,
+            "preferred_foot": "right",
             "place_of_birth": "Kielce",
             "gender": "male"
         },
@@ -411,6 +429,7 @@
             "weight": 73,
             "jersey_number": 7,
             "preferred_foot": "left",
+            "place_of_birth": "Tamale (GHANA)",
             "gender": "male"
         },
         {
@@ -424,16 +443,6 @@
             "weight": 66,
             "jersey_number": 40,
             "preferred_foot": "left",
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:2245351",
-            "name": "Marcal Madivadua, Wanya",
-            "type": "midfielder",
-            "date_of_birth": "2002-10-19",
-            "nationality": "Portugal",
-            "country_code": "PRT",
-            "place_of_birth": "Leicester",
             "gender": "male"
         },
         {
@@ -460,6 +469,19 @@
             "weight": 69,
             "jersey_number": 35,
             "preferred_foot": "right",
+            "place_of_birth": "Northampton (ENGLAND)",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2284247",
+            "name": "Braybrooke, Sammy",
+            "type": "midfielder",
+            "date_of_birth": "2004-03-12",
+            "nationality": "England",
+            "country_code": "ENG",
+            "jersey_number": 44,
+            "preferred_foot": "right",
+            "place_of_birth": "Leicester",
             "gender": "male"
         },
         {
@@ -482,7 +504,10 @@
             "date_of_birth": "2004-10-26",
             "nationality": "Wales",
             "country_code": "WAL",
+            "height": 170,
+            "weight": 78,
             "jersey_number": 48,
+            "preferred_foot": "left",
             "gender": "male"
         },
         {
@@ -495,6 +520,31 @@
             "jersey_number": 37,
             "preferred_foot": "right",
             "place_of_birth": "Leicester",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2913399",
+            "name": "Cartwright, Henry",
+            "type": "midfielder",
+            "date_of_birth": "2004-11-12",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 177,
+            "weight": 67,
+            "jersey_number": 49,
+            "preferred_foot": "right",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2922763",
+            "name": "Wilson-Brown, Thomas",
+            "type": "defender",
+            "date_of_birth": "2004-10-05",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 194,
+            "jersey_number": 57,
+            "preferred_foot": "left",
             "gender": "male"
         }
     ]

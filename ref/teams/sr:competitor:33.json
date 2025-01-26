@@ -1,5 +1,5 @@
 {
-    "generated_at": "2024-10-07T14:03:55+00:00",
+    "generated_at": "2025-01-26T22:45:21+00:00",
     "competitor": {
         "id": "sr:competitor:33",
         "name": "Tottenham Hotspur",
@@ -319,6 +319,7 @@
             "weight": 79,
             "jersey_number": 24,
             "preferred_foot": "right",
+            "place_of_birth": "London (ENGLAND)",
             "gender": "male"
         },
         {
@@ -346,6 +347,7 @@
             "weight": 73,
             "jersey_number": 22,
             "preferred_foot": "right",
+            "place_of_birth": "Nottingham (ENGLAND)",
             "gender": "male"
         },
         {
@@ -360,6 +362,19 @@
             "jersey_number": 13,
             "preferred_foot": "left",
             "place_of_birth": "Verona",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:1726752",
+            "name": "Kinsky, Antonin",
+            "type": "goalkeeper",
+            "date_of_birth": "2003-03-13",
+            "nationality": "Czech republic",
+            "country_code": "CZE",
+            "height": 190,
+            "weight": 84,
+            "jersey_number": 31,
+            "preferred_foot": "right",
             "gender": "male"
         },
         {
@@ -387,6 +402,7 @@
             "weight": 70,
             "jersey_number": 29,
             "preferred_foot": "right",
+            "place_of_birth": "Thiaroye",
             "gender": "male"
         },
         {
@@ -400,6 +416,7 @@
             "weight": 77,
             "jersey_number": 28,
             "preferred_foot": "right",
+            "place_of_birth": "Meaux (FRANCE)",
             "gender": "male"
         },
         {
@@ -413,6 +430,7 @@
             "weight": 79,
             "jersey_number": 14,
             "preferred_foot": "right",
+            "place_of_birth": "Durham",
             "gender": "male"
         },
         {
@@ -425,18 +443,8 @@
             "height": 186,
             "weight": 90,
             "jersey_number": 15,
-            "gender": "male"
-        },
-        {
-            "id": "sr:player:2439481",
-            "name": "Dorrington, Alfie",
-            "type": "defender",
-            "date_of_birth": "2005-04-20",
-            "nationality": "England",
-            "country_code": "ENG",
-            "height": 192,
-            "weight": 86,
-            "jersey_number": 48,
+            "preferred_foot": "right",
+            "place_of_birth": "Stockholm (SWEDEN)",
             "gender": "male"
         },
         {
@@ -446,17 +454,39 @@
             "date_of_birth": "2007-08-11",
             "nationality": "England",
             "country_code": "ENG",
+            "height": 180,
+            "weight": 75,
             "jersey_number": 47,
+            "preferred_foot": "right",
+            "place_of_birth": "London (ENGLAND)",
             "gender": "male"
         },
         {
             "id": "sr:player:2439511",
             "name": "Ajayi, Oyindamola",
-            "type": "midfielder",
+            "type": "forward",
             "date_of_birth": "2005-12-27",
             "nationality": "England",
             "country_code": "ENG",
+            "height": 176,
+            "weight": 75,
             "jersey_number": 63,
+            "preferred_foot": "right",
+            "place_of_birth": "London (ENGLAND)",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2463947",
+            "name": "Olusesi, Callum",
+            "type": "midfielder",
+            "date_of_birth": "2007-03-11",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 175,
+            "weight": 65,
+            "jersey_number": 64,
+            "preferred_foot": "right",
+            "place_of_birth": "London (ENGLAND)",
             "gender": "male"
         },
         {
@@ -467,7 +497,22 @@
             "nationality": "England",
             "country_code": "ENG",
             "height": 189,
+            "weight": 80,
             "jersey_number": 42,
+            "preferred_foot": "right",
+            "place_of_birth": "Welwyn Garden City",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2626595",
+            "name": "Min-hyeok, Yang",
+            "type": "midfielder",
+            "date_of_birth": "2006-04-16",
+            "nationality": "Korea, republic of",
+            "country_code": "KOR",
+            "height": 176,
+            "weight": 71,
+            "jersey_number": 18,
             "gender": "male"
         },
         {
@@ -475,9 +520,53 @@
             "name": "Cassanova, Dante",
             "type": "defender",
             "date_of_birth": "2004-06-21",
+            "nationality": "Jamaica",
+            "country_code": "JAM",
+            "height": 179,
+            "weight": 66,
+            "jersey_number": 59,
+            "preferred_foot": "right",
+            "place_of_birth": "London (ENGLAND)",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2891569",
+            "name": "Williams-Barnet, Luca",
+            "type": "forward",
+            "date_of_birth": "2008-10-01",
             "nationality": "England",
             "country_code": "ENG",
-            "jersey_number": 59,
+            "height": 175,
+            "weight": 74,
+            "jersey_number": 78,
+            "preferred_foot": "both",
+            "place_of_birth": "Luton (ENGLAND)",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2901535",
+            "name": "Hardy, Malachi",
+            "type": "defender",
+            "date_of_birth": "2008-03-10",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 188,
+            "weight": 79,
+            "jersey_number": 79,
+            "preferred_foot": "right",
+            "place_of_birth": "Watford (ENGLAND)",
+            "gender": "male"
+        },
+        {
+            "id": "sr:player:2904557",
+            "name": "King, Maeson",
+            "type": "defender",
+            "date_of_birth": "2005-09-09",
+            "nationality": "England",
+            "country_code": "ENG",
+            "height": 176,
+            "weight": 74,
+            "jersey_number": 74,
             "gender": "male"
         }
     ]
