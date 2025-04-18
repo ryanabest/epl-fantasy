@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-04-11T14:20:20+00:00",
+    "generated_at": "2025-04-18T14:36:21+00:00",
     "schedules": [
         {
             "sport_event": {
@@ -38538,8 +38538,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 5,
+                "away_score": 2,
+                "winner_id": "sr:competitor:17",
+                "period_scores": [
+                    {
+                        "home_score": 2,
+                        "away_score": 2,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 3,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ]
             }
         },
         {
@@ -38751,8 +38768,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 2,
+                "away_score": 2,
+                "period_scores": [
+                    {
+                        "home_score": 1,
+                        "away_score": 1,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 1,
+                        "away_score": 1,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ],
+                "match_tie": true
             }
         },
         {
@@ -38857,8 +38891,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 0,
+                "away_score": 1,
+                "winner_id": "sr:competitor:48",
+                "period_scores": [
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 0,
+                        "away_score": 1,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ]
             }
         },
         {
@@ -38963,8 +39014,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 0,
+                "away_score": 3,
+                "winner_id": "sr:competitor:40",
+                "period_scores": [
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 0,
+                        "away_score": 3,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ]
             }
         },
         {
@@ -39069,8 +39137,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 1,
+                "away_score": 1,
+                "period_scores": [
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 1,
+                        "away_score": 1,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ],
+                "match_tie": true
             }
         },
         {
@@ -39175,8 +39260,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 2,
+                "away_score": 2,
+                "period_scores": [
+                    {
+                        "home_score": 0,
+                        "away_score": 2,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 2,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ],
+                "match_tie": true
             }
         },
         {
@@ -39281,8 +39383,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 2,
+                "away_score": 1,
+                "winner_id": "sr:competitor:44",
+                "period_scores": [
+                    {
+                        "home_score": 1,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 1,
+                        "away_score": 1,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ]
             }
         },
         {
@@ -39387,8 +39506,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 4,
+                "away_score": 2,
+                "winner_id": "sr:competitor:3",
+                "period_scores": [
+                    {
+                        "home_score": 2,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 2,
+                        "away_score": 2,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ]
             }
         },
         {
@@ -39493,8 +39629,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 4,
+                "away_score": 1,
+                "winner_id": "sr:competitor:39",
+                "period_scores": [
+                    {
+                        "home_score": 1,
+                        "away_score": 1,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 3,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ]
             }
         },
         {
@@ -39599,8 +39752,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 1,
+                "away_score": 0,
+                "winner_id": "sr:competitor:60",
+                "period_scores": [
+                    {
+                        "home_score": 1,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ]
             }
         },
         {
@@ -39705,8 +39875,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 5,
+                "away_score": 0,
+                "winner_id": "sr:competitor:39",
+                "period_scores": [
+                    {
+                        "home_score": 4,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 1,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ]
             }
         },
         {
@@ -41036,7 +41223,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -41091,7 +41278,7 @@
             "sport_event": {
                 "id": "sr:sport_event:50850639",
                 "start_time": "2025-04-26T14:00:00+00:00",
-                "start_time_confirmed": false,
+                "start_time_confirmed": true,
                 "sport_event_context": {
                     "sport": {
                         "id": "sr:sport:1",
@@ -41142,7 +41329,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -41197,7 +41384,7 @@
             "sport_event": {
                 "id": "sr:sport_event:50850647",
                 "start_time": "2025-04-26T14:00:00+00:00",
-                "start_time_confirmed": false,
+                "start_time_confirmed": true,
                 "sport_event_context": {
                     "sport": {
                         "id": "sr:sport:1",
@@ -41248,7 +41435,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -41303,7 +41490,7 @@
             "sport_event": {
                 "id": "sr:sport_event:50850651",
                 "start_time": "2025-04-26T14:00:00+00:00",
-                "start_time_confirmed": false,
+                "start_time_confirmed": true,
                 "sport_event_context": {
                     "sport": {
                         "id": "sr:sport:1",
@@ -41354,7 +41541,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -41409,7 +41596,7 @@
             "sport_event": {
                 "id": "sr:sport_event:50850653",
                 "start_time": "2025-04-26T14:00:00+00:00",
-                "start_time_confirmed": false,
+                "start_time_confirmed": true,
                 "sport_event_context": {
                     "sport": {
                         "id": "sr:sport:1",
@@ -41460,7 +41647,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -41566,7 +41753,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -41672,7 +41859,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -43905,9 +44092,9 @@
                         "goal_scorers_live": true,
                         "scores": "live",
                         "game_clock": true,
-                        "deeper_play_by_play": false,
-                        "deeper_player_stats": false,
-                        "deeper_team_stats": false,
+                        "deeper_play_by_play": true,
+                        "deeper_player_stats": true,
+                        "deeper_team_stats": true,
                         "basic_play_by_play": true,
                         "basic_player_stats": true,
                         "basic_team_stats": true
@@ -43951,9 +44138,9 @@
         },
         {
             "sport_event": {
-                "id": "sr:sport_event:50850695",
-                "start_time": "2025-05-18T14:00:00+00:00",
-                "start_time_confirmed": false,
+                "id": "sr:sport_event:50850707",
+                "start_time": "2025-05-18T11:00:00+00:00",
+                "start_time_confirmed": true,
                 "sport_event_context": {
                     "sport": {
                         "id": "sr:sport:1",
@@ -44011,9 +44198,9 @@
                         "goal_scorers_live": true,
                         "scores": "live",
                         "game_clock": true,
-                        "deeper_play_by_play": false,
-                        "deeper_player_stats": false,
-                        "deeper_team_stats": false,
+                        "deeper_play_by_play": true,
+                        "deeper_player_stats": true,
+                        "deeper_team_stats": true,
                         "basic_play_by_play": true,
                         "basic_player_stats": true,
                         "basic_team_stats": true
@@ -44021,31 +44208,31 @@
                 },
                 "competitors": [
                     {
-                        "id": "sr:competitor:42",
-                        "name": "Arsenal FC",
+                        "id": "sr:competitor:48",
+                        "name": "Everton FC",
                         "country": "England",
                         "country_code": "ENG",
-                        "abbreviation": "ARS",
+                        "abbreviation": "EVE",
                         "qualifier": "home",
                         "gender": "male"
                     },
                     {
-                        "id": "sr:competitor:39",
-                        "name": "Newcastle United",
+                        "id": "sr:competitor:45",
+                        "name": "Southampton FC",
                         "country": "England",
                         "country_code": "ENG",
-                        "abbreviation": "NEW",
+                        "abbreviation": "SOU",
                         "qualifier": "away",
                         "gender": "male"
                     }
                 ],
                 "venue": {
-                    "id": "sr:venue:624",
-                    "name": "Emirates Stadium",
-                    "capacity": 60704,
-                    "city_name": "London",
+                    "id": "sr:venue:12",
+                    "name": "Goodison Park",
+                    "capacity": 39572,
+                    "city_name": "Liverpool",
                     "country_name": "England",
-                    "map_coordinates": "51.555050,-0.108046",
+                    "map_coordinates": "53.439255,-2.967065",
                     "country_code": "ENG",
                     "timezone": "Europe/London"
                 }
@@ -44058,8 +44245,8 @@
         {
             "sport_event": {
                 "id": "sr:sport_event:50850697",
-                "start_time": "2025-05-18T14:00:00+00:00",
-                "start_time_confirmed": false,
+                "start_time": "2025-05-18T13:15:00+00:00",
+                "start_time_confirmed": true,
                 "sport_event_context": {
                     "sport": {
                         "id": "sr:sport:1",
@@ -44117,9 +44304,9 @@
                         "goal_scorers_live": true,
                         "scores": "live",
                         "game_clock": true,
-                        "deeper_play_by_play": false,
-                        "deeper_player_stats": false,
-                        "deeper_team_stats": false,
+                        "deeper_play_by_play": true,
+                        "deeper_player_stats": true,
+                        "deeper_team_stats": true,
                         "basic_play_by_play": true,
                         "basic_player_stats": true,
                         "basic_team_stats": true
@@ -44152,6 +44339,112 @@
                     "city_name": "Birmingham",
                     "country_name": "England",
                     "map_coordinates": "52.509212,-1.885288",
+                    "country_code": "ENG",
+                    "timezone": "Europe/London"
+                }
+            },
+            "sport_event_status": {
+                "status": "not_started",
+                "match_status": "not_started"
+            }
+        },
+        {
+            "sport_event": {
+                "id": "sr:sport_event:50850713",
+                "start_time": "2025-05-18T13:15:00+00:00",
+                "start_time_confirmed": true,
+                "sport_event_context": {
+                    "sport": {
+                        "id": "sr:sport:1",
+                        "name": "Soccer"
+                    },
+                    "category": {
+                        "id": "sr:category:1",
+                        "name": "England",
+                        "country_code": "ENG"
+                    },
+                    "competition": {
+                        "id": "sr:competition:17",
+                        "name": "Premier League",
+                        "gender": "men"
+                    },
+                    "season": {
+                        "id": "sr:season:118689",
+                        "name": "Premier League 24/25",
+                        "start_date": "2024-08-16",
+                        "end_date": "2025-05-25",
+                        "year": "24/25",
+                        "competition_id": "sr:competition:17"
+                    },
+                    "stage": {
+                        "order": 1,
+                        "type": "league",
+                        "phase": "regular season",
+                        "start_date": "2024-08-16",
+                        "end_date": "2025-05-25",
+                        "year": "24/25"
+                    },
+                    "round": {
+                        "number": 37
+                    },
+                    "groups": [
+                        {
+                            "id": "sr:league:84075",
+                            "name": "Premier League 24/25"
+                        }
+                    ]
+                },
+                "coverage": {
+                    "type": "sport_event",
+                    "sport_event_properties": {
+                        "lineups": true,
+                        "formations": false,
+                        "venue": true,
+                        "extended_player_stats": true,
+                        "extended_team_stats": true,
+                        "lineups_availability": "pre",
+                        "ballspotting": false,
+                        "commentary": true,
+                        "fun_facts": true,
+                        "goal_scorers": true,
+                        "goal_scorers_live": true,
+                        "scores": "live",
+                        "game_clock": true,
+                        "deeper_play_by_play": true,
+                        "deeper_player_stats": true,
+                        "deeper_team_stats": true,
+                        "basic_play_by_play": true,
+                        "basic_player_stats": true,
+                        "basic_team_stats": true
+                    }
+                },
+                "competitors": [
+                    {
+                        "id": "sr:competitor:37",
+                        "name": "West Ham United",
+                        "country": "England",
+                        "country_code": "ENG",
+                        "abbreviation": "WHU",
+                        "qualifier": "home",
+                        "gender": "male"
+                    },
+                    {
+                        "id": "sr:competitor:14",
+                        "name": "Nottingham Forest",
+                        "country": "England",
+                        "country_code": "ENG",
+                        "abbreviation": "NFO",
+                        "qualifier": "away",
+                        "gender": "male"
+                    }
+                ],
+                "venue": {
+                    "id": "sr:venue:18379",
+                    "name": "London Stadium",
+                    "capacity": 66000,
+                    "city_name": "London",
+                    "country_name": "England",
+                    "map_coordinates": "51.54329610000001,-0.0165517",
                     "country_code": "ENG",
                     "timezone": "Europe/London"
                 }
@@ -44223,9 +44516,9 @@
                         "goal_scorers_live": true,
                         "scores": "live",
                         "game_clock": true,
-                        "deeper_play_by_play": false,
-                        "deeper_player_stats": false,
-                        "deeper_team_stats": false,
+                        "deeper_play_by_play": true,
+                        "deeper_player_stats": true,
+                        "deeper_team_stats": true,
                         "basic_play_by_play": true,
                         "basic_player_stats": true,
                         "basic_team_stats": true
@@ -44258,112 +44551,6 @@
                     "city_name": "London",
                     "country_name": "England",
                     "map_coordinates": "51.4907295,-0.2891696",
-                    "country_code": "ENG",
-                    "timezone": "Europe/London"
-                }
-            },
-            "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
-            }
-        },
-        {
-            "sport_event": {
-                "id": "sr:sport_event:50850701",
-                "start_time": "2025-05-18T14:00:00+00:00",
-                "start_time_confirmed": false,
-                "sport_event_context": {
-                    "sport": {
-                        "id": "sr:sport:1",
-                        "name": "Soccer"
-                    },
-                    "category": {
-                        "id": "sr:category:1",
-                        "name": "England",
-                        "country_code": "ENG"
-                    },
-                    "competition": {
-                        "id": "sr:competition:17",
-                        "name": "Premier League",
-                        "gender": "men"
-                    },
-                    "season": {
-                        "id": "sr:season:118689",
-                        "name": "Premier League 24/25",
-                        "start_date": "2024-08-16",
-                        "end_date": "2025-05-25",
-                        "year": "24/25",
-                        "competition_id": "sr:competition:17"
-                    },
-                    "stage": {
-                        "order": 1,
-                        "type": "league",
-                        "phase": "regular season",
-                        "start_date": "2024-08-16",
-                        "end_date": "2025-05-25",
-                        "year": "24/25"
-                    },
-                    "round": {
-                        "number": 37
-                    },
-                    "groups": [
-                        {
-                            "id": "sr:league:84075",
-                            "name": "Premier League 24/25"
-                        }
-                    ]
-                },
-                "coverage": {
-                    "type": "sport_event",
-                    "sport_event_properties": {
-                        "lineups": true,
-                        "formations": false,
-                        "venue": true,
-                        "extended_player_stats": true,
-                        "extended_team_stats": true,
-                        "lineups_availability": "pre",
-                        "ballspotting": false,
-                        "commentary": true,
-                        "fun_facts": true,
-                        "goal_scorers": true,
-                        "goal_scorers_live": true,
-                        "scores": "live",
-                        "game_clock": true,
-                        "deeper_play_by_play": false,
-                        "deeper_player_stats": false,
-                        "deeper_team_stats": false,
-                        "basic_play_by_play": true,
-                        "basic_player_stats": true,
-                        "basic_team_stats": true
-                    }
-                },
-                "competitors": [
-                    {
-                        "id": "sr:competitor:30",
-                        "name": "Brighton & Hove Albion",
-                        "country": "England",
-                        "country_code": "ENG",
-                        "abbreviation": "BRI",
-                        "qualifier": "home",
-                        "gender": "male"
-                    },
-                    {
-                        "id": "sr:competitor:44",
-                        "name": "Liverpool FC",
-                        "country": "England",
-                        "country_code": "ENG",
-                        "abbreviation": "LFC",
-                        "qualifier": "away",
-                        "gender": "male"
-                    }
-                ],
-                "venue": {
-                    "id": "sr:venue:2443",
-                    "name": "American Express Community Stadium",
-                    "capacity": 31876,
-                    "city_name": "Falmer",
-                    "country_name": "England",
-                    "map_coordinates": "50.861822,-0.083278",
                     "country_code": "ENG",
                     "timezone": "Europe/London"
                 }
@@ -44435,9 +44622,9 @@
                         "goal_scorers_live": true,
                         "scores": "live",
                         "game_clock": true,
-                        "deeper_play_by_play": false,
-                        "deeper_player_stats": false,
-                        "deeper_team_stats": false,
+                        "deeper_play_by_play": true,
+                        "deeper_player_stats": true,
+                        "deeper_team_stats": true,
                         "basic_play_by_play": true,
                         "basic_player_stats": true,
                         "basic_team_stats": true
@@ -44541,9 +44728,9 @@
                         "goal_scorers_live": true,
                         "scores": "live",
                         "game_clock": true,
-                        "deeper_play_by_play": false,
-                        "deeper_player_stats": false,
-                        "deeper_team_stats": false,
+                        "deeper_play_by_play": true,
+                        "deeper_player_stats": true,
+                        "deeper_team_stats": true,
                         "basic_play_by_play": true,
                         "basic_player_stats": true,
                         "basic_team_stats": true
@@ -44576,112 +44763,6 @@
                     "city_name": "London",
                     "country_name": "England",
                     "map_coordinates": "51.398333,-0.085556",
-                    "country_code": "ENG",
-                    "timezone": "Europe/London"
-                }
-            },
-            "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
-            }
-        },
-        {
-            "sport_event": {
-                "id": "sr:sport_event:50850707",
-                "start_time": "2025-05-18T14:00:00+00:00",
-                "start_time_confirmed": false,
-                "sport_event_context": {
-                    "sport": {
-                        "id": "sr:sport:1",
-                        "name": "Soccer"
-                    },
-                    "category": {
-                        "id": "sr:category:1",
-                        "name": "England",
-                        "country_code": "ENG"
-                    },
-                    "competition": {
-                        "id": "sr:competition:17",
-                        "name": "Premier League",
-                        "gender": "men"
-                    },
-                    "season": {
-                        "id": "sr:season:118689",
-                        "name": "Premier League 24/25",
-                        "start_date": "2024-08-16",
-                        "end_date": "2025-05-25",
-                        "year": "24/25",
-                        "competition_id": "sr:competition:17"
-                    },
-                    "stage": {
-                        "order": 1,
-                        "type": "league",
-                        "phase": "regular season",
-                        "start_date": "2024-08-16",
-                        "end_date": "2025-05-25",
-                        "year": "24/25"
-                    },
-                    "round": {
-                        "number": 37
-                    },
-                    "groups": [
-                        {
-                            "id": "sr:league:84075",
-                            "name": "Premier League 24/25"
-                        }
-                    ]
-                },
-                "coverage": {
-                    "type": "sport_event",
-                    "sport_event_properties": {
-                        "lineups": true,
-                        "formations": false,
-                        "venue": true,
-                        "extended_player_stats": true,
-                        "extended_team_stats": true,
-                        "lineups_availability": "pre",
-                        "ballspotting": false,
-                        "commentary": true,
-                        "fun_facts": true,
-                        "goal_scorers": true,
-                        "goal_scorers_live": true,
-                        "scores": "live",
-                        "game_clock": true,
-                        "deeper_play_by_play": false,
-                        "deeper_player_stats": false,
-                        "deeper_team_stats": false,
-                        "basic_play_by_play": true,
-                        "basic_player_stats": true,
-                        "basic_team_stats": true
-                    }
-                },
-                "competitors": [
-                    {
-                        "id": "sr:competitor:48",
-                        "name": "Everton FC",
-                        "country": "England",
-                        "country_code": "ENG",
-                        "abbreviation": "EVE",
-                        "qualifier": "home",
-                        "gender": "male"
-                    },
-                    {
-                        "id": "sr:competitor:45",
-                        "name": "Southampton FC",
-                        "country": "England",
-                        "country_code": "ENG",
-                        "abbreviation": "SOU",
-                        "qualifier": "away",
-                        "gender": "male"
-                    }
-                ],
-                "venue": {
-                    "id": "sr:venue:12",
-                    "name": "Goodison Park",
-                    "capacity": 39572,
-                    "city_name": "Liverpool",
-                    "country_name": "England",
-                    "map_coordinates": "53.439255,-2.967065",
                     "country_code": "ENG",
                     "timezone": "Europe/London"
                 }
@@ -44753,9 +44834,9 @@
                         "goal_scorers_live": true,
                         "scores": "live",
                         "game_clock": true,
-                        "deeper_play_by_play": false,
-                        "deeper_player_stats": false,
-                        "deeper_team_stats": false,
+                        "deeper_play_by_play": true,
+                        "deeper_player_stats": true,
+                        "deeper_team_stats": true,
                         "basic_play_by_play": true,
                         "basic_player_stats": true,
                         "basic_team_stats": true
@@ -44799,9 +44880,115 @@
         },
         {
             "sport_event": {
+                "id": "sr:sport_event:50850695",
+                "start_time": "2025-05-18T15:30:00+00:00",
+                "start_time_confirmed": true,
+                "sport_event_context": {
+                    "sport": {
+                        "id": "sr:sport:1",
+                        "name": "Soccer"
+                    },
+                    "category": {
+                        "id": "sr:category:1",
+                        "name": "England",
+                        "country_code": "ENG"
+                    },
+                    "competition": {
+                        "id": "sr:competition:17",
+                        "name": "Premier League",
+                        "gender": "men"
+                    },
+                    "season": {
+                        "id": "sr:season:118689",
+                        "name": "Premier League 24/25",
+                        "start_date": "2024-08-16",
+                        "end_date": "2025-05-25",
+                        "year": "24/25",
+                        "competition_id": "sr:competition:17"
+                    },
+                    "stage": {
+                        "order": 1,
+                        "type": "league",
+                        "phase": "regular season",
+                        "start_date": "2024-08-16",
+                        "end_date": "2025-05-25",
+                        "year": "24/25"
+                    },
+                    "round": {
+                        "number": 37
+                    },
+                    "groups": [
+                        {
+                            "id": "sr:league:84075",
+                            "name": "Premier League 24/25"
+                        }
+                    ]
+                },
+                "coverage": {
+                    "type": "sport_event",
+                    "sport_event_properties": {
+                        "lineups": true,
+                        "formations": false,
+                        "venue": true,
+                        "extended_player_stats": true,
+                        "extended_team_stats": true,
+                        "lineups_availability": "pre",
+                        "ballspotting": false,
+                        "commentary": true,
+                        "fun_facts": true,
+                        "goal_scorers": true,
+                        "goal_scorers_live": true,
+                        "scores": "live",
+                        "game_clock": true,
+                        "deeper_play_by_play": false,
+                        "deeper_player_stats": false,
+                        "deeper_team_stats": false,
+                        "basic_play_by_play": true,
+                        "basic_player_stats": true,
+                        "basic_team_stats": true
+                    }
+                },
+                "competitors": [
+                    {
+                        "id": "sr:competitor:42",
+                        "name": "Arsenal FC",
+                        "country": "England",
+                        "country_code": "ENG",
+                        "abbreviation": "ARS",
+                        "qualifier": "home",
+                        "gender": "male"
+                    },
+                    {
+                        "id": "sr:competitor:39",
+                        "name": "Newcastle United",
+                        "country": "England",
+                        "country_code": "ENG",
+                        "abbreviation": "NEW",
+                        "qualifier": "away",
+                        "gender": "male"
+                    }
+                ],
+                "venue": {
+                    "id": "sr:venue:624",
+                    "name": "Emirates Stadium",
+                    "capacity": 60704,
+                    "city_name": "London",
+                    "country_name": "England",
+                    "map_coordinates": "51.555050,-0.108046",
+                    "country_code": "ENG",
+                    "timezone": "Europe/London"
+                }
+            },
+            "sport_event_status": {
+                "status": "not_started",
+                "match_status": "not_started"
+            }
+        },
+        {
+            "sport_event": {
                 "id": "sr:sport_event:50850711",
-                "start_time": "2025-05-18T14:00:00+00:00",
-                "start_time_confirmed": false,
+                "start_time": "2025-05-18T18:00:00+00:00",
+                "start_time_confirmed": true,
                 "sport_event_context": {
                     "sport": {
                         "id": "sr:sport:1",
@@ -44905,9 +45092,9 @@
         },
         {
             "sport_event": {
-                "id": "sr:sport_event:50850713",
-                "start_time": "2025-05-18T14:00:00+00:00",
-                "start_time_confirmed": false,
+                "id": "sr:sport_event:50850701",
+                "start_time": "2025-05-19T19:00:00+00:00",
+                "start_time_confirmed": true,
                 "sport_event_context": {
                     "sport": {
                         "id": "sr:sport:1",
@@ -44975,31 +45162,31 @@
                 },
                 "competitors": [
                     {
-                        "id": "sr:competitor:37",
-                        "name": "West Ham United",
+                        "id": "sr:competitor:30",
+                        "name": "Brighton & Hove Albion",
                         "country": "England",
                         "country_code": "ENG",
-                        "abbreviation": "WHU",
+                        "abbreviation": "BRI",
                         "qualifier": "home",
                         "gender": "male"
                     },
                     {
-                        "id": "sr:competitor:14",
-                        "name": "Nottingham Forest",
+                        "id": "sr:competitor:44",
+                        "name": "Liverpool FC",
                         "country": "England",
                         "country_code": "ENG",
-                        "abbreviation": "NFO",
+                        "abbreviation": "LFC",
                         "qualifier": "away",
                         "gender": "male"
                     }
                 ],
                 "venue": {
-                    "id": "sr:venue:18379",
-                    "name": "London Stadium",
-                    "capacity": 66000,
-                    "city_name": "London",
+                    "id": "sr:venue:2443",
+                    "name": "American Express Community Stadium",
+                    "capacity": 31876,
+                    "city_name": "Falmer",
                     "country_name": "England",
-                    "map_coordinates": "51.54329610000001,-0.0165517",
+                    "map_coordinates": "50.861822,-0.083278",
                     "country_code": "ENG",
                     "timezone": "Europe/London"
                 }
