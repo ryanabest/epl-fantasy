@@ -3,6 +3,7 @@ const path = require('path');
 const { JWT } = require('google-auth-library');
 const { GoogleSpreadsheet } = require('google-spreadsheet');
 const creds = require('../keys.json').google;
+const config = require('../config').default;
 
 // Initialize auth - see https://theoephraim.github.io/node-google-spreadsheet/#/guides/authentication
 const serviceAccountAuth = new JWT({
@@ -12,7 +13,7 @@ const serviceAccountAuth = new JWT({
   key: creds.private_key,
   scopes: ['https://www.googleapis.com/auth/spreadsheets'],
 });
-const doc = new GoogleSpreadsheet('1sJHZmRTS5Yc3CDBOXY3LEedLOfdJjwQi95IXD3gjQe0', serviceAccountAuth);
+const doc = new GoogleSpreadsheet(config.google_id, serviceAccountAuth);
 
 async function getRoster () {
   await doc.loadInfo(); // loads document properties and worksheets
@@ -38,6 +39,6 @@ async function getRoster () {
 }
 
 getRoster().then(rosters => {
-  const filePath = path.join(__dirname, 'rosters.json');
+  const filePath = path.join(__dirname, config.year.toString(), 'rosters.json');
   fs.writeFileSync(filePath, JSON.stringify(rosters, null, 4));
 });

@@ -1,12 +1,13 @@
 const fs = require('fs');
 const path = require('path');
 const dayjs = require('dayjs');
+const config = require('../config').default;
 
 class Compiler {
   constructor () {
-    this.rosters = require(path.join(__dirname, '../google/rosters.json'));
-    this.last_updated = require(path.join(__dirname, 'schedule.json')).generated_at;
-    this.start_date = '2024-08-15';
+    this.rosters = require(path.join(__dirname, '../google/', config.year.toString(), 'rosters.json'));
+    this.last_updated = require(path.join(__dirname, config.year.toString(), 'schedule.json')).generated_at;
+    this.start_date = config.start_date;
     this.compileAllGames();
     this.compilePlayersRef();
     this.compileData();
@@ -15,36 +16,32 @@ class Compiler {
 
   compileAllGames () {
       this.all_games = [];
-      const files = fs.readdirSync(path.join(__dirname, "sport_event")).filter(d => d.includes('.json'));
+      const files = fs.readdirSync(path.join(__dirname, config.year.toString(), "sport_event")).filter(d => d.includes('.json'));
       files.forEach(file => {
-        const match = require(path.join(__dirname, `sport_event/${file}`));
+        const match = require(path.join(__dirname, config.year.toString(), `sport_event/${file}`));
         match.all_players = match.statistics.totals.competitors.map(d => d.players).flat();
         this.all_games.push(match);
       });
       const dates = [... new Set(this.all_games.map(d => dayjs(d.sport_event.start_time).format('YYYY-MM-DD')))].sort();
-      this.end_date = dates[dates.length - 1];
-      const filePath = path.join(__dirname, "all_games.json");
+      this.end_date = dates[dates.length - 1] || this.start_date;
+      const filePath = path.join(__dirname, config.year.toString(), "all_games.json");
       fs.writeFileSync(filePath, JSON.stringify(this.all_games, null, 4));
   }
 
   compilePlayersRef () {
-    const allTeams = []
-    const teamsFolder = path.join(__dirname, '../ref/teams');
-    fs.readdirSync(teamsFolder).forEach(file => {
-      const teamData = require(path.join(__dirname, `../ref/teams/${file}`));
-      allTeams.push(teamData);
-    });
+    const competitorPlayers = require(path.join(__dirname, '..', 'ref', config.year.toString(), 'competitor_players.json'));
+    const allTeams = competitorPlayers.season_competitor_players;
 
     const allPlayersGone = [];
-    const playersGoneFolder = path.join(__dirname, '../ref/players_gone');
+    const playersGoneFolder = path.join(__dirname, '..', 'ref', config.year.toString(), 'players_gone');
     fs.readdirSync(playersGoneFolder).forEach(file => {
-      const playerData = require(path.join(__dirname, `../ref/players_gone/${file}`));
+      const playerData = require(path.join(__dirname, '..', 'ref', config.year.toString(), 'players_gone', file));
       allPlayersGone.push(playerData);
     });
 
     this.players_ref = []
     allTeams.forEach(t => {
-      const playerTeam = t.competitor.short_name;
+      const playerTeam = t.short_name;
       t.players.forEach(p => {
         const sportradarId = p.id;
         const playerName = p.name
@@ -91,18 +88,18 @@ class Compiler {
         if (!playerRef) {
           console.log(p);
         }
-        const sportradarId = playerRef.sportradarId;
-        const playerName = playerRef.playerName;
-        const playerTeam = playerRef.playerTeam;
-        const position = playerRef.position;
-        const jersey = playerRef.jersey;
+        const sportradarId = playerRef?.sportradarId;
+        const playerName = playerRef?.playerName;
+        const playerTeam = playerRef?.playerTeam;
+        const position = playerRef?.position;
+        const jersey = playerRef?.jersey;
 
         // ~~ match stats and totals ~~ //
         const schedule = this.all_games
-          .filter(game => game.all_players.find(d => d.id === playerRef.sportradarId))
+          .filter(game => game.all_players.find(d => d.id === playerRef?.sportradarId))
           .map(game => {
             const day = dayjs(game.sport_event.start_time);
-            const player = game.all_players.find(d => d.id === playerRef.sportradarId).statistics;
+            const player = game.all_players.find(d => d.id === playerRef?.sportradarId).statistics;
             const goals = player.goals_scored;
             const assists = player.assists;
             const ownGoals = player.own_goals;
@@ -124,7 +121,7 @@ class Compiler {
       const ownGoals = players.map(d => d.stats.own_goals).reduce((a, b) => a + b, 0);
       const points = goals + (assists * 0.5) - ownGoals;
 
-      const pointsByDate = [];
+      const pointsByDate = [ ];
       let dt = dayjs(this.start_date);
       while (dt <= dayjs(this.end_date)) {
         let points = 0;
@@ -143,7 +140,7 @@ class Compiler {
   }
 
   saveData () {
-    const filePath = path.join(__dirname, "../src/assets/data.json");
+    const filePath = path.join(__dirname, '..', 'src', 'assets', config.year.toString(), 'data.json');
     fs.writeFileSync(filePath, JSON.stringify(this.data, null, 4));
   }
 }

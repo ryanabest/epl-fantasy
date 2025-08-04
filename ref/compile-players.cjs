@@ -1,9 +1,10 @@
 const fs = require('fs');
 const path = require('path');
-const teamsFolder = path.join(__dirname, 'teams');
-const seasonPlayers = require(path.join(__dirname, 'players.json')).season_players;
-const leaders = require(path.join(__dirname, '2023/leaders.json'));
-const seasonPlayers2023 = require(path.join(__dirname, '2023/players_2023.json')).season_players;
+const config = require('../config').default;
+const seasonCompetitorPlayers = require(path.join(__dirname,  config.year.toString(), 'competitor_players.json')).season_competitor_players;
+const seasonPlayers = require(path.join(__dirname,  config.year.toString(), 'players.json')).season_players;
+const lastSeasonLeaders = require(path.join(__dirname, config.reference_year.toString(), 'leaders.json'));
+const lastSeasonPlayers = require(path.join(__dirname, config.reference_year.toString(), 'players.json')).season_players;
 
 const players = [];
 
@@ -14,8 +15,8 @@ const posLookup = {
   goalkeeper: "GK"
 };
 
-const compileLeaderList = (leaders) => {
-  const players = leaders
+const compileLeaderList = (lastSeasonLeaders) => {
+  const players = lastSeasonLeaders
     .map(d => d.players)
     .flat();
   const vals = players.map(d => {
@@ -27,14 +28,13 @@ const compileLeaderList = (leaders) => {
   })
   return vals;
 }
-const goals = compileLeaderList(leaders.lists.find(d => d.type === 'goals').leaders);
-const assists = compileLeaderList(leaders.lists.find(d => d.type === 'assists').leaders);
-const own_goals = compileLeaderList(leaders.lists.find(d => d.type === 'own_goals').leaders);
+const goals = compileLeaderList(lastSeasonLeaders.lists.find(d => d.type === 'goals').leaders);
+const assists = compileLeaderList(lastSeasonLeaders.lists.find(d => d.type === 'assists').leaders);
+const own_goals = compileLeaderList(lastSeasonLeaders.lists.find(d => d.type === 'own_goals').leaders);
 
-fs.readdirSync(teamsFolder).forEach(file => {
-  const teamData = require(path.join(__dirname, `teams/${file}`));
-  const team_name = teamData.competitor.short_name;
-  const team_abbr = teamData.competitor.abbreviation;
+seasonCompetitorPlayers.forEach(teamData => {
+  const team_name = teamData.short_name;
+  const team_abbr = teamData.abbreviation;
   teamData.players.forEach(plyr => {
     const id = plyr.id;
     const playerData = seasonPlayers.find(d => d.id === plyr.id);
@@ -44,23 +44,23 @@ fs.readdirSync(teamsFolder).forEach(file => {
     const name = `${playerData?.display_first_name || playerData?.first_name} ${playerData?.display_last_name || playerData?.last_name}`;
     const jersey_number = playerData?.jersey_number;
 
-    // ~~ 2023 epl stats
-    const goals_2023 = goals.find(d => d.id === id)?.val || 0;
-    const assists_2023 = assists.find(d => d.id === id)?.val || 0;
-    const own_goals_2023 = own_goals.find(d => d.id === id)?.val || 0;
-    const points_2023 = goals_2023 + (assists_2023 * 0.5) - own_goals_2023;
+    // ~~ reference year epl stats
+    const goals_ref = goals.find(d => d.id === id)?.val || 0;
+    const assists_ref = assists.find(d => d.id === id)?.val || 0;
+    const own_goals_ref = own_goals.find(d => d.id === id)?.val || 0;
+    const points_ref = goals_ref + (assists_ref * 0.5) - own_goals_ref;
 
-    // ~~ were they in the epl in 2023?
-    const playerData2023Idx = seasonPlayers2023.findIndex(d => d.id === plyr.id);
-    const epl_in_2023 = playerData2023Idx > -1;
+    // ~~ were they in the epl in the reference year?
+    const playerDataRefIdx = lastSeasonPlayers.findIndex(d => d.id === plyr.id);
+    const epl_in_ref = playerDataRefIdx > -1;
 
     // ~~ return player data
-    players.push ({ id, name, team_abbr, team_name, pos, jersey_number, goals_2023, assists_2023, own_goals_2023, points_2023, epl_in_2023 });
+    players.push ({ id, name, team_abbr, team_name, pos, jersey_number, goals_ref, assists_ref, own_goals_ref, points_ref, epl_in_ref });
   });
-});
+})
 
-const playersSorted = players.sort((a, b) => b.points_2023 - a.points_2023);
-const cols = ["name", "team_abbr", "team_name", "pos", "jersey_number", "goals_2023", "assists_2023", "own_goals_2023", "points_2023", "epl_in_2023", "id"]
+const playersSorted = players.sort((a, b) => b.points_ref - a.points_ref);
+const cols = ["name", "team_abbr", "team_name", "pos", "jersey_number", "goals_ref", "assists_ref", "own_goals_ref", "points_ref", "epl_in_ref", "id"]
 const csvString = [
     cols,
     ...playersSorted.map(d => cols.map(c => d[c]))
@@ -68,7 +68,7 @@ const csvString = [
   .map(e => e.join(",")) 
   .join("\n");
 
-fs.writeFile(path.join(__dirname, '2023/players_with_2023_data.csv'), csvString, 'utf8', function (err) {
+fs.writeFile(path.join(__dirname, config.reference_year.toString(), `players_with_${config.reference_year}_data.csv`), csvString, 'utf8', function (err) {
   if (err) {
     console.log('Some error occured - file either not saved or corrupted file saved.');
   } else{

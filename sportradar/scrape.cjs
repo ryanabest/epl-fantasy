@@ -2,14 +2,35 @@ const fs = require('fs');
 const path = require('path');
 const keys = require('../keys.json');
 const options = {method: 'GET', headers: {accept: 'application/json'}};
+const config = require('../config').default;
+
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 const save = (response, fileName, filePath) => {
   fs.writeFileSync(filePath, JSON.stringify(response, null, 4));
   console.log(`~~~~~~ SAVED ${fileName} ~~~~~~`);
 }
 
+async function getSeasonSchedule() {
+  await delay(2000); // Wait for 2 seconds
+  try {
+    const url = `https://api.sportradar.com/soccer/trial/v4/en/seasons/${config.season_id_sportradar}/schedules.json?api_key=${keys.sportradar}`;
+    const response = await fetch(url, options);
+    const data = await response.json();
+    const fileName = 'schedule.json';
+    const filePath = path.join(__dirname, config.year.toString(), fileName);
+    save(data, fileName, filePath);
+    return data;
+  } catch(error) {
+    console.error('getSeasonSchedule Error:', error);
+    throw error; // Re-throw the error to be caught by a subsequent .catch()
+  }
+}
+
 const getMatches = (response) => {
-  const savedMatchFiles = fs.readdirSync(path.join(__dirname, "sport_event"));
+  const savedMatchFiles = fs.readdirSync(path.join(__dirname, config.year.toString(), "sport_event"));
   const matches = response.schedules.filter(match => {
     return match.sport_event_status.status === "closed" &&
       match.sport_event_status.match_status === "ended" &&
@@ -23,7 +44,7 @@ const getMatches = (response) => {
         .then(r => r.json())
         .then(r => {
           const fileName = `${id}.json`;
-          const filePath = path.join(__dirname, `sport_event/${fileName}`);
+          const filePath = path.join(__dirname, config.year.toString(), `sport_event/${fileName}`);
           save(r, fileName, filePath);
         })
         .catch(err => console.error(err));
@@ -31,13 +52,5 @@ const getMatches = (response) => {
   }
 }
 
-// ~~ GET SEASON SCHEDULE ~~ //
-fetch(`https://api.sportradar.com/soccer/trial/v4/en/seasons/sr%3Aseason%3A118689/schedules.json?api_key=${keys.sportradar}`, options)
-  .then(response => response.json())
-  .then(response => {
-    const fileName = 'schedule.json';
-    const filePath = path.join(__dirname, fileName);
-    save(response, fileName, filePath);
-    getMatches(response);
-  })
-  .catch(err => console.error(err));
+getSeasonSchedule()
+  .then(seasonSchedule => getMatches(seasonSchedule));

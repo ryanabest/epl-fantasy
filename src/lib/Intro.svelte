@@ -1,12 +1,13 @@
 <script>
   export let lastUpdated;
+  export let year;
   import dayjs from 'dayjs';
   const date = dayjs(lastUpdated).format("MMM D, YYYY")
   const time = dayjs(lastUpdated).format("h:mm A")
 </script>
 
 <div id="intro">
-  <h1>The Athletic's 2024 Fantasy&nbsp;EPL</h1>
+  <h1>The Athletic's {year} Fantasy&nbsp;EPL</h1>
   <p class="timestamp">Updated {date}, at {time}</p>
 </div>
 
