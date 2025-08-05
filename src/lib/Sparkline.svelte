@@ -1,4 +1,5 @@
 <script>
+  export let year;
   export let team;
   export let maxPts;
   import d3 from "../js/d3";
@@ -28,9 +29,9 @@
 <div class="sparkline chart-cont"  bind:clientWidth={width} bind:clientHeight={height}>
   <svg>
     <g class="chart" transform="translate({margin.left},{margin.top})">
-      <path fill={colors[team.team]} d={area(team.pointsByDate)} opacity=0.4></path>
+      <path fill={colors[year][team.team]} d={area(team.pointsByDate)} opacity=0.4></path>
       <path stroke=#ffffff fill=none stroke-width=5px d={line(team.pointsByDate)}></path>
-      <path stroke={colors[team.team]} fill=none stroke-width=3px d={line(team.pointsByDate)}></path>
+      <path stroke={colors[year][team.team]} fill=none stroke-width=3px d={line(team.pointsByDate)}></path>
     </g>
   </svg>
 </div>

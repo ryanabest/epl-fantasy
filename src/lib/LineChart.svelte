@@ -1,8 +1,12 @@
 <script>
+  export let year;
   export let teams;
   import d3 from "../js/d3";
   import { colors } from "../js/utils/teams";
   import { slugify } from "../js/utils/format";
+
+  // with 8 teams, we were 500px tall
+  const chartHeight = (500 / 8) * teams.length;
 
   let width; // this will be populated with the width of our chart containers via svelte's bind:clientWidth={w}
   let height; // this will be populated with the height of our chart containers via svelte's bind:clientHeight={w}
@@ -100,20 +104,20 @@
     });
 </script>
 
-<div class="chart-cont" bind:clientWidth={width} bind:clientHeight={height}>
+<div class="chart-cont" style={`height:${chartHeight}px;`} bind:clientWidth={width} bind:clientHeight={height}>
   <svg>
     <g class="chart" transform="translate({margin.left},{margin.top})">
       <g class="axis-g" bind:this={gy}></g>
       <g class="swoop-g">
         {#each teamsSorted as d}
-          <path d={swoopyLine(d.swoopyData)} stroke={colors[d.team]} stroke-width=1 stroke-linecap="round" stroke-dasharray="0 2"></path>
+          <path d={swoopyLine(d.swoopyData)} stroke={colors[year][d.team]} stroke-width=1 stroke-linecap="round" stroke-dasharray="0 2"></path>
         {/each}
       </g>
       <g class="line-g">
         {#each teamsSorted as d}
           <g class="team" data-team={d.team}>
             <path stroke="#ffffff" stroke-width={strokeWidth * 1.5} d={line(d.pointsByDate)}></path>
-            <path stroke={colors[d.team]} stroke-width={strokeWidth} d={line(d.pointsByDate)}></path>
+            <path stroke={colors[year][d.team]} stroke-width={strokeWidth} d={line(d.pointsByDate)}></path>
           </g>
         {/each}
       </g>
@@ -124,7 +128,7 @@
             r={radius}
             cy={radius + (((radius + (strokeWidth / 2)) * 2) * (teamsSorted.length - i - 1))}
             cx={width - margin.right - margin.left + radius + swoopyWidth}
-            stroke={colors[d.team]}
+            stroke={colors[year][d.team]}
             stroke-width={strokeWidth}
             fill="url(#pattern-{slugify(d.team)})"
           />
@@ -135,7 +139,7 @@
     <defs>
       {#each teamsSorted as d}
         <pattern id="pattern-{slugify(d.team)}" height=100% width=100% patternContentUnits="objectBoundingBox">
-          <image x="0" y="0" height=1 width=1 preserveAspectRatio="xMidYMid slice" xlink:href="{slugify(d.team)}.png" />
+          <image x="0" y="0" height=1 width=1 preserveAspectRatio="xMidYMid slice" xlink:href="{year}/{slugify(d.team)}.png" />
         </pattern>
       {/each}
     </defs>
@@ -145,7 +149,6 @@
 <style lang="scss">
   .chart-cont {
     width: 100%;
-    height: 500px;
     margin-bottom: 100px;
     
     svg {

@@ -1,4 +1,5 @@
 <script>
+  export let year;
   export let teams;
   import { formatNum } from "../js/utils/format";
   import Sparkline from "./Sparkline.svelte";
@@ -27,7 +28,7 @@
       <span>{team.team}</span>
       <span class=points>{team.points} point{team.points === 1 ? '' : 's'}</span>
     </button>
-    <Sparkline team={team} maxPts={maxPts} />
+    <Sparkline team={team} maxPts={maxPts} year={year} />
     <div class=table-cont>
       <table>
         <tbody>

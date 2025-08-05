@@ -4,5 +4,5 @@ export default {
   year_sportradar: '25/26',
   season_id_sportradar: 'sr:season:130281',
   start_date: '2025-08-14',
-  google_id: '1sJHZmRTS5Yc3CDBOXY3LEedLOfdJjwQi95IXD3gjQe0',
+  google_id: '1n42XhkghVbn3Lg8CVwcSQ82NTiYmIjKhM3Im8EObYE4',
 }
