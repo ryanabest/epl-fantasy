@@ -8,9 +8,9 @@ function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-const save = (response, fileName, filePath) => {
+const save = (response, filePath) => {
   fs.writeFileSync(filePath, JSON.stringify(response, null, 4));
-  console.log(`~~~~~~ SAVED ${fileName} ~~~~~~`);
+  console.log(`~~~~~~ SAVED ${filePath} ~~~~~~`);
 }
 
 async function getSeasonSchedule() {
@@ -21,7 +21,7 @@ async function getSeasonSchedule() {
     const data = await response.json();
     const fileName = 'schedule.json';
     const filePath = path.join(__dirname, config.year.toString(), fileName);
-    save(data, fileName, filePath);
+    save(data, filePath);
     return data;
   } catch(error) {
     console.error('getSeasonSchedule Error:', error);
@@ -45,7 +45,7 @@ const getMatches = (response) => {
         .then(r => {
           const fileName = `${id}.json`;
           const filePath = path.join(__dirname, config.year.toString(), `sport_event/${fileName}`);
-          save(r, fileName, filePath);
+          save(r, filePath);
         })
         .catch(err => console.error(err));
     }, 3000 * i);

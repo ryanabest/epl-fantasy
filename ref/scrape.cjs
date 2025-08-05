@@ -14,7 +14,7 @@ const save = (data, fileName, filePath) => {
     console.log(fileName, data.message)
   } else {
     fs.writeFileSync(filePath, JSON.stringify(data, null, 4));
-    console.log(`~~~~~~ SAVED ${fileName} ~~~~~~`);
+    console.log(`~~~~~~ SAVED ${filePath} ~~~~~~`);
   }
 }
 
