@@ -14,6 +14,7 @@ export const colors = {
     "Elliot": "#FA7067",
     "Thomas": "#ff7f00",
     "Ryan": "#dede40",
+    "Will": "#E5C68A",
     "Yuriko": "#136060",
     "Eamonn": "#088449",
     "David": "#f781bf",
