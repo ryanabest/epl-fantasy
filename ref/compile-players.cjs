@@ -68,10 +68,11 @@ const csvString = [
   .map(e => e.join(",")) 
   .join("\n");
 
-fs.writeFile(path.join(__dirname, config.year.toString(), `players_with_${config.reference_year}_data.csv`), csvString, 'utf8', function (err) {
+const fileName = path.join(__dirname, config.year.toString(), `players_with_${config.reference_year}_data.csv`);
+fs.writeFile(fileName, csvString, 'utf8', function (err) {
   if (err) {
     console.log('Some error occured - file either not saved or corrupted file saved.');
   } else{
-    console.log(`~~~ Saved ${path.join(config.year.toString(), `players_with_${config.reference_year}_data.csv`)}`);
+    console.log(`~~~~~~ Saved ${fileName} ~~~~~~`);
   }
 });
