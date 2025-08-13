@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-08-04T17:55:21+00:00",
+    "generated_at": "2025-08-13T16:46:16+00:00",
     "schedules": [
         {
             "sport_event": {
@@ -57,7 +57,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -164,7 +164,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -271,7 +271,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -378,7 +378,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -485,7 +485,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -592,7 +592,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -699,7 +699,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -806,7 +806,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -913,7 +913,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -1020,7 +1020,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -1127,7 +1127,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -1234,7 +1234,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -2251,113 +2251,6 @@
         },
         {
             "sport_event": {
-                "id": "sr:sport_event:61300545",
-                "start_time": "2025-08-29T19:00:00+00:00",
-                "start_time_confirmed": true,
-                "sport_event_context": {
-                    "sport": {
-                        "id": "sr:sport:1",
-                        "name": "Soccer"
-                    },
-                    "category": {
-                        "id": "sr:category:1",
-                        "name": "England",
-                        "country_code": "ENG"
-                    },
-                    "competition": {
-                        "id": "sr:competition:17",
-                        "name": "Premier League",
-                        "gender": "men"
-                    },
-                    "season": {
-                        "id": "sr:season:130281",
-                        "name": "Premier League 25/26",
-                        "start_date": "2025-08-15",
-                        "end_date": "2026-05-24",
-                        "year": "25/26",
-                        "competition_id": "sr:competition:17"
-                    },
-                    "stage": {
-                        "order": 1,
-                        "type": "league",
-                        "phase": "regular season",
-                        "start_date": "2025-08-15",
-                        "end_date": "2026-05-24",
-                        "year": "25/26"
-                    },
-                    "round": {
-                        "number": 3
-                    },
-                    "groups": [
-                        {
-                            "id": "sr:league:95139",
-                            "name": "Premier League 25/26"
-                        }
-                    ]
-                },
-                "coverage": {
-                    "type": "sport_event",
-                    "sport_event_properties": {
-                        "lineups": true,
-                        "formations": false,
-                        "venue": true,
-                        "extended_play_by_play": true,
-                        "extended_player_stats": true,
-                        "extended_team_stats": true,
-                        "lineups_availability": "pre",
-                        "ballspotting": false,
-                        "commentary": true,
-                        "fun_facts": true,
-                        "goal_scorers": true,
-                        "goal_scorers_live": true,
-                        "scores": "live",
-                        "game_clock": true,
-                        "deeper_play_by_play": true,
-                        "deeper_player_stats": true,
-                        "deeper_team_stats": true,
-                        "basic_play_by_play": true,
-                        "basic_player_stats": true,
-                        "basic_team_stats": true
-                    }
-                },
-                "competitors": [
-                    {
-                        "id": "sr:competitor:40",
-                        "name": "Aston Villa",
-                        "country": "England",
-                        "country_code": "ENG",
-                        "abbreviation": "AVL",
-                        "qualifier": "home",
-                        "gender": "male"
-                    },
-                    {
-                        "id": "sr:competitor:7",
-                        "name": "Crystal Palace",
-                        "country": "England",
-                        "country_code": "ENG",
-                        "abbreviation": "CRY",
-                        "qualifier": "away",
-                        "gender": "male"
-                    }
-                ],
-                "venue": {
-                    "id": "sr:venue:815",
-                    "name": "Villa Park",
-                    "capacity": 42640,
-                    "city_name": "Birmingham",
-                    "country_name": "England",
-                    "map_coordinates": "52.509212,-1.885288",
-                    "country_code": "ENG",
-                    "timezone": "Europe/London"
-                }
-            },
-            "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
-            }
-        },
-        {
-            "sport_event": {
                 "id": "sr:sport_event:61300549",
                 "start_time": "2025-08-30T11:30:00+00:00",
                 "start_time_confirmed": true,
@@ -3321,6 +3214,113 @@
         },
         {
             "sport_event": {
+                "id": "sr:sport_event:61300545",
+                "start_time": "2025-08-31T18:00:00+00:00",
+                "start_time_confirmed": true,
+                "sport_event_context": {
+                    "sport": {
+                        "id": "sr:sport:1",
+                        "name": "Soccer"
+                    },
+                    "category": {
+                        "id": "sr:category:1",
+                        "name": "England",
+                        "country_code": "ENG"
+                    },
+                    "competition": {
+                        "id": "sr:competition:17",
+                        "name": "Premier League",
+                        "gender": "men"
+                    },
+                    "season": {
+                        "id": "sr:season:130281",
+                        "name": "Premier League 25/26",
+                        "start_date": "2025-08-15",
+                        "end_date": "2026-05-24",
+                        "year": "25/26",
+                        "competition_id": "sr:competition:17"
+                    },
+                    "stage": {
+                        "order": 1,
+                        "type": "league",
+                        "phase": "regular season",
+                        "start_date": "2025-08-15",
+                        "end_date": "2026-05-24",
+                        "year": "25/26"
+                    },
+                    "round": {
+                        "number": 3
+                    },
+                    "groups": [
+                        {
+                            "id": "sr:league:95139",
+                            "name": "Premier League 25/26"
+                        }
+                    ]
+                },
+                "coverage": {
+                    "type": "sport_event",
+                    "sport_event_properties": {
+                        "lineups": true,
+                        "formations": false,
+                        "venue": true,
+                        "extended_play_by_play": true,
+                        "extended_player_stats": true,
+                        "extended_team_stats": true,
+                        "lineups_availability": "pre",
+                        "ballspotting": false,
+                        "commentary": true,
+                        "fun_facts": true,
+                        "goal_scorers": true,
+                        "goal_scorers_live": true,
+                        "scores": "live",
+                        "game_clock": true,
+                        "deeper_play_by_play": true,
+                        "deeper_player_stats": true,
+                        "deeper_team_stats": true,
+                        "basic_play_by_play": true,
+                        "basic_player_stats": true,
+                        "basic_team_stats": true
+                    }
+                },
+                "competitors": [
+                    {
+                        "id": "sr:competitor:40",
+                        "name": "Aston Villa",
+                        "country": "England",
+                        "country_code": "ENG",
+                        "abbreviation": "AVL",
+                        "qualifier": "home",
+                        "gender": "male"
+                    },
+                    {
+                        "id": "sr:competitor:7",
+                        "name": "Crystal Palace",
+                        "country": "England",
+                        "country_code": "ENG",
+                        "abbreviation": "CRY",
+                        "qualifier": "away",
+                        "gender": "male"
+                    }
+                ],
+                "venue": {
+                    "id": "sr:venue:815",
+                    "name": "Villa Park",
+                    "capacity": 42640,
+                    "city_name": "Birmingham",
+                    "country_name": "England",
+                    "map_coordinates": "52.509212,-1.885288",
+                    "country_code": "ENG",
+                    "timezone": "Europe/London"
+                }
+            },
+            "sport_event_status": {
+                "status": "not_started",
+                "match_status": "not_started"
+            }
+        },
+        {
+            "sport_event": {
                 "id": "sr:sport_event:61300567",
                 "start_time": "2025-09-13T11:30:00+00:00",
                 "start_time_confirmed": true,
@@ -3382,9 +3382,9 @@
                         "goal_scorers_live": true,
                         "scores": "live",
                         "game_clock": true,
-                        "deeper_play_by_play": false,
-                        "deeper_player_stats": false,
-                        "deeper_team_stats": false,
+                        "deeper_play_by_play": true,
+                        "deeper_player_stats": true,
+                        "deeper_team_stats": true,
                         "basic_play_by_play": true,
                         "basic_player_stats": true,
                         "basic_team_stats": true
@@ -3489,9 +3489,9 @@
                         "goal_scorers_live": true,
                         "scores": "live",
                         "game_clock": true,
-                        "deeper_play_by_play": false,
-                        "deeper_player_stats": false,
-                        "deeper_team_stats": false,
+                        "deeper_play_by_play": true,
+                        "deeper_player_stats": true,
+                        "deeper_team_stats": true,
                         "basic_play_by_play": true,
                         "basic_player_stats": true,
                         "basic_team_stats": true
@@ -3596,9 +3596,9 @@
                         "goal_scorers_live": true,
                         "scores": "live",
                         "game_clock": true,
-                        "deeper_play_by_play": false,
-                        "deeper_player_stats": false,
-                        "deeper_team_stats": false,
+                        "deeper_play_by_play": true,
+                        "deeper_player_stats": true,
+                        "deeper_team_stats": true,
                         "basic_play_by_play": true,
                         "basic_player_stats": true,
                         "basic_team_stats": true
@@ -3703,9 +3703,9 @@
                         "goal_scorers_live": true,
                         "scores": "live",
                         "game_clock": true,
-                        "deeper_play_by_play": false,
-                        "deeper_player_stats": false,
-                        "deeper_team_stats": false,
+                        "deeper_play_by_play": true,
+                        "deeper_player_stats": true,
+                        "deeper_team_stats": true,
                         "basic_play_by_play": true,
                         "basic_player_stats": true,
                         "basic_team_stats": true
@@ -3810,9 +3810,9 @@
                         "goal_scorers_live": true,
                         "scores": "live",
                         "game_clock": true,
-                        "deeper_play_by_play": false,
-                        "deeper_player_stats": false,
-                        "deeper_team_stats": false,
+                        "deeper_play_by_play": true,
+                        "deeper_player_stats": true,
+                        "deeper_team_stats": true,
                         "basic_play_by_play": true,
                         "basic_player_stats": true,
                         "basic_team_stats": true
@@ -3917,9 +3917,9 @@
                         "goal_scorers_live": true,
                         "scores": "live",
                         "game_clock": true,
-                        "deeper_play_by_play": false,
-                        "deeper_player_stats": false,
-                        "deeper_team_stats": false,
+                        "deeper_play_by_play": true,
+                        "deeper_player_stats": true,
+                        "deeper_team_stats": true,
                         "basic_play_by_play": true,
                         "basic_player_stats": true,
                         "basic_team_stats": true
@@ -4024,9 +4024,9 @@
                         "goal_scorers_live": true,
                         "scores": "live",
                         "game_clock": true,
-                        "deeper_play_by_play": false,
-                        "deeper_player_stats": false,
-                        "deeper_team_stats": false,
+                        "deeper_play_by_play": true,
+                        "deeper_player_stats": true,
+                        "deeper_team_stats": true,
                         "basic_play_by_play": true,
                         "basic_player_stats": true,
                         "basic_team_stats": true

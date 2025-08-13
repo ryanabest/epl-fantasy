@@ -2,7 +2,7 @@
   export let year;
   export let teams;
   import d3 from "../js/d3";
-  import { colors } from "../js/utils/teams";
+  import { colors } from "../js/utils/teamColors";
   import { slugify } from "../js/utils/format";
 
   // with 8 teams, we were 500px tall

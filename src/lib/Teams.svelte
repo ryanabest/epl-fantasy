@@ -1,7 +1,7 @@
 <script>
   export let year;
   export let teams;
-  import { formatNum } from "../js/utils/format";
+  import { formatNum, eplTeamDisplayNameLookup } from "../js/utils/format";
   import Sparkline from "./Sparkline.svelte";
   const teamsSorted = teams.sort((a, b) => b.points - a.points);
 
@@ -44,9 +44,9 @@
             <tr>
               <td class=player>
                 {player.playerName}
-                <span class=pos>#{player.jersey}</span>
+                {#if player.jersey}<span class=pos>#{player.jersey}</span>{/if}
               </td>
-              <td class=team>{player.playerTeam}</td>
+              <td class=team>{eplTeamDisplayNameLookup[player.playerTeam] || player.playerTeam}</td>
               <td class=goals>{formatNum(player.stats.goals)}</td>
               <td class=assists>{formatNum(player.stats.assists)}</td>
               <td class=own_goals>{formatNum(player.stats.own_goals)}</td>

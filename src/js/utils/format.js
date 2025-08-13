@@ -5,3 +5,10 @@ export const slugify = (str) => {
 export const formatNum = (num) => {
   return num === 0 ? '.' : num;
 }
+
+export const eplTeamDisplayNameLookup = {
+  'Manchester United': 'Man Utd',
+  'Manchester City': 'Man City',
+  'Leeds United': 'Leeds',
+  'Wolverhampton': 'Wolves',
+}

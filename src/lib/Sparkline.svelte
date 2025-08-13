@@ -3,7 +3,7 @@
   export let team;
   export let maxPts;
   import d3 from "../js/d3";
-  import { colors } from "../js/utils/teams";
+  import { colors } from "../js/utils/teamColors";
 
   let width; // this will be populated with the width of our chart containers via svelte's bind:clientWidth={w}
   let height; // this will be populated with the height of our chart containers via svelte's bind:clientHeight={w}
