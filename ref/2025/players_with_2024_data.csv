@@ -176,7 +176,6 @@ Will Hughes,CRY,Crystal Palace,MID,19,0,3,0,1.5,true,sr:player:193554
 Maxence Lacroix,CRY,Crystal Palace,DEF,5,1,1,0,1.5,false,sr:player:1132173
 Justin Devenny,CRY,Crystal Palace,MID,55,1,1,0,1.5,true,sr:player:2325471
 Romain Esse,CRY,Crystal Palace,MID,21,1,1,0,1.5,true,sr:player:2530513
-Jack Grealish,MCI,Manchester City,MID,10,1,1,0,1.5,true,sr:player:189061
 Jan Paul van Hecke,BRI,Brighton,DEF,6,1,1,0,1.5,true,sr:player:1630352
 Jack Harrison,LEE,Leeds United,MID,38,1,1,0,1.5,false,sr:player:951350
 Diogo Dalot,MUN,Manchester United,DEF,2,0,3,0,1.5,true,sr:player:817522
@@ -189,6 +188,7 @@ Matty Cash,AVL,Aston Villa,DEF,2,1,1,0,1.5,true,sr:player:968907
 Reiss Nelson,ARS,Arsenal,FWD,24,1,1,0,1.5,true,sr:player:936316
 Idrissa Gana Gueye,EVE,Everton,MID,27,0,3,0,1.5,true,sr:player:106337
 James Tarkovsky,EVE,Everton,DEF,6,1,1,0,1.5,true,sr:player:145188
+Jack Grealish,EVE,Everton,MID,18,1,1,0,1.5,true,sr:player:189061
 Tyler Adams,BOU,Bournemouth,MID,12,0,3,0,1.5,true,sr:player:809778
 Luis Sinisterra,BOU,Bournemouth,FWD,17,1,1,0,1.5,true,sr:player:1124571
 Emmanuel Agbadou,WOL,Wolverhampton,DEF,12,1,0,0,1,true,sr:player:2062765
@@ -253,7 +253,6 @@ Jarrad Branthwaite,EVE,Everton,MID,32,0,1,0,0.5,true,sr:player:1720484
 Tim Iroegbunam,EVE,Everton,MID,42,0,1,0,0.5,true,sr:player:2161262
 Vitaly Janelt,BRE,Brentford,MID,27,1,3,2,0.5,true,sr:player:822586
 Michael Kayode,BRE,Brentford,DEF,33,0,1,0,0.5,false,sr:player:2164250
-Illia Zabarnyi,BOU,Bournemouth,DEF,27,0,1,0,0.5,true,sr:player:1631296
 James Hill,BOU,Bournemouth,DEF,23,0,1,0,0.5,true,sr:player:1653565
 Sam Johnstone,WOL,Wolverhampton,GK,31,0,0,0,0,true,sr:player:98427
 Daniel Bentley,WOL,Wolverhampton,GK,25,0,0,0,0,true,sr:player:101367
@@ -415,6 +414,7 @@ Sam Greenwood,LEE,Leeds United,FWD,19,0,0,0,0,false,sr:player:1724640
 Isaac Schmidt,LEE,Leeds United,MID,33,0,0,0,0,false,sr:player:1830502
 Gnonto Wilfried,LEE,Leeds United,FWD,29,0,0,0,0,false,sr:player:1949774
 Darko Gyabi,LEE,Leeds United,MID,18,0,0,0,0,false,sr:player:2269345
+Sam Chambers,LEE,Leeds United,MID,42,0,0,0,0,false,sr:player:2846515
 Harry Gray,LEE,Leeds United,FWD,45,0,0,0,0,false,sr:player:2974627
 Rhys Chadwick,LEE,Leeds United,MID,51,0,0,0,0,false,sr:player:3024882
 Tom Heaton,MUN,Manchester United,GK,22,0,0,0,0,true,sr:player:18122
@@ -484,7 +484,6 @@ Reggie Walsh,CHE,Chelsea,MID,81,0,0,0,0,true,sr:player:2956109
 Landon Emenalo,CHE,Chelsea,MID,72,0,0,0,0,true,sr:player:2973027
 John Ruddy,NEW,Newcastle,GK,26,0,0,0,0,true,sr:player:1131
 Mark Gillespie,NEW,Newcastle,GK,29,0,0,0,0,true,sr:player:108508
-Odysseas Vlachodimos,NEW,Newcastle,GK,19,0,0,0,0,true,sr:player:138149
 Emil Krafth,NEW,Newcastle,DEF,17,0,0,0,0,true,sr:player:150396
 Jamaal Lascelles,NEW,Newcastle,DEF,6,0,0,0,0,true,sr:player:153444
 Nick Pope,NEW,Newcastle,GK,22,0,0,0,0,true,sr:player:162653
@@ -492,6 +491,7 @@ Matt Targett,NEW,Newcastle,DEF,13,0,0,0,0,true,sr:player:368134
 Aaron Ramsdale,NEW,Newcastle,GK,32,0,0,0,0,true,sr:player:988185
 Sven Botman,NEW,Newcastle,DEF,4,0,0,0,0,true,sr:player:1059315
 Harrison Ashby,NEW,Newcastle,DEF,30,0,0,0,0,true,sr:player:1428671
+Malick Thiaw,NEW,Newcastle,DEF,,0,0,0,0,false,sr:player:1576076
 Garang Kuol,NEW,Newcastle,FWD,38,0,0,0,0,true,sr:player:2296791
 Alex Murphy,NEW,Newcastle,DEF,37,0,0,0,0,true,sr:player:2306785
 Travis Hernes,NEW,Newcastle,MID,45,0,0,0,0,false,sr:player:2552281
@@ -511,7 +511,6 @@ Tyrone Mings,AVL,Aston Villa,DEF,5,0,0,0,0,true,sr:player:303638
 Emiliano Buendia,AVL,Aston Villa,MID,10,0,0,0,0,true,sr:player:783126
 Pau Torres,AVL,Aston Villa,DEF,14,0,0,0,0,true,sr:player:944170
 Evann Guessand,AVL,Aston Villa,FWD,29,0,0,0,0,false,sr:player:1428491
-Joe Gauci,AVL,Aston Villa,GK,18,0,0,0,0,true,sr:player:1619862
 Samuel Iling-Junior,AVL,Aston Villa,FWD,19,0,0,0,0,true,sr:player:1969761
 Lamare Bogarde,AVL,Aston Villa,MID,26,0,0,0,0,true,sr:player:2115982
 Lewis Dobbin,AVL,Aston Villa,FWD,33,0,0,0,0,true,sr:player:2227838
@@ -530,6 +529,7 @@ Arthur Masuaku,SUN,Sunderland,DEF,,0,0,0,0,false,sr:player:174975
 Alan Browne,SUN,Sunderland,MID,8,0,0,0,0,false,sr:player:247459
 Patrick Roberts,SUN,Sunderland,MID,10,0,0,0,0,false,sr:player:361326
 Luke O'Nien,SUN,Sunderland,MID,13,0,0,0,0,false,sr:player:365812
+Omar Alderete,SUN,Sunderland,DEF,15,0,0,0,0,false,sr:player:795808
 Nazariy Rusyn,SUN,Sunderland,MID,15,0,0,0,0,false,sr:player:822670
 Reinildo Mandava,SUN,Sunderland,DEF,,0,0,0,0,false,sr:player:929870
 Ian Poveda,SUN,Sunderland,FWD,36,0,0,0,0,false,sr:player:1047157
@@ -644,14 +644,17 @@ Djordje Petrovic,BOU,Bournemouth,GK,28,0,0,0,0,true,sr:player:1060571
 Chris Mepham,BOU,Bournemouth,DEF,6,0,0,0,0,true,sr:player:1089958
 Hamed Junior Traore,BOU,Bournemouth,MID,25,0,0,0,0,true,sr:player:1265202
 Romain Faivre,BOU,Bournemouth,MID,21,0,0,0,0,true,sr:player:1368608
+Bafode Diakite,BOU,Bournemouth,DEF,,0,0,0,0,false,sr:player:1632510
 Julian Araujo,BOU,Bournemouth,DEF,2,0,0,0,0,true,sr:player:1712141
 Will Dennis,BOU,Bournemouth,GK,40,0,0,0,0,true,sr:player:1839276
 Adrien Truffert,BOU,Bournemouth,DEF,3,0,0,0,0,false,sr:player:1951496
 Alex Paulsen,BOU,Bournemouth,GK,13,0,0,0,0,true,sr:player:1957315
 Alex Jay Scott,BOU,Bournemouth,MID,8,0,0,0,0,true,sr:player:2131960
 Julio Soler,BOU,Bournemouth,DEF,20,0,0,0,0,true,sr:player:2336441
+Owen Bevan,BOU,Bournemouth,DEF,,0,0,0,0,false,sr:player:2407007
 Matai Akinmboni,BOU,Bournemouth,DEF,45,0,0,0,0,true,sr:player:2431805
 Daniel Adu-Adjei,BOU,Bournemouth,FWD,44,0,0,0,0,true,sr:player:2539033
+Callan Mckenna,BOU,Bournemouth,GK,46,0,0,0,0,true,sr:player:2540939
 Eli Junior Kroupi,BOU,Bournemouth,FWD,22,0,0,0,0,true,sr:player:2592883
 Ben Winterburn,BOU,Bournemouth,MID,47,0,0,0,0,true,sr:player:2904977
 Remy Rees-Dottin,BOU,Bournemouth,FWD,50,0,0,0,0,true,sr:player:2922797
