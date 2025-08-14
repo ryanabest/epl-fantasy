@@ -11,4 +11,5 @@ export const eplTeamDisplayNameLookup = {
   'Manchester City': 'Man City',
   'Leeds United': 'Leeds',
   'Wolverhampton': 'Wolves',
+  'Nottingham': 'Nottm Forest',
 }
