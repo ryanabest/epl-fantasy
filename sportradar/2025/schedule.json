@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-08-13T16:46:16+00:00",
+    "generated_at": "2025-08-18T14:22:33+00:00",
     "schedules": [
         {
             "sport_event": {
@@ -104,8 +104,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 4,
+                "away_score": 2,
+                "winner_id": "sr:competitor:44",
+                "period_scores": [
+                    {
+                        "home_score": 1,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 3,
+                        "away_score": 2,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ]
             }
         },
         {
@@ -211,8 +228,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 0,
+                "away_score": 0,
+                "period_scores": [
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ],
+                "match_tie": true
             }
         },
         {
@@ -318,8 +352,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 1,
+                "away_score": 1,
+                "period_scores": [
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 1,
+                        "away_score": 1,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ],
+                "match_tie": true
             }
         },
         {
@@ -425,8 +476,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 3,
+                "away_score": 0,
+                "winner_id": "sr:competitor:41",
+                "period_scores": [
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 3,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ]
             }
         },
         {
@@ -532,8 +600,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 3,
+                "away_score": 0,
+                "winner_id": "sr:competitor:33",
+                "period_scores": [
+                    {
+                        "home_score": 1,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 2,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ]
             }
         },
         {
@@ -639,8 +724,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 0,
+                "away_score": 4,
+                "winner_id": "sr:competitor:17",
+                "period_scores": [
+                    {
+                        "home_score": 0,
+                        "away_score": 2,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 0,
+                        "away_score": 2,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ]
             }
         },
         {
@@ -746,8 +848,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 3,
+                "away_score": 1,
+                "winner_id": "sr:competitor:14",
+                "period_scores": [
+                    {
+                        "home_score": 3,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 0,
+                        "away_score": 1,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ]
             }
         },
         {
@@ -853,8 +972,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 0,
+                "away_score": 0,
+                "period_scores": [
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ],
+                "match_tie": true
             }
         },
         {
@@ -960,8 +1096,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 0,
+                "away_score": 1,
+                "winner_id": "sr:competitor:42",
+                "period_scores": [
+                    {
+                        "home_score": 0,
+                        "away_score": 1,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ]
             }
         },
         {
@@ -1341,7 +1494,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -1448,7 +1601,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -1555,7 +1708,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -1770,7 +1923,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -1877,7 +2030,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -1984,7 +2137,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -2091,7 +2244,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -2198,7 +2351,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -2305,7 +2458,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -2412,7 +2565,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -2626,7 +2779,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -2840,7 +2993,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -2947,7 +3100,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -3054,7 +3207,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -3161,7 +3314,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -3268,7 +3421,7 @@
                         "extended_player_stats": true,
                         "extended_team_stats": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "goal_scorers": true,
@@ -4131,9 +4284,9 @@
                         "goal_scorers_live": true,
                         "scores": "live",
                         "game_clock": true,
-                        "deeper_play_by_play": false,
-                        "deeper_player_stats": false,
-                        "deeper_team_stats": false,
+                        "deeper_play_by_play": true,
+                        "deeper_player_stats": true,
+                        "deeper_team_stats": true,
                         "basic_play_by_play": true,
                         "basic_player_stats": true,
                         "basic_team_stats": true
@@ -4238,9 +4391,9 @@
                         "goal_scorers_live": true,
                         "scores": "live",
                         "game_clock": true,
-                        "deeper_play_by_play": false,
-                        "deeper_player_stats": false,
-                        "deeper_team_stats": false,
+                        "deeper_play_by_play": true,
+                        "deeper_player_stats": true,
+                        "deeper_team_stats": true,
                         "basic_play_by_play": true,
                         "basic_player_stats": true,
                         "basic_team_stats": true
@@ -4345,9 +4498,9 @@
                         "goal_scorers_live": true,
                         "scores": "live",
                         "game_clock": true,
-                        "deeper_play_by_play": false,
-                        "deeper_player_stats": false,
-                        "deeper_team_stats": false,
+                        "deeper_play_by_play": true,
+                        "deeper_player_stats": true,
+                        "deeper_team_stats": true,
                         "basic_play_by_play": true,
                         "basic_player_stats": true,
                         "basic_team_stats": true
