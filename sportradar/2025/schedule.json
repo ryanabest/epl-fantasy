@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-08-23T23:32:19+00:00",
+    "generated_at": "2025-08-25T14:24:00+00:00",
     "schedules": [
         {
             "sport_event": {
@@ -2196,8 +2196,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 1,
+                "away_score": 1,
+                "period_scores": [
+                    {
+                        "home_score": 1,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 0,
+                        "away_score": 1,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ],
+                "match_tie": true
             }
         },
         {
@@ -2293,8 +2310,8 @@
                 ],
                 "venue": {
                     "id": "sr:venue:83422",
-                    "name": "Everton Stadium",
-                    "capacity": 52888,
+                    "name": "Hill Dickinson Stadium",
+                    "capacity": 52769,
                     "city_name": "Liverpool",
                     "country_name": "England",
                     "map_coordinates": "53.4251, -3.0028",
@@ -2303,8 +2320,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 2,
+                "away_score": 0,
+                "winner_id": "sr:competitor:48",
+                "period_scores": [
+                    {
+                        "home_score": 1,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 1,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ]
             }
         },
         {
@@ -2410,8 +2444,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 1,
+                "away_score": 1,
+                "period_scores": [
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 1,
+                        "away_score": 1,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ],
+                "match_tie": true
             }
         },
         {
@@ -4005,8 +4056,8 @@
                 ],
                 "venue": {
                     "id": "sr:venue:83422",
-                    "name": "Everton Stadium",
-                    "capacity": 52888,
+                    "name": "Hill Dickinson Stadium",
+                    "capacity": 52769,
                     "city_name": "Liverpool",
                     "country_name": "England",
                     "map_coordinates": "53.4251, -3.0028",
@@ -6252,8 +6303,8 @@
                 ],
                 "venue": {
                     "id": "sr:venue:83422",
-                    "name": "Everton Stadium",
-                    "capacity": 52888,
+                    "name": "Hill Dickinson Stadium",
+                    "capacity": 52769,
                     "city_name": "Liverpool",
                     "country_name": "England",
                     "map_coordinates": "53.4251, -3.0028",
@@ -6895,8 +6946,8 @@
                 ],
                 "venue": {
                     "id": "sr:venue:83422",
-                    "name": "Everton Stadium",
-                    "capacity": 52888,
+                    "name": "Hill Dickinson Stadium",
+                    "capacity": 52769,
                     "city_name": "Liverpool",
                     "country_name": "England",
                     "map_coordinates": "53.4251, -3.0028",
@@ -7323,8 +7374,8 @@
                 ],
                 "venue": {
                     "id": "sr:venue:83422",
-                    "name": "Everton Stadium",
-                    "capacity": 52888,
+                    "name": "Hill Dickinson Stadium",
+                    "capacity": 52769,
                     "city_name": "Liverpool",
                     "country_name": "England",
                     "map_coordinates": "53.4251, -3.0028",
@@ -10213,8 +10264,8 @@
                 ],
                 "venue": {
                     "id": "sr:venue:83422",
-                    "name": "Everton Stadium",
-                    "capacity": 52888,
+                    "name": "Hill Dickinson Stadium",
+                    "capacity": 52769,
                     "city_name": "Liverpool",
                     "country_name": "England",
                     "map_coordinates": "53.4251, -3.0028",
@@ -11818,8 +11869,8 @@
                 ],
                 "venue": {
                     "id": "sr:venue:83422",
-                    "name": "Everton Stadium",
-                    "capacity": 52888,
+                    "name": "Hill Dickinson Stadium",
+                    "capacity": 52769,
                     "city_name": "Liverpool",
                     "country_name": "England",
                     "map_coordinates": "53.4251, -3.0028",
@@ -13958,8 +14009,8 @@
                 ],
                 "venue": {
                     "id": "sr:venue:83422",
-                    "name": "Everton Stadium",
-                    "capacity": 52888,
+                    "name": "Hill Dickinson Stadium",
+                    "capacity": 52769,
                     "city_name": "Liverpool",
                     "country_name": "England",
                     "map_coordinates": "53.4251, -3.0028",
@@ -15991,8 +16042,8 @@
                 ],
                 "venue": {
                     "id": "sr:venue:83422",
-                    "name": "Everton Stadium",
-                    "capacity": 52888,
+                    "name": "Hill Dickinson Stadium",
+                    "capacity": 52769,
                     "city_name": "Liverpool",
                     "country_name": "England",
                     "map_coordinates": "53.4251, -3.0028",
@@ -18131,8 +18182,8 @@
                 ],
                 "venue": {
                     "id": "sr:venue:83422",
-                    "name": "Everton Stadium",
-                    "capacity": 52888,
+                    "name": "Hill Dickinson Stadium",
+                    "capacity": 52769,
                     "city_name": "Liverpool",
                     "country_name": "England",
                     "map_coordinates": "53.4251, -3.0028",
@@ -21341,8 +21392,8 @@
                 ],
                 "venue": {
                     "id": "sr:venue:83422",
-                    "name": "Everton Stadium",
-                    "capacity": 52888,
+                    "name": "Hill Dickinson Stadium",
+                    "capacity": 52769,
                     "city_name": "Liverpool",
                     "country_name": "England",
                     "map_coordinates": "53.4251, -3.0028",
@@ -22518,8 +22569,8 @@
                 ],
                 "venue": {
                     "id": "sr:venue:83422",
-                    "name": "Everton Stadium",
-                    "capacity": 52888,
+                    "name": "Hill Dickinson Stadium",
+                    "capacity": 52769,
                     "city_name": "Liverpool",
                     "country_name": "England",
                     "map_coordinates": "53.4251, -3.0028",
@@ -24765,8 +24816,8 @@
                 ],
                 "venue": {
                     "id": "sr:venue:83422",
-                    "name": "Everton Stadium",
-                    "capacity": 52888,
+                    "name": "Hill Dickinson Stadium",
+                    "capacity": 52769,
                     "city_name": "Liverpool",
                     "country_name": "England",
                     "map_coordinates": "53.4251, -3.0028",
@@ -27654,8 +27705,8 @@
                 ],
                 "venue": {
                     "id": "sr:venue:83422",
-                    "name": "Everton Stadium",
-                    "capacity": 52888,
+                    "name": "Hill Dickinson Stadium",
+                    "capacity": 52769,
                     "city_name": "Liverpool",
                     "country_name": "England",
                     "map_coordinates": "53.4251, -3.0028",
@@ -28938,8 +28989,8 @@
                 ],
                 "venue": {
                     "id": "sr:venue:83422",
-                    "name": "Everton Stadium",
-                    "capacity": 52888,
+                    "name": "Hill Dickinson Stadium",
+                    "capacity": 52769,
                     "city_name": "Liverpool",
                     "country_name": "England",
                     "map_coordinates": "53.4251, -3.0028",
@@ -30864,8 +30915,8 @@
                 ],
                 "venue": {
                     "id": "sr:venue:83422",
-                    "name": "Everton Stadium",
-                    "capacity": 52888,
+                    "name": "Hill Dickinson Stadium",
+                    "capacity": 52769,
                     "city_name": "Liverpool",
                     "country_name": "England",
                     "map_coordinates": "53.4251, -3.0028",
@@ -33111,8 +33162,8 @@
                 ],
                 "venue": {
                     "id": "sr:venue:83422",
-                    "name": "Everton Stadium",
-                    "capacity": 52888,
+                    "name": "Hill Dickinson Stadium",
+                    "capacity": 52769,
                     "city_name": "Liverpool",
                     "country_name": "England",
                     "map_coordinates": "53.4251, -3.0028",
@@ -35358,8 +35409,8 @@
                 ],
                 "venue": {
                     "id": "sr:venue:83422",
-                    "name": "Everton Stadium",
-                    "capacity": 52888,
+                    "name": "Hill Dickinson Stadium",
+                    "capacity": 52769,
                     "city_name": "Liverpool",
                     "country_name": "England",
                     "map_coordinates": "53.4251, -3.0028",
@@ -37605,8 +37656,8 @@
                 ],
                 "venue": {
                     "id": "sr:venue:83422",
-                    "name": "Everton Stadium",
-                    "capacity": 52888,
+                    "name": "Hill Dickinson Stadium",
+                    "capacity": 52769,
                     "city_name": "Liverpool",
                     "country_name": "England",
                     "map_coordinates": "53.4251, -3.0028",
@@ -39745,8 +39796,8 @@
                 ],
                 "venue": {
                     "id": "sr:venue:83422",
-                    "name": "Everton Stadium",
-                    "capacity": 52888,
+                    "name": "Hill Dickinson Stadium",
+                    "capacity": 52769,
                     "city_name": "Liverpool",
                     "country_name": "England",
                     "map_coordinates": "53.4251, -3.0028",
