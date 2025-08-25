@@ -5,8 +5,7 @@
   import { colors } from "../js/utils/teamColors";
   import { slugify } from "../js/utils/format";
 
-  // with 8 teams, we were 500px tall
-  const chartHeight = (500 / 8) * teams.length;
+  const chartHeight = (465 / 8) * teams.length;
 
   let width; // this will be populated with the width of our chart containers via svelte's bind:clientWidth={w}
   let height; // this will be populated with the height of our chart containers via svelte's bind:clientHeight={w}
