@@ -109,7 +109,7 @@
       <g class="axis-g" bind:this={gy}></g>
       <g class="swoop-g">
         {#each teamsSorted as d}
-          <path d={swoopyLine(d.swoopyData)} stroke={colors[year][d.team]} stroke-width=1 stroke-linecap="round" stroke-dasharray="0 2"></path>
+          <path d={swoopyLine(d.swoopyData)} stroke={colors[year][d.team]} stroke-width=2 stroke-linecap="round" stroke-dasharray="0 4"></path>
         {/each}
       </g>
       <g class="line-g">
