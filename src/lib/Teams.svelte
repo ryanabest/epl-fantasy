@@ -40,7 +40,17 @@
             <th class=own_goals>OG</th>
             <th class=points>Pts</th>
           </tr>
-          {#each team.players.sort((a, b) => b.stats.points - a.stats.points) as player}
+          {#each team.players.sort((a, b) => {
+            if (a.stats.points > b.stats.points) return -1;
+            else if (a.stats.points < b.stats.points) return 1;
+            else if (a.stats.goals > b.stats.goals) return -1;
+            else if (a.stats.goals < b.stats.goals) return 1;
+            else if (a.stats.assists > b.stats.assists) return -1;
+            else if (a.stats.assists < b.stats.assists) return 1;
+            else if (a.stats.own_goals > b.stats.own_goals) return 1;
+            else if (a.stats.own_goals < b.stats.own_goals) return -1;
+            else return 1;
+          }) as player}
             <tr>
               <td class=player>
                 {player.playerName}
