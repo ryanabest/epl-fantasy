@@ -1,0 +1,139 @@
+{
+    "generated_at": "2025-09-28T15:03:14+00:00",
+    "player": {
+        "id": "sr:player:1265128",
+        "name": "Tonali, Sandro",
+        "type": "midfielder",
+        "date_of_birth": "2000-05-08",
+        "nationality": "Italy",
+        "country_code": "ITA",
+        "height": 181,
+        "weight": 80,
+        "jersey_number": 8,
+        "preferred_foot": "right",
+        "place_of_birth": "Lodi",
+        "country_of_birth": "Italy",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:39",
+            "name": "Newcastle United",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "NEW",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4707",
+            "name": "Italy",
+            "country": "Italy",
+            "country_code": "ITA",
+            "abbreviation": "ITA",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4707",
+                "name": "Italy",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "ITA",
+                "gender": "male"
+            },
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4888",
+                "name": "Italy",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "ITA",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "end_date": "2025-05-24 00:00:00",
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22522",
+                "name": "Italy",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "ITA",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 18
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2691",
+                "name": "Brescia Calcio",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "BRE",
+                "gender": "male"
+            },
+            "start_date": "2017-01-01 00:00:00",
+            "end_date": "2021-07-07 00:00:00",
+            "jersey_number": 4
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2692",
+                "name": "AC Milan",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "ACM",
+                "gender": "male"
+            },
+            "start_date": "2020-09-09 00:00:00",
+            "end_date": "2021-06-30 00:00:00",
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2692",
+                "name": "AC Milan",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "ACM",
+                "gender": "male"
+            },
+            "start_date": "2021-07-08 00:00:00",
+            "end_date": "2023-07-02 00:00:00",
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:39",
+                "name": "Newcastle United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "NEW",
+                "gender": "male"
+            },
+            "start_date": "2023-07-03 00:00:00",
+            "jersey_number": 8
+        }
+    ]
+}

@@ -1,0 +1,155 @@
+{
+    "generated_at": "2025-09-28T15:07:20+00:00",
+    "player": {
+        "id": "sr:player:331737",
+        "name": "Tielemans, Youri",
+        "type": "midfielder",
+        "date_of_birth": "1997-05-07",
+        "nationality": "Belgium",
+        "country_code": "BEL",
+        "height": 176,
+        "weight": 72,
+        "jersey_number": 8,
+        "preferred_foot": "both",
+        "place_of_birth": "Sint-Pieters-Leeuw",
+        "country_of_birth": "Belgium",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:40",
+            "name": "Aston Villa",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "AVL",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4717",
+            "name": "Belgium",
+            "country": "Belgium",
+            "country_code": "BEL",
+            "abbreviation": "BEL",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4717",
+                "name": "Belgium",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "BEL",
+                "gender": "male"
+            },
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4877",
+                "name": "Belgium",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "BEL",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2900",
+                "name": "RSC Anderlecht",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "RSC",
+                "gender": "male"
+            },
+            "start_date": "2013-07-01 00:00:00",
+            "end_date": "2017-06-30 00:00:00",
+            "jersey_number": 31
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:90144",
+                "name": "RSC Anderlecht",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "RSA",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2013-07-01 00:00:00",
+            "end_date": "2016-06-30 00:00:00",
+            "jersey_number": 31
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1653",
+                "name": "AS Monaco",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "ASM",
+                "gender": "male"
+            },
+            "start_date": "2017-07-01 00:00:00",
+            "end_date": "2019-07-07 00:00:00",
+            "jersey_number": 8
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:31",
+                "name": "Leicester City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LEI",
+                "gender": "male"
+            },
+            "start_date": "2019-01-31 00:00:00",
+            "end_date": "2019-06-30 00:00:00",
+            "jersey_number": 21
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:31",
+                "name": "Leicester City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LEI",
+                "gender": "male"
+            },
+            "start_date": "2019-07-08 00:00:00",
+            "end_date": "2023-06-30 00:00:00",
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:40",
+                "name": "Aston Villa",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "AVL",
+                "gender": "male"
+            },
+            "start_date": "2023-07-01 00:00:00",
+            "jersey_number": 8
+        }
+    ]
+}

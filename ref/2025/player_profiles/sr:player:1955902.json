@@ -1,0 +1,104 @@
+{
+    "generated_at": "2025-09-28T15:05:41+00:00",
+    "player": {
+        "id": "sr:player:1955902",
+        "name": "Garnacho, Alejandro",
+        "type": "forward",
+        "date_of_birth": "2004-07-01",
+        "nationality": "Argentina",
+        "country_code": "ARG",
+        "height": 180,
+        "weight": 75,
+        "jersey_number": 49,
+        "preferred_foot": "right",
+        "place_of_birth": "Madrid (SPAIN)",
+        "country_of_birth": "Spain",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:38",
+            "name": "Chelsea FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CFC",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4819",
+                "name": "Argentina",
+                "country": "Argentina",
+                "country_code": "ARG",
+                "abbreviation": "ARG",
+                "gender": "male"
+            },
+            "jersey_number": 17
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:72022",
+                "name": "Atletico Madrid",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "ATM",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2021-06-30 00:00:00",
+            "jersey_number": 40
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:120848",
+                "name": "Manchester United FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MUN",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2021-07-01 00:00:00",
+            "end_date": "2024-12-31 00:00:00",
+            "jersey_number": 75
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:35",
+                "name": "Manchester United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MUN",
+                "gender": "male"
+            },
+            "start_date": "2022-04-16 00:00:00",
+            "end_date": "2025-08-29 00:00:00",
+            "jersey_number": 17
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:38",
+                "name": "Chelsea FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CFC",
+                "gender": "male"
+            },
+            "start_date": "2025-08-30 00:00:00",
+            "jersey_number": 49
+        }
+    ]
+}

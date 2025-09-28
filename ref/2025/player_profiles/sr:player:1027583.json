@@ -1,0 +1,169 @@
+{
+    "generated_at": "2025-09-28T15:05:29+00:00",
+    "player": {
+        "id": "sr:player:1027583",
+        "name": "Mateta, Jean-Philippe",
+        "type": "forward",
+        "date_of_birth": "1997-06-28",
+        "nationality": "France",
+        "country_code": "FRA",
+        "height": 192,
+        "weight": 84,
+        "jersey_number": 14,
+        "preferred_foot": "right",
+        "place_of_birth": "Sevran",
+        "country_of_birth": "France",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:7",
+            "name": "Crystal Palace",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CRY",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:789974",
+            "name": "France",
+            "country": "France",
+            "country_code": "FRA",
+            "abbreviation": "FRA",
+            "gender": "male",
+            "age_group": "U23"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5936",
+                "name": "France",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "FRA",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22509",
+                "name": "France",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "FRA",
+                "gender": "male",
+                "age_group": "U19"
+            }
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:789974",
+                "name": "France",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "FRA",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "jersey_number": 14
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1666",
+                "name": "LB Chateauroux",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "LBC",
+                "gender": "male"
+            },
+            "start_date": "2015-11-01 00:00:00",
+            "end_date": "2016-09-15 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1649",
+                "name": "Olympique Lyon",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "OL",
+                "gender": "male"
+            },
+            "start_date": "2016-09-16 00:00:00",
+            "end_date": "2018-06-30 00:00:00",
+            "jersey_number": 19
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1662",
+                "name": "Le Havre AC",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "HAC",
+                "gender": "male"
+            },
+            "start_date": "2017-07-01 00:00:00",
+            "end_date": "2018-06-30 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2556",
+                "name": "FSV Mainz",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "M05",
+                "gender": "male"
+            },
+            "start_date": "2018-07-01 00:00:00",
+            "end_date": "2022-01-30 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:7",
+                "name": "Crystal Palace",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CRY",
+                "gender": "male"
+            },
+            "start_date": "2021-01-21 00:00:00",
+            "end_date": "2022-01-29 00:00:00",
+            "jersey_number": 14
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:7",
+                "name": "Crystal Palace",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CRY",
+                "gender": "male"
+            },
+            "start_date": "2022-01-31 00:00:00",
+            "jersey_number": 14
+        }
+    ]
+}

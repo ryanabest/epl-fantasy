@@ -1,0 +1,239 @@
+{
+    "generated_at": "2025-09-28T15:00:23+00:00",
+    "player": {
+        "id": "sr:player:1886706",
+        "name": "Delap, Liam",
+        "type": "forward",
+        "date_of_birth": "2003-02-08",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 185,
+        "weight": 78,
+        "jersey_number": 19,
+        "preferred_foot": "right",
+        "place_of_birth": "Winchester",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:38",
+            "name": "Chelsea FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CFC",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:22505",
+            "name": "England",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ENG",
+            "gender": "male",
+            "age_group": "U19"
+        },
+        {
+            "id": "sr:competitor:35465",
+            "name": "England",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ENG",
+            "gender": "male",
+            "age_group": "U20"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6025",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "end_date": "2025-09-07 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:22505",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 19
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:35465",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U20"
+            },
+            "jersey_number": 19
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:36544",
+                "name": "Manchester City FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MCI",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "end_date": "2024-07-12 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:17",
+                "name": "Manchester City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MCI",
+                "gender": "male"
+            },
+            "start_date": "2020-07-01 00:00:00",
+            "end_date": "2021-06-30 00:00:00",
+            "jersey_number": 48
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:120856",
+                "name": "Manchester City FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MCI",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2021-07-01 00:00:00",
+            "end_date": "2023-01-11 00:00:00",
+            "jersey_number": 18
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:17",
+                "name": "Manchester City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MCI",
+                "gender": "male"
+            },
+            "start_date": "2022-02-01 00:00:00",
+            "end_date": "2022-06-30 00:00:00",
+            "jersey_number": 48
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:17",
+                "name": "Manchester City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MCI",
+                "gender": "male"
+            },
+            "start_date": "2022-07-01 00:00:00",
+            "end_date": "2024-07-12 00:00:00",
+            "jersey_number": 48
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:29",
+                "name": "Stoke City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "STK",
+                "gender": "male"
+            },
+            "start_date": "2022-08-18 00:00:00",
+            "end_date": "2023-01-10 00:00:00",
+            "jersey_number": 17
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:21",
+                "name": "Preston North End",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "PNE",
+                "gender": "male"
+            },
+            "start_date": "2023-01-12 00:00:00",
+            "end_date": "2023-05-30 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:96",
+                "name": "Hull City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "HUL",
+                "gender": "male"
+            },
+            "start_date": "2023-07-02 00:00:00",
+            "end_date": "2024-05-31 00:00:00",
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:32",
+                "name": "Ipswich Town",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "IPS",
+                "gender": "male"
+            },
+            "start_date": "2024-07-13 00:00:00",
+            "end_date": "2025-06-03 00:00:00",
+            "jersey_number": 19
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:38",
+                "name": "Chelsea FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CFC",
+                "gender": "male"
+            },
+            "start_date": "2025-06-04 00:00:00",
+            "jersey_number": 9
+        }
+    ]
+}

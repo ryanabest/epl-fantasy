@@ -1,0 +1,182 @@
+{
+    "generated_at": "2025-09-28T15:08:08+00:00",
+    "player": {
+        "id": "sr:player:592010",
+        "name": "Merino, Mikel",
+        "type": "midfielder",
+        "date_of_birth": "1996-06-22",
+        "nationality": "Spain",
+        "country_code": "ESP",
+        "height": 189,
+        "weight": 83,
+        "jersey_number": 6,
+        "preferred_foot": "left",
+        "place_of_birth": "Pamplona",
+        "country_of_birth": "Spain",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4698",
+            "name": "Spain",
+            "country": "Spain",
+            "country_code": "ESP",
+            "abbreviation": "ESP",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:42",
+            "name": "Arsenal FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ARS",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4698",
+                "name": "Spain",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "ESP",
+                "gender": "male"
+            },
+            "jersey_number": 6
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4891",
+                "name": "Spain",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "ESP",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22560",
+                "name": "Spain",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "ESP",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 6
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:69238",
+                "name": "Spain",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "ESP",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2820",
+                "name": "CA Osasuna",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "OSA",
+                "gender": "male"
+            },
+            "start_date": "2014-07-01 00:00:00",
+            "end_date": "2016-06-30 00:00:00",
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2673",
+                "name": "Borussia Dortmund",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "BVB",
+                "gender": "male"
+            },
+            "start_date": "2016-07-01 00:00:00",
+            "end_date": "2018-06-30 00:00:00",
+            "jersey_number": 24
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:39",
+                "name": "Newcastle United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "NEW",
+                "gender": "male"
+            },
+            "start_date": "2017-07-28 00:00:00",
+            "end_date": "2018-06-30 00:00:00",
+            "jersey_number": 23
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:39",
+                "name": "Newcastle United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "NEW",
+                "gender": "male"
+            },
+            "start_date": "2018-07-01 00:00:00",
+            "end_date": "2018-07-11 00:00:00",
+            "jersey_number": 23
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2824",
+                "name": "Real Sociedad San Sebastian",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "RSO",
+                "gender": "male"
+            },
+            "start_date": "2018-07-12 00:00:00",
+            "end_date": "2024-08-26 00:00:00",
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:42",
+                "name": "Arsenal FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ARS",
+                "gender": "male"
+            },
+            "start_date": "2024-08-27 00:00:00",
+            "jersey_number": 23
+        }
+    ]
+}

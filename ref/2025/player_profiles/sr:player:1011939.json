@@ -1,0 +1,125 @@
+{
+    "generated_at": "2025-09-28T15:07:59+00:00",
+    "player": {
+        "id": "sr:player:1011939",
+        "name": "Sarr, Ismaila",
+        "type": "forward",
+        "date_of_birth": "1998-02-25",
+        "nationality": "Senegal",
+        "country_code": "SEN",
+        "height": 175,
+        "weight": 76,
+        "jersey_number": 18,
+        "preferred_foot": "right",
+        "place_of_birth": "Saint Louis",
+        "country_of_birth": "Senegal",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:7",
+            "name": "Crystal Palace",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CRY",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4739",
+            "name": "Senegal",
+            "country": "Senegal",
+            "country_code": "SEN",
+            "abbreviation": "SEN",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4739",
+                "name": "Senegal",
+                "country": "Senegal",
+                "country_code": "SEN",
+                "abbreviation": "SEN",
+                "gender": "male"
+            },
+            "jersey_number": 18
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1651",
+                "name": "FC Metz",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "FCM",
+                "gender": "male"
+            },
+            "start_date": "2016-07-13 00:00:00",
+            "end_date": "2017-07-25 00:00:00",
+            "jersey_number": 26
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1658",
+                "name": "Stade Rennes",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "REN",
+                "gender": "male"
+            },
+            "start_date": "2017-07-26 00:00:00",
+            "end_date": "2019-08-07 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:24",
+                "name": "Watford FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WAT",
+                "gender": "male"
+            },
+            "start_date": "2019-08-08 00:00:00",
+            "end_date": "2023-07-23 00:00:00",
+            "jersey_number": 23
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1641",
+                "name": "Olympique Marseille",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "OM",
+                "gender": "male"
+            },
+            "start_date": "2023-07-24 00:00:00",
+            "end_date": "2024-07-31 00:00:00",
+            "jersey_number": 23
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:7",
+                "name": "Crystal Palace",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CRY",
+                "gender": "male"
+            },
+            "start_date": "2024-08-01 00:00:00",
+            "jersey_number": 7
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "generated_at": "2025-09-28T15:07:17+00:00",
+    "player": {
+        "id": "sr:player:2200344",
+        "name": "Ouattara, Dango",
+        "type": "forward",
+        "date_of_birth": "2002-02-11",
+        "nationality": "Burkina faso",
+        "country_code": "BFA",
+        "height": 177,
+        "weight": 72,
+        "jersey_number": 7,
+        "preferred_foot": "left",
+        "place_of_birth": "Ouagadougou",
+        "country_of_birth": "Burkina Faso",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4749",
+            "name": "Burkina Faso",
+            "country": "Burkina Faso",
+            "country_code": "BFA",
+            "abbreviation": "BUR",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:50",
+            "name": "Brentford FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "BRE",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4749",
+                "name": "Burkina Faso",
+                "country": "Burkina Faso",
+                "country_code": "BFA",
+                "abbreviation": "BUR",
+                "gender": "male"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1656",
+                "name": "FC Lorient",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "FCL",
+                "gender": "male"
+            },
+            "start_date": "2021-07-01 00:00:00",
+            "end_date": "2023-01-18 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:60",
+                "name": "AFC Bournemouth",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BOU",
+                "gender": "male"
+            },
+            "start_date": "2023-01-19 00:00:00",
+            "end_date": "2025-08-15 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:50",
+                "name": "Brentford FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BRE",
+                "gender": "male"
+            },
+            "start_date": "2025-08-16 00:00:00",
+            "jersey_number": 19
+        }
+    ]
+}

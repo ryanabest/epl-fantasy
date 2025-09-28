@@ -1,0 +1,146 @@
+{
+    "generated_at": "2025-09-28T15:00:32+00:00",
+    "player": {
+        "id": "sr:player:33902",
+        "name": "Welbeck, Danny",
+        "type": "forward",
+        "date_of_birth": "1990-11-26",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 185,
+        "weight": 78,
+        "jersey_number": 18,
+        "preferred_foot": "right",
+        "place_of_birth": "Manchester",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:30",
+            "name": "Brighton & Hove Albion",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "BRI",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4713",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male"
+            },
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6025",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:35",
+                "name": "Manchester United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MUN",
+                "gender": "male"
+            },
+            "start_date": "2008-07-01 00:00:00",
+            "end_date": "2014-08-31 00:00:00",
+            "jersey_number": 19
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:21",
+                "name": "Preston North End",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "PNE",
+                "gender": "male"
+            },
+            "start_date": "2010-01-25 00:00:00",
+            "end_date": "2010-03-16 00:00:00",
+            "jersey_number": 18
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:41",
+                "name": "Sunderland AFC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "SUN",
+                "gender": "male"
+            },
+            "start_date": "2010-08-12 00:00:00",
+            "end_date": "2011-05-31 00:00:00",
+            "jersey_number": 17
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:42",
+                "name": "Arsenal FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ARS",
+                "gender": "male"
+            },
+            "start_date": "2014-09-01 00:00:00",
+            "end_date": "2019-08-06 00:00:00",
+            "jersey_number": 23
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:24",
+                "name": "Watford FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WAT",
+                "gender": "male"
+            },
+            "start_date": "2019-08-07 00:00:00",
+            "end_date": "2020-10-06 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:30",
+                "name": "Brighton & Hove Albion",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BRI",
+                "gender": "male"
+            },
+            "start_date": "2020-10-18 00:00:00",
+            "jersey_number": 18
+        }
+    ]
+}

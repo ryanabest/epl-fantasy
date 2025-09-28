@@ -1,0 +1,111 @@
+{
+    "generated_at": "2025-09-28T15:08:14+00:00",
+    "player": {
+        "id": "sr:player:1108227",
+        "name": "Munoz, Daniel",
+        "type": "defender",
+        "date_of_birth": "1996-05-26",
+        "nationality": "Colombia",
+        "country_code": "COL",
+        "height": 181,
+        "weight": 69,
+        "jersey_number": 2,
+        "preferred_foot": "right",
+        "place_of_birth": "Antioquia",
+        "country_of_birth": "Colombia",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:7",
+            "name": "Crystal Palace",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CRY",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4820",
+            "name": "Colombia",
+            "country": "Colombia",
+            "country_code": "COL",
+            "abbreviation": "COL",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4820",
+                "name": "Colombia",
+                "country": "Colombia",
+                "country_code": "COL",
+                "abbreviation": "COL",
+                "gender": "male"
+            },
+            "start_date": "2017-01-01 00:00:00",
+            "jersey_number": 2
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:48244",
+                "name": "Aguilas Doradas Rionegro",
+                "country": "Colombia",
+                "country_code": "COL",
+                "abbreviation": "ADR",
+                "gender": "male"
+            },
+            "start_date": "2017-01-01 00:00:00",
+            "end_date": "2019-06-30 00:00:00",
+            "jersey_number": 21
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6106",
+                "name": "Atletico Nacional Medellin",
+                "country": "Colombia",
+                "country_code": "COL",
+                "abbreviation": "CAN",
+                "gender": "male"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2020-06-30 00:00:00",
+            "jersey_number": 2
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2890",
+                "name": "KRC Genk",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "GEN",
+                "gender": "male"
+            },
+            "start_date": "2020-07-01 00:00:00",
+            "end_date": "2024-01-29 00:00:00",
+            "jersey_number": 23
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:7",
+                "name": "Crystal Palace",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CRY",
+                "gender": "male"
+            },
+            "start_date": "2024-01-30 00:00:00",
+            "jersey_number": 2
+        }
+    ]
+}

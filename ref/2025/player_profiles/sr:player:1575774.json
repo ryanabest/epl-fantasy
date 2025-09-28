@@ -1,0 +1,144 @@
+{
+    "generated_at": "2025-09-28T15:00:52+00:00",
+    "player": {
+        "id": "sr:player:1575774",
+        "name": "Schade, Kevin",
+        "type": "forward",
+        "date_of_birth": "2001-11-27",
+        "nationality": "Germany",
+        "country_code": "DEU",
+        "height": 183,
+        "weight": 74,
+        "jersey_number": 7,
+        "preferred_foot": "right",
+        "place_of_birth": "Potsdam (GERMANY)",
+        "country_of_birth": "Germany",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:50",
+            "name": "Brentford FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "BRE",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4711",
+                "name": "Germany",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "GER",
+                "gender": "male"
+            },
+            "jersey_number": 14
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4890",
+                "name": "Germany",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "GER",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22512",
+                "name": "Germany",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "GER",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 13
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:43734",
+                "name": "SC Freiburg",
+                "abbreviation": "SCF",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2018-07-01 00:00:00",
+            "end_date": "2019-06-30 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5889",
+                "name": "SC Freiburg II",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "SCF",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2021-06-30 00:00:00",
+            "jersey_number": 32
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2538",
+                "name": "SC Freiburg",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "SCF",
+                "gender": "male"
+            },
+            "start_date": "2021-07-01 00:00:00",
+            "end_date": "2023-06-30 00:00:00",
+            "jersey_number": 20
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:50",
+                "name": "Brentford FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BRE",
+                "gender": "male"
+            },
+            "start_date": "2023-01-04 00:00:00",
+            "end_date": "2023-06-30 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:50",
+                "name": "Brentford FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BRE",
+                "gender": "male"
+            },
+            "start_date": "2023-07-01 00:00:00",
+            "jersey_number": 7
+        }
+    ]
+}

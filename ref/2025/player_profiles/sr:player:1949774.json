@@ -1,0 +1,136 @@
+{
+    "generated_at": "2025-09-28T15:00:35+00:00",
+    "player": {
+        "id": "sr:player:1949774",
+        "name": "Wilfried, Gnonto",
+        "type": "forward",
+        "date_of_birth": "2003-11-05",
+        "nationality": "Italy",
+        "country_code": "ITA",
+        "height": 170,
+        "weight": 72,
+        "jersey_number": 29,
+        "preferred_foot": "right",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4888",
+            "name": "Italy",
+            "country": "Italy",
+            "country_code": "ITA",
+            "abbreviation": "ITA",
+            "gender": "male",
+            "age_group": "U21"
+        },
+        {
+            "id": "sr:competitor:34",
+            "name": "Leeds United",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "LEE",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4707",
+                "name": "Italy",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "ITA",
+                "gender": "male"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4888",
+                "name": "Italy",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "ITA",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22522",
+                "name": "Italy",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "ITA",
+                "gender": "male",
+                "age_group": "U19"
+            }
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22616",
+                "name": "Italy",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "ITA",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:42728",
+                "name": "Inter Milano",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "INT",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2019-12-01 00:00:00",
+            "end_date": "2020-06-30 00:00:00",
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2450",
+                "name": "FC Zurich",
+                "country": "Switzerland",
+                "country_code": "CHE",
+                "abbreviation": "FCZ",
+                "gender": "male"
+            },
+            "start_date": "2020-07-01 00:00:00",
+            "end_date": "2022-08-31 00:00:00",
+            "jersey_number": 22
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:34",
+                "name": "Leeds United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LEE",
+                "gender": "male"
+            },
+            "start_date": "2022-09-01 00:00:00",
+            "jersey_number": 29
+        }
+    ]
+}

@@ -1,0 +1,169 @@
+{
+    "generated_at": "2025-09-28T15:06:41+00:00",
+    "player": {
+        "id": "sr:player:2083977",
+        "name": "Ekitike, Hugo",
+        "type": "forward",
+        "date_of_birth": "2002-06-20",
+        "nationality": "France",
+        "country_code": "FRA",
+        "height": 190,
+        "weight": 76,
+        "jersey_number": 22,
+        "preferred_foot": "right",
+        "place_of_birth": "Reims",
+        "country_of_birth": "France",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4481",
+            "name": "France",
+            "country": "France",
+            "country_code": "FRA",
+            "abbreviation": "FRA",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:44",
+            "name": "Liverpool FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "LFC",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4481",
+                "name": "France",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "FRA",
+                "gender": "male"
+            },
+            "jersey_number": 19
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5936",
+                "name": "France",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "FRA",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "end_date": "2025-09-07 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1682",
+                "name": "Stade Reims",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "SDR",
+                "gender": "male"
+            },
+            "start_date": "2020-07-01 00:00:00",
+            "end_date": "2023-06-30 00:00:00",
+            "jersey_number": 22
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4872",
+                "name": "Vejle BK",
+                "country": "Denmark",
+                "country_code": "DNK",
+                "abbreviation": "VEJ",
+                "gender": "male"
+            },
+            "start_date": "2021-01-29 00:00:00",
+            "end_date": "2021-06-30 00:00:00",
+            "jersey_number": 23
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1644",
+                "name": "Paris Saint-Germain",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "PSG",
+                "gender": "male"
+            },
+            "start_date": "2022-07-16 00:00:00",
+            "end_date": "2023-06-30 00:00:00",
+            "jersey_number": 44
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1644",
+                "name": "Paris Saint-Germain",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "PSG",
+                "gender": "male"
+            },
+            "start_date": "2023-07-01 00:00:00",
+            "end_date": "2024-06-30 00:00:00",
+            "jersey_number": 44
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2674",
+                "name": "Eintracht Frankfurt",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "SGE",
+                "gender": "male"
+            },
+            "start_date": "2024-02-01 00:00:00",
+            "end_date": "2024-06-30 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2674",
+                "name": "Eintracht Frankfurt",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "SGE",
+                "gender": "male"
+            },
+            "start_date": "2024-07-01 00:00:00",
+            "end_date": "2025-07-22 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:44",
+                "name": "Liverpool FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LFC",
+                "gender": "male"
+            },
+            "start_date": "2025-07-23 00:00:00",
+            "jersey_number": 22
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "generated_at": "2025-09-28T15:03:15+00:00",
+    "player": {
+        "id": "sr:player:1663313",
+        "name": "Martinelli, Gabriel",
+        "type": "forward",
+        "date_of_birth": "2001-06-18",
+        "nationality": "Brazil",
+        "country_code": "BRA",
+        "height": 178,
+        "weight": 75,
+        "jersey_number": 11,
+        "preferred_foot": "right",
+        "place_of_birth": "Guarulhos",
+        "country_of_birth": "Brazil",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:42",
+            "name": "Arsenal FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ARS",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4748",
+            "name": "Brazil",
+            "country": "Brazil",
+            "country_code": "BRA",
+            "abbreviation": "BRA",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4748",
+                "name": "Brazil",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "BRA",
+                "gender": "male"
+            },
+            "jersey_number": 22
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:24249",
+                "name": "Brazil",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "BRA",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "jersey_number": 21
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:266407",
+                "name": "Ituano FC SP",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "ITU",
+                "gender": "male",
+                "age_group": "U20"
+            },
+            "end_date": "2019-07-01 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:42",
+                "name": "Arsenal FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ARS",
+                "gender": "male"
+            },
+            "start_date": "2019-07-02 00:00:00",
+            "jersey_number": 11
+        }
+    ]
+}

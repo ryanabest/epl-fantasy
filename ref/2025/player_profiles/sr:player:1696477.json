@@ -1,0 +1,102 @@
+{
+    "generated_at": "2025-09-28T15:07:14+00:00",
+    "player": {
+        "id": "sr:player:1696477",
+        "name": "Fernandez, Enzo",
+        "type": "midfielder",
+        "date_of_birth": "2001-01-17",
+        "nationality": "Argentina",
+        "country_code": "ARG",
+        "height": 178,
+        "weight": 67,
+        "jersey_number": 8,
+        "preferred_foot": "right",
+        "place_of_birth": "San Martin",
+        "country_of_birth": "Argentina",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:38",
+            "name": "Chelsea FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CFC",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4819",
+                "name": "Argentina",
+                "country": "Argentina",
+                "country_code": "ARG",
+                "abbreviation": "ARG",
+                "gender": "male"
+            },
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:3211",
+                "name": "CA River Plate (ARG)",
+                "country": "Argentina",
+                "country_code": "ARG",
+                "abbreviation": "RIV",
+                "gender": "male"
+            },
+            "start_date": "2019-01-01 00:00:00",
+            "end_date": "2022-07-13 00:00:00",
+            "jersey_number": 13
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:36839",
+                "name": "Defensa y Justicia",
+                "country": "Argentina",
+                "country_code": "ARG",
+                "abbreviation": "DYJ",
+                "gender": "male"
+            },
+            "start_date": "2020-08-22 00:00:00",
+            "end_date": "2021-06-30 00:00:00",
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:3006",
+                "name": "SL Benfica",
+                "country": "Portugal",
+                "country_code": "PRT",
+                "abbreviation": "BEN",
+                "gender": "male"
+            },
+            "start_date": "2022-07-14 00:00:00",
+            "end_date": "2023-01-30 00:00:00",
+            "jersey_number": 13
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:38",
+                "name": "Chelsea FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CFC",
+                "gender": "male"
+            },
+            "start_date": "2023-01-31 00:00:00",
+            "jersey_number": 8
+        }
+    ]
+}

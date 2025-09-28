@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-22T13:29:52+00:00",
+    "generated_at": "2025-09-28T14:39:59+00:00",
     "lists": [
         {
             "type": "points",
@@ -18,7 +18,11 @@
                                     "datapoints": [
                                         {
                                             "type": "goals",
-                                            "value": 6
+                                            "value": 8
+                                        },
+                                        {
+                                            "type": "assists",
+                                            "value": 1
                                         }
                                     ]
                                 }
@@ -40,7 +44,7 @@
                                     "datapoints": [
                                         {
                                             "type": "goals",
-                                            "value": 3
+                                            "value": 4
                                         },
                                         {
                                             "type": "assists",
@@ -49,7 +53,12 @@
                                     ]
                                 }
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "rank": 3,
+                    "players": [
                         {
                             "id": "sr:player:1710063",
                             "name": "Joao Pedro",
@@ -57,7 +66,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "goals",
@@ -70,11 +79,32 @@
                                     ]
                                 }
                             ]
+                        },
+                        {
+                            "id": "sr:player:2070595",
+                            "name": "Anthony, Jaidon",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:6",
+                                    "name": "Burnley FC",
+                                    "abbreviation": "BUR",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 4
+                                        },
+                                        {
+                                            "type": "assists",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 },
                 {
-                    "rank": 4,
+                    "rank": 5,
                     "players": [
                         {
                             "id": "sr:player:159665",
@@ -136,13 +166,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:2070595",
-                            "name": "Anthony, Jaidon",
+                            "id": "sr:player:1696477",
+                            "name": "Fernandez, Enzo",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:6",
-                                    "name": "Burnley FC",
-                                    "abbreviation": "BUR",
+                                    "id": "sr:competitor:38",
+                                    "name": "Chelsea FC",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "goals",
@@ -176,12 +206,46 @@
                                     ]
                                 }
                             ]
+                        },
+                        {
+                            "id": "sr:player:2232678",
+                            "name": "Thiago, Igor",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:50",
+                                    "name": "Brentford FC",
+                                    "abbreviation": "BRE",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 },
                 {
-                    "rank": 9,
+                    "rank": 11,
                     "players": [
+                        {
+                            "id": "sr:player:117777",
+                            "name": "Xhaka, Granit",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:41",
+                                    "name": "Sunderland AFC",
+                                    "abbreviation": "SUN",
+                                    "datapoints": [
+                                        {
+                                            "type": "assists",
+                                            "value": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
                         {
                             "id": "sr:player:352770",
                             "name": "Iwobi, Alex",
@@ -211,6 +275,23 @@
                                     "id": "sr:competitor:42",
                                     "name": "Arsenal FC",
                                     "abbreviation": "ARS",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:1011939",
+                            "name": "Sarr, Ismaila",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:7",
+                                    "name": "Crystal Palace",
+                                    "abbreviation": "CRY",
                                     "datapoints": [
                                         {
                                             "type": "goals",
@@ -322,6 +403,23 @@
                             ]
                         },
                         {
+                            "id": "sr:player:1297614",
+                            "name": "Doku, Jeremy",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:17",
+                                    "name": "Manchester City",
+                                    "abbreviation": "MCI",
+                                    "datapoints": [
+                                        {
+                                            "type": "assists",
+                                            "value": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:1319220",
                             "name": "Gravenberch, Ryan",
                             "competitors": [
@@ -360,21 +458,21 @@
                             ]
                         },
                         {
-                            "id": "sr:player:1696477",
-                            "name": "Fernandez, Enzo",
+                            "id": "sr:player:1957969",
+                            "name": "Sarr, Pape Matar",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:38",
-                                    "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "id": "sr:competitor:33",
+                                    "name": "Tottenham Hotspur",
+                                    "abbreviation": "TOT",
                                     "datapoints": [
                                         {
                                             "type": "goals",
-                                            "value": 2
+                                            "value": 1
                                         },
                                         {
                                             "type": "assists",
-                                            "value": 1
+                                            "value": 2
                                         }
                                     ]
                                 }
@@ -402,6 +500,27 @@
                             ]
                         },
                         {
+                            "id": "sr:player:2429289",
+                            "name": "Minteh, Yankuba",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:30",
+                                    "name": "Brighton & Hove Albion",
+                                    "abbreviation": "BRI",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 1
+                                        },
+                                        {
+                                            "type": "assists",
+                                            "value": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:2580219",
                             "name": "Diouf, El Hadji Malick",
                             "competitors": [
@@ -421,8 +540,42 @@
                     ]
                 },
                 {
-                    "rank": 21,
+                    "rank": 27,
                     "players": [
+                        {
+                            "id": "sr:player:33902",
+                            "name": "Welbeck, Danny",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:30",
+                                    "name": "Brighton & Hove Albion",
+                                    "abbreviation": "BRI",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:42694",
+                            "name": "Henderson, Jordan",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:50",
+                                    "name": "Brentford FC",
+                                    "abbreviation": "BRE",
+                                    "datapoints": [
+                                        {
+                                            "type": "assists",
+                                            "value": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
                         {
                             "id": "sr:player:50480",
                             "name": "Wood, Chris",
@@ -434,23 +587,6 @@
                                     "datapoints": [
                                         {
                                             "type": "goals",
-                                            "value": 2
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "sr:player:117777",
-                            "name": "Xhaka, Granit",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:41",
-                                    "name": "Sunderland AFC",
-                                    "abbreviation": "SUN",
-                                    "datapoints": [
-                                        {
-                                            "type": "assists",
                                             "value": 2
                                         }
                                     ]
@@ -475,6 +611,23 @@
                             ]
                         },
                         {
+                            "id": "sr:player:364612",
+                            "name": "Palhinha, Joao",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:33",
+                                    "name": "Tottenham Hotspur",
+                                    "abbreviation": "TOT",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:552884",
                             "name": "Bowen, Jarrod",
                             "competitors": [
@@ -486,6 +639,27 @@
                                         {
                                             "type": "goals",
                                             "value": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:795808",
+                            "name": "Alderete, Omar",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:41",
+                                    "name": "Sunderland AFC",
+                                    "abbreviation": "SUN",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 1
+                                        },
+                                        {
+                                            "type": "assists",
+                                            "value": 1
                                         }
                                     ]
                                 }
@@ -519,10 +693,48 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "goals",
+                                            "value": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:936120",
+                            "name": "Guehi, Marc",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:7",
+                                    "name": "Crystal Palace",
+                                    "abbreviation": "CRY",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 1
+                                        },
+                                        {
+                                            "type": "assists",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:954708",
+                            "name": "Senesi, Marcos",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:60",
+                                    "name": "AFC Bournemouth",
+                                    "abbreviation": "BOU",
+                                    "datapoints": [
+                                        {
+                                            "type": "assists",
                                             "value": 2
                                         }
                                     ]
@@ -547,13 +759,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:1011939",
-                            "name": "Sarr, Ismaila",
+                            "id": "sr:player:1012117",
+                            "name": "Chiesa, Federico",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:7",
-                                    "name": "Crystal Palace",
-                                    "abbreviation": "CRY",
+                                    "id": "sr:competitor:44",
+                                    "name": "Liverpool FC",
+                                    "abbreviation": "LFC",
                                     "datapoints": [
                                         {
                                             "type": "goals",
@@ -640,17 +852,21 @@
                             ]
                         },
                         {
-                            "id": "sr:player:1297614",
-                            "name": "Doku, Jeremy",
+                            "id": "sr:player:1090782",
+                            "name": "Longstaff, Sean",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:17",
-                                    "name": "Manchester City",
-                                    "abbreviation": "MCI",
+                                    "id": "sr:competitor:34",
+                                    "name": "Leeds United",
+                                    "abbreviation": "LEE",
                                     "datapoints": [
                                         {
+                                            "type": "goals",
+                                            "value": 1
+                                        },
+                                        {
                                             "type": "assists",
-                                            "value": 2
+                                            "value": 1
                                         }
                                     ]
                                 }
@@ -781,45 +997,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
-                                    "datapoints": [
-                                        {
-                                            "type": "goals",
-                                            "value": 2
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "sr:player:1957969",
-                            "name": "Sarr, Pape Matar",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:33",
-                                    "name": "Tottenham Hotspur",
-                                    "abbreviation": "TOT",
-                                    "datapoints": [
-                                        {
-                                            "type": "goals",
-                                            "value": 1
-                                        },
-                                        {
-                                            "type": "assists",
-                                            "value": 1
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "sr:player:2232678",
-                            "name": "Thiago, Igor",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:50",
-                                    "name": "Brentford FC",
-                                    "abbreviation": "BRE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "goals",
@@ -851,8 +1029,8 @@
                             ]
                         },
                         {
-                            "id": "sr:player:2429289",
-                            "name": "Minteh, Yankuba",
+                            "id": "sr:player:2541095",
+                            "name": "Gruda, Brajan",
                             "competitors": [
                                 {
                                     "id": "sr:competitor:30",
@@ -874,7 +1052,7 @@
                     ]
                 },
                 {
-                    "rank": 45,
+                    "rank": 54,
                     "players": [
                         {
                             "id": "sr:player:791",
@@ -887,23 +1065,6 @@
                                     "datapoints": [
                                         {
                                             "type": "goals",
-                                            "value": 1
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "sr:player:42694",
-                            "name": "Henderson, Jordan",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:50",
-                                    "name": "Brentford FC",
-                                    "abbreviation": "BRE",
-                                    "datapoints": [
-                                        {
-                                            "type": "assists",
                                             "value": 1
                                         }
                                     ]
@@ -1047,23 +1208,6 @@
                             ]
                         },
                         {
-                            "id": "sr:player:364612",
-                            "name": "Palhinha, Joao",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:33",
-                                    "name": "Tottenham Hotspur",
-                                    "abbreviation": "TOT",
-                                    "datapoints": [
-                                        {
-                                            "type": "goals",
-                                            "value": 1
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
                             "id": "sr:player:372336",
                             "name": "Murphy, Jacob",
                             "competitors": [
@@ -1155,7 +1299,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "assists",
@@ -1166,16 +1310,16 @@
                             ]
                         },
                         {
-                            "id": "sr:player:795808",
-                            "name": "Alderete, Omar",
+                            "id": "sr:player:775687",
+                            "name": "Jensen, Mathias",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:41",
-                                    "name": "Sunderland AFC",
-                                    "abbreviation": "SUN",
+                                    "id": "sr:competitor:50",
+                                    "name": "Brentford FC",
+                                    "abbreviation": "BRE",
                                     "datapoints": [
                                         {
-                                            "type": "assists",
+                                            "type": "goals",
                                             "value": 1
                                         }
                                     ]
@@ -1251,23 +1395,6 @@
                             ]
                         },
                         {
-                            "id": "sr:player:936120",
-                            "name": "Guehi, Marc",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:7",
-                                    "name": "Crystal Palace",
-                                    "abbreviation": "CRY",
-                                    "datapoints": [
-                                        {
-                                            "type": "goals",
-                                            "value": 1
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
                             "id": "sr:player:936566",
                             "name": "Kamara, Boubacar",
                             "competitors": [
@@ -1278,6 +1405,23 @@
                                     "datapoints": [
                                         {
                                             "type": "assists",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:937000",
+                            "name": "Nketiah, Eddie",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:7",
+                                    "name": "Crystal Palace",
+                                    "abbreviation": "CRY",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
                                             "value": 1
                                         }
                                     ]
@@ -1319,16 +1463,16 @@
                             ]
                         },
                         {
-                            "id": "sr:player:952278",
-                            "name": "Romero, Cristian",
+                            "id": "sr:player:948750",
+                            "name": "Rodon, Joe",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:33",
-                                    "name": "Tottenham Hotspur",
-                                    "abbreviation": "TOT",
+                                    "id": "sr:competitor:34",
+                                    "name": "Leeds United",
+                                    "abbreviation": "LEE",
                                     "datapoints": [
                                         {
-                                            "type": "assists",
+                                            "type": "goals",
                                             "value": 1
                                         }
                                     ]
@@ -1336,13 +1480,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:954708",
-                            "name": "Senesi, Marcos",
+                            "id": "sr:player:952278",
+                            "name": "Romero, Cristian",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:60",
-                                    "name": "AFC Bournemouth",
-                                    "abbreviation": "BOU",
+                                    "id": "sr:competitor:33",
+                                    "name": "Tottenham Hotspur",
+                                    "abbreviation": "TOT",
                                     "datapoints": [
                                         {
                                             "type": "assists",
@@ -1387,13 +1531,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:1012117",
-                            "name": "Chiesa, Federico",
+                            "id": "sr:player:1016089",
+                            "name": "Bueno, Santiago",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:44",
-                                    "name": "Liverpool FC",
-                                    "abbreviation": "LFC",
+                                    "id": "sr:competitor:3",
+                                    "name": "Wolverhampton Wanderers",
+                                    "abbreviation": "WOL",
                                     "datapoints": [
                                         {
                                             "type": "goals",
@@ -1580,7 +1724,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "goals",
@@ -1614,7 +1758,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "assists",
@@ -1846,6 +1990,23 @@
                             ]
                         },
                         {
+                            "id": "sr:player:1560920",
+                            "name": "Nunes, Matheus",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:17",
+                                    "name": "Manchester City",
+                                    "abbreviation": "MCI",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:1565286",
                             "name": "Rutter, Georginio",
                             "competitors": [
@@ -1887,6 +2048,57 @@
                                     "id": "sr:competitor:17",
                                     "name": "Manchester City",
                                     "abbreviation": "MCI",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:1621256",
+                            "name": "Wieffer, Mats",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:30",
+                                    "name": "Brighton & Hove Albion",
+                                    "abbreviation": "BRI",
+                                    "datapoints": [
+                                        {
+                                            "type": "assists",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:1624310",
+                            "name": "De Cuyper, Maxime",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:30",
+                                    "name": "Brighton & Hove Albion",
+                                    "abbreviation": "BRI",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:1632970",
+                            "name": "Sesko, Benjamin",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:35",
+                                    "name": "Manchester United",
+                                    "abbreviation": "MUN",
                                     "datapoints": [
                                         {
                                             "type": "goals",
@@ -2005,7 +2217,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "goals",
@@ -2026,6 +2238,23 @@
                                     "datapoints": [
                                         {
                                             "type": "goals",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:1858626",
+                            "name": "Yarmoliuk, Yehor",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:50",
+                                    "name": "Brentford FC",
+                                    "abbreviation": "BRE",
+                                    "datapoints": [
+                                        {
+                                            "type": "assists",
                                             "value": 1
                                         }
                                     ]
@@ -2271,13 +2500,30 @@
                             ]
                         },
                         {
-                            "id": "sr:player:2541095",
-                            "name": "Gruda, Brajan",
+                            "id": "sr:player:2411801",
+                            "name": "Hartman, Quilindschy",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:30",
-                                    "name": "Brighton & Hove Albion",
-                                    "abbreviation": "BRI",
+                                    "id": "sr:competitor:6",
+                                    "name": "Burnley FC",
+                                    "abbreviation": "BUR",
+                                    "datapoints": [
+                                        {
+                                            "type": "assists",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:2592883",
+                            "name": "Kroupi Jr, Eli",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:60",
+                                    "name": "AFC Bournemouth",
+                                    "abbreviation": "BOU",
                                     "datapoints": [
                                         {
                                             "type": "goals",
@@ -2311,7 +2557,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "assists",
@@ -2376,7 +2622,7 @@
                                     "datapoints": [
                                         {
                                             "type": "goals",
-                                            "value": 6
+                                            "value": 8
                                         }
                                     ]
                                 }
@@ -2386,6 +2632,62 @@
                 },
                 {
                     "rank": 2,
+                    "players": [
+                        {
+                            "id": "sr:player:1480070",
+                            "name": "Semenyo, Antoine",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:60",
+                                    "name": "AFC Bournemouth",
+                                    "abbreviation": "BOU",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:2070595",
+                            "name": "Anthony, Jaidon",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:6",
+                                    "name": "Burnley FC",
+                                    "abbreviation": "BUR",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:2232678",
+                            "name": "Thiago, Igor",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:50",
+                                    "name": "Brentford FC",
+                                    "abbreviation": "BRE",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "rank": 5,
                     "players": [
                         {
                             "id": "sr:player:869030",
@@ -2422,6 +2724,23 @@
                             ]
                         },
                         {
+                            "id": "sr:player:1011939",
+                            "name": "Sarr, Ismaila",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:7",
+                                    "name": "Crystal Palace",
+                                    "abbreviation": "CRY",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:1118043",
                             "name": "Isidor, Wilson",
                             "competitors": [
@@ -2439,30 +2758,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:1480070",
-                            "name": "Semenyo, Antoine",
+                            "id": "sr:player:1696477",
+                            "name": "Fernandez, Enzo",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:60",
-                                    "name": "AFC Bournemouth",
-                                    "abbreviation": "BOU",
-                                    "datapoints": [
-                                        {
-                                            "type": "goals",
-                                            "value": 3
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "sr:player:2070595",
-                            "name": "Anthony, Jaidon",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:6",
-                                    "name": "Burnley FC",
-                                    "abbreviation": "BUR",
+                                    "id": "sr:competitor:38",
+                                    "name": "Chelsea FC",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "goals",
@@ -2492,8 +2794,25 @@
                     ]
                 },
                 {
-                    "rank": 8,
+                    "rank": 11,
                     "players": [
+                        {
+                            "id": "sr:player:33902",
+                            "name": "Welbeck, Danny",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:30",
+                                    "name": "Brighton & Hove Albion",
+                                    "abbreviation": "BRI",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
                         {
                             "id": "sr:player:50480",
                             "name": "Wood, Chris",
@@ -2546,6 +2865,23 @@
                             ]
                         },
                         {
+                            "id": "sr:player:364612",
+                            "name": "Palhinha, Joao",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:33",
+                                    "name": "Tottenham Hotspur",
+                                    "abbreviation": "TOT",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:552884",
                             "name": "Bowen, Jarrod",
                             "competitors": [
@@ -2569,7 +2905,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "goals",
@@ -2597,13 +2933,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:1011939",
-                            "name": "Sarr, Ismaila",
+                            "id": "sr:player:1012117",
+                            "name": "Chiesa, Federico",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:7",
-                                    "name": "Crystal Palace",
-                                    "abbreviation": "CRY",
+                                    "id": "sr:competitor:44",
+                                    "name": "Liverpool FC",
+                                    "abbreviation": "LFC",
                                     "datapoints": [
                                         {
                                             "type": "goals",
@@ -2682,30 +3018,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:1696477",
-                            "name": "Fernandez, Enzo",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:38",
-                                    "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
-                                    "datapoints": [
-                                        {
-                                            "type": "goals",
-                                            "value": 2
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
                             "id": "sr:player:1710063",
                             "name": "Joao Pedro",
                             "competitors": [
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "goals",
@@ -2739,7 +3058,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "goals",
@@ -2765,28 +3084,11 @@
                                     ]
                                 }
                             ]
-                        },
-                        {
-                            "id": "sr:player:2232678",
-                            "name": "Thiago, Igor",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:50",
-                                    "name": "Brentford FC",
-                                    "abbreviation": "BRE",
-                                    "datapoints": [
-                                        {
-                                            "type": "goals",
-                                            "value": 2
-                                        }
-                                    ]
-                                }
-                            ]
                         }
                     ]
                 },
                 {
-                    "rank": 25,
+                    "rank": 28,
                     "players": [
                         {
                             "id": "sr:player:791",
@@ -2891,23 +3193,6 @@
                             ]
                         },
                         {
-                            "id": "sr:player:364612",
-                            "name": "Palhinha, Joao",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:33",
-                                    "name": "Tottenham Hotspur",
-                                    "abbreviation": "TOT",
-                                    "datapoints": [
-                                        {
-                                            "type": "goals",
-                                            "value": 1
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
                             "id": "sr:player:372344",
                             "name": "Calvert-Lewin, Dominic",
                             "competitors": [
@@ -2949,6 +3234,40 @@
                                     "id": "sr:competitor:34",
                                     "name": "Leeds United",
                                     "abbreviation": "LEE",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:775687",
+                            "name": "Jensen, Mathias",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:50",
+                                    "name": "Brentford FC",
+                                    "abbreviation": "BRE",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:795808",
+                            "name": "Alderete, Omar",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:41",
+                                    "name": "Sunderland AFC",
+                                    "abbreviation": "SUN",
                                     "datapoints": [
                                         {
                                             "type": "goals",
@@ -3010,6 +3329,23 @@
                             ]
                         },
                         {
+                            "id": "sr:player:937000",
+                            "name": "Nketiah, Eddie",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:7",
+                                    "name": "Crystal Palace",
+                                    "abbreviation": "CRY",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:937004",
                             "name": "Smith Rowe, Emile",
                             "competitors": [
@@ -3044,6 +3380,23 @@
                             ]
                         },
                         {
+                            "id": "sr:player:948750",
+                            "name": "Rodon, Joe",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:34",
+                                    "name": "Leeds United",
+                                    "abbreviation": "LEE",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:968907",
                             "name": "Cash, Matty",
                             "competitors": [
@@ -3061,13 +3414,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:1012117",
-                            "name": "Chiesa, Federico",
+                            "id": "sr:player:1016089",
+                            "name": "Bueno, Santiago",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:44",
-                                    "name": "Liverpool FC",
-                                    "abbreviation": "LFC",
+                                    "id": "sr:competitor:3",
+                                    "name": "Wolverhampton Wanderers",
+                                    "abbreviation": "WOL",
                                     "datapoints": [
                                         {
                                             "type": "goals",
@@ -3214,13 +3567,30 @@
                             ]
                         },
                         {
+                            "id": "sr:player:1090782",
+                            "name": "Longstaff, Sean",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:34",
+                                    "name": "Leeds United",
+                                    "abbreviation": "LEE",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:1115761",
                             "name": "Neto, Pedro",
                             "competitors": [
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "goals",
@@ -3469,6 +3839,23 @@
                             ]
                         },
                         {
+                            "id": "sr:player:1560920",
+                            "name": "Nunes, Matheus",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:17",
+                                    "name": "Manchester City",
+                                    "abbreviation": "MCI",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:1575774",
                             "name": "Schade, Kevin",
                             "competitors": [
@@ -3493,6 +3880,40 @@
                                     "id": "sr:competitor:17",
                                     "name": "Manchester City",
                                     "abbreviation": "MCI",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:1624310",
+                            "name": "De Cuyper, Maxime",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:30",
+                                    "name": "Brighton & Hove Albion",
+                                    "abbreviation": "BRI",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:1632970",
+                            "name": "Sesko, Benjamin",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:35",
+                                    "name": "Manchester United",
+                                    "abbreviation": "MUN",
                                     "datapoints": [
                                         {
                                             "type": "goals",
@@ -3560,7 +3981,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "goals",
@@ -3809,6 +4230,23 @@
                             ]
                         },
                         {
+                            "id": "sr:player:2592883",
+                            "name": "Kroupi Jr, Eli",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:60",
+                                    "name": "AFC Bournemouth",
+                                    "abbreviation": "BOU",
+                                    "datapoints": [
+                                        {
+                                            "type": "goals",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:2915821",
                             "name": "Ngumoha, Rio",
                             "competitors": [
@@ -3858,6 +4296,40 @@
                     "rank": 2,
                     "players": [
                         {
+                            "id": "sr:player:117777",
+                            "name": "Xhaka, Granit",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:41",
+                                    "name": "Sunderland AFC",
+                                    "abbreviation": "SUN",
+                                    "datapoints": [
+                                        {
+                                            "type": "assists",
+                                            "value": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:1297614",
+                            "name": "Doku, Jeremy",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:17",
+                                    "name": "Manchester City",
+                                    "abbreviation": "MCI",
+                                    "datapoints": [
+                                        {
+                                            "type": "assists",
+                                            "value": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:1321798",
                             "name": "Kudus, Mohammed",
                             "competitors": [
@@ -3881,7 +4353,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "assists",
@@ -3911,16 +4383,16 @@
                     ]
                 },
                 {
-                    "rank": 5,
+                    "rank": 7,
                     "players": [
                         {
-                            "id": "sr:player:117777",
-                            "name": "Xhaka, Granit",
+                            "id": "sr:player:42694",
+                            "name": "Henderson, Jordan",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:41",
-                                    "name": "Sunderland AFC",
-                                    "abbreviation": "SUN",
+                                    "id": "sr:competitor:50",
+                                    "name": "Brentford FC",
+                                    "abbreviation": "BRE",
                                     "datapoints": [
                                         {
                                             "type": "assists",
@@ -3955,6 +4427,23 @@
                                     "id": "sr:competitor:43",
                                     "name": "Fulham FC",
                                     "abbreviation": "FUL",
+                                    "datapoints": [
+                                        {
+                                            "type": "assists",
+                                            "value": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:954708",
+                            "name": "Senesi, Marcos",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:60",
+                                    "name": "AFC Bournemouth",
+                                    "abbreviation": "BOU",
                                     "datapoints": [
                                         {
                                             "type": "assists",
@@ -4033,23 +4522,6 @@
                             ]
                         },
                         {
-                            "id": "sr:player:1297614",
-                            "name": "Doku, Jeremy",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:17",
-                                    "name": "Manchester City",
-                                    "abbreviation": "MCI",
-                                    "datapoints": [
-                                        {
-                                            "type": "assists",
-                                            "value": 2
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
                             "id": "sr:player:1480070",
                             "name": "Semenyo, Antoine",
                             "competitors": [
@@ -4065,29 +4537,46 @@
                                     ]
                                 }
                             ]
-                        }
-                    ]
-                },
-                {
-                    "rank": 14,
-                    "players": [
+                        },
                         {
-                            "id": "sr:player:42694",
-                            "name": "Henderson, Jordan",
+                            "id": "sr:player:1957969",
+                            "name": "Sarr, Pape Matar",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:50",
-                                    "name": "Brentford FC",
-                                    "abbreviation": "BRE",
+                                    "id": "sr:competitor:33",
+                                    "name": "Tottenham Hotspur",
+                                    "abbreviation": "TOT",
                                     "datapoints": [
                                         {
                                             "type": "assists",
-                                            "value": 1
+                                            "value": 2
                                         }
                                     ]
                                 }
                             ]
                         },
+                        {
+                            "id": "sr:player:2429289",
+                            "name": "Minteh, Yankuba",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:30",
+                                    "name": "Brighton & Hove Albion",
+                                    "abbreviation": "BRI",
+                                    "datapoints": [
+                                        {
+                                            "type": "assists",
+                                            "value": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "rank": 18,
+                    "players": [
                         {
                             "id": "sr:player:135666",
                             "name": "Trossard, Leandro",
@@ -4197,7 +4686,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "assists",
@@ -4293,6 +4782,23 @@
                             ]
                         },
                         {
+                            "id": "sr:player:936120",
+                            "name": "Guehi, Marc",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:7",
+                                    "name": "Crystal Palace",
+                                    "abbreviation": "CRY",
+                                    "datapoints": [
+                                        {
+                                            "type": "assists",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:936566",
                             "name": "Kamara, Boubacar",
                             "competitors": [
@@ -4327,13 +4833,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:954708",
-                            "name": "Senesi, Marcos",
+                            "id": "sr:player:959744",
+                            "name": "Onyeka, Frank",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:60",
-                                    "name": "AFC Bournemouth",
-                                    "abbreviation": "BOU",
+                                    "id": "sr:competitor:50",
+                                    "name": "Brentford FC",
+                                    "abbreviation": "BRE",
                                     "datapoints": [
                                         {
                                             "type": "assists",
@@ -4344,13 +4850,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:959744",
-                            "name": "Onyeka, Frank",
+                            "id": "sr:player:991181",
+                            "name": "Haaland, Erling",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:50",
-                                    "name": "Brentford FC",
-                                    "abbreviation": "BRE",
+                                    "id": "sr:competitor:17",
+                                    "name": "Manchester City",
+                                    "abbreviation": "MCI",
                                     "datapoints": [
                                         {
                                             "type": "assists",
@@ -4480,6 +4986,23 @@
                             ]
                         },
                         {
+                            "id": "sr:player:1090782",
+                            "name": "Longstaff, Sean",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:34",
+                                    "name": "Leeds United",
+                                    "abbreviation": "LEE",
+                                    "datapoints": [
+                                        {
+                                            "type": "assists",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:1107697",
                             "name": "Marmoush, Omar",
                             "competitors": [
@@ -4537,7 +5060,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "assists",
@@ -4735,6 +5258,23 @@
                             ]
                         },
                         {
+                            "id": "sr:player:1621256",
+                            "name": "Wieffer, Mats",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:30",
+                                    "name": "Brighton & Hove Albion",
+                                    "abbreviation": "BRI",
+                                    "datapoints": [
+                                        {
+                                            "type": "assists",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:1635776",
                             "name": "Anderson, Elliot",
                             "competitors": [
@@ -4775,7 +5315,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "assists",
@@ -4793,6 +5333,23 @@
                                     "id": "sr:competitor:3",
                                     "name": "Wolverhampton Wanderers",
                                     "abbreviation": "WOL",
+                                    "datapoints": [
+                                        {
+                                            "type": "assists",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:1858626",
+                            "name": "Yarmoliuk, Yehor",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:50",
+                                    "name": "Brentford FC",
+                                    "abbreviation": "BRE",
                                     "datapoints": [
                                         {
                                             "type": "assists",
@@ -4827,23 +5384,6 @@
                                     "id": "sr:competitor:17",
                                     "name": "Manchester City",
                                     "abbreviation": "MCI",
-                                    "datapoints": [
-                                        {
-                                            "type": "assists",
-                                            "value": 1
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "sr:player:1957969",
-                            "name": "Sarr, Pape Matar",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:33",
-                                    "name": "Tottenham Hotspur",
-                                    "abbreviation": "TOT",
                                     "datapoints": [
                                         {
                                             "type": "assists",
@@ -4973,8 +5513,25 @@
                             ]
                         },
                         {
-                            "id": "sr:player:2429289",
-                            "name": "Minteh, Yankuba",
+                            "id": "sr:player:2411801",
+                            "name": "Hartman, Quilindschy",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:6",
+                                    "name": "Burnley FC",
+                                    "abbreviation": "BUR",
+                                    "datapoints": [
+                                        {
+                                            "type": "assists",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:2541095",
+                            "name": "Gruda, Brajan",
                             "competitors": [
                                 {
                                     "id": "sr:competitor:30",
@@ -5013,7 +5570,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "assists",
@@ -5085,6 +5642,23 @@
                             ]
                         },
                         {
+                            "id": "sr:player:936112",
+                            "name": "Chalobah, Trevoh",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:38",
+                                    "name": "Chelsea FC",
+                                    "abbreviation": "CFC",
+                                    "datapoints": [
+                                        {
+                                            "type": "red_cards",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:942488",
                             "name": "Konsa, Ezri",
                             "competitors": [
@@ -5125,7 +5699,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "red_cards",
@@ -5229,6 +5803,23 @@
                     "rank": 2,
                     "players": [
                         {
+                            "id": "sr:player:143047",
+                            "name": "Doherty, Matt",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:3",
+                                    "name": "Wolverhampton Wanderers",
+                                    "abbreviation": "WOL",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:193554",
                             "name": "Hughes, Will",
                             "competitors": [
@@ -5280,6 +5871,57 @@
                             ]
                         },
                         {
+                            "id": "sr:player:1069190",
+                            "name": "Collins, Nathan",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:50",
+                                    "name": "Brentford FC",
+                                    "abbreviation": "BRE",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:1298482",
+                            "name": "Williams, Neco",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:14",
+                                    "name": "Nottingham Forest",
+                                    "abbreviation": "NFO",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:2014161",
+                            "name": "Gomes, Joao",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:3",
+                                    "name": "Wolverhampton Wanderers",
+                                    "abbreviation": "WOL",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 3
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:2161262",
                             "name": "Iroegbunam, Tim",
                             "competitors": [
@@ -5295,12 +5937,63 @@
                                     ]
                                 }
                             ]
+                        },
+                        {
+                            "id": "sr:player:2269309",
+                            "name": "Jimenez, Alex",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:60",
+                                    "name": "AFC Bournemouth",
+                                    "abbreviation": "BOU",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 3
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 },
                 {
-                    "rank": 6,
+                    "rank": 11,
                     "players": [
+                        {
+                            "id": "sr:player:44614",
+                            "name": "Walker, Kyle",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:6",
+                                    "name": "Burnley FC",
+                                    "abbreviation": "BUR",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:115365",
+                            "name": "Dunk, Lewis",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:30",
+                                    "name": "Brighton & Hove Albion",
+                                    "abbreviation": "BRI",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
                         {
                             "id": "sr:player:117777",
                             "name": "Xhaka, Granit",
@@ -5319,13 +6012,64 @@
                             ]
                         },
                         {
-                            "id": "sr:player:143047",
-                            "name": "Doherty, Matt",
+                            "id": "sr:player:189061",
+                            "name": "Grealish, Jack",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:3",
-                                    "name": "Wolverhampton Wanderers",
-                                    "abbreviation": "WOL",
+                                    "id": "sr:competitor:48",
+                                    "name": "Everton FC",
+                                    "abbreviation": "EVE",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:219572",
+                            "name": "Veltman, Joel",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:30",
+                                    "name": "Brighton & Hove Albion",
+                                    "abbreviation": "BRI",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:288205",
+                            "name": "Fernandes, Bruno",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:35",
+                                    "name": "Manchester United",
+                                    "abbreviation": "MUN",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:769505",
+                            "name": "Cucurella, Marc",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:38",
+                                    "name": "Chelsea FC",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -5343,6 +6087,23 @@
                                     "id": "sr:competitor:30",
                                     "name": "Brighton & Hove Albion",
                                     "abbreviation": "BRI",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:936572",
+                            "name": "Konate, Ibrahima",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:44",
+                                    "name": "Liverpool FC",
+                                    "abbreviation": "LFC",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -5438,13 +6199,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:1069190",
-                            "name": "Collins, Nathan",
+                            "id": "sr:player:1108227",
+                            "name": "Munoz, Daniel",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:50",
-                                    "name": "Brentford FC",
-                                    "abbreviation": "BRE",
+                                    "id": "sr:competitor:7",
+                                    "name": "Crystal Palace",
+                                    "abbreviation": "CRY",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -5455,13 +6216,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:1108227",
-                            "name": "Munoz, Daniel",
+                            "id": "sr:player:1140070",
+                            "name": "James, Reece",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:7",
-                                    "name": "Crystal Palace",
-                                    "abbreviation": "CRY",
+                                    "id": "sr:competitor:38",
+                                    "name": "Chelsea FC",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -5523,23 +6284,6 @@
                             ]
                         },
                         {
-                            "id": "sr:player:1298482",
-                            "name": "Williams, Neco",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:14",
-                                    "name": "Nottingham Forest",
-                                    "abbreviation": "NFO",
-                                    "datapoints": [
-                                        {
-                                            "type": "yellow_cards",
-                                            "value": 2
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
                             "id": "sr:player:1319220",
                             "name": "Gravenberch, Ryan",
                             "competitors": [
@@ -5581,6 +6325,40 @@
                                     "id": "sr:competitor:33",
                                     "name": "Tottenham Hotspur",
                                     "abbreviation": "TOT",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:1621256",
+                            "name": "Wieffer, Mats",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:30",
+                                    "name": "Brighton & Hove Albion",
+                                    "abbreviation": "BRI",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:1630352",
+                            "name": "Van Hecke, Jan Paul",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:30",
+                                    "name": "Brighton & Hove Albion",
+                                    "abbreviation": "BRI",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -5642,13 +6420,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:2014161",
-                            "name": "Gomes, Joao",
+                            "id": "sr:player:2070005",
+                            "name": "Gomez, Diego",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:3",
-                                    "name": "Wolverhampton Wanderers",
-                                    "abbreviation": "WOL",
+                                    "id": "sr:competitor:30",
+                                    "name": "Brighton & Hove Albion",
+                                    "abbreviation": "BRI",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -5659,13 +6437,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:2070005",
-                            "name": "Gomez, Diego",
+                            "id": "sr:player:2070595",
+                            "name": "Anthony, Jaidon",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:30",
-                                    "name": "Brighton & Hove Albion",
-                                    "abbreviation": "BRI",
+                                    "id": "sr:competitor:6",
+                                    "name": "Burnley FC",
+                                    "abbreviation": "BUR",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -5699,7 +6477,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -5710,13 +6488,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:2269309",
-                            "name": "Jimenez, Alex",
+                            "id": "sr:player:2337853",
+                            "name": "Sadiki, Noah",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:60",
-                                    "name": "AFC Bournemouth",
-                                    "abbreviation": "BOU",
+                                    "id": "sr:competitor:41",
+                                    "name": "Sunderland AFC",
+                                    "abbreviation": "SUN",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -5733,7 +6511,24 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:2631331",
+                            "name": "Dorgu, Patrick",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:35",
+                                    "name": "Manchester United",
+                                    "abbreviation": "MUN",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -5746,7 +6541,7 @@
                     ]
                 },
                 {
-                    "rank": 32,
+                    "rank": 45,
                     "players": [
                         {
                             "id": "sr:player:791",
@@ -5766,13 +6561,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:44614",
-                            "name": "Walker, Kyle",
+                            "id": "sr:player:33902",
+                            "name": "Welbeck, Danny",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:6",
-                                    "name": "Burnley FC",
-                                    "abbreviation": "BUR",
+                                    "id": "sr:competitor:30",
+                                    "name": "Brighton & Hove Albion",
+                                    "abbreviation": "BRI",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -5885,23 +6680,6 @@
                             ]
                         },
                         {
-                            "id": "sr:player:115365",
-                            "name": "Dunk, Lewis",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:30",
-                                    "name": "Brighton & Hove Albion",
-                                    "abbreviation": "BRI",
-                                    "datapoints": [
-                                        {
-                                            "type": "yellow_cards",
-                                            "value": 1
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
                             "id": "sr:player:122951",
                             "name": "Casemiro",
                             "competitors": [
@@ -5936,6 +6714,23 @@
                             ]
                         },
                         {
+                            "id": "sr:player:151545",
+                            "name": "Van Dijk, Virgil",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:44",
+                                    "name": "Liverpool FC",
+                                    "abbreviation": "LFC",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:162653",
                             "name": "Pope, Nick",
                             "competitors": [
@@ -5953,30 +6748,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:189061",
-                            "name": "Grealish, Jack",
+                            "id": "sr:player:174975",
+                            "name": "Masuaku, Arthur",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:48",
-                                    "name": "Everton FC",
-                                    "abbreviation": "EVE",
-                                    "datapoints": [
-                                        {
-                                            "type": "yellow_cards",
-                                            "value": 1
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "sr:player:219572",
-                            "name": "Veltman, Joel",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:30",
-                                    "name": "Brighton & Hove Albion",
-                                    "abbreviation": "BRI",
+                                    "id": "sr:competitor:41",
+                                    "name": "Sunderland AFC",
+                                    "abbreviation": "SUN",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -5994,23 +6772,6 @@
                                     "id": "sr:competitor:14",
                                     "name": "Nottingham Forest",
                                     "abbreviation": "NFO",
-                                    "datapoints": [
-                                        {
-                                            "type": "yellow_cards",
-                                            "value": 1
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "sr:player:288205",
-                            "name": "Fernandes, Bruno",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:35",
-                                    "name": "Manchester United",
-                                    "abbreviation": "MUN",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -6044,7 +6805,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -6096,6 +6857,23 @@
                                     "id": "sr:competitor:7",
                                     "name": "Crystal Palace",
                                     "abbreviation": "CRY",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:364612",
+                            "name": "Palhinha, Joao",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:33",
+                                    "name": "Tottenham Hotspur",
+                                    "abbreviation": "TOT",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -6225,23 +7003,6 @@
                             ]
                         },
                         {
-                            "id": "sr:player:769505",
-                            "name": "Cucurella, Marc",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:38",
-                                    "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
-                                    "datapoints": [
-                                        {
-                                            "type": "yellow_cards",
-                                            "value": 1
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
                             "id": "sr:player:783126",
                             "name": "Buendia, Emiliano",
                             "competitors": [
@@ -6316,7 +7077,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -6361,13 +7122,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:936572",
-                            "name": "Konate, Ibrahima",
+                            "id": "sr:player:937000",
+                            "name": "Nketiah, Eddie",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:44",
-                                    "name": "Liverpool FC",
-                                    "abbreviation": "LFC",
+                                    "id": "sr:competitor:7",
+                                    "name": "Crystal Palace",
+                                    "abbreviation": "CRY",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -6402,6 +7163,40 @@
                                     "id": "sr:competitor:34",
                                     "name": "Leeds United",
                                     "abbreviation": "LEE",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:974231",
+                            "name": "Ampadu, Ethan",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:34",
+                                    "name": "Leeds United",
+                                    "abbreviation": "LEE",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:976055",
+                            "name": "Milenkovic, Nikola",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:14",
+                                    "name": "Nottingham Forest",
+                                    "abbreviation": "NFO",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -6463,6 +7258,23 @@
                             ]
                         },
                         {
+                            "id": "sr:player:1012117",
+                            "name": "Chiesa, Federico",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:44",
+                                    "name": "Liverpool FC",
+                                    "abbreviation": "LFC",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:1021607",
                             "name": "Stach, Anton",
                             "competitors": [
@@ -6470,6 +7282,23 @@
                                     "id": "sr:competitor:34",
                                     "name": "Leeds United",
                                     "abbreviation": "LEE",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:1047129",
+                            "name": "Foden, Phil",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:17",
+                                    "name": "Manchester City",
+                                    "abbreviation": "MCI",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -6565,13 +7394,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:1132173",
-                            "name": "Lacroix, Maxence",
+                            "id": "sr:player:1103661",
+                            "name": "Dominguez, Nicolas",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:7",
-                                    "name": "Crystal Palace",
-                                    "abbreviation": "CRY",
+                                    "id": "sr:competitor:14",
+                                    "name": "Nottingham Forest",
+                                    "abbreviation": "NFO",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -6582,13 +7411,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:1140070",
-                            "name": "James, Reece",
+                            "id": "sr:player:1132173",
+                            "name": "Lacroix, Maxence",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:38",
-                                    "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "id": "sr:competitor:7",
+                                    "name": "Crystal Palace",
+                                    "abbreviation": "CRY",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -6667,6 +7496,23 @@
                             ]
                         },
                         {
+                            "id": "sr:player:1299814",
+                            "name": "Badiashile, Benoit",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:38",
+                                    "name": "Chelsea FC",
+                                    "abbreviation": "CFC",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:1321798",
                             "name": "Kudus, Mohammed",
                             "competitors": [
@@ -6691,6 +7537,23 @@
                                     "id": "sr:competitor:33",
                                     "name": "Tottenham Hotspur",
                                     "abbreviation": "TOT",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:1398657",
+                            "name": "Aaronson, Brenden",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:34",
+                                    "name": "Leeds United",
+                                    "abbreviation": "LEE",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -6786,6 +7649,23 @@
                             ]
                         },
                         {
+                            "id": "sr:player:1500083",
+                            "name": "Sanchez, Robert",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:38",
+                                    "name": "Chelsea FC",
+                                    "abbreviation": "CFC",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:1557191",
                             "name": "Muniz, Rodrigo",
                             "competitors": [
@@ -6810,6 +7690,23 @@
                                     "id": "sr:competitor:30",
                                     "name": "Brighton & Hove Albion",
                                     "abbreviation": "BRI",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:1575774",
+                            "name": "Schade, Kevin",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:50",
+                                    "name": "Brentford FC",
+                                    "abbreviation": "BRE",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -6871,42 +7768,8 @@
                             ]
                         },
                         {
-                            "id": "sr:player:1621256",
-                            "name": "Wieffer, Mats",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:30",
-                                    "name": "Brighton & Hove Albion",
-                                    "abbreviation": "BRI",
-                                    "datapoints": [
-                                        {
-                                            "type": "yellow_cards",
-                                            "value": 1
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
                             "id": "sr:player:1624310",
                             "name": "De Cuyper, Maxime",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:30",
-                                    "name": "Brighton & Hove Albion",
-                                    "abbreviation": "BRI",
-                                    "datapoints": [
-                                        {
-                                            "type": "yellow_cards",
-                                            "value": 1
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "sr:player:1630352",
-                            "name": "Van Hecke, Jan Paul",
                             "competitors": [
                                 {
                                     "id": "sr:competitor:30",
@@ -6929,6 +7792,23 @@
                                     "id": "sr:competitor:60",
                                     "name": "AFC Bournemouth",
                                     "abbreviation": "BOU",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:1635776",
+                            "name": "Anderson, Elliot",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:14",
+                                    "name": "Nottingham Forest",
+                                    "abbreviation": "NFO",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -7030,7 +7910,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -7064,7 +7944,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -7082,6 +7962,23 @@
                                     "id": "sr:competitor:50",
                                     "name": "Brentford FC",
                                     "abbreviation": "BRE",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:1885046",
+                            "name": "Simons, Xavi",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:33",
+                                    "name": "Tottenham Hotspur",
+                                    "abbreviation": "TOT",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -7245,23 +8142,6 @@
                             ]
                         },
                         {
-                            "id": "sr:player:2070595",
-                            "name": "Anthony, Jaidon",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:6",
-                                    "name": "Burnley FC",
-                                    "abbreviation": "BUR",
-                                    "datapoints": [
-                                        {
-                                            "type": "yellow_cards",
-                                            "value": 1
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
                             "id": "sr:player:2115982",
                             "name": "Bogarde, Lamare",
                             "competitors": [
@@ -7404,7 +8284,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -7422,23 +8302,6 @@
                                     "id": "sr:competitor:30",
                                     "name": "Brighton & Hove Albion",
                                     "abbreviation": "BRI",
-                                    "datapoints": [
-                                        {
-                                            "type": "yellow_cards",
-                                            "value": 1
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "id": "sr:player:2337853",
-                            "name": "Sadiki, Noah",
-                            "competitors": [
-                                {
-                                    "id": "sr:competitor:41",
-                                    "name": "Sunderland AFC",
-                                    "abbreviation": "SUN",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -7483,6 +8346,40 @@
                             ]
                         },
                         {
+                            "id": "sr:player:2397923",
+                            "name": "Bergvall, Lucas",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:33",
+                                    "name": "Tottenham Hotspur",
+                                    "abbreviation": "TOT",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sr:player:2411801",
+                            "name": "Hartman, Quilindschy",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:6",
+                                    "name": "Burnley FC",
+                                    "abbreviation": "BUR",
+                                    "datapoints": [
+                                        {
+                                            "type": "yellow_cards",
+                                            "value": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
                             "id": "sr:player:2518835",
                             "name": "Lewis-Skelly, Myles",
                             "competitors": [
@@ -7517,13 +8414,13 @@
                             ]
                         },
                         {
-                            "id": "sr:player:2631331",
-                            "name": "Dorgu, Patrick",
+                            "id": "sr:player:2592883",
+                            "name": "Kroupi Jr, Eli",
                             "competitors": [
                                 {
-                                    "id": "sr:competitor:35",
-                                    "name": "Manchester United",
-                                    "abbreviation": "MUN",
+                                    "id": "sr:competitor:60",
+                                    "name": "AFC Bournemouth",
+                                    "abbreviation": "BOU",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -7540,7 +8437,7 @@
                                 {
                                     "id": "sr:competitor:38",
                                     "name": "Chelsea FC",
-                                    "abbreviation": "CHE",
+                                    "abbreviation": "CFC",
                                     "datapoints": [
                                         {
                                             "type": "yellow_cards",
@@ -7576,6 +8473,28 @@
             "leaders": [
                 {
                     "rank": 1,
+                    "players": [
+                        {
+                            "id": "sr:player:1644602",
+                            "name": "Esteve, Maxime",
+                            "competitors": [
+                                {
+                                    "id": "sr:competitor:6",
+                                    "name": "Burnley FC",
+                                    "abbreviation": "BUR",
+                                    "datapoints": [
+                                        {
+                                            "type": "own_goals",
+                                            "value": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "rank": 2,
                     "players": [
                         {
                             "id": "sr:player:816106",

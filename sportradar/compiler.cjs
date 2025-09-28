@@ -29,38 +29,38 @@ class Compiler {
   }
 
   compilePlayersRef () {
-    const competitorPlayers = require(path.join(__dirname, '..', 'ref', config.year.toString(), 'competitor_players.json'));
-    const allTeams = competitorPlayers.season_competitor_players;
+    // const competitorPlayers = require(path.join(__dirname, '..', 'ref', config.year.toString(), 'competitor_players.json'));
+    // const allTeams = competitorPlayers.season_competitor_players;
 
-    const allPlayersGone = [];
-    const playersGoneFolder = path.join(__dirname, '..', 'ref', config.year.toString(), 'players_gone');
-    fs.readdirSync(playersGoneFolder).forEach(file => {
-      const playerData = require(path.join(__dirname, '..', 'ref', config.year.toString(), 'players_gone', file));
-      allPlayersGone.push(playerData);
+    const allPlayerProfiles = [];
+    const playerProfilesFolder = path.join(__dirname, '..', 'ref', config.year.toString(), 'player_profiles');
+    fs.readdirSync(playerProfilesFolder).forEach(file => {
+      const playerData = require(path.join(__dirname, '..', 'ref', config.year.toString(), 'player_profiles', file));
+      allPlayerProfiles.push(playerData);
     });
 
     this.players_ref = []
-    allTeams.forEach(t => {
-      const playerTeam = t.short_name;
-      t.players.forEach(p => {
-        const sportradarId = p.id;
-        const playerName = p.name
-          .split(",")
-          .map(d => d.trim())
-          .reverse()
-          .join(' ');
-        const position = {
-          midfielder: "MID",
-          forward: "FWD",
-          defender: "DEF",
-          goalkeeper: "GK"
-        }[p.type];
-        const jersey = p.jersey_number;
-        this.players_ref.push({ sportradarId, playerName, playerTeam, position, jersey });
-      });
-    });
+    // allTeams.forEach(t => {
+    //   const playerTeam = t.short_name;
+    //   t.players.forEach(p => {
+    //     const sportradarId = p.id;
+    //     const playerName = p.name
+    //       .split(",")
+    //       .map(d => d.trim())
+    //       .reverse()
+    //       .join(' ');
+    //     const position = {
+    //       midfielder: "MID",
+    //       forward: "FWD",
+    //       defender: "DEF",
+    //       goalkeeper: "GK"
+    //     }[p.type];
+    //     const jersey = p.jersey_number;
+    //     this.players_ref.push({ sportradarId, playerName, playerTeam, position, jersey });
+    //   });
+    // });
 
-    allPlayersGone.forEach(p => {
+    allPlayerProfiles.forEach(p => {
       const sportradarId = p.player.id;
       const playerName = p.player.name
         .split(",")
@@ -74,7 +74,12 @@ class Compiler {
         goalkeeper: "GK"
       }[p.player.type];
       const jersey = p.player.jersey_number;
-      const playerTeam = p.competitors?.find(d => d.name !== d.country)?.name || "N/A";
+      const playerTeam = p.competitors?.find(d => {
+        return (
+          (d.name !== d.country) &&
+          (d.name !== "Ivory Coast")
+        )
+      })?.name || "N/A";
       this.players_ref.push({ sportradarId, playerName, playerTeam, position, jersey });
     });
   }

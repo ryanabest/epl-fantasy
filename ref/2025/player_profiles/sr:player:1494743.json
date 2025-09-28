@@ -1,0 +1,164 @@
+{
+    "generated_at": "2025-09-28T15:08:20+00:00",
+    "player": {
+        "id": "sr:player:1494743",
+        "name": "Mitoma, Kaoru",
+        "type": "midfielder",
+        "date_of_birth": "1997-05-20",
+        "nationality": "Japan",
+        "country_code": "JPN",
+        "height": 178,
+        "weight": 73,
+        "jersey_number": 22,
+        "preferred_foot": "right",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4770",
+            "name": "Japan",
+            "country": "Japan",
+            "country_code": "JPN",
+            "abbreviation": "JPN",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:30",
+            "name": "Brighton & Hove Albion",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "BRI",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4770",
+                "name": "Japan",
+                "country": "Japan",
+                "country_code": "JPN",
+                "abbreviation": "JPN",
+                "gender": "male"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6034",
+                "name": "Japan",
+                "country": "Japan",
+                "country_code": "JPN",
+                "abbreviation": "JPN",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:24254",
+                "name": "Japan",
+                "country": "Japan",
+                "country_code": "JPN",
+                "abbreviation": "JPN",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:49055",
+                "name": "Japan",
+                "country": "Japan",
+                "country_code": "JPN",
+                "abbreviation": "JPN",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:56481",
+                "name": "University of Tsukuba",
+                "country": "Japan",
+                "country_code": "JPN",
+                "abbreviation": "UTS",
+                "gender": "male"
+            },
+            "start_date": "2018-01-01 00:00:00",
+            "end_date": "2019-06-30 00:00:00"
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5127",
+                "name": "Kawasaki Frontale",
+                "country": "Japan",
+                "country_code": "JPN",
+                "abbreviation": "KAW",
+                "gender": "male"
+            },
+            "start_date": "2018-08-10 00:00:00",
+            "end_date": "2019-01-30 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5127",
+                "name": "Kawasaki Frontale",
+                "country": "Japan",
+                "country_code": "JPN",
+                "abbreviation": "KAW",
+                "gender": "male"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2021-08-09 00:00:00",
+            "jersey_number": 18
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:30",
+                "name": "Brighton & Hove Albion",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BRI",
+                "gender": "male"
+            },
+            "start_date": "2021-08-10 00:00:00",
+            "jersey_number": 22
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4860",
+                "name": "Union Saint-Gilloise",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "USG",
+                "gender": "male"
+            },
+            "start_date": "2021-08-11 00:00:00",
+            "end_date": "2022-06-30 00:00:00",
+            "jersey_number": 18
+        }
+    ]
+}

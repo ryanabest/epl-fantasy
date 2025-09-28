@@ -1,0 +1,123 @@
+{
+    "generated_at": "2025-09-28T15:00:14+00:00",
+    "player": {
+        "id": "sr:player:1408017",
+        "name": "Arias, Jhon",
+        "type": "forward",
+        "date_of_birth": "1997-09-21",
+        "nationality": "Colombia",
+        "country_code": "COL",
+        "height": 168,
+        "weight": 66,
+        "jersey_number": 11,
+        "preferred_foot": "right",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:3",
+            "name": "Wolverhampton Wanderers",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "WOL",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4820",
+            "name": "Colombia",
+            "country": "Colombia",
+            "country_code": "COL",
+            "abbreviation": "COL",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4820",
+                "name": "Colombia",
+                "country": "Colombia",
+                "country_code": "COL",
+                "abbreviation": "COL",
+                "gender": "male"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:61504",
+                "name": "Boyaca Patriotas",
+                "country": "Colombia",
+                "country_code": "COL",
+                "abbreviation": "BOY",
+                "gender": "male"
+            },
+            "start_date": "2019-01-01 00:00:00",
+            "end_date": "2019-12-31 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6102",
+                "name": "America de Cali",
+                "country": "Colombia",
+                "country_code": "COL",
+                "abbreviation": "AME",
+                "gender": "male"
+            },
+            "start_date": "2020-01-01 00:00:00",
+            "end_date": "2020-12-31 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6116",
+                "name": "Independiente Santa Fe",
+                "country": "Colombia",
+                "country_code": "COL",
+                "abbreviation": "SFE",
+                "gender": "male"
+            },
+            "start_date": "2021-01-01 00:00:00",
+            "end_date": "2021-08-17 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1961",
+                "name": "Fluminense FC RJ",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "FLU",
+                "gender": "male"
+            },
+            "start_date": "2021-08-18 00:00:00",
+            "end_date": "2025-07-23 00:00:00",
+            "jersey_number": 21
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:3",
+                "name": "Wolverhampton Wanderers",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WOL",
+                "gender": "male"
+            },
+            "start_date": "2025-07-24 00:00:00",
+            "jersey_number": 10
+        }
+    ]
+}

@@ -1,0 +1,242 @@
+{
+    "generated_at": "2025-09-28T15:08:35+00:00",
+    "player": {
+        "id": "sr:player:355528",
+        "name": "Wilson, Harry",
+        "type": "forward",
+        "date_of_birth": "1997-03-22",
+        "nationality": "Wales",
+        "country_code": "WAL",
+        "height": 173,
+        "weight": 70,
+        "jersey_number": 8,
+        "preferred_foot": "left",
+        "place_of_birth": "Wrexham (WALES)",
+        "country_of_birth": "Wales",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:43",
+            "name": "Fulham FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "FUL",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4702",
+            "name": "Wales",
+            "country": "Wales",
+            "country_code": "WAL",
+            "abbreviation": "WAL",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4702",
+                "name": "Wales",
+                "country": "Wales",
+                "country_code": "WAL",
+                "abbreviation": "WAL",
+                "gender": "male"
+            },
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6057",
+                "name": "Wales",
+                "country": "Wales",
+                "country_code": "WAL",
+                "abbreviation": "WAL",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22572",
+                "name": "Wales",
+                "country": "Wales",
+                "country_code": "WAL",
+                "abbreviation": "WAL",
+                "gender": "male",
+                "age_group": "U19"
+            }
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22664",
+                "name": "Wales",
+                "country": "Wales",
+                "country_code": "WAL",
+                "abbreviation": "WAL",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:44",
+                "name": "Liverpool FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LFC",
+                "gender": "male"
+            },
+            "start_date": "2014-07-01 00:00:00",
+            "end_date": "2017-06-30 00:00:00",
+            "jersey_number": 59
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:36556",
+                "name": "Liverpool FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LFC",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "start_date": "2014-07-01 00:00:00",
+            "end_date": "2021-07-23 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:90134",
+                "name": "Liverpool",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LFC",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2014-07-01 00:00:00",
+            "end_date": "2015-06-30 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:19",
+                "name": "Crewe Alexandra",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CRE",
+                "gender": "male"
+            },
+            "start_date": "2015-08-26 00:00:00",
+            "end_date": "2016-01-05 00:00:00",
+            "jersey_number": 24
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:44",
+                "name": "Liverpool FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LFC",
+                "gender": "male"
+            },
+            "start_date": "2018-01-01 00:00:00",
+            "end_date": "2021-07-23 00:00:00",
+            "jersey_number": 59
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:96",
+                "name": "Hull City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "HUL",
+                "gender": "male"
+            },
+            "start_date": "2018-01-31 00:00:00",
+            "end_date": "2018-05-31 00:00:00",
+            "jersey_number": 49
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:27",
+                "name": "Derby County",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "DER",
+                "gender": "male"
+            },
+            "start_date": "2018-07-17 00:00:00",
+            "end_date": "2019-05-31 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:60",
+                "name": "AFC Bournemouth",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BOU",
+                "gender": "male"
+            },
+            "start_date": "2019-08-06 00:00:00",
+            "end_date": "2020-07-31 00:00:00",
+            "jersey_number": 22
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:61",
+                "name": "Cardiff City",
+                "country": "Wales",
+                "country_code": "WAL",
+                "abbreviation": "CAR",
+                "gender": "male"
+            },
+            "start_date": "2020-10-16 00:00:00",
+            "end_date": "2021-06-30 00:00:00",
+            "jersey_number": 23
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:43",
+                "name": "Fulham FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "FUL",
+                "gender": "male"
+            },
+            "start_date": "2021-07-24 00:00:00",
+            "jersey_number": 8
+        }
+    ]
+}

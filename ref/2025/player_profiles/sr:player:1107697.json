@@ -1,0 +1,169 @@
+{
+    "generated_at": "2025-09-28T15:06:05+00:00",
+    "player": {
+        "id": "sr:player:1107697",
+        "name": "Marmoush, Omar",
+        "type": "forward",
+        "date_of_birth": "1999-02-07",
+        "nationality": "Egypt",
+        "country_code": "EGY",
+        "height": 183,
+        "weight": 81,
+        "jersey_number": 22,
+        "preferred_foot": "right",
+        "place_of_birth": "Cairo",
+        "country_of_birth": "Egypt",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:17",
+            "name": "Manchester City",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "MCI",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4758",
+            "name": "Egypt",
+            "country": "Egypt",
+            "country_code": "EGY",
+            "abbreviation": "EGY",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4758",
+                "name": "Egypt",
+                "country": "Egypt",
+                "country_code": "EGY",
+                "abbreviation": "EGY",
+                "gender": "male"
+            },
+            "jersey_number": 22
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22679",
+                "name": "Egypt",
+                "country": "Egypt",
+                "country_code": "EGY",
+                "abbreviation": "EGY",
+                "gender": "male",
+                "age_group": "U20"
+            },
+            "jersey_number": 15
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2579",
+                "name": "VfL Wolfsburg II",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "WOB",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "start_date": "2017-08-31 00:00:00",
+            "end_date": "2021-06-30 00:00:00",
+            "jersey_number": 29
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:43706",
+                "name": "VfL Wolfsburg",
+                "abbreviation": "WOB",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2017-09-09 00:00:00",
+            "end_date": "2018-06-30 00:00:00",
+            "jersey_number": 25
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2524",
+                "name": "VfL Wolfsburg",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "WOB",
+                "gender": "male"
+            },
+            "start_date": "2020-01-01 00:00:00",
+            "end_date": "2023-06-30 00:00:00",
+            "jersey_number": 33
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2526",
+                "name": "FC St. Pauli",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "STP",
+                "gender": "male"
+            },
+            "start_date": "2021-01-05 00:00:00",
+            "end_date": "2021-06-30 00:00:00",
+            "jersey_number": 22
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2677",
+                "name": "VfB Stuttgart",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "VFB",
+                "gender": "male"
+            },
+            "start_date": "2021-08-30 00:00:00",
+            "end_date": "2022-06-30 00:00:00",
+            "jersey_number": 17
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2674",
+                "name": "Eintracht Frankfurt",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "SGE",
+                "gender": "male"
+            },
+            "start_date": "2023-07-01 00:00:00",
+            "end_date": "2025-01-22 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:17",
+                "name": "Manchester City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MCI",
+                "gender": "male"
+            },
+            "start_date": "2025-01-23 00:00:00",
+            "jersey_number": 7
+        }
+    ]
+}

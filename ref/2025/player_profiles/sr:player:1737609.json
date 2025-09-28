@@ -1,0 +1,117 @@
+{
+    "generated_at": "2025-09-28T15:06:17+00:00",
+    "player": {
+        "id": "sr:player:1737609",
+        "name": "Palmer, Cole",
+        "type": "midfielder",
+        "date_of_birth": "2002-05-06",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 182,
+        "weight": 77,
+        "jersey_number": 10,
+        "preferred_foot": "left",
+        "place_of_birth": "Wythenshawe",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:38",
+            "name": "Chelsea FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CFC",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4713",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male"
+            },
+            "end_date": "2025-08-31 00:00:00",
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6025",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22599",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:120856",
+                "name": "Manchester City FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MCI",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2019-01-01 00:00:00",
+            "end_date": "2023-08-31 00:00:00",
+            "jersey_number": 15
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:17",
+                "name": "Manchester City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MCI",
+                "gender": "male"
+            },
+            "start_date": "2020-01-01 00:00:00",
+            "end_date": "2023-08-31 00:00:00",
+            "jersey_number": 80
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:38",
+                "name": "Chelsea FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CFC",
+                "gender": "male"
+            },
+            "start_date": "2023-09-01 00:00:00",
+            "jersey_number": 10
+        }
+    ]
+}

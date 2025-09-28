@@ -1,0 +1,110 @@
+{
+    "generated_at": "2025-09-28T15:00:23+00:00",
+    "player": {
+        "id": "sr:player:2265039",
+        "name": "Gittens, Jamie",
+        "type": "forward",
+        "date_of_birth": "2004-08-08",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 177,
+        "weight": 70,
+        "jersey_number": 21,
+        "preferred_foot": "right",
+        "place_of_birth": "London (ENGLAND)",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:38",
+            "name": "Chelsea FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CFC",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:6025",
+            "name": "England",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ENG",
+            "gender": "male",
+            "age_group": "U21"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:6025",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 21
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22505",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 18
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:43719",
+                "name": "Borussia Dortmund",
+                "abbreviation": "BVB",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2021-07-01 00:00:00",
+            "end_date": "2022-06-30 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2673",
+                "name": "Borussia Dortmund",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "BVB",
+                "gender": "male"
+            },
+            "start_date": "2022-04-01 00:00:00",
+            "end_date": "2025-07-04 00:00:00",
+            "jersey_number": 43
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:38",
+                "name": "Chelsea FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CFC",
+                "gender": "male"
+            },
+            "start_date": "2025-07-05 00:00:00",
+            "jersey_number": 11
+        }
+    ]
+}

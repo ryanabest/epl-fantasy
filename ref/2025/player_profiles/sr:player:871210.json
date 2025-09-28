@@ -1,0 +1,154 @@
+{
+    "generated_at": "2025-09-28T15:07:53+00:00",
+    "player": {
+        "id": "sr:player:871210",
+        "name": "Wissa, Yoane",
+        "type": "midfielder",
+        "date_of_birth": "1996-09-03",
+        "nationality": "Congo democratic republic",
+        "country_code": "COD",
+        "height": 180,
+        "weight": 75,
+        "jersey_number": 20,
+        "preferred_foot": "right",
+        "place_of_birth": "Epinay-sous-Senart",
+        "country_of_birth": "France",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:39",
+            "name": "Newcastle United",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "NEW",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4823",
+            "name": "DR Congo",
+            "country": "Congo DR",
+            "country_code": "COD",
+            "abbreviation": "COD",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4823",
+                "name": "DR Congo",
+                "country": "Congo DR",
+                "country_code": "COD",
+                "abbreviation": "COD",
+                "gender": "male"
+            },
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1666",
+                "name": "LB Chateauroux",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "LBC",
+                "gender": "male"
+            },
+            "start_date": "2015-07-01 00:00:00",
+            "end_date": "2016-06-30 00:00:00",
+            "jersey_number": 29
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1684",
+                "name": "Angers SCO",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "ANG",
+                "gender": "male"
+            },
+            "start_date": "2016-07-01 00:00:00",
+            "end_date": "2018-01-21 00:00:00",
+            "jersey_number": 12
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1673",
+                "name": "Stade Lavallois MFC",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "LAV",
+                "gender": "male"
+            },
+            "start_date": "2017-01-24 00:00:00",
+            "end_date": "2017-06-30 00:00:00",
+            "jersey_number": 29
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1660",
+                "name": "AC Ajaccio",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "ACA",
+                "gender": "male"
+            },
+            "start_date": "2017-07-01 00:00:00",
+            "end_date": "2018-01-21 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1656",
+                "name": "FC Lorient",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "FCL",
+                "gender": "male"
+            },
+            "start_date": "2018-01-22 00:00:00",
+            "end_date": "2021-08-09 00:00:00",
+            "jersey_number": 19
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:50",
+                "name": "Brentford FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BRE",
+                "gender": "male"
+            },
+            "start_date": "2021-08-10 00:00:00",
+            "end_date": "2025-08-31 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:39",
+                "name": "Newcastle United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "NEW",
+                "gender": "male"
+            },
+            "start_date": "2025-09-01 00:00:00"
+        }
+    ]
+}

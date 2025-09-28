@@ -1,0 +1,183 @@
+{
+    "generated_at": "2025-09-28T15:08:23+00:00",
+    "player": {
+        "id": "sr:player:1577506",
+        "name": "Rogers, Morgan",
+        "type": "forward",
+        "date_of_birth": "2002-07-26",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 187,
+        "weight": 73,
+        "jersey_number": 27,
+        "preferred_foot": "right",
+        "place_of_birth": "Halesowen (ENGLAND)",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4713",
+            "name": "England",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ENG",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:40",
+            "name": "Aston Villa",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "AVL",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4713",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male"
+            },
+            "jersey_number": 15
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6025",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22599",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:120856",
+                "name": "Manchester City FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MCI",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "end_date": "2023-07-06 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:8",
+                "name": "West Bromwich Albion",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WBA",
+                "gender": "male"
+            },
+            "start_date": "2018-07-01 00:00:00",
+            "end_date": "2019-02-07 00:00:00",
+            "jersey_number": 51
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:92",
+                "name": "Lincoln City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LIC",
+                "gender": "male"
+            },
+            "start_date": "2021-01-04 00:00:00",
+            "end_date": "2021-05-31 00:00:00",
+            "jersey_number": 27
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:60",
+                "name": "AFC Bournemouth",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BOU",
+                "gender": "male"
+            },
+            "start_date": "2021-08-23 00:00:00",
+            "end_date": "2022-05-31 00:00:00",
+            "jersey_number": 27
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:67",
+                "name": "Blackpool FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BLP",
+                "gender": "male"
+            },
+            "start_date": "2023-01-04 00:00:00",
+            "end_date": "2023-05-31 00:00:00",
+            "jersey_number": 25
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:36",
+                "name": "Middlesbrough FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MID",
+                "gender": "male"
+            },
+            "start_date": "2023-07-07 00:00:00",
+            "end_date": "2024-01-31 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:40",
+                "name": "Aston Villa",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "AVL",
+                "gender": "male"
+            },
+            "start_date": "2024-02-01 00:00:00",
+            "jersey_number": 27
+        }
+    ]
+}

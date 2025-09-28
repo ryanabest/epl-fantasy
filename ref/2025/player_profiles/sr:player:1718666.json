@@ -1,0 +1,139 @@
+{
+    "generated_at": "2025-09-28T15:03:12+00:00",
+    "player": {
+        "id": "sr:player:1718666",
+        "name": "Elanga, Anthony",
+        "type": "forward",
+        "date_of_birth": "2002-04-27",
+        "nationality": "Sweden",
+        "country_code": "SWE",
+        "height": 178,
+        "weight": 70,
+        "jersey_number": 11,
+        "preferred_foot": "right",
+        "place_of_birth": "Huxley",
+        "country_of_birth": "Sweden",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4688",
+            "name": "Sweden",
+            "country": "Sweden",
+            "country_code": "SWE",
+            "abbreviation": "SWE",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:39",
+            "name": "Newcastle United",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "NEW",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4688",
+                "name": "Sweden",
+                "country": "Sweden",
+                "country_code": "SWE",
+                "abbreviation": "SWE",
+                "gender": "male"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4793",
+                "name": "Sweden",
+                "country": "Sweden",
+                "country_code": "SWE",
+                "abbreviation": "SWE",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22654",
+                "name": "Sweden",
+                "country": "Sweden",
+                "country_code": "SWE",
+                "abbreviation": "SWE",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:120848",
+                "name": "Manchester United FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MUN",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2018-07-01 00:00:00",
+            "end_date": "2020-12-31 00:00:00",
+            "jersey_number": 36
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:35",
+                "name": "Manchester United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MUN",
+                "gender": "male"
+            },
+            "start_date": "2021-01-01 00:00:00",
+            "end_date": "2023-07-24 00:00:00",
+            "jersey_number": 36
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:14",
+                "name": "Nottingham Forest",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "NFO",
+                "gender": "male"
+            },
+            "start_date": "2023-07-25 00:00:00",
+            "end_date": "2025-07-10 00:00:00",
+            "jersey_number": 21
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:39",
+                "name": "Newcastle United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "NEW",
+                "gender": "male"
+            },
+            "start_date": "2025-07-11 00:00:00",
+            "jersey_number": 20
+        }
+    ]
+}

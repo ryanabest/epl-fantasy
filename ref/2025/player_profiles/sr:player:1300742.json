@@ -1,0 +1,167 @@
+{
+    "generated_at": "2025-09-28T15:06:02+00:00",
+    "player": {
+        "id": "sr:player:1300742",
+        "name": "Madueke, Noni",
+        "type": "forward",
+        "date_of_birth": "2002-03-10",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 182,
+        "weight": 70,
+        "jersey_number": 21,
+        "preferred_foot": "left",
+        "place_of_birth": "Barnet",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:42",
+            "name": "Arsenal FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ARS",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4713",
+            "name": "England",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ENG",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4713",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male"
+            },
+            "jersey_number": 21
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6025",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22599",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:90146",
+                "name": "Tottenham Hotspur",
+                "abbreviation": "TOT",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2017-07-01 00:00:00",
+            "end_date": "2018-06-30 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:90140",
+                "name": "PSV Eindhoven",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "PSV",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2018-07-01 00:00:00",
+            "end_date": "2019-08-25 00:00:00",
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2952",
+                "name": "PSV Eindhoven",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "PSV",
+                "gender": "male"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2023-01-19 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:46168",
+                "name": "Jong PSV Eindhoven",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "PSV",
+                "gender": "male",
+                "age_group": "Youth"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2020-02-29 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:38",
+                "name": "Chelsea FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CFC",
+                "gender": "male"
+            },
+            "start_date": "2023-01-20 00:00:00",
+            "end_date": "2025-07-17 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:42",
+                "name": "Arsenal FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ARS",
+                "gender": "male"
+            },
+            "start_date": "2025-07-18 00:00:00",
+            "jersey_number": 20
+        }
+    ]
+}

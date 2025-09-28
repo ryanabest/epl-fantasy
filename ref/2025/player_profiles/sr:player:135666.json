@@ -1,0 +1,197 @@
+{
+    "generated_at": "2025-09-28T15:03:16+00:00",
+    "player": {
+        "id": "sr:player:135666",
+        "name": "Trossard, Leandro",
+        "type": "midfielder",
+        "date_of_birth": "1994-12-04",
+        "nationality": "Belgium",
+        "country_code": "BEL",
+        "height": 172,
+        "weight": 61,
+        "jersey_number": 10,
+        "preferred_foot": "right",
+        "place_of_birth": "waterschei",
+        "country_of_birth": "Belgium",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4717",
+            "name": "Belgium",
+            "country": "Belgium",
+            "country_code": "BEL",
+            "abbreviation": "BEL",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:42",
+            "name": "Arsenal FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ARS",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4717",
+                "name": "Belgium",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "BEL",
+                "gender": "male"
+            },
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4877",
+                "name": "Belgium",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "BEL",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 19
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22490",
+                "name": "Belgium",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "BEL",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 17
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22583",
+                "name": "Belgium",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "BEL",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 18
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2890",
+                "name": "KRC Genk",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "GEN",
+                "gender": "male"
+            },
+            "start_date": "2012-01-01 00:00:00",
+            "end_date": "2019-06-30 00:00:00",
+            "jersey_number": 14
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5046",
+                "name": "Lommel SK",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "LOM",
+                "gender": "male"
+            },
+            "start_date": "2013-01-01 00:00:00",
+            "end_date": "2013-06-30 00:00:00",
+            "jersey_number": 12
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2893",
+                "name": "KVC Westerlo",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "WES",
+                "gender": "male"
+            },
+            "start_date": "2013-07-01 00:00:00",
+            "end_date": "2014-06-30 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5046",
+                "name": "Lommel SK",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "LOM",
+                "gender": "male"
+            },
+            "start_date": "2014-07-01 00:00:00",
+            "end_date": "2015-06-30 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2918",
+                "name": "Oud-Heverlee Leuven",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "OHL",
+                "gender": "male"
+            },
+            "start_date": "2015-07-06 00:00:00",
+            "end_date": "2016-06-30 00:00:00",
+            "jersey_number": 19
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:30",
+                "name": "Brighton & Hove Albion",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BRI",
+                "gender": "male"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2023-01-19 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:42",
+                "name": "Arsenal FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ARS",
+                "gender": "male"
+            },
+            "start_date": "2023-01-20 00:00:00",
+            "jersey_number": 19
+        }
+    ]
+}

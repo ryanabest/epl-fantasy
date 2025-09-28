@@ -1,0 +1,139 @@
+{
+    "generated_at": "2025-09-28T15:08:05+00:00",
+    "player": {
+        "id": "sr:player:1245194",
+        "name": "Mac Allister, Alexis",
+        "type": "midfielder",
+        "date_of_birth": "1998-12-24",
+        "nationality": "Argentina",
+        "country_code": "ARG",
+        "height": 176,
+        "weight": 70,
+        "jersey_number": 20,
+        "preferred_foot": "right",
+        "place_of_birth": "Santa Rosa",
+        "country_of_birth": "Argentina",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:44",
+            "name": "Liverpool FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "LFC",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4819",
+            "name": "Argentina",
+            "country": "Argentina",
+            "country_code": "ARG",
+            "abbreviation": "ARG",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4819",
+                "name": "Argentina",
+                "country": "Argentina",
+                "country_code": "ARG",
+                "abbreviation": "ARG",
+                "gender": "male"
+            },
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:24246",
+                "name": "Argentina Olympic Team",
+                "country": "Argentina",
+                "country_code": "ARG",
+                "abbreviation": "ARG",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:3216",
+                "name": "Argentinos Juniors",
+                "country": "Argentina",
+                "country_code": "ARG",
+                "abbreviation": "ARG",
+                "gender": "male"
+            },
+            "start_date": "2016-07-01 00:00:00",
+            "end_date": "2019-01-21 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:30",
+                "name": "Brighton & Hove Albion",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BRI",
+                "gender": "male"
+            },
+            "start_date": "2019-01-22 00:00:00",
+            "end_date": "2023-06-30 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:3216",
+                "name": "Argentinos Juniors",
+                "country": "Argentina",
+                "country_code": "ARG",
+                "abbreviation": "ARG",
+                "gender": "male"
+            },
+            "start_date": "2019-01-25 00:00:00",
+            "end_date": "2019-06-30 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:3202",
+                "name": "Boca Juniors",
+                "country": "Argentina",
+                "country_code": "ARG",
+                "abbreviation": "BOC",
+                "gender": "male"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2020-01-31 00:00:00",
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:44",
+                "name": "Liverpool FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LFC",
+                "gender": "male"
+            },
+            "start_date": "2023-07-01 00:00:00",
+            "jersey_number": 10
+        }
+    ]
+}

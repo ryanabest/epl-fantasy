@@ -1,0 +1,160 @@
+{
+    "generated_at": "2025-09-28T15:00:53+00:00",
+    "player": {
+        "id": "sr:player:1436414",
+        "name": "Evanilson",
+        "type": "forward",
+        "date_of_birth": "1999-06-10",
+        "nationality": "Brazil",
+        "country_code": "BRA",
+        "height": 183,
+        "weight": 78,
+        "jersey_number": 9,
+        "preferred_foot": "both",
+        "place_of_birth": "Fortaleza (BRAZIL)",
+        "country_of_birth": "Brazil",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:60",
+            "name": "AFC Bournemouth",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "BOU",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4748",
+                "name": "Brazil",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "BRA",
+                "gender": "male"
+            }
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:44590",
+                "name": "FC STK 1914 Samorin",
+                "country": "Slovakia",
+                "country_code": "SVK",
+                "abbreviation": "SAM",
+                "gender": "male"
+            },
+            "end_date": "2018-02-27 00:00:00",
+            "jersey_number": 14
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:210330",
+                "name": "Fluminense FC RJ",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "FLU",
+                "gender": "male",
+                "age_group": "U20"
+            },
+            "start_date": "2018-06-30 00:00:00",
+            "end_date": "2020-01-12 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1961",
+                "name": "Fluminense FC RJ",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "FLU",
+                "gender": "male"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2020-01-12 00:00:00",
+            "jersey_number": 17
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:87202",
+                "name": "Tombense FC MG",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "TOM",
+                "gender": "male"
+            },
+            "start_date": "2020-01-13 00:00:00",
+            "end_date": "2020-09-08 00:00:00"
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1961",
+                "name": "Fluminense FC RJ",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "FLU",
+                "gender": "male"
+            },
+            "start_date": "2020-01-15 00:00:00",
+            "end_date": "2020-09-08 00:00:00",
+            "jersey_number": 99
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:3002",
+                "name": "FC Porto",
+                "country": "Portugal",
+                "country_code": "PRT",
+                "abbreviation": "FCP",
+                "gender": "male"
+            },
+            "start_date": "2020-09-09 00:00:00",
+            "end_date": "2024-08-15 00:00:00",
+            "jersey_number": 30
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:74469",
+                "name": "FC Porto B",
+                "country": "Portugal",
+                "country_code": "PRT",
+                "abbreviation": "FCP",
+                "gender": "male",
+                "age_group": "Youth"
+            },
+            "start_date": "2021-01-01 00:00:00",
+            "end_date": "2021-06-30 00:00:00",
+            "jersey_number": 30
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:60",
+                "name": "AFC Bournemouth",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BOU",
+                "gender": "male"
+            },
+            "start_date": "2024-08-16 00:00:00",
+            "jersey_number": 9
+        }
+    ]
+}

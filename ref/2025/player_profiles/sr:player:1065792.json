@@ -1,0 +1,196 @@
+{
+    "generated_at": "2025-09-28T15:00:14+00:00",
+    "player": {
+        "id": "sr:player:1065792",
+        "name": "Larsen, Jorgen Strand",
+        "type": "forward",
+        "date_of_birth": "2000-02-06",
+        "nationality": "Norway",
+        "country_code": "NOR",
+        "height": 193,
+        "weight": 79,
+        "jersey_number": 11,
+        "preferred_foot": "right",
+        "place_of_birth": "Halden (NORWAY)",
+        "country_of_birth": "Norway",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:3",
+            "name": "Wolverhampton Wanderers",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "WOL",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4475",
+            "name": "Norway",
+            "country": "Norway",
+            "country_code": "NOR",
+            "abbreviation": "NOR",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4475",
+                "name": "Norway",
+                "country": "Norway",
+                "country_code": "NOR",
+                "abbreviation": "NOR",
+                "gender": "male"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6044",
+                "name": "Norway",
+                "country": "Norway",
+                "country_code": "NOR",
+                "abbreviation": "NOR",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22545",
+                "name": "Norway",
+                "country": "Norway",
+                "country_code": "NOR",
+                "abbreviation": "NOR",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 17
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22638",
+                "name": "Norway",
+                "country": "Norway",
+                "country_code": "NOR",
+                "abbreviation": "NOR",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:48812",
+                "name": "Norway",
+                "country": "Norway",
+                "country_code": "NOR",
+                "abbreviation": "NOR",
+                "gender": "male",
+                "age_group": "U20"
+            },
+            "jersey_number": 17
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:822",
+                "name": "Sarpsborg 08",
+                "country": "Norway",
+                "country_code": "NOR",
+                "abbreviation": "SAR",
+                "gender": "male"
+            },
+            "start_date": "2016-03-18 00:00:00",
+            "end_date": "2020-09-09 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:120874",
+                "name": "AC Milan",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "MIL",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2017-08-28 00:00:00",
+            "end_date": "2018-06-30 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2951",
+                "name": "FC Groningen",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "GRO",
+                "gender": "male"
+            },
+            "start_date": "2020-09-10 00:00:00",
+            "end_date": "2022-08-31 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2821",
+                "name": "RC Celta de Vigo",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "RCC",
+                "gender": "male"
+            },
+            "start_date": "2022-09-01 00:00:00",
+            "end_date": "2025-06-30 00:00:00",
+            "jersey_number": 18
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:3",
+                "name": "Wolverhampton Wanderers",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WOL",
+                "gender": "male"
+            },
+            "start_date": "2024-07-03 00:00:00",
+            "end_date": "2025-06-30 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:3",
+                "name": "Wolverhampton Wanderers",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WOL",
+                "gender": "male"
+            },
+            "start_date": "2025-07-01 00:00:00",
+            "jersey_number": 9
+        }
+    ]
+}

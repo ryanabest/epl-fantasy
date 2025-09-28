@@ -1,0 +1,109 @@
+{
+    "generated_at": "2025-09-28T15:02:47+00:00",
+    "player": {
+        "id": "sr:player:555386",
+        "name": "Watkins, Ollie",
+        "type": "forward",
+        "date_of_birth": "1995-12-30",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 180,
+        "weight": 70,
+        "jersey_number": 11,
+        "preferred_foot": "right",
+        "place_of_birth": "Torquay",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:40",
+            "name": "Aston Villa",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "AVL",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4713",
+            "name": "England",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ENG",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4713",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male"
+            },
+            "jersey_number": 19
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:86",
+                "name": "Exeter City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "EXC",
+                "gender": "male"
+            },
+            "start_date": "2014-07-01 00:00:00",
+            "end_date": "2017-07-17 00:00:00",
+            "jersey_number": 14
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6341",
+                "name": "Weston-super-Mare",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WSM",
+                "gender": "male"
+            },
+            "start_date": "2014-12-08 00:00:00",
+            "end_date": "2015-05-30 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:50",
+                "name": "Brentford FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BRE",
+                "gender": "male"
+            },
+            "start_date": "2017-07-18 00:00:00",
+            "end_date": "2020-09-08 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:40",
+                "name": "Aston Villa",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "AVL",
+                "gender": "male"
+            },
+            "start_date": "2020-09-09 00:00:00",
+            "jersey_number": 11
+        }
+    ]
+}

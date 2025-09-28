@@ -1,0 +1,135 @@
+{
+    "generated_at": "2025-09-28T15:00:35+00:00",
+    "player": {
+        "id": "sr:player:1058433",
+        "name": "Piroe, Joel",
+        "type": "forward",
+        "date_of_birth": "1999-08-02",
+        "nationality": "Netherlands",
+        "country_code": "NLD",
+        "height": 185,
+        "weight": 74,
+        "jersey_number": 10,
+        "preferred_foot": "left",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:34",
+            "name": "Leeds United",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "LEE",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:46168",
+                "name": "Jong PSV Eindhoven",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "PSV",
+                "gender": "male",
+                "age_group": "Youth"
+            },
+            "start_date": "2016-07-01 00:00:00",
+            "end_date": "2021-07-01 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:90140",
+                "name": "PSV Eindhoven",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "PSV",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2016-07-01 00:00:00",
+            "end_date": "2018-06-30 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22543",
+                "name": "Netherlands",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "NED",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2017-03-22 00:00:00",
+            "end_date": "2017-10-11 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2960",
+                "name": "Sparta Rotterdam",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "SPA",
+                "gender": "male"
+            },
+            "start_date": "2019-08-22 00:00:00",
+            "end_date": "2020-06-30 00:00:00",
+            "jersey_number": 13
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2952",
+                "name": "PSV Eindhoven",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "PSV",
+                "gender": "male"
+            },
+            "start_date": "2020-07-01 00:00:00",
+            "end_date": "2021-07-01 00:00:00",
+            "jersey_number": 29
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:74",
+                "name": "Swansea City",
+                "country": "Wales",
+                "country_code": "WAL",
+                "abbreviation": "SWA",
+                "gender": "male"
+            },
+            "start_date": "2021-07-02 00:00:00",
+            "end_date": "2023-08-23 00:00:00",
+            "jersey_number": 17
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:34",
+                "name": "Leeds United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LEE",
+                "gender": "male"
+            },
+            "start_date": "2023-08-24 00:00:00",
+            "jersey_number": 10
+        }
+    ]
+}

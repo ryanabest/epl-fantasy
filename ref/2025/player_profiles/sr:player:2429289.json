@@ -1,0 +1,109 @@
+{
+    "generated_at": "2025-09-28T15:00:32+00:00",
+    "player": {
+        "id": "sr:player:2429289",
+        "name": "Minteh, Yankuba",
+        "type": "forward",
+        "date_of_birth": "2004-07-22",
+        "nationality": "Gambia",
+        "country_code": "GMB",
+        "height": 180,
+        "weight": 76,
+        "jersey_number": 20,
+        "preferred_foot": "left",
+        "place_of_birth": "Serekunda",
+        "country_of_birth": "Gambia",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:30",
+            "name": "Brighton & Hove Albion",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "BRI",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4762",
+            "name": "Gambia",
+            "country": "Gambia",
+            "country_code": "GMB",
+            "abbreviation": "GAM",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4762",
+                "name": "Gambia",
+                "country": "Gambia",
+                "country_code": "GMB",
+                "abbreviation": "GAM",
+                "gender": "male"
+            },
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1286",
+                "name": "Odense Boldklub",
+                "country": "Denmark",
+                "country_code": "DNK",
+                "abbreviation": "OBK",
+                "gender": "male"
+            },
+            "start_date": "2022-08-19 00:00:00",
+            "end_date": "2023-06-30 00:00:00",
+            "jersey_number": 30
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:39",
+                "name": "Newcastle United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "NEW",
+                "gender": "male"
+            },
+            "start_date": "2023-07-01 00:00:00",
+            "end_date": "2024-06-30 00:00:00"
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2959",
+                "name": "Feyenoord Rotterdam",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "FEY",
+                "gender": "male"
+            },
+            "start_date": "2023-07-02 00:00:00",
+            "end_date": "2024-06-30 00:00:00",
+            "jersey_number": 19
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:30",
+                "name": "Brighton & Hove Albion",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BRI",
+                "gender": "male"
+            },
+            "start_date": "2024-07-01 00:00:00",
+            "jersey_number": 11
+        }
+    ]
+}

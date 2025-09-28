@@ -1,0 +1,110 @@
+{
+    "generated_at": "2025-09-28T15:00:23+00:00",
+    "player": {
+        "id": "sr:player:1710063",
+        "name": "Joao Pedro",
+        "type": "forward",
+        "date_of_birth": "2001-09-26",
+        "nationality": "Brazil",
+        "country_code": "BRA",
+        "height": 182,
+        "weight": 72,
+        "jersey_number": 7,
+        "preferred_foot": "right",
+        "place_of_birth": "Ribeirao Preto",
+        "country_of_birth": "Brazil",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4748",
+            "name": "Brazil",
+            "country": "Brazil",
+            "country_code": "BRA",
+            "abbreviation": "BRA",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:38",
+            "name": "Chelsea FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CFC",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4748",
+                "name": "Brazil",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "BRA",
+                "gender": "male"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1961",
+                "name": "Fluminense FC RJ",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "FLU",
+                "gender": "male"
+            },
+            "start_date": "2019-01-01 00:00:00",
+            "end_date": "2019-12-31 00:00:00",
+            "jersey_number": 23
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:24",
+                "name": "Watford FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WAT",
+                "gender": "male"
+            },
+            "start_date": "2020-01-01 00:00:00",
+            "end_date": "2023-06-30 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:30",
+                "name": "Brighton & Hove Albion",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BRI",
+                "gender": "male"
+            },
+            "start_date": "2023-07-01 00:00:00",
+            "end_date": "2025-07-01 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:38",
+                "name": "Chelsea FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CFC",
+                "gender": "male"
+            },
+            "start_date": "2025-07-02 00:00:00",
+            "jersey_number": 20
+        }
+    ]
+}

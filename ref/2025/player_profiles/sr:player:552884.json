@@ -1,0 +1,94 @@
+{
+    "generated_at": "2025-09-28T15:00:39+00:00",
+    "player": {
+        "id": "sr:player:552884",
+        "name": "Bowen, Jarrod",
+        "type": "forward",
+        "date_of_birth": "1996-12-20",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 175,
+        "weight": 70,
+        "jersey_number": 20,
+        "preferred_foot": "both",
+        "place_of_birth": "Leominster",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:37",
+            "name": "West Ham United",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "WHU",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4713",
+            "name": "England",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ENG",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4713",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male"
+            },
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:107",
+                "name": "Hereford FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "HER",
+                "gender": "male"
+            },
+            "start_date": "2014-01-01 00:00:00",
+            "end_date": "2014-07-07 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:96",
+                "name": "Hull City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "HUL",
+                "gender": "male"
+            },
+            "start_date": "2014-07-08 00:00:00",
+            "end_date": "2020-01-30 00:00:00",
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:37",
+                "name": "West Ham United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WHU",
+                "gender": "male"
+            },
+            "start_date": "2020-01-31 00:00:00",
+            "jersey_number": 20
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+{
+    "generated_at": "2025-09-28T15:00:34+00:00",
+    "player": {
+        "id": "sr:player:355520",
+        "name": "James, Daniel",
+        "type": "forward",
+        "date_of_birth": "1997-11-10",
+        "nationality": "Wales",
+        "country_code": "WAL",
+        "height": 171,
+        "weight": 76,
+        "jersey_number": 7,
+        "preferred_foot": "right",
+        "place_of_birth": "Beverly",
+        "country_of_birth": "Wales",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:34",
+            "name": "Leeds United",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "LEE",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4702",
+            "name": "Wales",
+            "country": "Wales",
+            "country_code": "WAL",
+            "abbreviation": "WAL",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4702",
+                "name": "Wales",
+                "country": "Wales",
+                "country_code": "WAL",
+                "abbreviation": "WAL",
+                "gender": "male"
+            },
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6057",
+                "name": "Wales",
+                "country": "Wales",
+                "country_code": "WAL",
+                "abbreviation": "WAL",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22572",
+                "name": "Wales",
+                "country": "Wales",
+                "country_code": "WAL",
+                "abbreviation": "WAL",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22664",
+                "name": "Wales",
+                "country": "Wales",
+                "country_code": "WAL",
+                "abbreviation": "WAL",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:82",
+                "name": "Shrewsbury Town",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "SHR",
+                "gender": "male"
+            },
+            "start_date": "2017-07-01 00:00:00",
+            "end_date": "2017-08-31 00:00:00",
+            "jersey_number": 21
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:74",
+                "name": "Swansea City",
+                "country": "Wales",
+                "country_code": "WAL",
+                "abbreviation": "SWA",
+                "gender": "male"
+            },
+            "start_date": "2018-07-01 00:00:00",
+            "end_date": "2019-06-30 00:00:00",
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:35",
+                "name": "Manchester United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MUN",
+                "gender": "male"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2021-08-30 00:00:00",
+            "jersey_number": 21
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:34",
+                "name": "Leeds United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LEE",
+                "gender": "male"
+            },
+            "start_date": "2021-08-31 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:43",
+                "name": "Fulham FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "FUL",
+                "gender": "male"
+            },
+            "start_date": "2022-09-01 00:00:00",
+            "end_date": "2023-05-31 00:00:00",
+            "jersey_number": 21
+        }
+    ]
+}

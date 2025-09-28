@@ -1,0 +1,179 @@
+{
+    "generated_at": "2025-09-28T15:06:44+00:00",
+    "player": {
+        "id": "sr:player:288205",
+        "name": "Fernandes, Bruno",
+        "type": "midfielder",
+        "date_of_birth": "1994-09-08",
+        "nationality": "Portugal",
+        "country_code": "PRT",
+        "height": 183,
+        "weight": 64,
+        "jersey_number": 8,
+        "preferred_foot": "right",
+        "place_of_birth": "Maria",
+        "country_of_birth": "Portugal",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:35",
+            "name": "Manchester United",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "MUN",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4704",
+            "name": "Portugal",
+            "country": "Portugal",
+            "country_code": "PRT",
+            "abbreviation": "POR",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4704",
+                "name": "Portugal",
+                "country": "Portugal",
+                "country_code": "PRT",
+                "abbreviation": "POR",
+                "gender": "male"
+            },
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6045",
+                "name": "Portugal",
+                "country": "Portugal",
+                "country_code": "PRT",
+                "abbreviation": "POR",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22708",
+                "name": "Portugal",
+                "country": "Portugal",
+                "country_code": "PRT",
+                "abbreviation": "POR",
+                "gender": "male",
+                "age_group": "U20"
+            },
+            "jersey_number": 15
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:252157",
+                "name": "Portugal",
+                "country": "Portugal",
+                "country_code": "PRT",
+                "abbreviation": "POR",
+                "gender": "male"
+            },
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2767",
+                "name": "Novara FC",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "NOV",
+                "gender": "male"
+            },
+            "start_date": "2012-08-27 00:00:00",
+            "end_date": "2013-06-30 00:00:00",
+            "jersey_number": 32
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2695",
+                "name": "Udinese Calcio",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "UDI",
+                "gender": "male"
+            },
+            "start_date": "2013-07-01 00:00:00",
+            "end_date": "2017-06-30 00:00:00"
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2711",
+                "name": "Sampdoria Genoa",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "SAM",
+                "gender": "male"
+            },
+            "start_date": "2016-08-16 00:00:00",
+            "end_date": "2017-06-30 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2711",
+                "name": "Sampdoria Genoa",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "SAM",
+                "gender": "male"
+            },
+            "start_date": "2017-07-01 00:00:00",
+            "end_date": "2017-07-01 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:3001",
+                "name": "Sporting Lisbon",
+                "country": "Portugal",
+                "country_code": "PRT",
+                "abbreviation": "SPO",
+                "gender": "male"
+            },
+            "start_date": "2017-07-02 00:00:00",
+            "end_date": "2020-01-28 00:00:00",
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:35",
+                "name": "Manchester United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MUN",
+                "gender": "male"
+            },
+            "start_date": "2020-01-29 00:00:00",
+            "jersey_number": 8
+        }
+    ]
+}

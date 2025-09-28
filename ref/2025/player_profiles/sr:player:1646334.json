@@ -1,0 +1,124 @@
+{
+    "generated_at": "2025-09-28T15:05:56+00:00",
+    "player": {
+        "id": "sr:player:1646334",
+        "name": "Johnson, Brennan",
+        "type": "forward",
+        "date_of_birth": "2001-05-23",
+        "nationality": "Wales",
+        "country_code": "WAL",
+        "height": 179,
+        "weight": 73,
+        "jersey_number": 11,
+        "preferred_foot": "right",
+        "place_of_birth": "Nottingham (ENGLAND)",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4702",
+            "name": "Wales",
+            "country": "Wales",
+            "country_code": "WAL",
+            "abbreviation": "WAL",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:33",
+            "name": "Tottenham Hotspur",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "TOT",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4702",
+                "name": "Wales",
+                "country": "Wales",
+                "country_code": "WAL",
+                "abbreviation": "WAL",
+                "gender": "male"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6057",
+                "name": "Wales",
+                "country": "Wales",
+                "country_code": "WAL",
+                "abbreviation": "WAL",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "end_date": "2025-09-07 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22572",
+                "name": "Wales",
+                "country": "Wales",
+                "country_code": "WAL",
+                "abbreviation": "WAL",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:14",
+                "name": "Nottingham Forest",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "NFO",
+                "gender": "male"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2023-08-30 00:00:00",
+            "jersey_number": 20
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:92",
+                "name": "Lincoln City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LIC",
+                "gender": "male"
+            },
+            "start_date": "2020-09-25 00:00:00",
+            "end_date": "2021-05-31 00:00:00",
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:33",
+                "name": "Tottenham Hotspur",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "TOT",
+                "gender": "male"
+            },
+            "start_date": "2023-09-01 00:00:00",
+            "jersey_number": 22
+        }
+    ]
+}

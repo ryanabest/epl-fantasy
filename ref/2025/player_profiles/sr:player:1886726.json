@@ -1,0 +1,149 @@
+{
+    "generated_at": "2025-09-28T15:00:37+00:00",
+    "player": {
+        "id": "sr:player:1886726",
+        "name": "Diallo, Amad",
+        "type": "midfielder",
+        "date_of_birth": "2002-07-11",
+        "nationality": "Cote d ivoire",
+        "country_code": "CIV",
+        "height": 173,
+        "weight": 70,
+        "jersey_number": 16,
+        "preferred_foot": "left",
+        "place_of_birth": "Abidjan",
+        "country_of_birth": "Cote d’Ivoire",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:24253",
+            "name": "Ivory Coast",
+            "country": "Cote d’Ivoire",
+            "country_code": "CIV",
+            "abbreviation": "CIV",
+            "gender": "male",
+            "age_group": "U23"
+        },
+        {
+            "id": "sr:competitor:4768",
+            "name": "Ivory Coast",
+            "country": "Cote d’Ivoire",
+            "country_code": "CIV",
+            "abbreviation": "CIV",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:35",
+            "name": "Manchester United",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "MUN",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4768",
+                "name": "Ivory Coast",
+                "country": "Cote d’Ivoire",
+                "country_code": "CIV",
+                "abbreviation": "CIV",
+                "gender": "male"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:24253",
+                "name": "Ivory Coast",
+                "country": "Cote d’Ivoire",
+                "country_code": "CIV",
+                "abbreviation": "CIV",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:72070",
+                "name": "Atalanta BC",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "ATA",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2018-07-01 00:00:00",
+            "end_date": "2021-01-01 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2686",
+                "name": "Atalanta BC",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "ATA",
+                "gender": "male"
+            },
+            "start_date": "2019-10-25 00:00:00",
+            "end_date": "2021-01-01 00:00:00",
+            "jersey_number": 79
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:35",
+                "name": "Manchester United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MUN",
+                "gender": "male"
+            },
+            "start_date": "2021-01-02 00:00:00",
+            "jersey_number": 16
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2351",
+                "name": "Glasgow Rangers",
+                "country": "Scotland",
+                "country_code": "SCO",
+                "abbreviation": "RFC",
+                "gender": "male"
+            },
+            "start_date": "2022-01-27 00:00:00",
+            "end_date": "2022-05-31 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:41",
+                "name": "Sunderland AFC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "SUN",
+                "gender": "male"
+            },
+            "start_date": "2022-08-31 00:00:00",
+            "end_date": "2023-05-31 00:00:00",
+            "jersey_number": 16
+        }
+    ]
+}

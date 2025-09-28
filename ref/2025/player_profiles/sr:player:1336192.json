@@ -1,0 +1,123 @@
+{
+    "generated_at": "2025-09-28T15:06:38+00:00",
+    "player": {
+        "id": "sr:player:1336192",
+        "name": "Damsgaard, Mikkel",
+        "type": "forward",
+        "date_of_birth": "2000-07-03",
+        "nationality": "Denmark",
+        "country_code": "DNK",
+        "height": 180,
+        "weight": 70,
+        "jersey_number": 14,
+        "preferred_foot": "right",
+        "place_of_birth": "Roskilde",
+        "country_of_birth": "Denmark",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4476",
+            "name": "Denmark",
+            "country": "Denmark",
+            "country_code": "DNK",
+            "abbreviation": "DEN",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:50",
+            "name": "Brentford FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "BRE",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4476",
+                "name": "Denmark",
+                "country": "Denmark",
+                "country_code": "DNK",
+                "abbreviation": "DEN",
+                "gender": "male"
+            },
+            "jersey_number": 14
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6023",
+                "name": "Denmark",
+                "country": "Denmark",
+                "country_code": "DNK",
+                "abbreviation": "DEN",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22502",
+                "name": "Denmark",
+                "country": "Denmark",
+                "country_code": "DNK",
+                "abbreviation": "DEN",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 14
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1292",
+                "name": "FC Nordsjaelland",
+                "country": "Denmark",
+                "country_code": "DNK",
+                "abbreviation": "NJA",
+                "gender": "male"
+            },
+            "start_date": "2017-07-01 00:00:00",
+            "end_date": "2020-08-31 00:00:00",
+            "jersey_number": 27
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2711",
+                "name": "Sampdoria Genoa",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "SAM",
+                "gender": "male"
+            },
+            "start_date": "2020-09-01 00:00:00",
+            "end_date": "2022-08-09 00:00:00",
+            "jersey_number": 38
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:50",
+                "name": "Brentford FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BRE",
+                "gender": "male"
+            },
+            "start_date": "2022-08-10 00:00:00",
+            "jersey_number": 24
+        }
+    ]
+}

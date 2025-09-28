@@ -1,0 +1,182 @@
+{
+    "generated_at": "2025-09-28T15:05:53+00:00",
+    "player": {
+        "id": "sr:player:159665",
+        "name": "Salah, Mohamed",
+        "type": "forward",
+        "date_of_birth": "1992-06-15",
+        "nationality": "Egypt",
+        "country_code": "EGY",
+        "height": 175,
+        "weight": 71,
+        "jersey_number": 11,
+        "preferred_foot": "left",
+        "place_of_birth": "Basyoun, El Gharbia",
+        "country_of_birth": "Egypt",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4758",
+            "name": "Egypt",
+            "country": "Egypt",
+            "country_code": "EGY",
+            "abbreviation": "EGY",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:44",
+            "name": "Liverpool FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "LFC",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4758",
+                "name": "Egypt",
+                "country": "Egypt",
+                "country_code": "EGY",
+                "abbreviation": "EGY",
+                "gender": "male"
+            },
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22679",
+                "name": "Egypt",
+                "country": "Egypt",
+                "country_code": "EGY",
+                "abbreviation": "EGY",
+                "gender": "male",
+                "age_group": "U20"
+            },
+            "jersey_number": 12
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:69224",
+                "name": "Egypt",
+                "country": "Egypt",
+                "country_code": "EGY",
+                "abbreviation": "EGY",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:42365",
+                "name": "Al Mokawloon Al Arab",
+                "country": "Egypt",
+                "country_code": "EGY",
+                "abbreviation": "MOK",
+                "gender": "male"
+            },
+            "start_date": "2008-07-01 00:00:00",
+            "end_date": "2012-06-30 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2501",
+                "name": "FC Basel 1893",
+                "country": "Switzerland",
+                "country_code": "CHE",
+                "abbreviation": "FCB",
+                "gender": "male"
+            },
+            "start_date": "2012-07-01 00:00:00",
+            "end_date": "2014-01-25 00:00:00",
+            "jersey_number": 22
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:38",
+                "name": "Chelsea FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CFC",
+                "gender": "male"
+            },
+            "start_date": "2014-01-26 00:00:00",
+            "end_date": "2016-06-30 00:00:00",
+            "jersey_number": 17
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2693",
+                "name": "ACF Fiorentina",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "FIO",
+                "gender": "male"
+            },
+            "start_date": "2015-02-02 00:00:00",
+            "end_date": "2015-06-30 00:00:00",
+            "jersey_number": 74
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2702",
+                "name": "AS Roma",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "ROM",
+                "gender": "male"
+            },
+            "start_date": "2015-08-06 00:00:00",
+            "end_date": "2016-06-30 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2702",
+                "name": "AS Roma",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "ROM",
+                "gender": "male"
+            },
+            "start_date": "2016-07-01 00:00:00",
+            "end_date": "2017-06-30 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:44",
+                "name": "Liverpool FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LFC",
+                "gender": "male"
+            },
+            "start_date": "2017-07-01 00:00:00",
+            "jersey_number": 11
+        }
+    ]
+}

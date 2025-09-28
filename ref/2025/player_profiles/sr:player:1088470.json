@@ -1,0 +1,124 @@
+{
+    "generated_at": "2025-09-28T15:03:17+00:00",
+    "player": {
+        "id": "sr:player:1088470",
+        "name": "Eze, Eberechi",
+        "type": "forward",
+        "date_of_birth": "1998-06-29",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 173,
+        "weight": 67,
+        "jersey_number": 10,
+        "preferred_foot": "right",
+        "place_of_birth": "London",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:42",
+            "name": "Arsenal FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ARS",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4713",
+            "name": "England",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ENG",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4713",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male"
+            },
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6025",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1",
+                "name": "Queens Park Rangers",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "QPR",
+                "gender": "male"
+            },
+            "start_date": "2016-12-01 00:00:00",
+            "end_date": "2020-08-27 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:62",
+                "name": "Wycombe Wanderers",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WYW",
+                "gender": "male"
+            },
+            "start_date": "2017-08-30 00:00:00",
+            "end_date": "2018-01-02 00:00:00",
+            "jersey_number": 27
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:7",
+                "name": "Crystal Palace",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CRY",
+                "gender": "male"
+            },
+            "start_date": "2020-08-28 00:00:00",
+            "end_date": "2025-08-22 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:42",
+                "name": "Arsenal FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ARS",
+                "gender": "male"
+            },
+            "start_date": "2025-08-23 00:00:00",
+            "jersey_number": 10
+        }
+    ]
+}

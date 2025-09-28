@@ -1,0 +1,154 @@
+{
+    "generated_at": "2025-09-28T15:07:41+00:00",
+    "player": {
+        "id": "sr:player:1297614",
+        "name": "Doku, Jeremy",
+        "type": "forward",
+        "date_of_birth": "2002-05-27",
+        "nationality": "Belgium",
+        "country_code": "BEL",
+        "height": 173,
+        "weight": 68,
+        "jersey_number": 11,
+        "preferred_foot": "right",
+        "place_of_birth": "Borgerhout",
+        "country_of_birth": "Belgium",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:17",
+            "name": "Manchester City",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "MCI",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4717",
+            "name": "Belgium",
+            "country": "Belgium",
+            "country_code": "BEL",
+            "abbreviation": "BEL",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4717",
+                "name": "Belgium",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "BEL",
+                "gender": "male"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4877",
+                "name": "Belgium",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "BEL",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22583",
+                "name": "Belgium",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "BEL",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:90144",
+                "name": "RSC Anderlecht",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "RSA",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2017-07-01 00:00:00",
+            "end_date": "2020-10-04 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2900",
+                "name": "RSC Anderlecht",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "RSC",
+                "gender": "male"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2020-10-04 00:00:00",
+            "jersey_number": 49
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:76465",
+                "name": "RSC Anderlecht",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "RSC",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2020-10-04 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1658",
+                "name": "Stade Rennes",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "REN",
+                "gender": "male"
+            },
+            "start_date": "2020-10-05 00:00:00",
+            "end_date": "2023-08-23 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:17",
+                "name": "Manchester City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MCI",
+                "gender": "male"
+            },
+            "start_date": "2023-08-24 00:00:00",
+            "jersey_number": 11
+        }
+    ]
+}

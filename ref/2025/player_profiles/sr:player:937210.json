@@ -1,0 +1,129 @@
+{
+    "generated_at": "2025-09-28T15:08:29+00:00",
+    "player": {
+        "id": "sr:player:937210",
+        "name": "Havertz, Kai",
+        "type": "forward",
+        "date_of_birth": "1999-06-11",
+        "nationality": "Germany",
+        "country_code": "DEU",
+        "height": 193,
+        "weight": 77,
+        "jersey_number": 29,
+        "preferred_foot": "both",
+        "place_of_birth": "Aachen",
+        "country_of_birth": "Germany",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:42",
+            "name": "Arsenal FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ARS",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4711",
+                "name": "Germany",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "GER",
+                "gender": "male"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22512",
+                "name": "Germany",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "GER",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22605",
+                "name": "Germany",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "GER",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:43716",
+                "name": "Bayer 04 Leverkusen",
+                "abbreviation": "B04",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2015-07-01 00:00:00",
+            "end_date": "2017-06-30 00:00:00",
+            "jersey_number": 17
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2681",
+                "name": "Bayer Leverkusen",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "LEV",
+                "gender": "male"
+            },
+            "start_date": "2016-07-01 00:00:00",
+            "end_date": "2020-09-03 00:00:00",
+            "jersey_number": 29
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:38",
+                "name": "Chelsea FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CFC",
+                "gender": "male"
+            },
+            "start_date": "2020-09-04 00:00:00",
+            "end_date": "2023-06-30 00:00:00",
+            "jersey_number": 29
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:42",
+                "name": "Arsenal FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ARS",
+                "gender": "male"
+            },
+            "start_date": "2023-07-01 00:00:00",
+            "jersey_number": 29
+        }
+    ]
+}

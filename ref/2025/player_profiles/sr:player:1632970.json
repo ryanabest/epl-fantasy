@@ -1,0 +1,138 @@
+{
+    "generated_at": "2025-09-28T15:06:47+00:00",
+    "player": {
+        "id": "sr:player:1632970",
+        "name": "Sesko, Benjamin",
+        "type": "forward",
+        "date_of_birth": "2003-05-31",
+        "nationality": "Slovenia",
+        "country_code": "SVN",
+        "height": 194,
+        "weight": 85,
+        "jersey_number": 11,
+        "preferred_foot": "right",
+        "place_of_birth": "Radece (SLOVENIA)",
+        "country_of_birth": "Slovenia",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4484",
+            "name": "Slovenia",
+            "country": "Slovenia",
+            "country_code": "SVN",
+            "abbreviation": "SLO",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:35",
+            "name": "Manchester United",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "MUN",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4484",
+                "name": "Slovenia",
+                "country": "Slovenia",
+                "country_code": "SVN",
+                "abbreviation": "SLO",
+                "gender": "male"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22651",
+                "name": "Slovenia",
+                "country": "Slovenia",
+                "country_code": "SVN",
+                "abbreviation": "SLO",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2046",
+                "name": "FC Salzburg",
+                "country": "Austria",
+                "country_code": "AUT",
+                "abbreviation": "RBS",
+                "gender": "male"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2023-06-30 00:00:00",
+            "jersey_number": 30
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:7790",
+                "name": "FC Liefering",
+                "country": "Austria",
+                "country_code": "AUT",
+                "abbreviation": "FCL",
+                "gender": "male"
+            },
+            "start_date": "2019-07-02 00:00:00",
+            "end_date": "2021-09-18 00:00:00",
+            "jersey_number": 21
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:224772",
+                "name": "FC RB Salzburg",
+                "abbreviation": "SAL",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2019-07-02 00:00:00",
+            "end_date": "2020-12-31 00:00:00",
+            "jersey_number": 29
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:36360",
+                "name": "RB Leipzig",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "RBL",
+                "gender": "male"
+            },
+            "start_date": "2023-07-01 00:00:00",
+            "end_date": "2025-08-08 00:00:00",
+            "jersey_number": 30
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:35",
+                "name": "Manchester United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MUN",
+                "gender": "male"
+            },
+            "start_date": "2025-08-09 00:00:00",
+            "jersey_number": 30
+        }
+    ]
+}

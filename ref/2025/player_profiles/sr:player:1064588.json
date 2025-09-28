@@ -1,0 +1,166 @@
+{
+    "generated_at": "2025-09-28T15:07:56+00:00",
+    "player": {
+        "id": "sr:player:1064588",
+        "name": "Szoboszlai, Dominik",
+        "type": "midfielder",
+        "date_of_birth": "2000-10-25",
+        "nationality": "Hungary",
+        "country_code": "HUN",
+        "height": 186,
+        "weight": 74,
+        "jersey_number": 10,
+        "preferred_foot": "right",
+        "place_of_birth": "Szekesfehervar",
+        "country_of_birth": "Hungary",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:44",
+            "name": "Liverpool FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "LFC",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4709",
+            "name": "Hungary",
+            "country": "Hungary",
+            "country_code": "HUN",
+            "abbreviation": "HUN",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4709",
+                "name": "Hungary",
+                "country": "Hungary",
+                "country_code": "HUN",
+                "abbreviation": "HUN",
+                "gender": "male"
+            },
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6030",
+                "name": "Hungary",
+                "country": "Hungary",
+                "country_code": "HUN",
+                "abbreviation": "HUN",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22515",
+                "name": "Hungary",
+                "country": "Hungary",
+                "country_code": "HUN",
+                "abbreviation": "HUN",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22609",
+                "name": "Hungary",
+                "country": "Hungary",
+                "country_code": "HUN",
+                "abbreviation": "HUN",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 6
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:7790",
+                "name": "FC Liefering",
+                "country": "Austria",
+                "country_code": "AUT",
+                "abbreviation": "FCL",
+                "gender": "male"
+            },
+            "start_date": "2017-07-01 00:00:00",
+            "end_date": "2018-01-15 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:224772",
+                "name": "FC RB Salzburg",
+                "abbreviation": "SAL",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2017-09-01 00:00:00",
+            "end_date": "2018-06-30 00:00:00",
+            "jersey_number": 16
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2046",
+                "name": "FC Salzburg",
+                "country": "Austria",
+                "country_code": "AUT",
+                "abbreviation": "RBS",
+                "gender": "male"
+            },
+            "start_date": "2018-01-16 00:00:00",
+            "end_date": "2020-12-31 00:00:00",
+            "jersey_number": 14
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:36360",
+                "name": "RB Leipzig",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "RBL",
+                "gender": "male"
+            },
+            "start_date": "2021-01-01 00:00:00",
+            "end_date": "2023-07-01 00:00:00",
+            "jersey_number": 17
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:44",
+                "name": "Liverpool FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LFC",
+                "gender": "male"
+            },
+            "start_date": "2023-07-02 00:00:00",
+            "jersey_number": 8
+        }
+    ]
+}

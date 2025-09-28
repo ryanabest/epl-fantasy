@@ -1,0 +1,118 @@
+{
+    "generated_at": "2025-09-28T15:07:50+00:00",
+    "player": {
+        "id": "sr:player:1299404",
+        "name": "Frimpong, Jeremie",
+        "type": "defender",
+        "date_of_birth": "2000-12-10",
+        "nationality": "Netherlands",
+        "country_code": "NLD",
+        "height": 172,
+        "weight": 65,
+        "jersey_number": 30,
+        "preferred_foot": "right",
+        "place_of_birth": "Amsterdam",
+        "country_of_birth": "Netherlands",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:44",
+            "name": "Liverpool FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "LFC",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4705",
+                "name": "Netherlands",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "NED",
+                "gender": "male"
+            },
+            "end_date": "2025-09-02 00:00:00",
+            "jersey_number": 12
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5024",
+                "name": "Netherlands",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "NED",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 12
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:120856",
+                "name": "Manchester City FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MCI",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2017-07-01 00:00:00",
+            "end_date": "2019-09-01 00:00:00",
+            "jersey_number": 5
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2352",
+                "name": "Celtic Glasgow",
+                "country": "Scotland",
+                "country_code": "SCO",
+                "abbreviation": "CEL",
+                "gender": "male"
+            },
+            "start_date": "2019-09-02 00:00:00",
+            "end_date": "2021-01-26 00:00:00",
+            "jersey_number": 30
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2681",
+                "name": "Bayer Leverkusen",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "LEV",
+                "gender": "male"
+            },
+            "start_date": "2021-01-27 00:00:00",
+            "end_date": "2025-06-30 00:00:00",
+            "jersey_number": 30
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:44",
+                "name": "Liverpool FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LFC",
+                "gender": "male"
+            },
+            "start_date": "2025-07-01 00:00:00",
+            "jersey_number": 30
+        }
+    ]
+}

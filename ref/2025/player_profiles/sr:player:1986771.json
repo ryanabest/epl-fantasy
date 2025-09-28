@@ -1,0 +1,167 @@
+{
+    "generated_at": "2025-09-28T15:05:50+00:00",
+    "player": {
+        "id": "sr:player:1986771",
+        "name": "Hojlund, Rasmus",
+        "type": "forward",
+        "date_of_birth": "2003-02-04",
+        "nationality": "Denmark",
+        "country_code": "DNK",
+        "height": 191,
+        "weight": 86,
+        "jersey_number": 9,
+        "preferred_foot": "left",
+        "place_of_birth": "COPENHAGEN",
+        "country_of_birth": "Denmark",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4476",
+            "name": "Denmark",
+            "country": "Denmark",
+            "country_code": "DNK",
+            "abbreviation": "DEN",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:2714",
+            "name": "SSC Napoli",
+            "country": "Italy",
+            "country_code": "ITA",
+            "abbreviation": "NAP",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4476",
+                "name": "Denmark",
+                "country": "Denmark",
+                "country_code": "DNK",
+                "abbreviation": "DEN",
+                "gender": "male"
+            },
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6023",
+                "name": "Denmark",
+                "country": "Denmark",
+                "country_code": "DNK",
+                "abbreviation": "DEN",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22502",
+                "name": "Denmark",
+                "country": "Denmark",
+                "country_code": "DNK",
+                "abbreviation": "DEN",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22597",
+                "name": "Denmark",
+                "country": "Denmark",
+                "country_code": "DNK",
+                "abbreviation": "DEN",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 17
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1284",
+                "name": "FC Copenhagen",
+                "country": "Denmark",
+                "country_code": "DNK",
+                "abbreviation": "FCC",
+                "gender": "male"
+            },
+            "start_date": "2020-07-01 00:00:00",
+            "end_date": "2022-01-27 00:00:00",
+            "jersey_number": 28
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2051",
+                "name": "SK Sturm Graz",
+                "country": "Austria",
+                "country_code": "AUT",
+                "abbreviation": "STU",
+                "gender": "male"
+            },
+            "start_date": "2022-01-28 00:00:00",
+            "end_date": "2022-08-26 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2686",
+                "name": "Atalanta BC",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "ATA",
+                "gender": "male"
+            },
+            "start_date": "2022-08-27 00:00:00",
+            "end_date": "2023-08-04 00:00:00",
+            "jersey_number": 17
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:35",
+                "name": "Manchester United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MUN",
+                "gender": "male"
+            },
+            "start_date": "2023-08-05 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "on_loan",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:2714",
+                "name": "SSC Napoli",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "NAP",
+                "gender": "male"
+            },
+            "start_date": "2025-09-01 00:00:00",
+            "end_date": "2026-06-30 00:00:00",
+            "jersey_number": 19
+        }
+    ]
+}

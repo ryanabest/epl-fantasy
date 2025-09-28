@@ -1,0 +1,95 @@
+{
+    "generated_at": "2025-09-28T15:00:45+00:00",
+    "player": {
+        "id": "sr:player:2279477",
+        "name": "Mayenda, Eliezer",
+        "type": "forward",
+        "date_of_birth": "2005-05-08",
+        "nationality": "Spain",
+        "country_code": "ESP",
+        "height": 180,
+        "weight": 73,
+        "jersey_number": 12,
+        "preferred_foot": "left",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:41",
+            "name": "Sunderland AFC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "SUN",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4891",
+            "name": "Spain",
+            "country": "Spain",
+            "country_code": "ESP",
+            "abbreviation": "ESP",
+            "gender": "male",
+            "age_group": "U21"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4891",
+                "name": "Spain",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "ESP",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 12
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1657",
+                "name": "Sochaux-Montbeliard",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "FCSM",
+                "gender": "male"
+            },
+            "start_date": "2021-07-01 00:00:00",
+            "end_date": "2023-07-27 00:00:00",
+            "jersey_number": 21
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:41",
+                "name": "Sunderland AFC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "SUN",
+                "gender": "male"
+            },
+            "start_date": "2023-07-28 00:00:00",
+            "jersey_number": 12
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2354",
+                "name": "Hibernian FC",
+                "country": "Scotland",
+                "country_code": "SCO",
+                "abbreviation": "HIB",
+                "gender": "male"
+            },
+            "start_date": "2024-02-01 00:00:00",
+            "end_date": "2024-05-31 00:00:00",
+            "jersey_number": 14
+        }
+    ]
+}

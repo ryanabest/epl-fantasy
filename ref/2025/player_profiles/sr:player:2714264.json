@@ -1,0 +1,127 @@
+{
+    "generated_at": "2025-09-28T15:00:24+00:00",
+    "player": {
+        "id": "sr:player:2714264",
+        "name": "Mheuka, Shumaira",
+        "type": "forward",
+        "date_of_birth": "2007-10-20",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 175,
+        "weight": 76,
+        "jersey_number": 76,
+        "preferred_foot": "right",
+        "place_of_birth": "Birmingem",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:36539",
+            "name": "Chelsea FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CFC",
+            "gender": "male",
+            "age_group": "U21"
+        },
+        {
+            "id": "sr:competitor:90124",
+            "name": "Chelsea FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CFC",
+            "gender": "male",
+            "age_group": "U19"
+        },
+        {
+            "id": "sr:competitor:22505",
+            "name": "England",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ENG",
+            "gender": "male",
+            "age_group": "U19"
+        },
+        {
+            "id": "sr:competitor:38",
+            "name": "Chelsea FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CFC",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:22505",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 18
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22599",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:38",
+                "name": "Chelsea FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CFC",
+                "gender": "male"
+            },
+            "start_date": "2025-02-01 00:00:00",
+            "jersey_number": 76
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:36539",
+                "name": "Chelsea FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CFC",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "start_date": "2025-08-01 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:90124",
+                "name": "Chelsea FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CFC",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2025-09-01 00:00:00"
+        }
+    ]
+}

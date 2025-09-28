@@ -1,0 +1,110 @@
+{
+    "generated_at": "2025-09-28T15:05:47+00:00",
+    "player": {
+        "id": "sr:player:991199",
+        "name": "Paqueta, Lucas",
+        "type": "midfielder",
+        "date_of_birth": "1997-08-27",
+        "nationality": "Brazil",
+        "country_code": "BRA",
+        "height": 180,
+        "weight": 72,
+        "jersey_number": 10,
+        "preferred_foot": "both",
+        "place_of_birth": "Rio de Janeiro",
+        "country_of_birth": "Brazil",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:37",
+            "name": "West Ham United",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "WHU",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4748",
+            "name": "Brazil",
+            "country": "Brazil",
+            "country_code": "BRA",
+            "abbreviation": "BRA",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4748",
+                "name": "Brazil",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "BRA",
+                "gender": "male"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5981",
+                "name": "CR Flamengo RJ",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "FLA",
+                "gender": "male"
+            },
+            "start_date": "2016-07-01 00:00:00",
+            "end_date": "2019-01-02 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2692",
+                "name": "AC Milan",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "ACM",
+                "gender": "male"
+            },
+            "start_date": "2019-01-03 00:00:00",
+            "end_date": "2020-09-29 00:00:00",
+            "jersey_number": 39
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1649",
+                "name": "Olympique Lyon",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "OL",
+                "gender": "male"
+            },
+            "start_date": "2020-09-30 00:00:00",
+            "end_date": "2022-08-28 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:37",
+                "name": "West Ham United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WHU",
+                "gender": "male"
+            },
+            "start_date": "2022-08-29 00:00:00",
+            "jersey_number": 10
+        }
+    ]
+}

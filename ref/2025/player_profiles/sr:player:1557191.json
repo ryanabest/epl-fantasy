@@ -1,0 +1,104 @@
+{
+    "generated_at": "2025-09-28T15:00:48+00:00",
+    "player": {
+        "id": "sr:player:1557191",
+        "name": "Muniz, Rodrigo",
+        "type": "forward",
+        "date_of_birth": "2001-05-04",
+        "nationality": "Brazil",
+        "country_code": "BRA",
+        "height": 182,
+        "weight": 79,
+        "jersey_number": 9,
+        "preferred_foot": "right",
+        "place_of_birth": "Sao Domingos do Prata",
+        "country_of_birth": "Brazil",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:43",
+            "name": "Fulham FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "FUL",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5981",
+                "name": "CR Flamengo RJ",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "FLA",
+                "gender": "male"
+            },
+            "start_date": "2020-01-01 00:00:00",
+            "end_date": "2021-08-19 00:00:00",
+            "jersey_number": 43
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1982",
+                "name": "Coritiba FC PR",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "COR",
+                "gender": "male"
+            },
+            "start_date": "2020-10-12 00:00:00",
+            "end_date": "2021-02-28 00:00:00",
+            "jersey_number": 29
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:210338",
+                "name": "CR Flamengo RJ",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "FLA",
+                "gender": "male",
+                "age_group": "U20"
+            },
+            "start_date": "2020-11-20 00:00:00",
+            "end_date": "2020-12-31 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:43",
+                "name": "Fulham FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "FUL",
+                "gender": "male"
+            },
+            "start_date": "2021-08-20 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:36",
+                "name": "Middlesbrough FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MID",
+                "gender": "male"
+            },
+            "start_date": "2022-08-21 00:00:00",
+            "end_date": "2023-05-31 00:00:00",
+            "jersey_number": 9
+        }
+    ]
+}

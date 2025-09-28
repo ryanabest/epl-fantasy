@@ -1,0 +1,139 @@
+{
+    "generated_at": "2025-09-28T15:08:26+00:00",
+    "player": {
+        "id": "sr:player:827253",
+        "name": "Kamada, Daichi",
+        "type": "midfielder",
+        "date_of_birth": "1996-08-05",
+        "nationality": "Japan",
+        "country_code": "JPN",
+        "height": 180,
+        "weight": 72,
+        "jersey_number": 15,
+        "preferred_foot": "right",
+        "place_of_birth": "Ehime",
+        "country_of_birth": "Japan",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4770",
+            "name": "Japan",
+            "country": "Japan",
+            "country_code": "JPN",
+            "abbreviation": "JPN",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:7",
+            "name": "Crystal Palace",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CRY",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4770",
+                "name": "Japan",
+                "country": "Japan",
+                "country_code": "JPN",
+                "abbreviation": "JPN",
+                "gender": "male"
+            },
+            "end_date": "2023-12-28 00:00:00",
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4770",
+                "name": "Japan",
+                "country": "Japan",
+                "country_code": "JPN",
+                "abbreviation": "JPN",
+                "gender": "male"
+            },
+            "jersey_number": 15
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:21904",
+                "name": "Sagan Tosu",
+                "country": "Japan",
+                "country_code": "JPN",
+                "abbreviation": "TOS",
+                "gender": "male"
+            },
+            "start_date": "2016-01-01 00:00:00",
+            "end_date": "2017-06-30 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2674",
+                "name": "Eintracht Frankfurt",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "SGE",
+                "gender": "male"
+            },
+            "start_date": "2017-07-01 00:00:00",
+            "end_date": "2023-06-30 00:00:00",
+            "jersey_number": 15
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2895",
+                "name": "St. Truidense VV",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "STT",
+                "gender": "male"
+            },
+            "start_date": "2018-08-31 00:00:00",
+            "end_date": "2019-06-30 00:00:00",
+            "jersey_number": 15
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2699",
+                "name": "Lazio Rome",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "LAZ",
+                "gender": "male"
+            },
+            "start_date": "2023-08-04 00:00:00",
+            "end_date": "2024-06-30 00:00:00",
+            "jersey_number": 6
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:7",
+                "name": "Crystal Palace",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CRY",
+                "gender": "male"
+            },
+            "start_date": "2024-07-01 00:00:00",
+            "jersey_number": 18
+        }
+    ]
+}

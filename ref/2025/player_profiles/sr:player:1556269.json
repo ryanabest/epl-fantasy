@@ -1,0 +1,183 @@
+{
+    "generated_at": "2025-09-28T15:00:30+00:00",
+    "player": {
+        "id": "sr:player:1556269",
+        "name": "Ndoye, Dan",
+        "type": "forward",
+        "date_of_birth": "2000-10-25",
+        "nationality": "Switzerland",
+        "country_code": "CHE",
+        "height": 184,
+        "weight": 78,
+        "jersey_number": 11,
+        "preferred_foot": "right",
+        "place_of_birth": "Nyon",
+        "country_of_birth": "Switzerland",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4699",
+            "name": "Switzerland",
+            "country": "Switzerland",
+            "country_code": "CHE",
+            "abbreviation": "SUI",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:14",
+            "name": "Nottingham Forest",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "NFO",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4699",
+                "name": "Switzerland",
+                "country": "Switzerland",
+                "country_code": "CHE",
+                "abbreviation": "SUI",
+                "gender": "male"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4876",
+                "name": "Switzerland",
+                "country": "Switzerland",
+                "country_code": "CHE",
+                "abbreviation": "SUI",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22562",
+                "name": "Switzerland",
+                "country": "Switzerland",
+                "country_code": "CHE",
+                "abbreviation": "SUI",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2446",
+                "name": "Lausanne-Sport",
+                "country": "Switzerland",
+                "country_code": "CHE",
+                "abbreviation": "LAU",
+                "gender": "male"
+            },
+            "start_date": "2018-07-01 00:00:00",
+            "end_date": "2020-01-26 00:00:00",
+            "jersey_number": 27
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1661",
+                "name": "OGC Nice",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "NIC",
+                "gender": "male"
+            },
+            "start_date": "2020-01-27 00:00:00",
+            "end_date": "2022-06-30 00:00:00",
+            "jersey_number": 14
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2446",
+                "name": "Lausanne-Sport",
+                "country": "Switzerland",
+                "country_code": "CHE",
+                "abbreviation": "LAU",
+                "gender": "male"
+            },
+            "start_date": "2020-01-28 00:00:00",
+            "end_date": "2020-08-07 00:00:00",
+            "jersey_number": 27
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2501",
+                "name": "FC Basel 1893",
+                "country": "Switzerland",
+                "country_code": "CHE",
+                "abbreviation": "FCB",
+                "gender": "male"
+            },
+            "start_date": "2021-08-31 00:00:00",
+            "end_date": "2022-06-30 00:00:00",
+            "jersey_number": 27
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2501",
+                "name": "FC Basel 1893",
+                "country": "Switzerland",
+                "country_code": "CHE",
+                "abbreviation": "FCB",
+                "gender": "male"
+            },
+            "start_date": "2022-07-01 00:00:00",
+            "end_date": "2023-08-13 00:00:00",
+            "jersey_number": 27
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2685",
+                "name": "Bologna FC",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "BFC",
+                "gender": "male"
+            },
+            "start_date": "2023-08-14 00:00:00",
+            "end_date": "2025-07-30 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:14",
+                "name": "Nottingham Forest",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "NFO",
+                "gender": "male"
+            },
+            "start_date": "2025-07-31 00:00:00",
+            "jersey_number": 14
+        }
+    ]
+}

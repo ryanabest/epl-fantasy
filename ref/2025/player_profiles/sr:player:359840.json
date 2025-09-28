@@ -1,0 +1,166 @@
+{
+    "generated_at": "2025-09-28T15:06:29+00:00",
+    "player": {
+        "id": "sr:player:359840",
+        "name": "Soucek, Tomas",
+        "type": "midfielder",
+        "date_of_birth": "1995-02-27",
+        "nationality": "Czech republic",
+        "country_code": "CZE",
+        "height": 192,
+        "weight": 86,
+        "jersey_number": 22,
+        "preferred_foot": "right",
+        "place_of_birth": "Havlickuv Brod",
+        "country_of_birth": "Czechia",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4714",
+            "name": "Czechia",
+            "country": "Czechia",
+            "country_code": "CZE",
+            "abbreviation": "CZE",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:37",
+            "name": "West Ham United",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "WHU",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4714",
+                "name": "Czechia",
+                "country": "Czechia",
+                "country_code": "CZE",
+                "abbreviation": "CZE",
+                "gender": "male"
+            },
+            "jersey_number": 22
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6022",
+                "name": "Czechia",
+                "country": "Czechia",
+                "country_code": "CZE",
+                "abbreviation": "CZE",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 5
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22501",
+                "name": "Czechia",
+                "country": "Czechia",
+                "country_code": "CZE",
+                "abbreviation": "CZE",
+                "gender": "male",
+                "age_group": "U19"
+            }
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2216",
+                "name": "Slavia Prague",
+                "country": "Czechia",
+                "country_code": "CZE",
+                "abbreviation": "SLA",
+                "gender": "male"
+            },
+            "start_date": "2014-01-01 00:00:00",
+            "end_date": "2014-12-31 00:00:00",
+            "jersey_number": 2
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2211",
+                "name": "FK Viktoria Zizkov",
+                "country": "Czechia",
+                "country_code": "CZE",
+                "abbreviation": "ZIZ",
+                "gender": "male"
+            },
+            "start_date": "2015-01-01 00:00:00",
+            "end_date": "2015-06-30 00:00:00"
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2219",
+                "name": "FC Slovan Liberec",
+                "country": "Czechia",
+                "country_code": "CZE",
+                "abbreviation": "SLO",
+                "gender": "male"
+            },
+            "start_date": "2017-02-17 00:00:00",
+            "end_date": "2017-06-30 00:00:00",
+            "jersey_number": 29
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2216",
+                "name": "Slavia Prague",
+                "country": "Czechia",
+                "country_code": "CZE",
+                "abbreviation": "SLA",
+                "gender": "male"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2020-07-26 00:00:00",
+            "jersey_number": 22
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:37",
+                "name": "West Ham United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WHU",
+                "gender": "male"
+            },
+            "start_date": "2020-01-29 00:00:00",
+            "end_date": "2020-07-27 00:00:00",
+            "jersey_number": 28
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:37",
+                "name": "West Ham United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WHU",
+                "gender": "male"
+            },
+            "start_date": "2020-07-27 00:00:00",
+            "jersey_number": 28
+        }
+    ]
+}

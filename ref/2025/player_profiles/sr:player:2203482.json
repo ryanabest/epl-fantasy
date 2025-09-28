@@ -1,0 +1,119 @@
+{
+    "generated_at": "2025-09-28T15:00:50+00:00",
+    "player": {
+        "id": "sr:player:2203482",
+        "name": "Barry, Thierno",
+        "type": "forward",
+        "date_of_birth": "2002-10-21",
+        "nationality": "France",
+        "country_code": "FRA",
+        "height": 195,
+        "weight": 82,
+        "jersey_number": 11,
+        "preferred_foot": "right",
+        "place_of_birth": "Lyon (FRANCE)",
+        "country_of_birth": "France",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:48",
+            "name": "Everton FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "EVE",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5936",
+                "name": "France",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "FRA",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "end_date": "2025-09-07 00:00:00",
+            "jersey_number": 22
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2822",
+                "name": "Tenerife CD",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "TEN",
+                "gender": "male"
+            },
+            "start_date": "2021-08-15 00:00:00",
+            "end_date": "2022-07-05 00:00:00",
+            "jersey_number": 31
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4859",
+                "name": "SK Beveren",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "BEV",
+                "gender": "male"
+            },
+            "start_date": "2022-07-06 00:00:00",
+            "end_date": "2023-07-02 00:00:00",
+            "jersey_number": 29
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2501",
+                "name": "FC Basel 1893",
+                "country": "Switzerland",
+                "country_code": "CHE",
+                "abbreviation": "FCB",
+                "gender": "male"
+            },
+            "start_date": "2023-07-03 00:00:00",
+            "end_date": "2024-08-20 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2819",
+                "name": "Villarreal CF",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "VIL",
+                "gender": "male"
+            },
+            "start_date": "2024-08-21 00:00:00",
+            "end_date": "2025-07-08 00:00:00",
+            "jersey_number": 28
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:48",
+                "name": "Everton FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "EVE",
+                "gender": "male"
+            },
+            "start_date": "2025-07-09 00:00:00",
+            "jersey_number": 11
+        }
+    ]
+}

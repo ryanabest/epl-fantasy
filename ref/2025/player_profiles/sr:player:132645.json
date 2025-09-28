@@ -1,0 +1,242 @@
+{
+    "generated_at": "2025-09-28T15:07:47+00:00",
+    "player": {
+        "id": "sr:player:132645",
+        "name": "Fullkrug, Niclas",
+        "type": "forward",
+        "date_of_birth": "1993-02-09",
+        "nationality": "Germany",
+        "country_code": "DEU",
+        "height": 189,
+        "weight": 83,
+        "jersey_number": 9,
+        "preferred_foot": "right",
+        "place_of_birth": "Hannover",
+        "country_of_birth": "Germany",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4711",
+            "name": "Germany",
+            "country": "Germany",
+            "country_code": "DEU",
+            "abbreviation": "GER",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:37",
+            "name": "West Ham United",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "WHU",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4711",
+                "name": "Germany",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "GER",
+                "gender": "male"
+            },
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22473",
+                "name": "Germany",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "GER",
+                "gender": "male",
+                "age_group": "U20"
+            },
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22512",
+                "name": "Germany",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "GER",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 18
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:43694",
+                "name": "Werder Bremen",
+                "abbreviation": "SVW",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2010-07-01 00:00:00",
+            "end_date": "2011-06-30 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2577",
+                "name": "SV Werder Bremen II",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "SVW",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "start_date": "2011-07-01 00:00:00",
+            "end_date": "2012-02-08 00:00:00",
+            "jersey_number": 41
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2534",
+                "name": "Werder Bremen",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "SVW",
+                "gender": "male"
+            },
+            "start_date": "2012-02-09 00:00:00",
+            "end_date": "2014-06-30 00:00:00",
+            "jersey_number": 41
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2577",
+                "name": "SV Werder Bremen II",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "SVW",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "start_date": "2012-07-01 00:00:00",
+            "end_date": "2013-06-30 00:00:00"
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2551",
+                "name": "Greuther Furth",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "SGF",
+                "gender": "male"
+            },
+            "start_date": "2013-08-24 00:00:00",
+            "end_date": "2014-06-29 00:00:00",
+            "jersey_number": 22
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2523",
+                "name": "1 FC Nuremberg",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "FCN",
+                "gender": "male"
+            },
+            "start_date": "2014-07-01 00:00:00",
+            "end_date": "2016-07-17 00:00:00",
+            "jersey_number": 24
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5872",
+                "name": "1 FC Nuremberg II",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "FCN",
+                "gender": "male"
+            },
+            "start_date": "2014-07-01 00:00:00",
+            "end_date": "2016-07-17 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2541",
+                "name": "Hannover 96",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "H96",
+                "gender": "male"
+            },
+            "start_date": "2016-07-18 00:00:00",
+            "end_date": "2019-06-30 00:00:00",
+            "jersey_number": 24
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2534",
+                "name": "Werder Bremen",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "SVW",
+                "gender": "male"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2023-08-30 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2673",
+                "name": "Borussia Dortmund",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "BVB",
+                "gender": "male"
+            },
+            "start_date": "2023-09-01 00:00:00",
+            "end_date": "2024-08-04 00:00:00",
+            "jersey_number": 14
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:37",
+                "name": "West Ham United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WHU",
+                "gender": "male"
+            },
+            "start_date": "2024-08-05 00:00:00",
+            "jersey_number": 11
+        }
+    ]
+}

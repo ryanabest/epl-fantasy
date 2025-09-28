@@ -1,0 +1,141 @@
+{
+    "generated_at": "2025-09-28T15:07:23+00:00",
+    "player": {
+        "id": "sr:player:1658367",
+        "name": "Beto",
+        "type": "forward",
+        "date_of_birth": "1998-01-31",
+        "nationality": "Guinea-bissau",
+        "country_code": "GNB",
+        "height": 194,
+        "weight": 88,
+        "jersey_number": 9,
+        "preferred_foot": "right",
+        "place_of_birth": "Lisbon",
+        "country_of_birth": "Portugal",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:48",
+            "name": "Everton FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "EVE",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:23478",
+            "name": "Guinea-Bissau",
+            "country": "Guinea-Bissau",
+            "country_code": "GNB",
+            "abbreviation": "GBS",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:23478",
+                "name": "Guinea-Bissau",
+                "country": "Guinea-Bissau",
+                "country_code": "GNB",
+                "abbreviation": "GBS",
+                "gender": "male"
+            },
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:369670",
+                "name": "Olimpico Montijo",
+                "country": "Portugal",
+                "country_code": "PRT",
+                "abbreviation": "MON",
+                "gender": "male"
+            },
+            "start_date": "2018-07-01 00:00:00",
+            "end_date": "2019-06-30 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:3026",
+                "name": "Portimonense SAD",
+                "country": "Portugal",
+                "country_code": "PRT",
+                "abbreviation": "POR",
+                "gender": "male"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2022-06-30 00:00:00",
+            "jersey_number": 14
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:452097",
+                "name": "Portimonense",
+                "country": "Portugal",
+                "country_code": "PRT",
+                "abbreviation": "POR",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2019-12-31 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2695",
+                "name": "Udinese Calcio",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "UDI",
+                "gender": "male"
+            },
+            "start_date": "2021-09-01 00:00:00",
+            "end_date": "2022-06-30 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2695",
+                "name": "Udinese Calcio",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "UDI",
+                "gender": "male"
+            },
+            "start_date": "2022-07-01 00:00:00",
+            "end_date": "2023-08-28 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:48",
+                "name": "Everton FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "EVE",
+                "gender": "male"
+            },
+            "start_date": "2023-08-29 00:00:00",
+            "jersey_number": 9
+        }
+    ]
+}

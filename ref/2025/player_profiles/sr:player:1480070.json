@@ -1,0 +1,124 @@
+{
+    "generated_at": "2025-09-28T15:08:02+00:00",
+    "player": {
+        "id": "sr:player:1480070",
+        "name": "Semenyo, Antoine",
+        "type": "forward",
+        "date_of_birth": "2000-01-07",
+        "nationality": "Ghana",
+        "country_code": "GHA",
+        "height": 172,
+        "weight": 70,
+        "jersey_number": 24,
+        "preferred_foot": "both",
+        "place_of_birth": "London",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4764",
+            "name": "Ghana",
+            "country": "Ghana",
+            "country_code": "GHA",
+            "abbreviation": "GHA",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:60",
+            "name": "AFC Bournemouth",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "BOU",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4764",
+                "name": "Ghana",
+                "country": "Ghana",
+                "country_code": "GHA",
+                "abbreviation": "GHA",
+                "gender": "male"
+            },
+            "end_date": "2025-08-08 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4764",
+                "name": "Ghana",
+                "country": "Ghana",
+                "country_code": "GHA",
+                "abbreviation": "GHA",
+                "gender": "male"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:58",
+                "name": "Bristol City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BRC",
+                "gender": "male"
+            },
+            "start_date": "2018-01-01 00:00:00",
+            "end_date": "2023-01-26 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:79",
+                "name": "Newport County",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "NC",
+                "gender": "male"
+            },
+            "start_date": "2018-07-18 00:00:00",
+            "end_date": "2019-02-28 00:00:00",
+            "jersey_number": 42
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:41",
+                "name": "Sunderland AFC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "SUN",
+                "gender": "male"
+            },
+            "start_date": "2020-01-31 00:00:00",
+            "end_date": "2020-05-31 00:00:00",
+            "jersey_number": 42
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:60",
+                "name": "AFC Bournemouth",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BOU",
+                "gender": "male"
+            },
+            "start_date": "2023-01-27 00:00:00",
+            "jersey_number": 24
+        }
+    ]
+}

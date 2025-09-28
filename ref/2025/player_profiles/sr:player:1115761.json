@@ -1,0 +1,194 @@
+{
+    "generated_at": "2025-09-28T15:06:56+00:00",
+    "player": {
+        "id": "sr:player:1115761",
+        "name": "Neto, Pedro",
+        "type": "forward",
+        "date_of_birth": "2000-03-09",
+        "nationality": "Portugal",
+        "country_code": "PRT",
+        "height": 172,
+        "weight": 62,
+        "jersey_number": 18,
+        "preferred_foot": "left",
+        "place_of_birth": "Viana do Castelo",
+        "country_of_birth": "Portugal",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:38",
+            "name": "Chelsea FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CFC",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4704",
+            "name": "Portugal",
+            "country": "Portugal",
+            "country_code": "PRT",
+            "abbreviation": "POR",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4704",
+                "name": "Portugal",
+                "country": "Portugal",
+                "country_code": "PRT",
+                "abbreviation": "POR",
+                "gender": "male"
+            },
+            "jersey_number": 18
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6045",
+                "name": "Portugal",
+                "country": "Portugal",
+                "country_code": "PRT",
+                "abbreviation": "POR",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22549",
+                "name": "Portugal",
+                "country": "Portugal",
+                "country_code": "PRT",
+                "abbreviation": "POR",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22643",
+                "name": "Portugal",
+                "country": "Portugal",
+                "country_code": "PRT",
+                "abbreviation": "POR",
+                "gender": "male",
+                "age_group": "U17"
+            }
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22708",
+                "name": "Portugal",
+                "country": "Portugal",
+                "country_code": "PRT",
+                "abbreviation": "POR",
+                "gender": "male",
+                "age_group": "U20"
+            },
+            "jersey_number": 18
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2999",
+                "name": "SC Braga",
+                "country": "Portugal",
+                "country_code": "PRT",
+                "abbreviation": "BRA",
+                "gender": "male"
+            },
+            "start_date": "2017-01-01 00:00:00",
+            "end_date": "2019-06-30 00:00:00",
+            "jersey_number": 71
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:74473",
+                "name": "SC Braga B",
+                "country": "Portugal",
+                "country_code": "PRT",
+                "abbreviation": "SPO",
+                "gender": "male"
+            },
+            "start_date": "2017-04-01 00:00:00",
+            "end_date": "2017-06-30 00:00:00",
+            "jersey_number": 71
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2699",
+                "name": "Lazio Rome",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "LAZ",
+                "gender": "male"
+            },
+            "start_date": "2017-08-31 00:00:00",
+            "end_date": "2019-06-30 00:00:00",
+            "jersey_number": 30
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2699",
+                "name": "Lazio Rome",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "LAZ",
+                "gender": "male"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2019-08-01 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:3",
+                "name": "Wolverhampton Wanderers",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WOL",
+                "gender": "male"
+            },
+            "start_date": "2019-08-02 00:00:00",
+            "end_date": "2024-08-10 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:38",
+                "name": "Chelsea FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CFC",
+                "gender": "male"
+            },
+            "start_date": "2024-08-11 00:00:00",
+            "jersey_number": 7
+        }
+    ]
+}

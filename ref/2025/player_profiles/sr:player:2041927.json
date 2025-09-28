@@ -1,0 +1,94 @@
+{
+    "generated_at": "2025-09-28T15:00:30+00:00",
+    "player": {
+        "id": "sr:player:2041927",
+        "name": "Wirtz, Florian",
+        "type": "midfielder",
+        "date_of_birth": "2003-05-03",
+        "nationality": "Germany",
+        "country_code": "DEU",
+        "height": 177,
+        "weight": 71,
+        "jersey_number": 17,
+        "preferred_foot": "right",
+        "place_of_birth": "Pulheim",
+        "country_of_birth": "Germany",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:44",
+            "name": "Liverpool FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "LFC",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4711",
+            "name": "Germany",
+            "country": "Germany",
+            "country_code": "DEU",
+            "abbreviation": "GER",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4711",
+                "name": "Germany",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "GER",
+                "gender": "male"
+            },
+            "jersey_number": 17
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4890",
+                "name": "Germany",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "GER",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2681",
+                "name": "Bayer Leverkusen",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "LEV",
+                "gender": "male"
+            },
+            "start_date": "2020-01-31 00:00:00",
+            "end_date": "2025-06-30 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:44",
+                "name": "Liverpool FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LFC",
+                "gender": "male"
+            },
+            "start_date": "2025-07-01 00:00:00",
+            "jersey_number": 7
+        }
+    ]
+}

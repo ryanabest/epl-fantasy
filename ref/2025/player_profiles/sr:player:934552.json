@@ -1,0 +1,135 @@
+{
+    "generated_at": "2025-09-28T15:03:16+00:00",
+    "player": {
+        "id": "sr:player:934552",
+        "name": "Rice, Declan",
+        "type": "midfielder",
+        "date_of_birth": "1999-01-14",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 188,
+        "weight": 80,
+        "jersey_number": 4,
+        "preferred_foot": "right",
+        "place_of_birth": "London",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4713",
+            "name": "England",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ENG",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:42",
+            "name": "Arsenal FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ARS",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4693",
+                "name": "Ireland",
+                "country": "Ireland",
+                "country_code": "IRL",
+                "abbreviation": "IRL",
+                "gender": "male"
+            },
+            "jersey_number": 12
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4713",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male"
+            },
+            "jersey_number": 4
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6047",
+                "name": "Ireland",
+                "country": "Ireland",
+                "country_code": "IRL",
+                "abbreviation": "IRL",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22476",
+                "name": "Ireland",
+                "country": "Ireland",
+                "country_code": "IRL",
+                "abbreviation": "IRL",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 4
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22551",
+                "name": "Ireland",
+                "country": "Ireland",
+                "country_code": "IRL",
+                "abbreviation": "IRL",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 5
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:37",
+                "name": "West Ham United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WHU",
+                "gender": "male"
+            },
+            "start_date": "2017-05-21 00:00:00",
+            "end_date": "2023-07-14 00:00:00",
+            "jersey_number": 41
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:42",
+                "name": "Arsenal FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ARS",
+                "gender": "male"
+            },
+            "start_date": "2023-07-15 00:00:00",
+            "jersey_number": 41
+        }
+    ]
+}
