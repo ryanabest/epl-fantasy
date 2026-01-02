@@ -20,7 +20,10 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm ci --prefer-offline --no-audit
+        run: |
+          rm -rf node_modules package-lock.json
+          npm install
+          npm install
 
       - name: Build project
         run: npm run build
