@@ -78,7 +78,7 @@
 {/each}
 
 <style lang="scss">
-  @import '../style/partials/variables';
+  @use '../style/partials/variables';
 
   .team {
     margin: 0px auto 100px auto;
@@ -100,13 +100,13 @@
       margin-bottom: 5px;
       span {
         pointer-events: none;
-        background-image: linear-gradient(to top, $gray-dark-background 45%, rgba(0,0,0,0) 40%);
-        font-family: $sans;
+        background-image: linear-gradient(to top, variables.$gray-dark-background 45%, rgba(0,0,0,0) 40%);
+        font-family: variables.$sans;
         font-size: 24px;
         margin-bottom: 5px;
         &.points {
-          font-family: $mono;
-          color: $gray-text;
+          font-family: variables.$mono;
+          color: variables.$gray-text;
           font-size: 20px;
           margin-left: 5px;
           text-transform: uppercase;
@@ -126,7 +126,7 @@
     max-height: 500px;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    @media screen and (max-width: $M) {
+    @media screen and (max-width: variables.$M) {
       overflow-x: scroll;
       max-height: 1000px;
     }
@@ -135,21 +135,21 @@
   table {
     width: 100%;
     margin: auto;
-    @media screen and (max-width: $M) {
+    @media screen and (max-width: variables.$M) {
       &.with-ih {
         width: calc(100% + 25px);
       }
     }
     tr {
       th {
-        font-family: $sans;
+        font-family: variables.$sans;
         font-size: 12px;
         font-weight: 700;
         text-align: center;
         height: 15px;
         &.in_hand {
-          border-left: 1px dotted $black;
-          @media screen and (max-width: $M) {
+          border-left: 1px dotted variables.$black;
+          @media screen and (max-width: variables.$M) {
             border-left: none;
           }
         }
@@ -159,36 +159,36 @@
         vertical-align: middle;
         padding: 5px;
         font-size: 16px;
-        font-family: $sans;
-        @media screen and (max-width: $M) {
+        font-family: variables.$sans;
+        @media screen and (max-width: variables.$M) {
           font-size: 15px;
         }
         &.player {
           padding-left: 0px;
         }
         &.in_hand {
-          border-left: 1px dotted $black;
-          @media screen and (max-width: $M) {
+          border-left: 1px dotted variables.$black;
+          @media screen and (max-width: variables.$M) {
             border-left: none;
           }
         }
         &.goals, &.assists, &.points, &.own_goals, &.in_hand {
           text-align: center;
           width: 50px;
-          @media screen and (max-width: $M) {
+          @media screen and (max-width: variables.$M) {
             width: 25px;
           }
         }
         &.points {
           font-weight: 700;
-          background: $gray-background;
+          background: variables.$gray-background;
         }
         span.pos {
-          color: $gray-text;
-          font-family: $mono;
+          color: variables.$gray-text;
+          font-family: variables.$mono;
           font-weight: 700;
           font-size: 12px;
-          @media screen and (max-width: $M) {
+          @media screen and (max-width: variables.$M) {
             font-size: 10px;
           }
         }
@@ -199,7 +199,7 @@
       }
       &:not(:last-child) {
         td {
-          border-bottom: 1px dotted $gray-grid;
+          border-bottom: 1px dotted variables.$gray-grid;
         }
       }
       &.blank {

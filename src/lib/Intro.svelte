@@ -12,15 +12,15 @@
 </div>
 
 <style lang="scss">
-  @import '../style/partials/variables';
+  @use '../style/partials/variables';
   
   #intro {
     text-align: center;
     margin: 30px auto;
 
     p.timestamp {
-      font-family: $mono;
-      color: $gray-text;
+      font-family: variables.$mono;
+      color: variables.$gray-text;
       text-transform: uppercase;
       font-size: 14px;
       letter-spacing: 0.5px;
@@ -28,10 +28,10 @@
     }
 
     h1 {
-      font-family: $sans;
+      font-family: variables.$sans;
       font-size: 40px;
       line-height: 1.27;
-      color: $black;
+      color: variables.$black;
       margin: 15px auto;
     }
   }

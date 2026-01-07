@@ -37,7 +37,7 @@
 </div>
 
 <style lang="scss">
-  @import '../style/partials/variables';
+  @use '../style/partials/variables';
 
   .sparkline {
     height: 50px;
@@ -46,17 +46,17 @@
     right: 0;
     top: 20px;
     transform: translateY(-100%);
-    @media screen and (max-width: $M) {
+    @media screen and (max-width: variables.$M) {
       width: 50px;
     }
     svg {
-      background: $gray-dark-background;
+      background: variables.$gray-dark-background;
       overflow: visible;
       width: 100%;
       height: 100%;
       path.points-area {
         stroke-width: 0px;
-        stroke: $black;
+        stroke: variables.$black;
       }
 
       path.points-line {
