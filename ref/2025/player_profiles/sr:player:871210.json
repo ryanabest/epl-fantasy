@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-28T15:07:53+00:00",
+    "generated_at": "2026-01-26T14:47:09+00:00",
     "player": {
         "id": "sr:player:871210",
         "name": "Wissa, Yoane",
@@ -9,7 +9,7 @@
         "country_code": "COD",
         "height": 180,
         "weight": 75,
-        "jersey_number": 20,
+        "jersey_number": 9,
         "preferred_foot": "right",
         "place_of_birth": "Epinay-sous-Senart",
         "country_of_birth": "France",
@@ -23,28 +23,21 @@
             "country_code": "ENG",
             "abbreviation": "NEW",
             "gender": "male"
-        },
-        {
-            "id": "sr:competitor:4823",
-            "name": "DR Congo",
-            "country": "Congo DR",
-            "country_code": "COD",
-            "abbreviation": "COD",
-            "gender": "male"
         }
     ],
     "roles": [
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:4823",
-                "name": "DR Congo",
+                "name": "Congo DR",
                 "country": "Congo DR",
                 "country_code": "COD",
                 "abbreviation": "COD",
                 "gender": "male"
             },
+            "end_date": "2025-11-12 00:00:00",
             "jersey_number": 20
         },
         {
@@ -148,7 +141,8 @@
                 "abbreviation": "NEW",
                 "gender": "male"
             },
-            "start_date": "2025-09-01 00:00:00"
+            "start_date": "2025-09-01 00:00:00",
+            "jersey_number": 9
         }
     ]
 }

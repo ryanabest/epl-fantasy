@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-28T15:06:02+00:00",
+    "generated_at": "2026-01-26T14:40:32+00:00",
     "player": {
         "id": "sr:player:1300742",
         "name": "Madueke, Noni",
@@ -9,7 +9,7 @@
         "country_code": "ENG",
         "height": 182,
         "weight": 70,
-        "jersey_number": 21,
+        "jersey_number": 20,
         "preferred_foot": "left",
         "place_of_birth": "Barnet",
         "country_of_birth": "England",
@@ -23,20 +23,12 @@
             "country_code": "ENG",
             "abbreviation": "ARS",
             "gender": "male"
-        },
-        {
-            "id": "sr:competitor:4713",
-            "name": "England",
-            "country": "England",
-            "country_code": "ENG",
-            "abbreviation": "ENG",
-            "gender": "male"
         }
     ],
     "roles": [
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:4713",
                 "name": "England",

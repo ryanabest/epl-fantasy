@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-28T15:03:15+00:00",
+    "generated_at": "2026-01-26T14:40:32+00:00",
     "player": {
         "id": "sr:player:547410",
         "name": "Odegaard, Martin",
@@ -9,7 +9,7 @@
         "country_code": "NOR",
         "height": 178,
         "weight": 69,
-        "jersey_number": 10,
+        "jersey_number": 8,
         "preferred_foot": "left",
         "place_of_birth": "Drammen",
         "country_of_birth": "Norway",
@@ -23,20 +23,12 @@
             "country_code": "ENG",
             "abbreviation": "ARS",
             "gender": "male"
-        },
-        {
-            "id": "sr:competitor:4475",
-            "name": "Norway",
-            "country": "Norway",
-            "country_code": "NOR",
-            "abbreviation": "NOR",
-            "gender": "male"
         }
     ],
     "roles": [
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:4475",
                 "name": "Norway",
@@ -209,6 +201,19 @@
             },
             "start_date": "2021-08-20 00:00:00",
             "jersey_number": 8
+        },
+        {
+            "type": "team_captain",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:42",
+                "name": "Arsenal FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ARS",
+                "gender": "male"
+            },
+            "start_date": "2025-07-01 00:00:00"
         }
     ]
 }

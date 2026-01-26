@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-28T15:05:29+00:00",
+    "generated_at": "2026-01-26T14:40:30+00:00",
     "player": {
         "id": "sr:player:1027583",
         "name": "Mateta, Jean-Philippe",
@@ -25,16 +25,28 @@
             "gender": "male"
         },
         {
-            "id": "sr:competitor:789974",
+            "id": "sr:competitor:4481",
             "name": "France",
             "country": "France",
             "country_code": "FRA",
             "abbreviation": "FRA",
-            "gender": "male",
-            "age_group": "U23"
+            "gender": "male"
         }
     ],
     "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4481",
+                "name": "France",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "FRA",
+                "gender": "male"
+            },
+            "jersey_number": 19
+        },
         {
             "type": "player",
             "active": false,
@@ -64,7 +76,7 @@
         },
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:789974",
                 "name": "France",

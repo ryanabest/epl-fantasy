@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-28T15:05:23+00:00",
+    "generated_at": "2026-01-26T14:40:20+00:00",
     "player": {
         "id": "sr:player:1601352",
         "name": "Cherki, Rayan",
@@ -9,7 +9,7 @@
         "country_code": "FRA",
         "height": 176,
         "weight": 71,
-        "jersey_number": 18,
+        "jersey_number": 14,
         "preferred_foot": "right",
         "place_of_birth": "Lyon",
         "country_of_birth": "France",
@@ -25,19 +25,18 @@
             "gender": "male"
         },
         {
-            "id": "sr:competitor:789974",
+            "id": "sr:competitor:4481",
             "name": "France",
             "country": "France",
             "country_code": "FRA",
             "abbreviation": "FRA",
-            "gender": "male",
-            "age_group": "U23"
+            "gender": "male"
         }
     ],
     "roles": [
         {
             "type": "player",
-            "active": false,
+            "active": true,
             "competitor": {
                 "id": "sr:competitor:4481",
                 "name": "France",
@@ -46,8 +45,7 @@
                 "abbreviation": "FRA",
                 "gender": "male"
             },
-            "end_date": "2025-08-31 00:00:00",
-            "jersey_number": 25
+            "jersey_number": 14
         },
         {
             "type": "player",
@@ -61,12 +59,11 @@
                 "gender": "male",
                 "age_group": "U21"
             },
-            "end_date": "2025-05-23 00:00:00",
             "jersey_number": 10
         },
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:789974",
                 "name": "France",

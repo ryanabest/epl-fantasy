@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-28T15:07:47+00:00",
+    "generated_at": "2026-01-26T14:47:02+00:00",
     "player": {
         "id": "sr:player:132645",
         "name": "Fullkrug, Niclas",
@@ -9,7 +9,7 @@
         "country_code": "DEU",
         "height": 189,
         "weight": 83,
-        "jersey_number": 9,
+        "jersey_number": 11,
         "preferred_foot": "right",
         "place_of_birth": "Hannover",
         "country_of_birth": "Germany",
@@ -17,26 +17,18 @@
     },
     "competitors": [
         {
-            "id": "sr:competitor:4711",
-            "name": "Germany",
-            "country": "Germany",
-            "country_code": "DEU",
-            "abbreviation": "GER",
-            "gender": "male"
-        },
-        {
-            "id": "sr:competitor:37",
-            "name": "West Ham United",
-            "country": "England",
-            "country_code": "ENG",
-            "abbreviation": "WHU",
+            "id": "sr:competitor:2692",
+            "name": "AC Milan",
+            "country": "Italy",
+            "country_code": "ITA",
+            "abbreviation": "ACM",
             "gender": "male"
         }
     ],
     "roles": [
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:4711",
                 "name": "Germany",
@@ -45,6 +37,7 @@
                 "abbreviation": "GER",
                 "gender": "male"
             },
+            "end_date": "2025-10-03 00:00:00",
             "jersey_number": 9
         },
         {
@@ -237,6 +230,21 @@
             },
             "start_date": "2024-08-05 00:00:00",
             "jersey_number": 11
+        },
+        {
+            "type": "on_loan",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:2692",
+                "name": "AC Milan",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "ACM",
+                "gender": "male"
+            },
+            "start_date": "2026-01-02 00:00:00",
+            "end_date": "2026-06-30 00:00:00",
+            "jersey_number": 9
         }
     ]
 }

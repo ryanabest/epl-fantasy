@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-28T15:00:36+00:00",
+    "generated_at": "2026-01-26T14:40:42+00:00",
     "player": {
         "id": "sr:player:1146986",
         "name": "Cunha, Matheus",
@@ -9,7 +9,7 @@
         "country_code": "BRA",
         "height": 184,
         "weight": 75,
-        "jersey_number": 10,
+        "jersey_number": 21,
         "preferred_foot": "right",
         "place_of_birth": "Joao Pessoa",
         "country_of_birth": "Brazil",
@@ -23,12 +23,20 @@
             "country_code": "ENG",
             "abbreviation": "MUN",
             "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4748",
+            "name": "Brazil",
+            "country": "Brazil",
+            "country_code": "BRA",
+            "abbreviation": "BRA",
+            "gender": "male"
         }
     ],
     "roles": [
         {
             "type": "player",
-            "active": false,
+            "active": true,
             "competitor": {
                 "id": "sr:competitor:4748",
                 "name": "Brazil",

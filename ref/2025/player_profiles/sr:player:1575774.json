@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-28T15:00:52+00:00",
+    "generated_at": "2026-01-26T14:41:02+00:00",
     "player": {
         "id": "sr:player:1575774",
         "name": "Schade, Kevin",
@@ -9,7 +9,7 @@
         "country_code": "DEU",
         "height": 183,
         "weight": 74,
-        "jersey_number": 7,
+        "jersey_number": 16,
         "preferred_foot": "right",
         "place_of_birth": "Potsdam (GERMANY)",
         "country_of_birth": "Germany",
@@ -23,12 +23,20 @@
             "country_code": "ENG",
             "abbreviation": "BRE",
             "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4711",
+            "name": "Germany",
+            "country": "Germany",
+            "country_code": "DEU",
+            "abbreviation": "GER",
+            "gender": "male"
         }
     ],
     "roles": [
         {
             "type": "player",
-            "active": false,
+            "active": true,
             "competitor": {
                 "id": "sr:competitor:4711",
                 "name": "Germany",
@@ -37,7 +45,7 @@
                 "abbreviation": "GER",
                 "gender": "male"
             },
-            "jersey_number": 14
+            "jersey_number": 16
         },
         {
             "type": "player",

@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-28T15:07:32+00:00",
+    "generated_at": "2026-01-26T14:46:47+00:00",
     "player": {
         "id": "sr:player:1047129",
         "name": "Foden, Phil",
@@ -17,6 +17,14 @@
     },
     "competitors": [
         {
+            "id": "sr:competitor:4713",
+            "name": "England",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ENG",
+            "gender": "male"
+        },
+        {
             "id": "sr:competitor:17",
             "name": "Manchester City",
             "country": "England",
@@ -28,7 +36,7 @@
     "roles": [
         {
             "type": "player",
-            "active": false,
+            "active": true,
             "competitor": {
                 "id": "sr:competitor:4713",
                 "name": "England",
@@ -37,7 +45,7 @@
                 "abbreviation": "ENG",
                 "gender": "male"
             },
-            "jersey_number": 10
+            "jersey_number": 17
         },
         {
             "type": "player",

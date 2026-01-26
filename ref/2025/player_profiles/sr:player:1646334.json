@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-28T15:05:56+00:00",
+    "generated_at": "2026-01-26T14:40:30+00:00",
     "player": {
         "id": "sr:player:1646334",
         "name": "Johnson, Brennan",
@@ -17,19 +17,19 @@
     },
     "competitors": [
         {
+            "id": "sr:competitor:7",
+            "name": "Crystal Palace",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CRY",
+            "gender": "male"
+        },
+        {
             "id": "sr:competitor:4702",
             "name": "Wales",
             "country": "Wales",
             "country_code": "WAL",
             "abbreviation": "WAL",
-            "gender": "male"
-        },
-        {
-            "id": "sr:competitor:33",
-            "name": "Tottenham Hotspur",
-            "country": "England",
-            "country_code": "ENG",
-            "abbreviation": "TOT",
             "gender": "male"
         }
     ],
@@ -108,7 +108,7 @@
         },
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:33",
                 "name": "Tottenham Hotspur",
@@ -118,7 +118,22 @@
                 "gender": "male"
             },
             "start_date": "2023-09-01 00:00:00",
+            "end_date": "2026-01-01 00:00:00",
             "jersey_number": 22
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:7",
+                "name": "Crystal Palace",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CRY",
+                "gender": "male"
+            },
+            "start_date": "2026-01-02 00:00:00",
+            "jersey_number": 11
         }
     ]
 }

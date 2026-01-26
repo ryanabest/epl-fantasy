@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-28T15:08:02+00:00",
+    "generated_at": "2026-01-26T14:47:18+00:00",
     "player": {
         "id": "sr:player:1480070",
         "name": "Semenyo, Antoine",
@@ -9,7 +9,7 @@
         "country_code": "GHA",
         "height": 172,
         "weight": 70,
-        "jersey_number": 24,
+        "jersey_number": 11,
         "preferred_foot": "both",
         "place_of_birth": "London",
         "country_of_birth": "England",
@@ -25,11 +25,11 @@
             "gender": "male"
         },
         {
-            "id": "sr:competitor:60",
-            "name": "AFC Bournemouth",
+            "id": "sr:competitor:17",
+            "name": "Manchester City",
             "country": "England",
             "country_code": "ENG",
-            "abbreviation": "BOU",
+            "abbreviation": "MCI",
             "gender": "male"
         }
     ],
@@ -108,7 +108,7 @@
         },
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:60",
                 "name": "AFC Bournemouth",
@@ -118,7 +118,22 @@
                 "gender": "male"
             },
             "start_date": "2023-01-27 00:00:00",
+            "end_date": "2026-01-08 00:00:00",
             "jersey_number": 24
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:17",
+                "name": "Manchester City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MCI",
+                "gender": "male"
+            },
+            "start_date": "2026-01-09 00:00:00",
+            "jersey_number": 42
         }
     ]
 }

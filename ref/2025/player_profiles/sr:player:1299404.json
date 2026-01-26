@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-28T15:07:50+00:00",
+    "generated_at": "2026-01-26T14:47:05+00:00",
     "player": {
         "id": "sr:player:1299404",
         "name": "Frimpong, Jeremie",
@@ -9,13 +9,21 @@
         "country_code": "NLD",
         "height": 172,
         "weight": 65,
-        "jersey_number": 30,
+        "jersey_number": 12,
         "preferred_foot": "right",
         "place_of_birth": "Amsterdam",
         "country_of_birth": "Netherlands",
         "gender": "male"
     },
     "competitors": [
+        {
+            "id": "sr:competitor:4705",
+            "name": "Netherlands",
+            "country": "Netherlands",
+            "country_code": "NLD",
+            "abbreviation": "NED",
+            "gender": "male"
+        },
         {
             "id": "sr:competitor:44",
             "name": "Liverpool FC",
@@ -28,7 +36,7 @@
     "roles": [
         {
             "type": "player",
-            "active": false,
+            "active": true,
             "competitor": {
                 "id": "sr:competitor:4705",
                 "name": "Netherlands",
@@ -37,7 +45,6 @@
                 "abbreviation": "NED",
                 "gender": "male"
             },
-            "end_date": "2025-09-02 00:00:00",
             "jersey_number": 12
         },
         {

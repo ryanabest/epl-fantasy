@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-28T15:07:14+00:00",
+    "generated_at": "2026-01-26T14:46:29+00:00",
     "player": {
         "id": "sr:player:1696477",
         "name": "Fernandez, Enzo",
@@ -9,7 +9,7 @@
         "country_code": "ARG",
         "height": 178,
         "weight": 67,
-        "jersey_number": 8,
+        "jersey_number": 24,
         "preferred_foot": "right",
         "place_of_birth": "San Martin",
         "country_of_birth": "Argentina",
@@ -23,12 +23,20 @@
             "country_code": "ENG",
             "abbreviation": "CFC",
             "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4819",
+            "name": "Argentina",
+            "country": "Argentina",
+            "country_code": "ARG",
+            "abbreviation": "ARG",
+            "gender": "male"
         }
     ],
     "roles": [
         {
             "type": "player",
-            "active": false,
+            "active": true,
             "competitor": {
                 "id": "sr:competitor:4819",
                 "name": "Argentina",
@@ -37,7 +45,7 @@
                 "abbreviation": "ARG",
                 "gender": "male"
             },
-            "jersey_number": 8
+            "jersey_number": 24
         },
         {
             "type": "player",

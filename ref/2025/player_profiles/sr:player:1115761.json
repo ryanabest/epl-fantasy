@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-28T15:06:56+00:00",
+    "generated_at": "2026-01-26T14:46:12+00:00",
     "player": {
         "id": "sr:player:1115761",
         "name": "Neto, Pedro",
@@ -9,7 +9,6 @@
         "country_code": "PRT",
         "height": 172,
         "weight": 62,
-        "jersey_number": 18,
         "preferred_foot": "left",
         "place_of_birth": "Viana do Castelo",
         "country_of_birth": "Portugal",
@@ -17,19 +16,19 @@
     },
     "competitors": [
         {
-            "id": "sr:competitor:38",
-            "name": "Chelsea FC",
-            "country": "England",
-            "country_code": "ENG",
-            "abbreviation": "CFC",
-            "gender": "male"
-        },
-        {
             "id": "sr:competitor:4704",
             "name": "Portugal",
             "country": "Portugal",
             "country_code": "PRT",
             "abbreviation": "POR",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:38",
+            "name": "Chelsea FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CFC",
             "gender": "male"
         }
     ],
@@ -44,8 +43,7 @@
                 "country_code": "PRT",
                 "abbreviation": "POR",
                 "gender": "male"
-            },
-            "jersey_number": 18
+            }
         },
         {
             "type": "player",

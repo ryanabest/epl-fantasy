@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-28T15:08:38+00:00",
+    "generated_at": "2026-01-26T14:47:54+00:00",
     "player": {
         "id": "sr:player:136710",
         "name": "Kovacic, Mateo",
@@ -23,12 +23,20 @@
             "country_code": "ENG",
             "abbreviation": "MCI",
             "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4715",
+            "name": "Croatia",
+            "country": "Croatia",
+            "country_code": "HRV",
+            "abbreviation": "CRO",
+            "gender": "male"
         }
     ],
     "roles": [
         {
             "type": "player",
-            "active": false,
+            "active": true,
             "competitor": {
                 "id": "sr:competitor:4715",
                 "name": "Croatia",
