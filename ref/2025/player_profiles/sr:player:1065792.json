@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-01-26T14:40:19+00:00",
+    "generated_at": "2026-02-03T15:27:23+00:00",
     "player": {
         "id": "sr:player:1065792",
         "name": "Larsen, Jorgen Strand",
@@ -17,11 +17,11 @@
     },
     "competitors": [
         {
-            "id": "sr:competitor:3",
-            "name": "Wolverhampton Wanderers",
+            "id": "sr:competitor:7",
+            "name": "Crystal Palace",
             "country": "England",
             "country_code": "ENG",
-            "abbreviation": "WOL",
+            "abbreviation": "CRY",
             "gender": "male"
         },
         {
@@ -180,7 +180,7 @@
         },
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:3",
                 "name": "Wolverhampton Wanderers",
@@ -190,7 +190,21 @@
                 "gender": "male"
             },
             "start_date": "2025-07-01 00:00:00",
+            "end_date": "2026-02-01 00:00:00",
             "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:7",
+                "name": "Crystal Palace",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CRY",
+                "gender": "male"
+            },
+            "start_date": "2026-02-02 00:00:00"
         }
     ]
 }

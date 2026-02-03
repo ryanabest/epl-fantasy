@@ -73,7 +73,12 @@ class Compiler {
         defender: "DEF",
         goalkeeper: "GK"
       }[p.player.type];
-      const jersey = p.player.jersey_number;
+      let jersey = p.player.jersey_number;
+      if (!jersey) {
+        const premTeam = p.competitors.find(t => t.country === 'England' && t.name !== 'England');
+        const role = p.roles.find(r => r.competitor.id === premTeam?.id);
+        jersey = role?.jersey_number;
+      }
       const playerTeam = p.competitors?.find(d => {
         return (
           (d.name !== d.country) &&

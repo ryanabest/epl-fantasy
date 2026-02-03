@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-01-26T14:46:15+00:00",
+    "generated_at": "2026-02-03T15:29:35+00:00",
     "player": {
         "id": "sr:player:2142670",
         "name": "Adingra, Simon",
@@ -17,11 +17,11 @@
     },
     "competitors": [
         {
-            "id": "sr:competitor:41",
-            "name": "Sunderland AFC",
-            "country": "England",
-            "country_code": "ENG",
-            "abbreviation": "SUN",
+            "id": "sr:competitor:1653",
+            "name": "AS Monaco",
+            "country": "France",
+            "country_code": "FRA",
+            "abbreviation": "ASM",
             "gender": "male"
         }
     ],
@@ -97,6 +97,20 @@
             },
             "start_date": "2025-07-10 00:00:00",
             "jersey_number": 24
+        },
+        {
+            "type": "on_loan",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:1653",
+                "name": "AS Monaco",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "ASM",
+                "gender": "male"
+            },
+            "start_date": "2026-02-02 00:00:00",
+            "end_date": "2026-06-30 00:00:00"
         }
     ]
 }
