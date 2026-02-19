@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-22T13:30:50+00:00",
+    "generated_at": "2026-02-19T15:10:20+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300597",
         "start_time": "2025-09-20T16:30:00+00:00",
@@ -17,7 +17,8 @@
             "competition": {
                 "id": "sr:competition:17",
                 "name": "Premier League",
-                "gender": "men"
+                "gender": "men",
+                "alternative_name": "English Premier League"
             },
             "season": {
                 "id": "sr:season:130281",
@@ -85,7 +86,7 @@
                 "name": "Chelsea FC",
                 "country": "England",
                 "country_code": "ENG",
-                "abbreviation": "CHE",
+                "abbreviation": "CFC",
                 "qualifier": "away",
                 "gender": "male"
             }
@@ -93,10 +94,10 @@
         "venue": {
             "id": "sr:venue:9",
             "name": "Old Trafford",
-            "capacity": 75635,
+            "capacity": 74197,
             "city_name": "Manchester",
             "country_name": "England",
-            "map_coordinates": "53.463150,-2.291444",
+            "map_coordinates": "53.46315, -2.291444",
             "country_code": "ENG",
             "timezone": "Europe/London"
         },
@@ -155,6 +156,9 @@
                     "type": "video_assistant_referee"
                 }
             ],
+            "attendance": {
+                "count": 74124
+            },
             "weather": {
                 "pitch_conditions": "good",
                 "overall_conditions": "bad"
@@ -229,10 +233,10 @@
                     "qualifier": "home",
                     "statistics": {
                         "ball_possession": 41,
-                        "cards_given": 2,
+                        "cards_given": 1,
                         "corner_kicks": 5,
-                        "fouls": 13,
-                        "free_kicks": 16,
+                        "fouls": 11,
+                        "free_kicks": 13,
                         "goal_kicks": 2,
                         "injuries": 0,
                         "offsides": 3,
@@ -252,7 +256,6 @@
                             "statistics": {
                                 "assists": 0,
                                 "corner_kicks": 0,
-                                "goals_by_head": 1,
                                 "goals_scored": 1,
                                 "offsides": 0,
                                 "own_goals": 0,
@@ -452,26 +455,6 @@
                         {
                             "statistics": {
                                 "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1382367",
-                            "name": "Zirkzee, Joshua",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
                                 "corner_kicks": 2,
                                 "goals_scored": 0,
                                 "offsides": 0,
@@ -488,26 +471,6 @@
                             "id": "sr:player:1413499",
                             "name": "Mbeumo, Bryan",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1624320",
-                            "name": "Lammens, Senne",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -591,26 +554,6 @@
                         },
                         {
                             "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2264953",
-                            "name": "Fredricson, Tyler",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
                                 "assists": 1,
                                 "corner_kicks": 0,
                                 "goals_scored": 0,
@@ -628,40 +571,20 @@
                             "id": "sr:player:2631331",
                             "name": "Dorgu, Patrick",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2691816",
-                            "name": "Heaven, Ayden",
-                            "starter": false
                         }
                     ]
                 },
                 {
                     "id": "sr:competitor:38",
                     "name": "Chelsea FC",
-                    "abbreviation": "CHE",
+                    "abbreviation": "CFC",
                     "qualifier": "away",
                     "statistics": {
                         "ball_possession": 59,
                         "cards_given": 6,
                         "corner_kicks": 5,
-                        "fouls": 14,
-                        "free_kicks": 17,
+                        "fouls": 13,
+                        "free_kicks": 11,
                         "goal_kicks": 6,
                         "injuries": 2,
                         "offsides": 2,
@@ -721,7 +644,6 @@
                             "statistics": {
                                 "assists": 0,
                                 "corner_kicks": 0,
-                                "goals_by_head": 1,
                                 "goals_scored": 1,
                                 "offsides": 0,
                                 "own_goals": 0,
@@ -946,66 +868,6 @@
                                 "offsides": 0,
                                 "own_goals": 0,
                                 "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1955902",
-                            "name": "Garnacho, Alejandro",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2265039",
-                            "name": "Gittens, Jamie",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2268227",
-                            "name": "Hato, Jorrel",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
                                 "shots_blocked": 1,
                                 "shots_off_target": 0,
                                 "shots_on_target": 0,
@@ -1036,26 +898,6 @@
                             },
                             "id": "sr:player:2437845",
                             "name": "George, Tyrique",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2463239",
-                            "name": "Guiu, Marc",
                             "starter": false
                         },
                         {

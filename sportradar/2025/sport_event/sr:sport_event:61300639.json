@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-10-06T13:43:49+00:00",
+    "generated_at": "2026-02-19T15:11:08+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300639",
         "start_time": "2025-10-04T11:30:00+00:00",
@@ -17,7 +17,8 @@
             "competition": {
                 "id": "sr:competition:17",
                 "name": "Premier League",
-                "gender": "men"
+                "gender": "men",
+                "alternative_name": "English Premier League"
             },
             "season": {
                 "id": "sr:season:130281",
@@ -237,7 +238,7 @@
                         "cards_given": 2,
                         "corner_kicks": 4,
                         "fouls": 10,
-                        "free_kicks": 13,
+                        "free_kicks": 11,
                         "goal_kicks": 9,
                         "injuries": 0,
                         "offsides": 1,
@@ -245,7 +246,7 @@
                         "shots_blocked": 2,
                         "shots_off_target": 10,
                         "shots_on_target": 4,
-                        "shots_saved": 1,
+                        "shots_saved": 2,
                         "shots_total": 16,
                         "substitutions": 5,
                         "throw_ins": 16,
@@ -331,26 +332,6 @@
                             },
                             "id": "sr:player:772795",
                             "name": "Tanaka, Ao",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:936428",
-                            "name": "Bornauw, Sebastiaan",
                             "starter": false
                         },
                         {
@@ -536,26 +517,6 @@
                         {
                             "statistics": {
                                 "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1065580",
-                            "name": "Gruev, Ilia",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
                                 "corner_kicks": 4,
                                 "goals_scored": 0,
                                 "offsides": 0,
@@ -572,46 +533,6 @@
                             "id": "sr:player:1090782",
                             "name": "Longstaff, Sean",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1233436",
-                            "name": "Bijol, Jaka",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1322902",
-                            "name": "Meslier, Illan",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -665,7 +586,7 @@
                         "cards_given": 3,
                         "corner_kicks": 1,
                         "fouls": 11,
-                        "free_kicks": 11,
+                        "free_kicks": 10,
                         "goal_kicks": 18,
                         "injuries": 2,
                         "offsides": 2,
@@ -681,26 +602,6 @@
                         "yellow_red_cards": 0
                     },
                     "players": [
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:94758",
-                            "name": "Davies, Ben",
-                            "starter": false
-                        },
                         {
                             "statistics": {
                                 "assists": 0,
@@ -872,26 +773,6 @@
                                 "shots_blocked": 0,
                                 "shots_off_target": 0,
                                 "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1564490",
-                            "name": "Spence, Djed",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
                                 "substituted_in": 1,
                                 "substituted_out": 0,
                                 "yellow_cards": 0,
@@ -920,26 +801,6 @@
                             "id": "sr:player:1722002",
                             "name": "Udogie, Destiny",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1726752",
-                            "name": "Kinsky, Antonin",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -1040,46 +901,6 @@
                             "id": "sr:player:2239979",
                             "name": "Odobert, Wilson",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2278985",
-                            "name": "Gray, Archie",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2397923",
-                            "name": "Bergvall, Lucas",
-                            "starter": false
                         }
                     ]
                 }

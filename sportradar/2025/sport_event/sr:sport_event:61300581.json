@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-15T14:25:05+00:00",
+    "generated_at": "2026-02-19T15:09:51+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300581",
         "start_time": "2025-09-13T14:00:00+00:00",
@@ -17,7 +17,8 @@
             "competition": {
                 "id": "sr:competition:17",
                 "name": "Premier League",
-                "gender": "men"
+                "gender": "men",
+                "alternative_name": "English Premier League"
             },
             "season": {
                 "id": "sr:season:130281",
@@ -92,8 +93,8 @@
         ],
         "venue": {
             "id": "sr:venue:765",
-            "name": "St. James' Park",
-            "capacity": 52258,
+            "name": "St. James Park",
+            "capacity": 52264,
             "city_name": "Newcastle upon Tyne",
             "country_name": "England",
             "map_coordinates": "54.975577, -1.621659",
@@ -136,13 +137,6 @@
                     "nationality": "England",
                     "country_code": "ENG",
                     "type": "fourth_official"
-                },
-                {
-                    "id": "sr:referee:2053781",
-                    "name": "Wood, Timothy",
-                    "nationality": "England",
-                    "country_code": "ENG",
-                    "type": "video_assistant_referee"
                 }
             ],
             "attendance": {
@@ -221,7 +215,7 @@
                     "abbreviation": "NEW",
                     "qualifier": "home",
                     "statistics": {
-                        "ball_possession": 58,
+                        "ball_possession": 57,
                         "cards_given": 1,
                         "corner_kicks": 9,
                         "fouls": 10,
@@ -233,7 +227,7 @@
                         "shots_blocked": 6,
                         "shots_off_target": 6,
                         "shots_on_target": 2,
-                        "shots_saved": 3,
+                        "shots_saved": 0,
                         "shots_total": 14,
                         "substitutions": 4,
                         "throw_ins": 28,
@@ -317,26 +311,6 @@
                                 "yellow_cards": 0,
                                 "yellow_red_cards": 0
                             },
-                            "id": "sr:player:150396",
-                            "name": "Krafth, Emil",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
                             "id": "sr:player:162653",
                             "name": "Pope, Nick",
                             "starter": true
@@ -399,26 +373,6 @@
                             },
                             "id": "sr:player:937002",
                             "name": "Willock, Joe",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:988185",
-                            "name": "Ramsdale, Aaron",
                             "starter": false
                         },
                         {
@@ -517,26 +471,6 @@
                                 "yellow_cards": 0,
                                 "yellow_red_cards": 0
                             },
-                            "id": "sr:player:1576076",
-                            "name": "Thiaw, Malick",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
                             "id": "sr:player:1643746",
                             "name": "Livramento, Tino",
                             "starter": true
@@ -565,7 +499,6 @@
                             "statistics": {
                                 "assists": 0,
                                 "corner_kicks": 0,
-                                "goals_by_head": 1,
                                 "goals_scored": 1,
                                 "offsides": 0,
                                 "own_goals": 0,
@@ -601,46 +534,6 @@
                             "id": "sr:player:2161264",
                             "name": "Osula, William",
                             "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2249331",
-                            "name": "Hall, Lewis",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2558327",
-                            "name": "Miley, Lewis",
-                            "starter": false
                         }
                     ]
                 },
@@ -650,11 +543,11 @@
                     "abbreviation": "WOL",
                     "qualifier": "away",
                     "statistics": {
-                        "ball_possession": 42,
+                        "ball_possession": 43,
                         "cards_given": 4,
                         "corner_kicks": 4,
                         "fouls": 17,
-                        "free_kicks": 11,
+                        "free_kicks": 10,
                         "goal_kicks": 8,
                         "injuries": 2,
                         "offsides": 0,
@@ -662,7 +555,7 @@
                         "shots_blocked": 2,
                         "shots_off_target": 3,
                         "shots_on_target": 3,
-                        "shots_saved": 1,
+                        "shots_saved": 0,
                         "shots_total": 8,
                         "substitutions": 5,
                         "throw_ins": 14,
@@ -689,46 +582,6 @@
                             "id": "sr:player:98427",
                             "name": "Johnstone, Sam",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:101367",
-                            "name": "Bentley, Daniel",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:143047",
-                            "name": "Doherty, Matt",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -788,26 +641,6 @@
                             },
                             "id": "sr:player:1011881",
                             "name": "Bellegarde, Jean-Ricner",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1016089",
-                            "name": "Bueno, Santiago",
                             "starter": false
                         },
                         {
@@ -882,26 +715,6 @@
                                 "shots_off_target": 0,
                                 "shots_on_target": 0,
                                 "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1724924",
-                            "name": "Wolfe, David Moller",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
                                 "substituted_out": 1,
                                 "yellow_cards": 0,
                                 "yellow_red_cards": 0
@@ -927,7 +740,7 @@
                                 "yellow_red_cards": 0
                             },
                             "id": "sr:player:1794764",
-                            "name": "Arokodare, Toluwalase Emmanuel",
+                            "name": "Arokodare, Tolu",
                             "starter": true
                         },
                         {
@@ -1067,7 +880,7 @@
                                 "yellow_red_cards": 0
                             },
                             "id": "sr:player:2887483",
-                            "name": "Lopez Gonzalez, Fernando",
+                            "name": "Lopez, Fer",
                             "starter": false
                         }
                     ]

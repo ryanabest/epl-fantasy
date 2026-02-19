@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-01-07T22:28:23+00:00",
+    "generated_at": "2026-02-19T15:18:23+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300935",
         "start_time": "2026-01-07T19:30:00+00:00",
@@ -94,7 +94,7 @@
         "venue": {
             "id": "sr:venue:606",
             "name": "Etihad Stadium",
-            "capacity": 55097,
+            "capacity": 52900,
             "city_name": "Manchester",
             "country_name": "England",
             "map_coordinates": "53.484592, -2.202695",
@@ -146,6 +146,9 @@
                     "type": "video_assistant_referee"
                 }
             ],
+            "attendance": {
+                "count": 51728
+            },
             "weather": {
                 "pitch_conditions": "good",
                 "overall_conditions": "medium"

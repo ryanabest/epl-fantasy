@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-08-23T23:34:55+00:00",
+    "generated_at": "2026-02-19T15:08:50+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300527",
         "start_time": "2025-08-23T16:30:00+00:00",
@@ -17,7 +17,8 @@
             "competition": {
                 "id": "sr:competition:17",
                 "name": "Premier League",
-                "gender": "men"
+                "gender": "men",
+                "alternative_name": "English Premier League"
             },
             "season": {
                 "id": "sr:season:130281",
@@ -49,7 +50,7 @@
             "type": "sport_event",
             "sport_event_properties": {
                 "lineups": true,
-                "formations": false,
+                "formations": true,
                 "venue": true,
                 "extended_play_by_play": true,
                 "extended_player_stats": true,
@@ -96,7 +97,7 @@
             "capacity": 60704,
             "city_name": "London",
             "country_name": "England",
-            "map_coordinates": "51.555050,-0.108046",
+            "map_coordinates": "51.55505, -0.108046",
             "country_code": "ENG",
             "timezone": "Europe/London"
         },
@@ -238,7 +239,7 @@
                         "cards_given": 0,
                         "corner_kicks": 2,
                         "fouls": 8,
-                        "free_kicks": 11,
+                        "free_kicks": 10,
                         "goal_kicks": 2,
                         "injuries": 2,
                         "offsides": 0,
@@ -246,7 +247,7 @@
                         "shots_blocked": 5,
                         "shots_off_target": 7,
                         "shots_on_target": 5,
-                        "shots_saved": 1,
+                        "shots_saved": 0,
                         "shots_total": 17,
                         "substitutions": 5,
                         "throw_ins": 27,
@@ -272,26 +273,6 @@
                             },
                             "id": "sr:player:135666",
                             "name": "Trossard, Leandro",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:232422",
-                            "name": "Arrizabalaga, Kepa",
                             "starter": false
                         },
                         {
@@ -338,27 +319,6 @@
                             "statistics": {
                                 "assists": 0,
                                 "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:592010",
-                            "name": "Merino, Mikel",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_by_penalty": 1,
                                 "goals_scored": 2,
                                 "offsides": 0,
                                 "own_goals": 0,
@@ -399,7 +359,6 @@
                             "statistics": {
                                 "assists": 1,
                                 "corner_kicks": 0,
-                                "goals_by_head": 1,
                                 "goals_scored": 2,
                                 "offsides": 0,
                                 "own_goals": 0,
@@ -415,26 +374,6 @@
                             "id": "sr:player:1059325",
                             "name": "Timber, Jurrien",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1091644",
-                            "name": "Kiwior, Jakub",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -535,26 +474,6 @@
                             "id": "sr:player:1513599",
                             "name": "Saliba, William",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1663313",
-                            "name": "Martinelli, Gabriel",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -667,7 +586,7 @@
                         "ball_possession": 32,
                         "cards_given": 2,
                         "corner_kicks": 2,
-                        "fouls": 11,
+                        "fouls": 10,
                         "free_kicks": 8,
                         "goal_kicks": 12,
                         "injuries": 0,
@@ -684,26 +603,6 @@
                         "yellow_red_cards": 0
                     },
                     "players": [
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:123689",
-                            "name": "Darlow, Karl",
-                            "starter": false
-                        },
                         {
                             "statistics": {
                                 "assists": 0,
@@ -800,49 +699,9 @@
                                 "yellow_cards": 0,
                                 "yellow_red_cards": 0
                             },
-                            "id": "sr:player:936428",
-                            "name": "Bornauw, Sebastiaan",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
                             "id": "sr:player:948750",
                             "name": "Rodon, Joe",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:951350",
-                            "name": "Harrison, Jack",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -1003,26 +862,6 @@
                             "id": "sr:player:1121667",
                             "name": "Perri, Lucas",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1233436",
-                            "name": "Bijol, Jaka",
-                            "starter": false
                         },
                         {
                             "statistics": {

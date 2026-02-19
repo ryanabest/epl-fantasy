@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-08-23T23:34:49+00:00",
+    "generated_at": "2026-02-19T15:08:44+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300529",
         "start_time": "2025-08-23T14:00:00+00:00",
@@ -17,7 +17,8 @@
             "competition": {
                 "id": "sr:competition:17",
                 "name": "Premier League",
-                "gender": "men"
+                "gender": "men",
+                "alternative_name": "English Premier League"
             },
             "season": {
                 "id": "sr:season:130281",
@@ -49,7 +50,7 @@
             "type": "sport_event",
             "sport_event_properties": {
                 "lineups": true,
-                "formations": false,
+                "formations": true,
                 "venue": true,
                 "extended_play_by_play": true,
                 "extended_player_stats": true,
@@ -96,7 +97,7 @@
             "capacity": 17250,
             "city_name": "London",
             "country_name": "England",
-            "map_coordinates": "51.4907295,-0.2891696",
+            "map_coordinates": "51.4907295, -0.2891696",
             "country_code": "ENG",
             "timezone": "Europe/London"
         },
@@ -143,13 +144,6 @@
                     "nationality": "England",
                     "country_code": "ENG",
                     "type": "fourth_official"
-                },
-                {
-                    "id": "sr:referee:2053781",
-                    "name": "Wood, Timothy",
-                    "nationality": "England",
-                    "country_code": "ENG",
-                    "type": "video_assistant_referee"
                 }
             ],
             "attendance": {
@@ -231,7 +225,7 @@
                         "ball_possession": 23,
                         "cards_given": 1,
                         "corner_kicks": 2,
-                        "fouls": 11,
+                        "fouls": 10,
                         "free_kicks": 9,
                         "goal_kicks": 7,
                         "injuries": 4,
@@ -240,7 +234,7 @@
                         "shots_blocked": 1,
                         "shots_off_target": 3,
                         "shots_on_target": 1,
-                        "shots_saved": 3,
+                        "shots_saved": 1,
                         "shots_total": 5,
                         "substitutions": 5,
                         "throw_ins": 13,
@@ -391,26 +385,6 @@
                         {
                             "statistics": {
                                 "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1141630",
-                            "name": "Valdimarsson, Hakon",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
                                 "corner_kicks": 2,
                                 "goals_scored": 0,
                                 "offsides": 0,
@@ -517,26 +491,6 @@
                                 "own_goals": 0,
                                 "red_cards": 0,
                                 "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1724648",
-                            "name": "Peart-Harris, Myles",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
                                 "shots_off_target": 1,
                                 "shots_on_target": 0,
                                 "substituted_in": 0,
@@ -560,26 +514,6 @@
                                 "shots_off_target": 0,
                                 "shots_on_target": 0,
                                 "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2074545",
-                            "name": "Carvalho, Fabio",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
                                 "substituted_out": 1,
                                 "yellow_cards": 0,
                                 "yellow_red_cards": 0
@@ -587,26 +521,6 @@
                             "id": "sr:player:2164250",
                             "name": "Kayode, Michael",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2190630",
-                            "name": "Milambo, Antoni",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -660,7 +574,7 @@
                         "cards_given": 2,
                         "corner_kicks": 9,
                         "fouls": 9,
-                        "free_kicks": 12,
+                        "free_kicks": 10,
                         "goal_kicks": 10,
                         "injuries": 2,
                         "offsides": 0,
@@ -695,26 +609,6 @@
                             "id": "sr:player:96538",
                             "name": "Digne, Lucas",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:100390",
-                            "name": "Bizot, Marco",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -1014,66 +908,6 @@
                             },
                             "id": "sr:player:2115982",
                             "name": "Bogarde, Lamare",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2745953",
-                            "name": "Proctor, Sam",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2865451",
-                            "name": "Rowe, Triston",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2890863",
-                            "name": "Burrowes, Bradley",
                             "starter": false
                         }
                     ]

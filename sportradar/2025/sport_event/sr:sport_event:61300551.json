@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-01T14:11:24+00:00",
+    "generated_at": "2026-02-19T15:09:20+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300551",
         "start_time": "2025-08-30T16:30:00+00:00",
@@ -17,7 +17,8 @@
             "competition": {
                 "id": "sr:competition:17",
                 "name": "Premier League",
-                "gender": "men"
+                "gender": "men",
+                "alternative_name": "English Premier League"
             },
             "season": {
                 "id": "sr:season:130281",
@@ -239,7 +240,7 @@
                         "cards_given": 1,
                         "corner_kicks": 5,
                         "fouls": 10,
-                        "free_kicks": 15,
+                        "free_kicks": 14,
                         "goal_kicks": 11,
                         "injuries": 2,
                         "offsides": 1,
@@ -247,7 +248,7 @@
                         "shots_blocked": 3,
                         "shots_off_target": 3,
                         "shots_on_target": 1,
-                        "shots_saved": 3,
+                        "shots_saved": 2,
                         "shots_total": 7,
                         "substitutions": 4,
                         "throw_ins": 15,
@@ -255,26 +256,6 @@
                         "yellow_red_cards": 0
                     },
                     "players": [
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:123689",
-                            "name": "Darlow, Karl",
-                            "starter": false
-                        },
                         {
                             "statistics": {
                                 "assists": 0,
@@ -334,26 +315,6 @@
                             "id": "sr:player:769115",
                             "name": "Nmecha, Lukas",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:936428",
-                            "name": "Bornauw, Sebastiaan",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -491,46 +452,6 @@
                                 "yellow_cards": 0,
                                 "yellow_red_cards": 0
                             },
-                            "id": "sr:player:1057309",
-                            "name": "Okafor, Noah",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1058433",
-                            "name": "Piroe, Joel",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
                             "id": "sr:player:1065580",
                             "name": "Gruev, Ilia",
                             "starter": true
@@ -574,26 +495,6 @@
                             "id": "sr:player:1121667",
                             "name": "Perri, Lucas",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1233436",
-                            "name": "Bijol, Jaka",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -666,8 +567,8 @@
                         "ball_possession": 57,
                         "cards_given": 1,
                         "corner_kicks": 5,
-                        "fouls": 15,
-                        "free_kicks": 11,
+                        "fouls": 14,
+                        "free_kicks": 10,
                         "goal_kicks": 8,
                         "injuries": 2,
                         "offsides": 0,
@@ -756,46 +657,6 @@
                                 "shots_on_target": 0,
                                 "substituted_in": 0,
                                 "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:150396",
-                            "name": "Krafth, Emil",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:153444",
-                            "name": "Lascelles, Jamaal",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
                                 "yellow_cards": 1,
                                 "yellow_red_cards": 0
                             },
@@ -822,46 +683,6 @@
                             "id": "sr:player:372336",
                             "name": "Murphy, Jacob",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:937002",
-                            "name": "Willock, Joe",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:988185",
-                            "name": "Ramsdale, Aaron",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -942,26 +763,6 @@
                             "id": "sr:player:1265128",
                             "name": "Tonali, Sandro",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1576076",
-                            "name": "Thiaw, Malick",
-                            "starter": false
                         },
                         {
                             "statistics": {

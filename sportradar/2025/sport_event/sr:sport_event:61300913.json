@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-01-05T03:33:43+00:00",
+    "generated_at": "2026-02-19T15:17:56+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300913",
         "start_time": "2026-01-04T15:00:00+00:00",
@@ -152,6 +152,9 @@
                     "type": "video_assistant_referee"
                 }
             ],
+            "attendance": {
+                "count": 60877
+            },
             "weather": {
                 "pitch_conditions": "good",
                 "overall_conditions": "good"
@@ -225,23 +228,23 @@
                     "abbreviation": "TOT",
                     "qualifier": "home",
                     "statistics": {
-                        "ball_possession": 50,
-                        "cards_given": 1,
+                        "ball_possession": 48,
+                        "cards_given": 2,
                         "corner_kicks": 3,
-                        "fouls": 8,
+                        "fouls": 9,
                         "free_kicks": 6,
                         "goal_kicks": 7,
                         "injuries": 2,
                         "offsides": 4,
                         "red_cards": 0,
-                        "shots_blocked": 3,
-                        "shots_off_target": 4,
+                        "shots_blocked": 4,
+                        "shots_off_target": 5,
                         "shots_on_target": 4,
                         "shots_saved": 2,
-                        "shots_total": 11,
-                        "substitutions": 3,
-                        "throw_ins": 17,
-                        "yellow_cards": 1,
+                        "shots_total": 13,
+                        "substitutions": 5,
+                        "throw_ins": 21,
+                        "yellow_cards": 2,
                         "yellow_red_cards": 0
                     },
                     "players": [
@@ -257,7 +260,7 @@
                                 "shots_off_target": 0,
                                 "shots_on_target": 2,
                                 "substituted_in": 0,
-                                "substituted_out": 0,
+                                "substituted_out": 1,
                                 "yellow_cards": 0,
                                 "yellow_red_cards": 0
                             },
@@ -273,12 +276,12 @@
                                 "offsides": 0,
                                 "own_goals": 0,
                                 "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
+                                "shots_blocked": 1,
+                                "shots_off_target": 1,
                                 "shots_on_target": 0,
                                 "substituted_in": 1,
                                 "substituted_out": 0,
-                                "yellow_cards": 0,
+                                "yellow_cards": 1,
                                 "yellow_red_cards": 0
                             },
                             "id": "sr:player:364612",
@@ -427,6 +430,26 @@
                         },
                         {
                             "statistics": {
+                                "assists": 0,
+                                "corner_kicks": 0,
+                                "goals_scored": 0,
+                                "offsides": 0,
+                                "own_goals": 0,
+                                "red_cards": 0,
+                                "shots_blocked": 0,
+                                "shots_off_target": 0,
+                                "shots_on_target": 0,
+                                "substituted_in": 1,
+                                "substituted_out": 0,
+                                "yellow_cards": 0,
+                                "yellow_red_cards": 0
+                            },
+                            "id": "sr:player:1564490",
+                            "name": "Spence, Djed",
+                            "starter": false
+                        },
+                        {
+                            "statistics": {
                                 "assists": 1,
                                 "corner_kicks": 0,
                                 "goals_scored": 0,
@@ -448,6 +471,26 @@
                         {
                             "statistics": {
                                 "assists": 0,
+                                "corner_kicks": 0,
+                                "goals_scored": 0,
+                                "offsides": 0,
+                                "own_goals": 0,
+                                "red_cards": 0,
+                                "shots_blocked": 0,
+                                "shots_off_target": 0,
+                                "shots_on_target": 0,
+                                "substituted_in": 1,
+                                "substituted_out": 0,
+                                "yellow_cards": 0,
+                                "yellow_red_cards": 0
+                            },
+                            "id": "sr:player:1939870",
+                            "name": "Scarlett, Dane",
+                            "starter": false
+                        },
+                        {
+                            "statistics": {
+                                "assists": 0,
                                 "corner_kicks": 2,
                                 "goals_scored": 0,
                                 "offsides": 0,
@@ -457,7 +500,7 @@
                                 "shots_off_target": 1,
                                 "shots_on_target": 1,
                                 "substituted_in": 0,
-                                "substituted_out": 0,
+                                "substituted_out": 1,
                                 "yellow_cards": 0,
                                 "yellow_red_cards": 0
                             },
@@ -533,22 +576,22 @@
                     "abbreviation": "SUN",
                     "qualifier": "away",
                     "statistics": {
-                        "ball_possession": 50,
+                        "ball_possession": 52,
                         "cards_given": 3,
                         "corner_kicks": 5,
                         "fouls": 6,
-                        "free_kicks": 8,
-                        "goal_kicks": 9,
+                        "free_kicks": 9,
+                        "goal_kicks": 11,
                         "injuries": 0,
                         "offsides": 2,
                         "red_cards": 0,
                         "shots_blocked": 3,
                         "shots_off_target": 3,
                         "shots_on_target": 3,
-                        "shots_saved": 4,
+                        "shots_saved": 3,
                         "shots_total": 9,
                         "substitutions": 3,
-                        "throw_ins": 16,
+                        "throw_ins": 18,
                         "yellow_cards": 3,
                         "yellow_red_cards": 0
                     },

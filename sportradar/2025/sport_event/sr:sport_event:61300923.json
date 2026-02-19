@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-01-07T22:24:49+00:00",
+    "generated_at": "2026-02-19T15:18:26+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300923",
         "start_time": "2026-01-07T20:15:00+00:00",
@@ -94,7 +94,7 @@
         "venue": {
             "id": "sr:venue:806",
             "name": "Turf Moor",
-            "capacity": 22546,
+            "capacity": 21990,
             "city_name": "Burnley",
             "country_name": "England",
             "map_coordinates": "53.789167, -2.230278",
@@ -152,6 +152,9 @@
                     "type": "video_assistant_referee"
                 }
             ],
+            "attendance": {
+                "count": 21047
+            },
             "weather": {
                 "pitch_conditions": "good",
                 "overall_conditions": "good"

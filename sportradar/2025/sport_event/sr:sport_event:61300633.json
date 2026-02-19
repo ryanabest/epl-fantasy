@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-10-06T13:44:13+00:00",
+    "generated_at": "2026-02-19T15:11:32+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300633",
         "start_time": "2025-10-05T15:30:00+00:00",
@@ -17,7 +17,8 @@
             "competition": {
                 "id": "sr:competition:17",
                 "name": "Premier League",
-                "gender": "men"
+                "gender": "men",
+                "alternative_name": "English Premier League"
             },
             "season": {
                 "id": "sr:season:130281",
@@ -157,6 +158,9 @@
                     "type": "video_assistant_referee"
                 }
             ],
+            "attendance": {
+                "count": 17140
+            },
             "weather": {
                 "pitch_conditions": "good",
                 "overall_conditions": "good"
@@ -234,16 +238,16 @@
                         "cards_given": 3,
                         "corner_kicks": 3,
                         "fouls": 10,
-                        "free_kicks": 7,
+                        "free_kicks": 6,
                         "goal_kicks": 3,
                         "injuries": 1,
                         "offsides": 1,
                         "red_cards": 0,
                         "shots_blocked": 2,
-                        "shots_off_target": 3,
+                        "shots_off_target": 2,
                         "shots_on_target": 1,
-                        "shots_saved": 4,
-                        "shots_total": 6,
+                        "shots_saved": 2,
+                        "shots_total": 5,
                         "substitutions": 5,
                         "throw_ins": 17,
                         "yellow_cards": 3,
@@ -289,26 +293,6 @@
                             "id": "sr:player:576384",
                             "name": "Ajer, Kristoffer",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:599128",
-                            "name": "Henry, Rico",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -406,49 +390,9 @@
                                 "yellow_cards": 0,
                                 "yellow_red_cards": 0
                             },
-                            "id": "sr:player:1056935",
-                            "name": "Pinnock, Ethan",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
                             "id": "sr:player:1069190",
                             "name": "Collins, Nathan",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1141630",
-                            "name": "Valdimarsson, Hakon",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -529,26 +473,6 @@
                             "id": "sr:player:1652589",
                             "name": "Hickey, Aaron",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1662121",
-                            "name": "Lewis-Potter, Keane",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -662,82 +586,22 @@
                         "cards_given": 2,
                         "corner_kicks": 2,
                         "fouls": 6,
-                        "free_kicks": 11,
+                        "free_kicks": 10,
                         "goal_kicks": 9,
                         "injuries": 1,
                         "offsides": 1,
                         "red_cards": 0,
                         "shots_blocked": 2,
                         "shots_off_target": 2,
-                        "shots_on_target": 4,
+                        "shots_on_target": 5,
                         "shots_saved": 1,
-                        "shots_total": 8,
+                        "shots_total": 9,
                         "substitutions": 3,
                         "throw_ins": 18,
                         "yellow_cards": 2,
                         "yellow_red_cards": 0
                     },
                     "players": [
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:136710",
-                            "name": "Kovacic, Mateo",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:149663",
-                            "name": "Ake, Nathan",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:152077",
-                            "name": "Stones, John",
-                            "starter": false
-                        },
                         {
                             "statistics": {
                                 "assists": 0,
@@ -940,26 +804,6 @@
                         },
                         {
                             "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1601352",
-                            "name": "Cherki, Rayan",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
                                 "assists": 1,
                                 "corner_kicks": 0,
                                 "goals_scored": 0,
@@ -977,26 +821,6 @@
                             "id": "sr:player:1645860",
                             "name": "Gvardiol, Josko",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1724642",
-                            "name": "Trafford, James",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -1037,26 +861,6 @@
                             "id": "sr:player:2057939",
                             "name": "Savinho",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2246775",
-                            "name": "Lewis, Rico",
-                            "starter": false
                         },
                         {
                             "statistics": {

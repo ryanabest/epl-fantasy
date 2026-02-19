@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-01-07T22:25:39+00:00",
+    "generated_at": "2026-02-19T15:18:20+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300933",
         "start_time": "2026-01-07T19:30:00+00:00",
@@ -94,7 +94,7 @@
         "venue": {
             "id": "sr:venue:10",
             "name": "Selhurst Park",
-            "capacity": 25073,
+            "capacity": 25194,
             "city_name": "London",
             "country_name": "England",
             "map_coordinates": "51.398333, -0.085556",
@@ -146,6 +146,9 @@
                     "type": "video_assistant_referee"
                 }
             ],
+            "attendance": {
+                "count": 24841
+            },
             "weather": {
                 "pitch_conditions": "good",
                 "overall_conditions": "medium"

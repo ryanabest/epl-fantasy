@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-08-18T14:24:18+00:00",
+    "generated_at": "2026-02-19T15:08:11+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300509",
         "start_time": "2025-08-16T14:00:00+00:00",
@@ -17,7 +17,8 @@
             "competition": {
                 "id": "sr:competition:17",
                 "name": "Premier League",
-                "gender": "men"
+                "gender": "men",
+                "alternative_name": "English Premier League"
             },
             "season": {
                 "id": "sr:season:130281",
@@ -49,7 +50,7 @@
             "type": "sport_event",
             "sport_event_properties": {
                 "lineups": true,
-                "formations": false,
+                "formations": true,
                 "venue": true,
                 "extended_play_by_play": true,
                 "extended_player_stats": true,
@@ -96,7 +97,7 @@
             "capacity": 31876,
             "city_name": "Falmer",
             "country_name": "England",
-            "map_coordinates": "50.861822,-0.083278",
+            "map_coordinates": "50.861822, -0.083278",
             "country_code": "ENG",
             "timezone": "Europe/London"
         },
@@ -128,13 +129,6 @@
                     "nationality": "England",
                     "country_code": "ENG",
                     "type": "main_referee"
-                },
-                {
-                    "id": "sr:referee:2053781",
-                    "name": "Wood, Timothy",
-                    "nationality": "England",
-                    "country_code": "ENG",
-                    "type": "first_assistant_referee"
                 },
                 {
                     "id": "sr:referee:2208914",
@@ -234,11 +228,11 @@
                     "abbreviation": "BRI",
                     "qualifier": "home",
                     "statistics": {
-                        "ball_possession": 51,
+                        "ball_possession": 50,
                         "cards_given": 3,
                         "corner_kicks": 4,
                         "fouls": 16,
-                        "free_kicks": 15,
+                        "free_kicks": 13,
                         "goal_kicks": 8,
                         "injuries": 0,
                         "offsides": 3,
@@ -246,7 +240,7 @@
                         "shots_blocked": 1,
                         "shots_off_target": 5,
                         "shots_on_target": 4,
-                        "shots_saved": 1,
+                        "shots_saved": 0,
                         "shots_total": 10,
                         "substitutions": 5,
                         "throw_ins": 11,
@@ -272,26 +266,6 @@
                             },
                             "id": "sr:player:791",
                             "name": "Milner, James",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:31867",
-                            "name": "Steele, Jason",
                             "starter": false
                         },
                         {
@@ -345,46 +319,6 @@
                                 "shots_blocked": 0,
                                 "shots_off_target": 0,
                                 "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:219572",
-                            "name": "Veltman, Joel",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:545968",
-                            "name": "Boscagli, Olivier",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
                                 "substituted_in": 1,
                                 "substituted_out": 0,
                                 "yellow_cards": 1,
@@ -398,7 +332,6 @@
                             "statistics": {
                                 "assists": 0,
                                 "corner_kicks": 2,
-                                "goals_by_penalty": 1,
                                 "goals_scored": 1,
                                 "offsides": 0,
                                 "own_goals": 0,
@@ -584,26 +517,6 @@
                                 "own_goals": 0,
                                 "red_cards": 0,
                                 "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2205602",
-                            "name": "Coppola, Diego",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
                                 "shots_off_target": 1,
                                 "shots_on_target": 0,
                                 "substituted_in": 0,
@@ -663,11 +576,11 @@
                     "abbreviation": "FUL",
                     "qualifier": "away",
                     "statistics": {
-                        "ball_possession": 49,
+                        "ball_possession": 50,
                         "cards_given": 3,
                         "corner_kicks": 3,
                         "fouls": 13,
-                        "free_kicks": 19,
+                        "free_kicks": 16,
                         "goal_kicks": 10,
                         "injuries": 0,
                         "offsides": 2,
@@ -675,7 +588,7 @@
                         "shots_blocked": 1,
                         "shots_off_target": 4,
                         "shots_on_target": 2,
-                        "shots_saved": 3,
+                        "shots_saved": 0,
                         "shots_total": 7,
                         "substitutions": 5,
                         "throw_ins": 17,
@@ -722,26 +635,6 @@
                             "id": "sr:player:103335",
                             "name": "Leno, Bernd",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:123207",
-                            "name": "Lecomte, Benjamin",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -802,26 +695,6 @@
                             "id": "sr:player:280823",
                             "name": "Lukic, Sasa",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:285949",
-                            "name": "Pereira, Andreas",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -919,49 +792,9 @@
                                 "yellow_cards": 0,
                                 "yellow_red_cards": 0
                             },
-                            "id": "sr:player:361320",
-                            "name": "Diop, Issa",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
                             "id": "sr:player:362682",
                             "name": "Andersen, Joachim",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:365802",
-                            "name": "Reed, Harrison",
-                            "starter": false
                         },
                         {
                             "statistics": {

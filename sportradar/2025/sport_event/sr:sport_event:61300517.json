@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-08-18T14:24:27+00:00",
+    "generated_at": "2026-02-19T15:08:20+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300517",
         "start_time": "2025-08-16T16:30:00+00:00",
@@ -17,7 +17,8 @@
             "competition": {
                 "id": "sr:competition:17",
                 "name": "Premier League",
-                "gender": "men"
+                "gender": "men",
+                "alternative_name": "English Premier League"
             },
             "season": {
                 "id": "sr:season:130281",
@@ -49,7 +50,7 @@
             "type": "sport_event",
             "sport_event_properties": {
                 "lineups": true,
-                "formations": false,
+                "formations": true,
                 "venue": true,
                 "extended_play_by_play": true,
                 "extended_player_stats": true,
@@ -96,7 +97,7 @@
             "capacity": 31750,
             "city_name": "Wolverhampton",
             "country_name": "England",
-            "map_coordinates": "52.590195,-2.131226",
+            "map_coordinates": "52.590195, -2.131226",
             "country_code": "ENG",
             "timezone": "Europe/London"
         },
@@ -161,6 +162,9 @@
                     "type": "video_assistant_referee"
                 }
             ],
+            "attendance": {
+                "count": 31118
+            },
             "weather": {
                 "pitch_conditions": "good",
                 "overall_conditions": "good"
@@ -234,7 +238,7 @@
                     "abbreviation": "WOL",
                     "qualifier": "home",
                     "statistics": {
-                        "ball_possession": 41,
+                        "ball_possession": 42,
                         "cards_given": 1,
                         "corner_kicks": 4,
                         "fouls": 13,
@@ -254,26 +258,6 @@
                         "yellow_red_cards": 0
                     },
                     "players": [
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:98427",
-                            "name": "Johnstone, Sam",
-                            "starter": false
-                        },
                         {
                             "statistics": {
                                 "assists": 0,
@@ -359,26 +343,6 @@
                                 "assists": 0,
                                 "corner_kicks": 0,
                                 "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1016089",
-                            "name": "Bueno, Santiago",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
                                 "offsides": 1,
                                 "own_goals": 0,
                                 "red_cards": 0,
@@ -393,26 +357,6 @@
                             "id": "sr:player:1065792",
                             "name": "Larsen, Jorgen Strand",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1100395",
-                            "name": "Kalajdzic, Sasa",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -513,26 +457,6 @@
                             "id": "sr:player:1724924",
                             "name": "Wolfe, David Moller",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1769162",
-                            "name": "Mosquera, Yerson",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -651,7 +575,7 @@
                                 "yellow_red_cards": 0
                             },
                             "id": "sr:player:2887483",
-                            "name": "Lopez Gonzalez, Fernando",
+                            "name": "Lopez, Fer",
                             "starter": false
                         }
                     ]
@@ -662,11 +586,11 @@
                     "abbreviation": "MCI",
                     "qualifier": "away",
                     "statistics": {
-                        "ball_possession": 59,
+                        "ball_possession": 58,
                         "cards_given": 2,
                         "corner_kicks": 5,
                         "fouls": 7,
-                        "free_kicks": 17,
+                        "free_kicks": 13,
                         "goal_kicks": 3,
                         "injuries": 1,
                         "offsides": 0,
@@ -674,7 +598,7 @@
                         "shots_blocked": 4,
                         "shots_off_target": 4,
                         "shots_on_target": 4,
-                        "shots_saved": 4,
+                        "shots_saved": 3,
                         "shots_total": 12,
                         "substitutions": 5,
                         "throw_ins": 17,
@@ -682,66 +606,6 @@
                         "yellow_red_cards": 0
                     },
                     "players": [
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:45853",
-                            "name": "Gundogan, Ilkay",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:125274",
-                            "name": "Ortega, Stefan",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:149663",
-                            "name": "Ake, Nathan",
-                            "starter": false
-                        },
                         {
                             "statistics": {
                                 "assists": 0,
@@ -801,26 +665,6 @@
                             "id": "sr:player:331209",
                             "name": "Silva, Bernardo",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:383560",
-                            "name": "Akanji, Manuel",
-                            "starter": false
                         },
                         {
                             "statistics": {

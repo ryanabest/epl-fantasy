@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-10-06T13:43:46+00:00",
+    "generated_at": "2026-02-19T15:11:06+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300627",
         "start_time": "2025-10-03T19:00:00+00:00",
@@ -17,7 +17,8 @@
             "competition": {
                 "id": "sr:competition:17",
                 "name": "Premier League",
-                "gender": "men"
+                "gender": "men",
+                "alternative_name": "English Premier League"
             },
             "season": {
                 "id": "sr:season:130281",
@@ -237,16 +238,16 @@
                         "cards_given": 0,
                         "corner_kicks": 4,
                         "fouls": 7,
-                        "free_kicks": 12,
+                        "free_kicks": 10,
                         "goal_kicks": 6,
                         "injuries": 2,
                         "offsides": 2,
                         "red_cards": 0,
                         "shots_blocked": 3,
                         "shots_off_target": 1,
-                        "shots_on_target": 6,
+                        "shots_on_target": 5,
                         "shots_saved": 3,
-                        "shots_total": 10,
+                        "shots_total": 9,
                         "substitutions": 5,
                         "throw_ins": 12,
                         "yellow_cards": 0,
@@ -271,26 +272,6 @@
                             },
                             "id": "sr:player:322391",
                             "name": "Christie, Ryan",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:548188",
-                            "name": "Cook, Lewis",
                             "starter": false
                         },
                         {
@@ -443,7 +424,7 @@
                                 "red_cards": 0,
                                 "shots_blocked": 0,
                                 "shots_off_target": 0,
-                                "shots_on_target": 3,
+                                "shots_on_target": 2,
                                 "substituted_in": 0,
                                 "substituted_out": 0,
                                 "yellow_cards": 0,
@@ -492,46 +473,6 @@
                             "id": "sr:player:1653565",
                             "name": "Hill, James",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1839276",
-                            "name": "Dennis, Will",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1850922",
-                            "name": "Adli, Amine",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -624,26 +565,6 @@
                                 "shots_blocked": 0,
                                 "shots_off_target": 0,
                                 "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2592883",
-                            "name": "Kroupi Jr, Eli",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
                                 "substituted_in": 1,
                                 "substituted_out": 0,
                                 "yellow_cards": 0,
@@ -665,7 +586,7 @@
                         "cards_given": 1,
                         "corner_kicks": 3,
                         "fouls": 10,
-                        "free_kicks": 9,
+                        "free_kicks": 7,
                         "goal_kicks": 12,
                         "injuries": 1,
                         "offsides": 2,
@@ -673,7 +594,7 @@
                         "shots_blocked": 3,
                         "shots_off_target": 4,
                         "shots_on_target": 5,
-                        "shots_saved": 3,
+                        "shots_saved": 2,
                         "shots_total": 12,
                         "substitutions": 5,
                         "throw_ins": 10,
@@ -720,26 +641,6 @@
                             "id": "sr:player:103335",
                             "name": "Leno, Bernd",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:123207",
-                            "name": "Lecomte, Benjamin",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -903,26 +804,6 @@
                         },
                         {
                             "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:867054",
-                            "name": "Robinson, Antonee",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
                                 "assists": 1,
                                 "corner_kicks": 0,
                                 "goals_scored": 0,
@@ -1010,26 +891,6 @@
                                 "own_goals": 0,
                                 "red_cards": 0,
                                 "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1096424",
-                            "name": "Cuenca, Jorge",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
                                 "shots_off_target": 1,
                                 "shots_on_target": 0,
                                 "substituted_in": 0,
@@ -1059,26 +920,6 @@
                             },
                             "id": "sr:player:2148734",
                             "name": "Kevin",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2671919",
-                            "name": "Kusi Asare, Jonah",
                             "starter": false
                         }
                     ]

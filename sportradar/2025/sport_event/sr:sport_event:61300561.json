@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-08-30T18:32:13+00:00",
+    "generated_at": "2026-02-19T15:09:14+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300561",
         "start_time": "2025-08-30T14:00:00+00:00",
@@ -17,7 +17,8 @@
             "competition": {
                 "id": "sr:competition:17",
                 "name": "Premier League",
-                "gender": "men"
+                "gender": "men",
+                "alternative_name": "English Premier League"
             },
             "season": {
                 "id": "sr:season:130281",
@@ -49,7 +50,7 @@
             "type": "sport_event",
             "sport_event_properties": {
                 "lineups": true,
-                "formations": false,
+                "formations": true,
                 "venue": true,
                 "extended_play_by_play": true,
                 "extended_player_stats": true,
@@ -96,7 +97,7 @@
             "capacity": 60463,
             "city_name": "London",
             "country_name": "England",
-            "map_coordinates": "51.6042,0.0662",
+            "map_coordinates": "51.6042, 0.0662",
             "country_code": "ENG",
             "timezone": "Europe/London"
         },
@@ -221,11 +222,11 @@
                     "abbreviation": "TOT",
                     "qualifier": "home",
                     "statistics": {
-                        "ball_possession": 62,
+                        "ball_possession": 61,
                         "cards_given": 2,
                         "corner_kicks": 0,
                         "fouls": 18,
-                        "free_kicks": 16,
+                        "free_kicks": 13,
                         "goal_kicks": 9,
                         "injuries": 1,
                         "offsides": 2,
@@ -233,7 +234,7 @@
                         "shots_blocked": 1,
                         "shots_off_target": 3,
                         "shots_on_target": 2,
-                        "shots_saved": 5,
+                        "shots_saved": 4,
                         "shots_total": 6,
                         "substitutions": 4,
                         "throw_ins": 26,
@@ -241,26 +242,6 @@
                         "yellow_red_cards": 0
                     },
                     "players": [
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:94758",
-                            "name": "Davies, Ben",
-                            "starter": false
-                        },
                         {
                             "statistics": {
                                 "assists": 0,
@@ -317,49 +298,9 @@
                                 "yellow_cards": 0,
                                 "yellow_red_cards": 0
                             },
-                            "id": "sr:player:803610",
-                            "name": "Danso, Kevin",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
                             "id": "sr:player:810644",
                             "name": "Bentancur, Rodrigo",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:936696",
-                            "name": "Solomon, Manor",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -514,26 +455,6 @@
                                 "shots_on_target": 0,
                                 "substituted_in": 0,
                                 "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1726752",
-                            "name": "Kinsky, Antonin",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
                                 "yellow_cards": 1,
                                 "yellow_red_cards": 0
                             },
@@ -611,26 +532,6 @@
                                 "red_cards": 0,
                                 "shots_blocked": 0,
                                 "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2278985",
-                            "name": "Gray, Archie",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
                                 "shots_on_target": 1,
                                 "substituted_in": 1,
                                 "substituted_out": 0,
@@ -649,11 +550,11 @@
                     "abbreviation": "BOU",
                     "qualifier": "away",
                     "statistics": {
-                        "ball_possession": 38,
+                        "ball_possession": 39,
                         "cards_given": 4,
                         "corner_kicks": 8,
                         "fouls": 13,
-                        "free_kicks": 20,
+                        "free_kicks": 18,
                         "goal_kicks": 9,
                         "injuries": 3,
                         "offsides": 3,
@@ -661,7 +562,7 @@
                         "shots_blocked": 3,
                         "shots_off_target": 9,
                         "shots_on_target": 6,
-                        "shots_saved": 2,
+                        "shots_saved": 1,
                         "shots_total": 18,
                         "substitutions": 5,
                         "throw_ins": 16,
@@ -833,26 +734,6 @@
                             "statistics": {
                                 "assists": 0,
                                 "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1368608",
-                            "name": "Faivre, Romain",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
                                 "goals_scored": 1,
                                 "offsides": 1,
                                 "own_goals": 0,
@@ -940,26 +821,6 @@
                                 "shots_blocked": 0,
                                 "shots_off_target": 0,
                                 "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1839276",
-                            "name": "Dennis, Will",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
                                 "substituted_in": 1,
                                 "substituted_out": 0,
                                 "yellow_cards": 0,
@@ -1020,53 +881,13 @@
                                 "shots_blocked": 0,
                                 "shots_off_target": 0,
                                 "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2281013",
-                            "name": "Doak, Ben",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2336441",
-                            "name": "Soler, Julio",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
                                 "substituted_in": 1,
                                 "substituted_out": 0,
                                 "yellow_cards": 0,
                                 "yellow_red_cards": 0
                             },
                             "id": "sr:player:2592883",
-                            "name": "Kroupi Jr, Eli",
+                            "name": "Kroupi, Eli Junior",
                             "starter": false
                         }
                     ]

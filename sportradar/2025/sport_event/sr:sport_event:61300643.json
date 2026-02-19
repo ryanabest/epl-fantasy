@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-10-06T13:44:07+00:00",
+    "generated_at": "2026-02-19T15:11:26+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300643",
         "start_time": "2025-10-05T13:00:00+00:00",
@@ -17,7 +17,8 @@
             "competition": {
                 "id": "sr:competition:17",
                 "name": "Premier League",
-                "gender": "men"
+                "gender": "men",
+                "alternative_name": "English Premier League"
             },
             "season": {
                 "id": "sr:season:130281",
@@ -92,8 +93,8 @@
         ],
         "venue": {
             "id": "sr:venue:765",
-            "name": "St. James' Park",
-            "capacity": 52258,
+            "name": "St. James Park",
+            "capacity": 52264,
             "city_name": "Newcastle upon Tyne",
             "country_name": "England",
             "map_coordinates": "54.975577, -1.621659",
@@ -235,7 +236,7 @@
                         "cards_given": 0,
                         "corner_kicks": 8,
                         "fouls": 16,
-                        "free_kicks": 16,
+                        "free_kicks": 14,
                         "goal_kicks": 4,
                         "injuries": 1,
                         "offsides": 0,
@@ -307,66 +308,6 @@
                                 "yellow_cards": 0,
                                 "yellow_red_cards": 0
                             },
-                            "id": "sr:player:101882",
-                            "name": "Schar, Fabian",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:150396",
-                            "name": "Krafth, Emil",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:153444",
-                            "name": "Lascelles, Jamaal",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
                             "id": "sr:player:162653",
                             "name": "Pope, Nick",
                             "starter": true
@@ -410,46 +351,6 @@
                             "id": "sr:player:560128",
                             "name": "Joelinton",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:937002",
-                            "name": "Willock, Joe",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:988185",
-                            "name": "Ramsdale, Aaron",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -595,7 +496,6 @@
                             "statistics": {
                                 "assists": 0,
                                 "corner_kicks": 0,
-                                "goals_by_penalty": 1,
                                 "goals_scored": 1,
                                 "offsides": 0,
                                 "own_goals": 0,
@@ -672,7 +572,7 @@
                         "shots_blocked": 0,
                         "shots_off_target": 2,
                         "shots_on_target": 4,
-                        "shots_saved": 6,
+                        "shots_saved": 4,
                         "shots_total": 6,
                         "substitutions": 4,
                         "throw_ins": 19,
@@ -750,26 +650,6 @@
                                 "red_cards": 0,
                                 "shots_blocked": 0,
                                 "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:992007",
-                            "name": "Victor, John",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
                                 "shots_on_target": 1,
                                 "substituted_in": 0,
                                 "substituted_out": 1,
@@ -779,26 +659,6 @@
                             "id": "sr:player:1014789",
                             "name": "Yates, Ryan",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1017603",
-                            "name": "Sangare, Ibrahim",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -838,26 +698,6 @@
                             },
                             "id": "sr:player:1089772",
                             "name": "Hudson-Odoi, Callum",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1103661",
-                            "name": "Dominguez, Nicolas",
                             "starter": false
                         },
                         {
@@ -957,7 +797,7 @@
                                 "yellow_red_cards": 0
                             },
                             "id": "sr:player:1744189",
-                            "name": "Jesus, Igor",
+                            "name": "Igor Jesus",
                             "starter": false
                         },
                         {
@@ -1005,26 +845,6 @@
                                 "assists": 0,
                                 "corner_kicks": 0,
                                 "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2221700",
-                            "name": "McAtee, James",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
                                 "offsides": 1,
                                 "own_goals": 0,
                                 "red_cards": 0,
@@ -1038,26 +858,6 @@
                             },
                             "id": "sr:player:2284735",
                             "name": "Hutchinson, Omari",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2361593",
-                            "name": "Murillo",
                             "starter": false
                         },
                         {

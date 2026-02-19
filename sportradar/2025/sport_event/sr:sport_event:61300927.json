@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-01-07T22:25:21+00:00",
+    "generated_at": "2026-02-19T15:18:17+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300927",
         "start_time": "2026-01-07T19:30:00+00:00",
@@ -94,7 +94,7 @@
         "venue": {
             "id": "sr:venue:611",
             "name": "Craven Cottage",
-            "capacity": 29589,
+            "capacity": 27782,
             "city_name": "London",
             "country_name": "England",
             "map_coordinates": "51.474937, -0.221958",
@@ -144,6 +144,9 @@
                     "type": "video_assistant_referee"
                 }
             ],
+            "attendance": {
+                "count": 26990
+            },
             "weather": {
                 "pitch_conditions": "good",
                 "overall_conditions": "good"

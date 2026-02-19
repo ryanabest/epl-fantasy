@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-12-08T22:05:49+00:00",
+    "generated_at": "2026-02-19T15:15:14+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300807",
         "start_time": "2025-12-06T15:00:00+00:00",
@@ -94,7 +94,7 @@
         "venue": {
             "id": "sr:venue:606",
             "name": "Etihad Stadium",
-            "capacity": 55097,
+            "capacity": 52900,
             "city_name": "Manchester",
             "country_name": "England",
             "map_coordinates": "53.484592, -2.202695",
@@ -146,6 +146,9 @@
                     "type": "video_assistant_referee"
                 }
             ],
+            "attendance": {
+                "count": 52436
+            },
             "weather": {
                 "pitch_conditions": "good",
                 "overall_conditions": "medium"
@@ -230,9 +233,9 @@
                         "red_cards": 0,
                         "shots_blocked": 3,
                         "shots_off_target": 6,
-                        "shots_on_target": 8,
+                        "shots_on_target": 5,
                         "shots_saved": 1,
-                        "shots_total": 17,
+                        "shots_total": 14,
                         "substitutions": 5,
                         "throw_ins": 24,
                         "yellow_cards": 1,
@@ -269,7 +272,7 @@
                                 "red_cards": 0,
                                 "shots_blocked": 0,
                                 "shots_off_target": 0,
-                                "shots_on_target": 2,
+                                "shots_on_target": 1,
                                 "substituted_in": 0,
                                 "substituted_out": 0,
                                 "yellow_cards": 0,
@@ -568,7 +571,7 @@
                     "qualifier": "away",
                     "statistics": {
                         "ball_possession": 35,
-                        "cards_given": 2,
+                        "cards_given": 1,
                         "corner_kicks": 5,
                         "fouls": 9,
                         "free_kicks": 8,
@@ -583,7 +586,7 @@
                         "shots_total": 6,
                         "substitutions": 5,
                         "throw_ins": 14,
-                        "yellow_cards": 1,
+                        "yellow_cards": 0,
                         "yellow_red_cards": 0
                     },
                     "players": [
@@ -640,7 +643,7 @@
                                 "shots_on_target": 0,
                                 "substituted_in": 1,
                                 "substituted_out": 0,
-                                "yellow_cards": 1,
+                                "yellow_cards": 0,
                                 "yellow_red_cards": 0
                             },
                             "id": "sr:player:365812",

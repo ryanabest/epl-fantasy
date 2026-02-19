@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-12-01T14:52:07+00:00",
+    "generated_at": "2026-02-19T15:14:20+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300759",
         "start_time": "2025-11-30T12:00:00+00:00",
@@ -94,7 +94,7 @@
         "venue": {
             "id": "sr:venue:10",
             "name": "Selhurst Park",
-            "capacity": 25073,
+            "capacity": 25194,
             "city_name": "London",
             "country_name": "England",
             "map_coordinates": "51.398333, -0.085556",
@@ -158,6 +158,9 @@
                     "type": "video_assistant_referee"
                 }
             ],
+            "attendance": {
+                "count": 25189
+            },
             "weather": {
                 "pitch_conditions": "good",
                 "overall_conditions": "good"
@@ -234,8 +237,8 @@
                         "ball_possession": 43,
                         "cards_given": 3,
                         "corner_kicks": 4,
-                        "fouls": 14,
-                        "free_kicks": 14,
+                        "fouls": 13,
+                        "free_kicks": 13,
                         "goal_kicks": 7,
                         "injuries": 1,
                         "offsides": 3,
@@ -243,7 +246,7 @@
                         "shots_blocked": 5,
                         "shots_off_target": 5,
                         "shots_on_target": 3,
-                        "shots_saved": 4,
+                        "shots_saved": 0,
                         "shots_total": 13,
                         "substitutions": 5,
                         "throw_ins": 13,
@@ -262,26 +265,6 @@
                                 "shots_blocked": 0,
                                 "shots_off_target": 0,
                                 "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:43215",
-                            "name": "Clyne, Nathaniel",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
                                 "substituted_in": 1,
                                 "substituted_out": 0,
                                 "yellow_cards": 0,
@@ -289,26 +272,6 @@
                             },
                             "id": "sr:player:193554",
                             "name": "Hughes, Will",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:249859",
-                            "name": "Benitez, Walter",
                             "starter": false
                         },
                         {
@@ -435,7 +398,6 @@
                             "statistics": {
                                 "assists": 0,
                                 "corner_kicks": 0,
-                                "goals_by_penalty": 1,
                                 "goals_scored": 1,
                                 "offsides": 0,
                                 "own_goals": 0,
@@ -603,26 +565,6 @@
                                 "shots_blocked": 0,
                                 "shots_off_target": 0,
                                 "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2530513",
-                            "name": "Esse, Romain",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
                                 "substituted_in": 1,
                                 "substituted_out": 0,
                                 "yellow_cards": 0,
@@ -630,26 +572,6 @@
                             },
                             "id": "sr:player:2801755",
                             "name": "Uche, Christantus",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2839263",
-                            "name": "Canvot, Jaydee",
                             "starter": false
                         }
                     ]
@@ -663,8 +585,8 @@
                         "ball_possession": 57,
                         "cards_given": 2,
                         "corner_kicks": 4,
-                        "fouls": 14,
-                        "free_kicks": 17,
+                        "fouls": 13,
+                        "free_kicks": 13,
                         "goal_kicks": 8,
                         "injuries": 0,
                         "offsides": 0,
@@ -672,7 +594,7 @@
                         "shots_blocked": 1,
                         "shots_off_target": 6,
                         "shots_on_target": 6,
-                        "shots_saved": 2,
+                        "shots_saved": 0,
                         "shots_total": 13,
                         "substitutions": 4,
                         "throw_ins": 22,
@@ -784,46 +706,6 @@
                             "statistics": {
                                 "assists": 0,
                                 "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:909328",
-                            "name": "Bayindir, Altay",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:934214",
-                            "name": "Malacia, Tyrell",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
                                 "goals_scored": 1,
                                 "offsides": 0,
                                 "own_goals": 0,
@@ -858,26 +740,6 @@
                             },
                             "id": "sr:player:943506",
                             "name": "Mazraoui, Noussair",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1016803",
-                            "name": "Ugarte, Manuel",
                             "starter": false
                         },
                         {
@@ -1038,46 +900,6 @@
                             },
                             "id": "sr:player:2631331",
                             "name": "Dorgu, Patrick",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2691744",
-                            "name": "Lacey, Shea",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2691816",
-                            "name": "Heaven, Ayden",
                             "starter": false
                         }
                     ]

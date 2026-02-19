@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-11-10T14:34:05+00:00",
+    "generated_at": "2026-02-19T15:13:32+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300717",
         "start_time": "2025-11-09T16:30:00+00:00",
@@ -94,7 +94,7 @@
         "venue": {
             "id": "sr:venue:606",
             "name": "Etihad Stadium",
-            "capacity": 55097,
+            "capacity": 52900,
             "city_name": "Manchester",
             "country_name": "England",
             "map_coordinates": "53.484592, -2.202695",
@@ -158,6 +158,9 @@
                     "type": "video_assistant_referee"
                 }
             ],
+            "attendance": {
+                "count": 52511
+            },
             "weather": {
                 "pitch_conditions": "good",
                 "overall_conditions": "good"
@@ -231,67 +234,26 @@
                     "abbreviation": "MCI",
                     "qualifier": "home",
                     "statistics": {
-                        "ball_possession": 51,
+                        "ball_possession": 50,
                         "cards_given": 2,
                         "corner_kicks": 7,
                         "fouls": 14,
-                        "free_kicks": 22,
+                        "free_kicks": 14,
                         "goal_kicks": 3,
                         "injuries": 2,
                         "offsides": 1,
-                        "penalties_missed": 1,
                         "red_cards": 0,
                         "shots_blocked": 7,
                         "shots_off_target": 4,
-                        "shots_on_target": 6,
+                        "shots_on_target": 7,
                         "shots_saved": 1,
-                        "shots_total": 17,
+                        "shots_total": 18,
                         "substitutions": 2,
                         "throw_ins": 21,
                         "yellow_cards": 2,
                         "yellow_red_cards": 0
                     },
                     "players": [
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:149663",
-                            "name": "Ake, Nathan",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:152077",
-                            "name": "Stones, John",
-                            "starter": false
-                        },
                         {
                             "statistics": {
                                 "assists": 0,
@@ -356,15 +318,13 @@
                             "statistics": {
                                 "assists": 0,
                                 "corner_kicks": 0,
-                                "goals_by_head": 1,
                                 "goals_scored": 1,
                                 "offsides": 0,
                                 "own_goals": 0,
-                                "penalties_missed": 1,
                                 "red_cards": 0,
                                 "shots_blocked": 0,
                                 "shots_off_target": 1,
-                                "shots_on_target": 2,
+                                "shots_on_target": 3,
                                 "substituted_in": 0,
                                 "substituted_out": 0,
                                 "yellow_cards": 0,
@@ -418,26 +378,6 @@
                             "statistics": {
                                 "assists": 0,
                                 "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1253990",
-                            "name": "Reijnders, Tijani",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
                                 "goals_scored": 1,
                                 "offsides": 0,
                                 "own_goals": 0,
@@ -453,26 +393,6 @@
                             "id": "sr:player:1297614",
                             "name": "Doku, Jeremy",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1432949",
-                            "name": "Ait-Nouri, Rayan",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -559,46 +479,6 @@
                                 "assists": 0,
                                 "corner_kicks": 0,
                                 "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1724642",
-                            "name": "Trafford, James",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1956474",
-                            "name": "Bobb, Oscar",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
                                 "offsides": 1,
                                 "own_goals": 0,
                                 "red_cards": 0,
@@ -612,26 +492,6 @@
                             },
                             "id": "sr:player:2057939",
                             "name": "Savinho",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2246775",
-                            "name": "Lewis, Rico",
                             "starter": false
                         },
                         {
@@ -662,11 +522,11 @@
                     "abbreviation": "LFC",
                     "qualifier": "away",
                     "statistics": {
-                        "ball_possession": 49,
+                        "ball_possession": 50,
                         "cards_given": 4,
                         "corner_kicks": 7,
-                        "fouls": 15,
-                        "free_kicks": 15,
+                        "fouls": 14,
+                        "free_kicks": 14,
                         "goal_kicks": 7,
                         "injuries": 0,
                         "offsides": 7,
@@ -682,26 +542,6 @@
                         "yellow_red_cards": 0
                     },
                     "players": [
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:143040",
-                            "name": "Endo, Wataru",
-                            "starter": false
-                        },
                         {
                             "statistics": {
                                 "assists": 0,
@@ -773,26 +613,6 @@
                                 "shots_blocked": 0,
                                 "shots_off_target": 0,
                                 "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:284417",
-                            "name": "Woodman, Freddie",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
                                 "substituted_in": 1,
                                 "substituted_out": 0,
                                 "yellow_cards": 0,
@@ -800,26 +620,6 @@
                             },
                             "id": "sr:player:318927",
                             "name": "Gomez, Joe",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:925724",
-                            "name": "Isak, Alexander",
                             "starter": false
                         },
                         {
@@ -1061,26 +861,6 @@
                             "id": "sr:player:2083977",
                             "name": "Ekitike, Hugo",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2915821",
-                            "name": "Ngumoha, Rio",
-                            "starter": false
                         }
                     ]
                 }

@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-12-15T22:52:01+00:00",
+    "generated_at": "2026-02-19T15:16:02+00:00",
     "sport_event": {
         "id": "sr:sport_event:65586346",
         "start_time": "2025-12-15T20:00:00+00:00",
@@ -94,7 +94,7 @@
         "venue": {
             "id": "sr:venue:9",
             "name": "Old Trafford",
-            "capacity": 75635,
+            "capacity": 74197,
             "city_name": "Manchester",
             "country_name": "England",
             "map_coordinates": "53.46315, -2.291444",
@@ -152,6 +152,9 @@
                     "type": "video_assistant_referee"
                 }
             ],
+            "attendance": {
+                "count": 73951
+            },
             "weather": {
                 "pitch_conditions": "good",
                 "overall_conditions": "medium"

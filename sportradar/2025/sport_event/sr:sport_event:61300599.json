@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-22T13:30:59+00:00",
+    "generated_at": "2026-02-19T15:10:29+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300599",
         "start_time": "2025-09-21T13:00:00+00:00",
@@ -17,7 +17,8 @@
             "competition": {
                 "id": "sr:competition:17",
                 "name": "Premier League",
-                "gender": "men"
+                "gender": "men",
+                "alternative_name": "English Premier League"
             },
             "season": {
                 "id": "sr:season:130281",
@@ -93,10 +94,10 @@
         "venue": {
             "id": "sr:venue:851",
             "name": "Stadium of Light",
-            "capacity": 48707,
+            "capacity": 48095,
             "city_name": "Sunderland",
             "country_name": "England",
-            "map_coordinates": "54.914040,-1.388983",
+            "map_coordinates": "54.91404, -1.388983",
             "country_code": "ENG",
             "timezone": "Europe/London"
         },
@@ -115,13 +116,6 @@
                     "nationality": "England",
                     "country_code": "ENG",
                     "type": "main_referee"
-                },
-                {
-                    "id": "sr:referee:2053781",
-                    "name": "Wood, Timothy",
-                    "nationality": "England",
-                    "country_code": "ENG",
-                    "type": "first_assistant_referee"
                 },
                 {
                     "id": "sr:referee:2208914",
@@ -225,7 +219,7 @@
                         "cards_given": 3,
                         "corner_kicks": 6,
                         "fouls": 14,
-                        "free_kicks": 11,
+                        "free_kicks": 8,
                         "goal_kicks": 12,
                         "injuries": 0,
                         "offsides": 0,
@@ -279,26 +273,6 @@
                             },
                             "id": "sr:player:174975",
                             "name": "Masuaku, Arthur",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:218160",
-                            "name": "Traore, Bertrand",
                             "starter": false
                         },
                         {
@@ -424,26 +398,6 @@
                         {
                             "statistics": {
                                 "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1345190",
-                            "name": "Brobbey, Brian",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
                                 "corner_kicks": 3,
                                 "goals_scored": 0,
                                 "offsides": 0,
@@ -460,26 +414,6 @@
                             "id": "sr:player:1642848",
                             "name": "Hume, Trai",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1646414",
-                            "name": "Patterson, Anthony",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -539,26 +473,6 @@
                             },
                             "id": "sr:player:2065843",
                             "name": "Neil, Dan",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2142670",
-                            "name": "Adingra, Simon",
                             "starter": false
                         },
                         {
@@ -661,7 +575,7 @@
                         "shots_blocked": 5,
                         "shots_off_target": 3,
                         "shots_on_target": 2,
-                        "shots_saved": 3,
+                        "shots_saved": 2,
                         "shots_total": 10,
                         "substitutions": 5,
                         "throw_ins": 18,
@@ -688,46 +602,6 @@
                             "id": "sr:player:96538",
                             "name": "Digne, Lucas",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:100390",
-                            "name": "Bizot, Marco",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:143334",
-                            "name": "Lindelof, Victor",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -893,26 +767,6 @@
                             "statistics": {
                                 "assists": 0,
                                 "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:944170",
-                            "name": "Torres, Pau",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
                                 "goals_scored": 1,
                                 "offsides": 0,
                                 "own_goals": 0,
@@ -1047,26 +901,6 @@
                             },
                             "id": "sr:player:2115982",
                             "name": "Bogarde, Lamare",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2865455",
-                            "name": "Jimoh, Jamaldeen",
                             "starter": false
                         }
                     ]

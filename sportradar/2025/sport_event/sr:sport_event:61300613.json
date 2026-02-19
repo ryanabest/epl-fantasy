@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-28T23:31:40+00:00",
+    "generated_at": "2026-02-19T15:10:41+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300613",
         "start_time": "2025-09-27T14:00:00+00:00",
@@ -17,7 +17,8 @@
             "competition": {
                 "id": "sr:competition:17",
                 "name": "Premier League",
-                "gender": "men"
+                "gender": "men",
+                "alternative_name": "English Premier League"
             },
             "season": {
                 "id": "sr:season:130281",
@@ -93,10 +94,10 @@
         "venue": {
             "id": "sr:venue:10",
             "name": "Selhurst Park",
-            "capacity": 25073,
+            "capacity": 25194,
             "city_name": "London",
             "country_name": "England",
-            "map_coordinates": "51.398333,-0.085556",
+            "map_coordinates": "51.398333, -0.085556",
             "country_code": "ENG",
             "timezone": "Europe/London"
         },
@@ -225,7 +226,7 @@
                         "cards_given": 1,
                         "corner_kicks": 2,
                         "fouls": 10,
-                        "free_kicks": 9,
+                        "free_kicks": 8,
                         "goal_kicks": 16,
                         "injuries": 1,
                         "offsides": 2,
@@ -233,7 +234,7 @@
                         "shots_blocked": 2,
                         "shots_off_target": 7,
                         "shots_on_target": 7,
-                        "shots_saved": 4,
+                        "shots_saved": 0,
                         "shots_total": 16,
                         "substitutions": 4,
                         "throw_ins": 18,
@@ -241,26 +242,6 @@
                         "yellow_red_cards": 0
                     },
                     "players": [
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:43215",
-                            "name": "Clyne, Nathaniel",
-                            "starter": false
-                        },
                         {
                             "statistics": {
                                 "assists": 0,
@@ -319,46 +300,6 @@
                             },
                             "id": "sr:player:355796",
                             "name": "Lerma, Jefferson",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:357584",
-                            "name": "Sosa, Borna",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:581610",
-                            "name": "Matthews, Remi",
                             "starter": false
                         },
                         {
@@ -600,46 +541,6 @@
                             "id": "sr:player:2325471",
                             "name": "Devenny, Justin",
                             "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2801755",
-                            "name": "Uche, Christantus",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2839263",
-                            "name": "Canvot, Jaydee",
-                            "starter": false
                         }
                     ]
                 },
@@ -653,42 +554,22 @@
                         "cards_given": 3,
                         "corner_kicks": 6,
                         "fouls": 8,
-                        "free_kicks": 12,
+                        "free_kicks": 10,
                         "goal_kicks": 8,
                         "injuries": 0,
                         "offsides": 1,
                         "red_cards": 0,
-                        "shots_blocked": 3,
+                        "shots_blocked": 2,
                         "shots_off_target": 10,
                         "shots_on_target": 5,
-                        "shots_saved": 5,
-                        "shots_total": 18,
+                        "shots_saved": 0,
+                        "shots_total": 17,
                         "substitutions": 5,
                         "throw_ins": 17,
                         "yellow_cards": 3,
                         "yellow_red_cards": 0
                     },
                     "players": [
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:143040",
-                            "name": "Endo, Wataru",
-                            "starter": false
-                        },
                         {
                             "statistics": {
                                 "assists": 0,
@@ -758,46 +639,6 @@
                                 "own_goals": 0,
                                 "red_cards": 0,
                                 "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:262911",
-                            "name": "Robertson, Andy",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:318927",
-                            "name": "Gomez, Joe",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
                                 "shots_off_target": 3,
                                 "shots_on_target": 0,
                                 "substituted_in": 0,
@@ -857,7 +698,7 @@
                                 "offsides": 0,
                                 "own_goals": 0,
                                 "red_cards": 0,
-                                "shots_blocked": 1,
+                                "shots_blocked": 0,
                                 "shots_off_target": 2,
                                 "shots_on_target": 1,
                                 "substituted_in": 1,
@@ -867,26 +708,6 @@
                             },
                             "id": "sr:player:1058437",
                             "name": "Gakpo, Cody",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1060981",
-                            "name": "Mamardashvili, Giorgi",
                             "starter": false
                         },
                         {

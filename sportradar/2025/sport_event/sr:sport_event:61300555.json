@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-08-30T18:32:07+00:00",
+    "generated_at": "2026-02-19T15:09:08+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300555",
         "start_time": "2025-08-30T14:00:00+00:00",
@@ -17,7 +17,8 @@
             "competition": {
                 "id": "sr:competition:17",
                 "name": "Premier League",
-                "gender": "men"
+                "gender": "men",
+                "alternative_name": "English Premier League"
             },
             "season": {
                 "id": "sr:season:130281",
@@ -49,7 +50,7 @@
             "type": "sport_event",
             "sport_event_properties": {
                 "lineups": true,
-                "formations": false,
+                "formations": true,
                 "venue": true,
                 "extended_play_by_play": true,
                 "extended_player_stats": true,
@@ -93,10 +94,10 @@
         "venue": {
             "id": "sr:venue:9",
             "name": "Old Trafford",
-            "capacity": 75635,
+            "capacity": 74197,
             "city_name": "Manchester",
             "country_name": "England",
-            "map_coordinates": "53.463150,-2.291444",
+            "map_coordinates": "53.46315, -2.291444",
             "country_code": "ENG",
             "timezone": "Europe/London"
         },
@@ -115,13 +116,6 @@
                     "nationality": "England",
                     "country_code": "ENG",
                     "type": "main_referee"
-                },
-                {
-                    "id": "sr:referee:2053781",
-                    "name": "Wood, Timothy",
-                    "nationality": "England",
-                    "country_code": "ENG",
-                    "type": "first_assistant_referee"
                 },
                 {
                     "id": "sr:referee:302048",
@@ -145,6 +139,9 @@
                     "type": "video_assistant_referee"
                 }
             ],
+            "attendance": {
+                "count": 60000
+            },
             "weather": {
                 "pitch_conditions": "good",
                 "overall_conditions": "good"
@@ -222,7 +219,7 @@
                         "cards_given": 1,
                         "corner_kicks": 7,
                         "fouls": 9,
-                        "free_kicks": 9,
+                        "free_kicks": 8,
                         "goal_kicks": 4,
                         "injuries": 2,
                         "offsides": 1,
@@ -230,7 +227,7 @@
                         "shots_blocked": 5,
                         "shots_off_target": 12,
                         "shots_on_target": 7,
-                        "shots_saved": 1,
+                        "shots_saved": 0,
                         "shots_total": 24,
                         "substitutions": 4,
                         "throw_ins": 19,
@@ -274,26 +271,6 @@
                                 "yellow_cards": 0,
                                 "yellow_red_cards": 0
                             },
-                            "id": "sr:player:149380",
-                            "name": "Maguire, Harry",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
                             "id": "sr:player:190839",
                             "name": "Shaw, Luke",
                             "starter": true
@@ -302,7 +279,6 @@
                             "statistics": {
                                 "assists": 0,
                                 "corner_kicks": 1,
-                                "goals_by_penalty": 1,
                                 "goals_scored": 1,
                                 "offsides": 0,
                                 "own_goals": 0,
@@ -318,26 +294,6 @@
                             "id": "sr:player:288205",
                             "name": "Fernandes, Bruno",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:772389",
-                            "name": "Onana, Andre",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -437,26 +393,6 @@
                             },
                             "id": "sr:player:943506",
                             "name": "Mazraoui, Noussair",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1016803",
-                            "name": "Ugarte, Manuel",
                             "starter": false
                         },
                         {
@@ -598,46 +534,6 @@
                             "id": "sr:player:2264945",
                             "name": "Mainoo, Kobbie",
                             "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2631331",
-                            "name": "Dorgu, Patrick",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2691816",
-                            "name": "Heaven, Ayden",
-                            "starter": false
                         }
                     ]
                 },
@@ -651,7 +547,7 @@
                         "cards_given": 5,
                         "corner_kicks": 1,
                         "fouls": 8,
-                        "free_kicks": 10,
+                        "free_kicks": 9,
                         "goal_kicks": 18,
                         "injuries": 0,
                         "offsides": 1,
@@ -659,7 +555,7 @@
                         "shots_blocked": 2,
                         "shots_off_target": 1,
                         "shots_on_target": 3,
-                        "shots_saved": 6,
+                        "shots_saved": 0,
                         "shots_total": 6,
                         "substitutions": 4,
                         "throw_ins": 12,
@@ -750,26 +646,6 @@
                         {
                             "statistics": {
                                 "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:769109",
-                            "name": "Edwards, Marcus",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
                                 "corner_kicks": 1,
                                 "goals_scored": 0,
                                 "offsides": 0,
@@ -777,7 +653,7 @@
                                 "red_cards": 0,
                                 "shots_blocked": 0,
                                 "shots_off_target": 0,
-                                "shots_on_target": 1,
+                                "shots_on_target": 0,
                                 "substituted_in": 0,
                                 "substituted_out": 0,
                                 "yellow_cards": 0,
@@ -806,26 +682,6 @@
                             "id": "sr:player:914348",
                             "name": "Ekdal, Hjalmar",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:945378",
-                            "name": "Flemming, Zian",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -986,66 +842,6 @@
                             "id": "sr:player:2070595",
                             "name": "Anthony, Jaidon",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2200574",
-                            "name": "Pires, Lucas",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2208306",
-                            "name": "Ramsey, Aaron",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2242613",
-                            "name": "Weiss, Max",
-                            "starter": false
                         },
                         {
                             "statistics": {

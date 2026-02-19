@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-12-01T14:57:24+00:00",
+    "generated_at": "2026-02-19T15:14:11+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300769",
         "start_time": "2025-11-29T15:00:00+00:00",
@@ -94,7 +94,7 @@
         "venue": {
             "id": "sr:venue:851",
             "name": "Stadium of Light",
-            "capacity": 48707,
+            "capacity": 48095,
             "city_name": "Sunderland",
             "country_name": "England",
             "map_coordinates": "54.91404, -1.388983",
@@ -146,6 +146,9 @@
                     "type": "video_assistant_referee"
                 }
             ],
+            "attendance": {
+                "count": 46973
+            },
             "weather": {
                 "pitch_conditions": "bad",
                 "overall_conditions": "bad"
@@ -222,8 +225,8 @@
                         "ball_possession": 45,
                         "cards_given": 5,
                         "corner_kicks": 6,
-                        "fouls": 14,
-                        "free_kicks": 15,
+                        "fouls": 12,
+                        "free_kicks": 13,
                         "goal_kicks": 8,
                         "injuries": 5,
                         "offsides": 1,
@@ -231,7 +234,7 @@
                         "shots_blocked": 2,
                         "shots_off_target": 3,
                         "shots_on_target": 6,
-                        "shots_saved": 4,
+                        "shots_saved": 1,
                         "shots_total": 11,
                         "substitutions": 4,
                         "throw_ins": 13,
@@ -403,7 +406,6 @@
                             "statistics": {
                                 "assists": 0,
                                 "corner_kicks": 0,
-                                "goals_by_head": 1,
                                 "goals_scored": 1,
                                 "offsides": 0,
                                 "own_goals": 0,
@@ -442,29 +444,8 @@
                         },
                         {
                             "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1646414",
-                            "name": "Patterson, Anthony",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
                                 "assists": 1,
                                 "corner_kicks": 3,
-                                "goals_by_penalty": 1,
                                 "goals_scored": 1,
                                 "offsides": 0,
                                 "own_goals": 0,
@@ -529,46 +510,6 @@
                                 "offsides": 0,
                                 "own_goals": 0,
                                 "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2065843",
-                            "name": "Neil, Dan",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2142670",
-                            "name": "Adingra, Simon",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
                                 "shots_blocked": 1,
                                 "shots_off_target": 1,
                                 "shots_on_target": 0,
@@ -597,49 +538,9 @@
                                 "yellow_cards": 0,
                                 "yellow_red_cards": 0
                             },
-                            "id": "sr:player:2279477",
-                            "name": "Mayenda, Eliezer",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
                             "id": "sr:player:2337853",
                             "name": "Sadiki, Noah",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2532601",
-                            "name": "Rigg, Chris",
-                            "starter": false
                         }
                     ]
                 },
@@ -653,7 +554,7 @@
                         "cards_given": 6,
                         "corner_kicks": 3,
                         "fouls": 13,
-                        "free_kicks": 15,
+                        "free_kicks": 12,
                         "goal_kicks": 10,
                         "injuries": 1,
                         "offsides": 2,
@@ -661,7 +562,7 @@
                         "shots_blocked": 6,
                         "shots_off_target": 7,
                         "shots_on_target": 6,
-                        "shots_saved": 4,
+                        "shots_saved": 0,
                         "shots_total": 19,
                         "substitutions": 5,
                         "throw_ins": 16,
@@ -913,26 +814,6 @@
                             "statistics": {
                                 "assists": 0,
                                 "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1839276",
-                            "name": "Dennis, Will",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
                                 "goals_scored": 1,
                                 "offsides": 0,
                                 "own_goals": 0,
@@ -1000,46 +881,6 @@
                                 "shots_blocked": 0,
                                 "shots_off_target": 0,
                                 "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2269309",
-                            "name": "Jimenez, Alex",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2336441",
-                            "name": "Soler, Julio",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
                                 "substituted_in": 1,
                                 "substituted_out": 0,
                                 "yellow_cards": 0,
@@ -1047,26 +888,6 @@
                             },
                             "id": "sr:player:2592883",
                             "name": "Kroupi, Eli Junior",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:2611279",
-                            "name": "Milosavljevic, Veljko",
                             "starter": false
                         }
                     ]

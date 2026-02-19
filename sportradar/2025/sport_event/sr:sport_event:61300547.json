@@ -1,5 +1,5 @@
 {
-    "generated_at": "2025-09-01T14:09:47+00:00",
+    "generated_at": "2026-02-19T15:09:23+00:00",
     "sport_event": {
         "id": "sr:sport_event:61300547",
         "start_time": "2025-08-31T13:00:00+00:00",
@@ -17,7 +17,8 @@
             "competition": {
                 "id": "sr:competition:17",
                 "name": "Premier League",
-                "gender": "men"
+                "gender": "men",
+                "alternative_name": "English Premier League"
             },
             "season": {
                 "id": "sr:season:130281",
@@ -96,7 +97,7 @@
             "capacity": 31876,
             "city_name": "Falmer",
             "country_name": "England",
-            "map_coordinates": "50.861822,-0.083278",
+            "map_coordinates": "50.861822, -0.083278",
             "country_code": "ENG",
             "timezone": "Europe/London"
         },
@@ -233,7 +234,7 @@
                         "shots_blocked": 2,
                         "shots_off_target": 1,
                         "shots_on_target": 7,
-                        "shots_saved": 2,
+                        "shots_saved": 0,
                         "shots_total": 10,
                         "substitutions": 5,
                         "throw_ins": 4,
@@ -245,7 +246,6 @@
                             "statistics": {
                                 "assists": 0,
                                 "corner_kicks": 0,
-                                "goals_by_penalty": 1,
                                 "goals_scored": 1,
                                 "offsides": 0,
                                 "own_goals": 0,
@@ -260,26 +260,6 @@
                             },
                             "id": "sr:player:791",
                             "name": "Milner, James",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:31867",
-                            "name": "Steele, Jason",
                             "starter": false
                         },
                         {
@@ -341,66 +321,6 @@
                             "id": "sr:player:219572",
                             "name": "Veltman, Joel",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:545968",
-                            "name": "Boscagli, Olivier",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:934224",
-                            "name": "Kadioglu, Ferdi",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1245272",
-                            "name": "O'Riley, Matt",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -654,7 +574,7 @@
                         "cards_given": 2,
                         "corner_kicks": 2,
                         "fouls": 13,
-                        "free_kicks": 17,
+                        "free_kicks": 16,
                         "goal_kicks": 7,
                         "injuries": 2,
                         "offsides": 0,
@@ -662,7 +582,7 @@
                         "shots_blocked": 2,
                         "shots_off_target": 7,
                         "shots_on_target": 3,
-                        "shots_saved": 5,
+                        "shots_saved": 0,
                         "shots_total": 12,
                         "substitutions": 4,
                         "throw_ins": 5,
@@ -686,69 +606,9 @@
                                 "yellow_cards": 0,
                                 "yellow_red_cards": 0
                             },
-                            "id": "sr:player:45853",
-                            "name": "Gundogan, Ilkay",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:149663",
-                            "name": "Ake, Nathan",
-                            "starter": false
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
                             "id": "sr:player:152077",
                             "name": "Stones, John",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:254491",
-                            "name": "Ederson",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -789,26 +649,6 @@
                             "id": "sr:player:331209",
                             "name": "Silva, Bernardo",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:383560",
-                            "name": "Akanji, Manuel",
-                            "starter": false
                         },
                         {
                             "statistics": {
@@ -949,26 +789,6 @@
                             "id": "sr:player:1560920",
                             "name": "Nunes, Matheus",
                             "starter": true
-                        },
-                        {
-                            "statistics": {
-                                "assists": 0,
-                                "corner_kicks": 0,
-                                "goals_scored": 0,
-                                "offsides": 0,
-                                "own_goals": 0,
-                                "red_cards": 0,
-                                "shots_blocked": 0,
-                                "shots_off_target": 0,
-                                "shots_on_target": 0,
-                                "substituted_in": 0,
-                                "substituted_out": 0,
-                                "yellow_cards": 0,
-                                "yellow_red_cards": 0
-                            },
-                            "id": "sr:player:1600852",
-                            "name": "Gonzalez, Nicolas",
-                            "starter": false
                         },
                         {
                             "statistics": {
