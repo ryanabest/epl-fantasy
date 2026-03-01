@@ -27,11 +27,57 @@
     .curve(d3.curveStepAfter);
 
   let gy;
+  let gx;
+  
+  $: tickInterval = width > 600 ? 1 : width > 400 ? 2 : 3;
+  
   $: yAxisFunc = d3.axisLeft(yScale)
     .ticks(6)
     .tickSize(-width + margin.left + margin.right)
     .tickSizeOuter(0)
     .tickPadding(7);
+
+  $: customTicks = (() => {
+    const start = new Date(startDate);
+    const end = new Date(endDate);
+    const ticks = [start];
+    
+    let current = new Date(start);
+    current.setMonth(current.getMonth() + tickInterval);
+    
+    while (current <= end) {
+      ticks.push(new Date(current));
+      current.setMonth(current.getMonth() + tickInterval);
+    }
+    
+    return ticks;
+  })();
+
+  $: xAxisFunc = d3.axisBottom(xScale)
+    .tickValues(customTicks)
+    .tickSize(8)
+    .tickSizeOuter(2)
+    .tickFormat((d) => {
+      const year = d.getFullYear();
+      const month = d.getMonth() + 1;
+      const tickIndex = customTicks.findIndex(t => t.getTime() === d.getTime());
+      
+      // Mobile format (numeric with year always)
+      if (width <= 400) {
+        return `${month}/${d3.timeFormat('%y')(d)}`;
+      }
+      
+      // Desktop format (text with year only on first tick or year change)
+      const monthText = d3.timeFormat('%b')(d);
+      if (tickIndex === 0 || (tickIndex > 0 && customTicks[tickIndex - 1].getFullYear() !== year)) {
+        return `${monthText} ${d3.timeFormat('%y')(d)}`;
+      }
+      
+      return monthText;
+    });
+
+  $: d3.select(gx)
+    .call(xAxisFunc);
 
   $: d3.select(gy)
     .call(yAxisFunc)
@@ -107,6 +153,7 @@
   <svg>
     <g class="chart" transform="translate({margin.left},{margin.top})">
       <g class="axis-g" bind:this={gy}></g>
+      <g class="axis-x-g" bind:this={gx} transform="translate(0,{height - margin.top - margin.bottom})"></g>
       <g class="swoop-g">
         {#each teamsSorted as d}
           <path d={swoopyLine(d.swoopyData)} stroke={colors[year][d.team]} stroke-width=2 stroke-linecap="round" stroke-dasharray="0 4"></path>
@@ -185,6 +232,24 @@
       }
       :global(text) {
         fill: #555555;
+      }
+    }
+  }
+
+  :global(g.axis-x-g) {
+    :global(path.domain) {
+      display: none;
+    }
+
+    :global(g.tick line) {
+      display: none;
+    }
+
+    :global(g.tick) {
+      :global(text) {
+        fill: #555555;
+        font-size: 14px;
+        font-family: Roboto Mono;
       }
     }
   }
