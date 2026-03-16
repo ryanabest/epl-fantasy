@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-02-03T15:27:50+00:00",
+    "generated_at": "2026-03-16T20:37:08+00:00",
     "player": {
         "id": "sr:player:1408017",
         "name": "Arias, Jhon",
@@ -11,15 +11,17 @@
         "weight": 66,
         "jersey_number": 11,
         "preferred_foot": "right",
+        "place_of_birth": "Quibdo (COLOMBIA)",
+        "country_of_birth": "Colombia",
         "gender": "male"
     },
     "competitors": [
         {
-            "id": "sr:competitor:3",
-            "name": "Wolverhampton Wanderers",
-            "country": "England",
-            "country_code": "ENG",
-            "abbreviation": "WOL",
+            "id": "sr:competitor:1963",
+            "name": "SE Palmeiras SP",
+            "country": "Brazil",
+            "country_code": "BRA",
+            "abbreviation": "PAL",
             "gender": "male"
         },
         {
@@ -107,7 +109,7 @@
         },
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:3",
                 "name": "Wolverhampton Wanderers",
@@ -117,7 +119,22 @@
                 "gender": "male"
             },
             "start_date": "2025-07-24 00:00:00",
+            "end_date": "2026-02-06 00:00:00",
             "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:1963",
+                "name": "SE Palmeiras SP",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "PAL",
+                "gender": "male"
+            },
+            "start_date": "2026-02-07 00:00:00",
+            "jersey_number": 11
         }
     ]
 }

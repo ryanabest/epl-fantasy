@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-02-03T15:27:23+00:00",
+    "generated_at": "2026-03-16T20:36:41+00:00",
     "player": {
         "id": "sr:player:1065792",
         "name": "Larsen, Jorgen Strand",
@@ -17,19 +17,19 @@
     },
     "competitors": [
         {
-            "id": "sr:competitor:7",
-            "name": "Crystal Palace",
-            "country": "England",
-            "country_code": "ENG",
-            "abbreviation": "CRY",
-            "gender": "male"
-        },
-        {
             "id": "sr:competitor:4475",
             "name": "Norway",
             "country": "Norway",
             "country_code": "NOR",
             "abbreviation": "NOR",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:7",
+            "name": "Crystal Palace",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CRY",
             "gender": "male"
         }
     ],
@@ -204,7 +204,8 @@
                 "abbreviation": "CRY",
                 "gender": "male"
             },
-            "start_date": "2026-02-02 00:00:00"
+            "start_date": "2026-02-02 00:00:00",
+            "jersey_number": 22
         }
     ]
 }
