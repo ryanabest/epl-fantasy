@@ -74,19 +74,18 @@ class Compiler {
         goalkeeper: "GK"
       }[p.player.type];
 
-      let jersey;
-
-      const premTeam = p.competitors.find(t => t.country === 'England' && t.name !== 'England');
-      const role = p.roles?.find(r => r.competitor?.id === premTeam?.id);
-      jersey = role?.jersey_number;
-      if (!jersey) jersey = p.player.jersey_number;
-
       const playerTeam = p.competitors?.find(d => {
         return (
           (d.name !== d.country) &&
           (d.name !== "Ivory Coast")
         )
       })?.name || "N/A";
+
+      const premTeam = p.competitors.find(t => t.name === playerTeam);
+      const role = p.roles?.find(r => r.competitor?.id === premTeam?.id);
+      let jersey = role?.jersey_number;
+      if (!jersey) jersey = p.player.jersey_number;
+
       this.players_ref.push({ sportradarId, playerName, playerTeam, position, jersey });
     });
   }
