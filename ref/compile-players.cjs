@@ -6,6 +6,10 @@ const seasonPlayers = require(path.join(__dirname,  config.year.toString(), 'pla
 const lastSeasonLeaders = require(path.join(__dirname, config.reference_year.toString(), 'leaders.json'));
 const lastSeasonPlayers = require(path.join(__dirname, config.reference_year.toString(), 'players.json')).season_players;
 const understatPlayers = require(path.join(__dirname, config.reference_year.toString(), 'understat_players.json'));
+// ~~ for players promoted up with a club that wasn't in the EPL last season, fall back to their
+// ~~ actual output in whatever league that club played in — sportradar ids are global across
+// ~~ competitions, so this is a direct id lookup, no name matching needed
+const lastSeasonChampionshipLeaders = require(path.join(__dirname, config.reference_year.toString(), 'championship_leaders.json'));
 
 const players = [];
 
@@ -123,11 +127,13 @@ const compileLeaderList = (lastSeasonLeaders) => {
   const players = lastSeasonLeaders
     .map(d => d.players)
     .flat();
+  // ~~ a couple of Championship entries arrive with no `competitors` at all (a sportradar data
+  // ~~ quirk not seen in the EPL feed) — treat those as 0 rather than crashing the whole compile
   const vals = players.map(d => {
     const id = d.id
-    const val = d.competitors
-      .map(x => x.datapoints.map(d => d.value).reduce((a, b) => a + b))
-      .reduce((a, b) => a + b);
+    const val = (d.competitors || [])
+      .map(x => (x.datapoints || []).map(d => d.value).reduce((a, b) => a + b, 0))
+      .reduce((a, b) => a + b, 0);
     return ({ id, val });
   })
   return vals;
@@ -135,6 +141,10 @@ const compileLeaderList = (lastSeasonLeaders) => {
 const goals = compileLeaderList(lastSeasonLeaders.lists.find(d => d.type === 'goals').leaders);
 const assists = compileLeaderList(lastSeasonLeaders.lists.find(d => d.type === 'assists').leaders);
 const own_goals = compileLeaderList(lastSeasonLeaders.lists.find(d => d.type === 'own_goals').leaders);
+
+const champGoals = compileLeaderList(lastSeasonChampionshipLeaders.lists.find(d => d.type === 'goals').leaders);
+const champAssists = compileLeaderList(lastSeasonChampionshipLeaders.lists.find(d => d.type === 'assists').leaders);
+const champOwnGoals = compileLeaderList(lastSeasonChampionshipLeaders.lists.find(d => d.type === 'own_goals').leaders);
 
 seasonCompetitorPlayers.forEach(teamData => {
   const team_name = teamData.short_name;
@@ -152,15 +162,28 @@ seasonCompetitorPlayers.forEach(teamData => {
       : (playerData?.display_last_name || `${playerData?.first_name} ${playerData?.last_name}`);
     const jersey_number = playerData?.jersey_number;
 
-    // ~~ reference year epl stats
-    const goals_ref = goals.find(d => d.id === id)?.val || 0;
-    const assists_ref = assists.find(d => d.id === id)?.val || 0;
-    const own_goals_ref = own_goals.find(d => d.id === id)?.val || 0;
-    const points_ref = goals_ref + (assists_ref * 0.5) - own_goals_ref;
-
     // ~~ were they in the epl in the reference year?
     const playerDataRefIdx = lastSeasonPlayers.findIndex(d => d.id === plyr.id);
     const epl_in_ref = playerDataRefIdx > -1;
+
+    // ~~ reference year stats — for a club promoted up that wasn't in the EPL last season
+    // ~~ (Ipswich/Hull/Coventry for 26/27), fall back to their actual Championship output instead
+    // ~~ of leaving real production as a misleading 0. checked by actual presence in each leader
+    // ~~ list rather than the epl_in_ref flag above — that flag comes from a separate sportradar
+    // ~~ roster endpoint that's missing some players (e.g. Tchaouna) who the leaders list itself
+    // ~~ confirms did play, and score, in the EPL last season
+    const inEplLeaders = goals.some(d => d.id === id) || assists.some(d => d.id === id);
+    const inChampLeaders = champGoals.some(d => d.id === id) || champAssists.some(d => d.id === id);
+    const ref_league = inEplLeaders ? 'EPL' : (inChampLeaders ? 'Championship' : null);
+    const [goalsList, assistsList, ownGoalsList] = ref_league === 'Championship'
+      ? [champGoals, champAssists, champOwnGoals]
+      : [goals, assists, own_goals];
+    const goals_ref = goalsList.find(d => d.id === id)?.val || 0;
+    const assists_ref = assistsList.find(d => d.id === id)?.val || 0;
+    const own_goals_ref = ownGoalsList.find(d => d.id === id)?.val || 0;
+    // ~~ Championship goals/assists count for less in a Premier League draft — halve the points
+    // ~~ they translate to, but leave the raw goal/assist counts alone as real, undiscounted numbers
+    const points_ref = (goals_ref + (assists_ref * 0.5) - own_goals_ref) * (ref_league === 'Championship' ? 0.5 : 1);
 
     // ~~ expected goals/assists for the reference season (Understat, joined by name — no shared ID)
     const formalName = `${playerData?.first_name} ${playerData?.last_name}`;
@@ -172,7 +195,7 @@ seasonCompetitorPlayers.forEach(teamData => {
     // ~~ return player data
     players.push ({
       id, name, team_abbr, team_name, pos, jersey_number,
-      goals_ref, assists_ref, own_goals_ref, points_ref, epl_in_ref,
+      goals_ref, assists_ref, own_goals_ref, points_ref, epl_in_ref, ref_league,
       xg_ref, xa_ref, xpoints_ref,
     });
   });
@@ -189,8 +212,11 @@ if (fuzzyMatches.length) {
   fuzzyMatches.forEach(m => console.log(`  "${m.sportradarName}" -> Understat "${m.understatName}"`));
 }
 // ~~ 2) unmatched players who nonetheless had real output last season — likelier to be a missed
-// ~~ match than a genuinely data-less player, unlike the many zero-minute academy/loan names
-const missingWithOutput = players.filter(p => p.xg_ref === null && (p.goals_ref > 0 || p.assists_ref > 0));
+// ~~ match than a genuinely data-less player, unlike the many zero-minute academy/loan names.
+// ~~ restricted to EPL-sourced stats since Understat doesn't cover the Championship at all, so a
+// ~~ promoted player missing xG there is an expected gap, not a matching failure worth reviewing
+const missingWithOutput = players.filter(p =>
+  p.xg_ref === null && p.ref_league === 'EPL' && (p.goals_ref > 0 || p.assists_ref > 0));
 if (missingWithOutput.length) {
   console.log(`\n~~~~~~ ${missingWithOutput.length} UNMATCHED players who scored/assisted last season — please review: ~~~~~~`);
   missingWithOutput.forEach(p => console.log(`  ${p.name} (${p.team_name}) — ${p.goals_ref}g ${p.assists_ref}a`));
