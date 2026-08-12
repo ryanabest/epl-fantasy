@@ -1,0 +1,111 @@
+name: Update EPL Fantasy Data
+
+on:
+  # schedule:
+  #   - cron: '22 */3 * * *'
+  # ~~ disabled until the 26/27 season kicks off (2026-08-21) — re-enable the schedule above then
+  workflow_dispatch:
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      - name: Create keys.json
+        run: |
+          cat > keys.json <<EOF
+          {
+            "sportradar": "${{ secrets.SPORTRADAR_API_KEY }}",
+            "google": ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          }
+          EOF
+
+      - name: Determine active season year
+        id: season
+        run: echo "year=$(node -e "console.log(require('./config').default.year)")" >> $GITHUB_OUTPUT
+
+      - name: Sync draft rosters from Google Sheet
+        run: node google/scrape.cjs
+
+      - name: Scrape SportRadar schedule and results
+        continue-on-error: true
+        run: node sportradar/scrape.cjs > /tmp/scrape_output.txt 2>&1
+
+      - name: Check for authentication error
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if grep -qi "authentication" /tmp/scrape_output.txt; then
+            echo "Auth error detected - creating GitHub issue"
+            BODY=$(cat <<'ISSUE_EOF'
+          The SportRadar API trial key has expired and needs to be regenerated.
+
+          ## Error details
+          The scrape job failed with an authentication error:
+          ```
+          ISSUE_EOF
+            )
+            BODY="$BODY$(cat /tmp/scrape_output.txt | tail -20)"
+            BODY="$BODY$(cat <<'ISSUE_EOF'
+          ```
+
+          ## Action required
+          Generate a new trial API key from SportRadar and update the `SPORTRADAR_API_KEY` secret in GitHub.
+          ISSUE_EOF
+            )"
+            gh issue create \
+              --title "SportRadar API key expired" \
+              --label "api-key-expired" \
+              --body "$BODY"
+            exit 1
+          fi
+          cat /tmp/scrape_output.txt
+
+      - name: Compile data.json
+        env:
+          YEAR: ${{ steps.season.outputs.year }}
+        run: |
+          if [ -f "google/$YEAR/rosters.json" ] && [ -d "ref/$YEAR/player_profiles" ] && [ -n "$(ls -A ref/$YEAR/player_profiles 2>/dev/null)" ]; then
+            node sportradar/compile.cjs
+          else
+            echo "Skipping compile — draft roster or player profiles for $YEAR aren't set up yet."
+          fi
+
+      - name: Check for updates
+        id: check
+        run: |
+          CHANGED=$(git status --porcelain -- sportradar/ google/ src/assets/)
+          if [ -n "$CHANGED" ]; then
+            echo "should_deploy=true" >> $GITHUB_OUTPUT
+          else
+            echo "should_deploy=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check.outputs.should_deploy == 'true'
+        env:
+          YEAR: ${{ steps.season.outputs.year }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sportradar/ google/ src/assets/
+          git commit -m "Update $YEAR data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push

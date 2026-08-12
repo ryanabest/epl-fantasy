@@ -1,8 +1,8 @@
 export default {
-  year: 2025,
-  reference_year: 2024,
-  year_sportradar: '25/26',
-  season_id_sportradar: 'sr:season:130281',
-  start_date: '2025-08-14',
-  google_id: '1n42XhkghVbn3Lg8CVwcSQ82NTiYmIjKhM3Im8EObYE4',
+  year: 2026,
+  reference_year: 2025,
+  year_sportradar: '26/27',
+  season_id_sportradar: 'sr:season:140756',
+  start_date: '2026-08-20',
+  google_id: '1YnKdUx2Pq6Lb9rGgAHOXNp9eldS8u_cF59lfoTw7ZG4',
 }
