@@ -1,26 +1,42 @@
 <script>
   export let year;
   export let teams;
+  import { onMount } from "svelte";
   import { formatNum, eplTeamDisplayNameLookup } from "../js/utils/format";
   import Sparkline from "./Sparkline.svelte";
   const teamsSorted = teams.sort((a, b) => b.points - a.points);
 
+  const setTeamExpanded = (parent, expand) => {
+    parent.classList.toggle('no-margin-bottom', !expand);
+    const table = parent.querySelector('.table-cont');
+    table.style.maxHeight = expand ? table.scrollHeight + 'px' : '0px';
+  }
+
+  onMount(() => {
+    document.querySelectorAll('div.team').forEach(parent => setTeamExpanded(parent, false));
+  });
+
   const handleTeamClick = (e) => {
     const parent = e.target.parentNode;
-    parent.classList.toggle('no-margin-bottom');
     const table = parent.querySelector('.table-cont');
-    if (!table.style.maxHeight) {
-      table.style.maxHeight = 0;
-    } else if (table.style.maxHeight && table.style.maxHeight !== '0px') {
-      table.style.maxHeight = 0;
-    } else {
-      table.style.maxHeight = table.scrollHeight + 'px';
-    }
+    const isCollapsed = table.style.maxHeight === '0px';
+    setTeamExpanded(parent, isCollapsed);
+  }
+
+  let allExpanded = false;
+
+  const handleExpandAllClick = () => {
+    allExpanded = !allExpanded;
+    document.querySelectorAll('div.team').forEach(parent => setTeamExpanded(parent, allExpanded));
   }
 
   const maxPts = Math.max(...teams.map(d => d.points));
 </script>
 
+
+<button class="expand-all" on:click={handleExpandAllClick}>
+  {allExpanded ? '– Collapse all' : '+ Expand all'}
+</button>
 
 {#each teamsSorted as team}
   <div class=team>
@@ -79,6 +95,24 @@
 
 <style lang="scss">
   @use '../style/partials/variables';
+
+  button.expand-all {
+    display: block;
+    margin: 0 auto 44px auto;
+    background: none;
+    color: variables.$black-btn;
+    border: none;
+    font-family: variables.$mono;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  button.expand-all:hover {
+    color: variables.$blue-highlight;
+  }
 
   .team {
     margin: 0px auto 100px auto;
@@ -165,6 +199,10 @@
         }
         &.player {
           padding-left: 0px;
+          white-space: nowrap;
+          @media screen and (max-width: variables.$M) {
+            white-space: normal;
+          }
         }
         &.in_hand {
           border-left: 1px dotted variables.$black;
