@@ -31,7 +31,9 @@ async function getSeasonSchedule() {
 
 async function getMatches (response) {
   await delay(2000); // Wait for 2 seconds
-  const savedMatchFiles = fs.readdirSync(path.join(__dirname, config.year.toString(), "sport_event"));
+  const sportEventDir = path.join(__dirname, config.year.toString(), "sport_event");
+  fs.mkdirSync(sportEventDir, { recursive: true });
+  const savedMatchFiles = fs.readdirSync(sportEventDir);
   const matches = response.schedules.filter(match => {
     return match.sport_event_status.status === "ended" &&
       match.sport_event_status.match_status === "ended" &&

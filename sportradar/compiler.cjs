@@ -16,7 +16,9 @@ class Compiler {
 
   compileAllGames () {
       this.all_games = [];
-      const files = fs.readdirSync(path.join(__dirname, config.year.toString(), "sport_event")).filter(d => d.includes('.json'));
+      const sportEventDir = path.join(__dirname, config.year.toString(), "sport_event");
+      fs.mkdirSync(sportEventDir, { recursive: true });
+      const files = fs.readdirSync(sportEventDir).filter(d => d.includes('.json'));
       files.forEach(file => {
         const match = require(path.join(__dirname, config.year.toString(), `sport_event/${file}`));
         match.all_players = match.statistics.totals.competitors.map(d => d.players).flat();
