@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-18T14:17:25+00:00",
+    "generated_at": "2026-08-21T14:51:08+00:00",
     "season_competitor_players": [
         {
             "id": "sr:competitor:7",
@@ -225,6 +225,7 @@
                     "country_code": "ENG",
                     "height": 183,
                     "weight": 78,
+                    "jersey_number": 11,
                     "preferred_foot": "left",
                     "place_of_birth": "Rochdale"
                 },
@@ -302,7 +303,6 @@
                     "country_code": "BRA",
                     "height": 184,
                     "weight": 67,
-                    "jersey_number": 11,
                     "preferred_foot": "right",
                     "place_of_birth": "Rio de Janeiro (BRAZIL)"
                 },
@@ -397,12 +397,13 @@
                     "place_of_birth": "London (ENGLAND)"
                 },
                 {
-                    "id": "sr:player:2611329",
-                    "name": "Jemide, Eyimofe",
-                    "type": "defender",
-                    "date_of_birth": "2006-11-08",
-                    "nationality": "England",
-                    "country_code": "ENG"
+                    "id": "sr:player:2704398",
+                    "name": "Gozo, Zavier",
+                    "type": "midfielder",
+                    "date_of_birth": "2007-03-22",
+                    "nationality": "United states",
+                    "country_code": "USA",
+                    "place_of_birth": "West Valley"
                 },
                 {
                     "id": "sr:player:2804693",
@@ -711,7 +712,7 @@
                     "country_code": "CHE",
                     "height": 194,
                     "weight": 90,
-                    "jersey_number": 5,
+                    "jersey_number": 24,
                     "preferred_foot": "right",
                     "place_of_birth": "Biel"
                 },
@@ -797,6 +798,19 @@
                     "height": 186,
                     "jersey_number": 37,
                     "loaned_to_competitor_id": "sr:competitor:2893"
+                },
+                {
+                    "id": "sr:player:2653811",
+                    "name": "Cherif, Sidiki",
+                    "type": "forward",
+                    "date_of_birth": "2006-12-15",
+                    "nationality": "France",
+                    "country_code": "FRA",
+                    "height": 185,
+                    "weight": 80,
+                    "jersey_number": 49,
+                    "preferred_foot": "right",
+                    "place_of_birth": "Conakry (GUINEA)"
                 },
                 {
                     "id": "sr:player:2660269",
@@ -902,6 +916,7 @@
                     "country_code": "DEU",
                     "height": 192,
                     "weight": 83,
+                    "jersey_number": 33,
                     "preferred_foot": "both",
                     "place_of_birth": "Stuttgart (GERMANY)"
                 },
@@ -1215,6 +1230,7 @@
                     "country_code": "PRT",
                     "height": 186,
                     "weight": 83,
+                    "jersey_number": 8,
                     "preferred_foot": "right",
                     "loaned_to_competitor_id": "sr:competitor:3245"
                 },
@@ -1357,19 +1373,6 @@
                     "loaned_to_competitor_id": "sr:competitor:15"
                 },
                 {
-                    "id": "sr:player:844073",
-                    "name": "Rodri",
-                    "type": "midfielder",
-                    "date_of_birth": "1996-06-22",
-                    "nationality": "Spain",
-                    "country_code": "ESP",
-                    "height": 190,
-                    "weight": 82,
-                    "jersey_number": 16,
-                    "preferred_foot": "right",
-                    "place_of_birth": "Madrid"
-                },
-                {
                     "id": "sr:player:936120",
                     "name": "Guehi, Marc",
                     "type": "defender",
@@ -1420,19 +1423,6 @@
                     "jersey_number": 7,
                     "preferred_foot": "right",
                     "place_of_birth": "Cairo"
-                },
-                {
-                    "id": "sr:player:1253990",
-                    "name": "Reijnders, Tijjani",
-                    "type": "midfielder",
-                    "date_of_birth": "1998-07-29",
-                    "nationality": "Netherlands",
-                    "country_code": "NLD",
-                    "height": 178,
-                    "weight": 82,
-                    "jersey_number": 4,
-                    "preferred_foot": "right",
-                    "place_of_birth": "Zwolle"
                 },
                 {
                     "id": "sr:player:1297614",
@@ -1665,6 +1655,7 @@
                     "country_code": "NIR",
                     "height": 183,
                     "weight": 80,
+                    "jersey_number": 1,
                     "preferred_foot": "right",
                     "loaned_to_competitor_id": "sr:competitor:1"
                 },
@@ -1782,7 +1773,7 @@
                     "country_code": "DEU",
                     "height": 181,
                     "weight": 78,
-                    "jersey_number": 30,
+                    "jersey_number": 13,
                     "preferred_foot": "right",
                     "place_of_birth": "Mannheim"
                 },
@@ -1834,6 +1825,7 @@
                     "country_code": "NLD",
                     "height": 190,
                     "weight": 78,
+                    "jersey_number": 4,
                     "preferred_foot": "left",
                     "place_of_birth": "Antwerp"
                 },
@@ -1872,6 +1864,7 @@
                     "country_code": "AUT",
                     "height": 195,
                     "weight": 86,
+                    "jersey_number": 30,
                     "preferred_foot": "right",
                     "place_of_birth": "Wien"
                 },
@@ -2032,6 +2025,19 @@
                     "loaned_to_competitor_id": "sr:competitor:2846"
                 },
                 {
+                    "id": "sr:player:2307569",
+                    "name": "David, Promise",
+                    "type": "forward",
+                    "date_of_birth": "2001-07-03",
+                    "nationality": "Canada",
+                    "country_code": "CAN",
+                    "height": 195,
+                    "weight": 91,
+                    "preferred_foot": "both",
+                    "place_of_birth": "Brampton",
+                    "on_loan": true
+                },
+                {
                     "id": "sr:player:2327301",
                     "name": "Baleba, Carlos",
                     "type": "midfielder",
@@ -2066,6 +2072,7 @@
                     "country_code": "ENG",
                     "height": 170,
                     "weight": 66,
+                    "jersey_number": 22,
                     "preferred_foot": "left",
                     "place_of_birth": "Islington"
                 },
@@ -2104,7 +2111,7 @@
                     "country_code": "ENG",
                     "height": 181,
                     "weight": 76,
-                    "jersey_number": 13,
+                    "jersey_number": 8,
                     "preferred_foot": "right",
                     "place_of_birth": "Worthing"
                 },
@@ -2170,6 +2177,7 @@
                     "country_code": "GHA",
                     "height": 179,
                     "weight": 64,
+                    "jersey_number": 15,
                     "preferred_foot": "right",
                     "place_of_birth": "Accra"
                 },
@@ -2236,6 +2244,15 @@
                     "height": 184,
                     "jersey_number": 36,
                     "preferred_foot": "left"
+                },
+                {
+                    "id": "sr:player:3081520",
+                    "name": "Oriola, Nehemiah",
+                    "type": "forward",
+                    "date_of_birth": "2007-06-11",
+                    "nationality": "England",
+                    "country_code": "ENG",
+                    "jersey_number": 49
                 },
                 {
                     "id": "sr:player:3237314",
@@ -2415,19 +2432,6 @@
                     "jersey_number": 38,
                     "preferred_foot": "right",
                     "place_of_birth": "Taishi"
-                },
-                {
-                    "id": "sr:player:990237",
-                    "name": "Hirst, George",
-                    "type": "forward",
-                    "date_of_birth": "1999-02-15",
-                    "nationality": "Scotland",
-                    "country_code": "SCO",
-                    "height": 191,
-                    "weight": 75,
-                    "jersey_number": 9,
-                    "preferred_foot": "right",
-                    "place_of_birth": "Sheffield"
                 },
                 {
                     "id": "sr:player:1054601",
@@ -2805,7 +2809,8 @@
                     "weight": 83,
                     "jersey_number": 1,
                     "preferred_foot": "right",
-                    "place_of_birth": "Udine"
+                    "place_of_birth": "Udine",
+                    "loaned_to_competitor_id": "sr:competitor:2687"
                 },
                 {
                     "id": "sr:player:803610",
@@ -3309,6 +3314,18 @@
                     "place_of_birth": "Thurrock"
                 },
                 {
+                    "id": "sr:player:282229",
+                    "name": "Elvedi, Nico",
+                    "type": "defender",
+                    "date_of_birth": "1996-09-30",
+                    "nationality": "Switzerland",
+                    "country_code": "CHE",
+                    "height": 189,
+                    "weight": 84,
+                    "preferred_foot": "right",
+                    "place_of_birth": "Zurich"
+                },
+                {
                     "id": "sr:player:355520",
                     "name": "James, Daniel",
                     "type": "forward",
@@ -3384,7 +3401,8 @@
                     "weight": 81,
                     "jersey_number": 23,
                     "preferred_foot": "right",
-                    "place_of_birth": "Wemmel"
+                    "place_of_birth": "Wemmel",
+                    "loaned_to_competitor_id": "sr:competitor:2676"
                 },
                 {
                     "id": "sr:player:942498",
@@ -3475,7 +3493,8 @@
                     "weight": 74,
                     "jersey_number": 10,
                     "preferred_foot": "left",
-                    "place_of_birth": "Wijchen (NETHERLANDS)"
+                    "place_of_birth": "Wijchen (NETHERLANDS)",
+                    "loaned_to_competitor_id": "sr:competitor:37"
                 },
                 {
                     "id": "sr:player:1065580",
@@ -4849,7 +4868,8 @@
                     "weight": 65,
                     "jersey_number": 46,
                     "preferred_foot": "right",
-                    "place_of_birth": "Chertsey (ENGLAND)"
+                    "place_of_birth": "Chertsey (ENGLAND)",
+                    "loaned_to_competitor_id": "sr:competitor:49"
                 },
                 {
                     "id": "sr:player:2973027",
@@ -5092,6 +5112,19 @@
                     "jersey_number": 21,
                     "preferred_foot": "right",
                     "place_of_birth": "Vysoke Myto"
+                },
+                {
+                    "id": "sr:player:1572688",
+                    "name": "Dedic, Amar",
+                    "type": "defender",
+                    "date_of_birth": "2002-08-18",
+                    "nationality": "Bosnia & herzegovina",
+                    "country_code": "BIH",
+                    "height": 180,
+                    "weight": 75,
+                    "jersey_number": 37,
+                    "preferred_foot": "right",
+                    "place_of_birth": "Zell am See"
                 },
                 {
                     "id": "sr:player:1576076",
@@ -5500,6 +5533,19 @@
                     "place_of_birth": "Slough"
                 },
                 {
+                    "id": "sr:player:1322508",
+                    "name": "Suzuki, Zion",
+                    "type": "goalkeeper",
+                    "date_of_birth": "2002-08-21",
+                    "nationality": "Japan",
+                    "country_code": "JPN",
+                    "height": 190,
+                    "weight": 98,
+                    "jersey_number": 1,
+                    "preferred_foot": "right",
+                    "place_of_birth": "Newark"
+                },
+                {
                     "id": "sr:player:1402475",
                     "name": "Onana, Amadou",
                     "type": "midfielder",
@@ -5552,6 +5598,19 @@
                     "preferred_foot": "right",
                     "place_of_birth": "Adelaide (AUSTRALIA)",
                     "loaned_to_competitor_id": "sr:competitor:92"
+                },
+                {
+                    "id": "sr:player:1645892",
+                    "name": "Ruggeri, Matteo",
+                    "type": "defender",
+                    "date_of_birth": "2002-07-11",
+                    "nationality": "Italy",
+                    "country_code": "ITA",
+                    "height": 187,
+                    "weight": 68,
+                    "jersey_number": 13,
+                    "preferred_foot": "left",
+                    "place_of_birth": "Bergamo"
                 },
                 {
                     "id": "sr:player:1955902",
@@ -5632,7 +5691,8 @@
                     "weight": 72,
                     "jersey_number": 32,
                     "preferred_foot": "right",
-                    "place_of_birth": "Smederevo (SERBIA)"
+                    "place_of_birth": "Smederevo (SERBIA)",
+                    "loaned_to_competitor_id": "sr:competitor:2351"
                 },
                 {
                     "id": "sr:player:2413339",
@@ -6977,6 +7037,19 @@
                     "preferred_foot": "both"
                 },
                 {
+                    "id": "sr:player:2650009",
+                    "name": "De Fougerolles, Luc",
+                    "type": "defender",
+                    "date_of_birth": "2005-10-12",
+                    "nationality": "Canada",
+                    "country_code": "CAN",
+                    "height": 183,
+                    "weight": 75,
+                    "jersey_number": 44,
+                    "preferred_foot": "right",
+                    "place_of_birth": "London"
+                },
+                {
                     "id": "sr:player:2671919",
                     "name": "Kusi Asare, Jonah",
                     "type": "forward",
@@ -7389,18 +7462,6 @@
                     "place_of_birth": "Vigo"
                 },
                 {
-                    "id": "sr:player:2281075",
-                    "name": "Koumas, Lewis",
-                    "type": "midfielder",
-                    "date_of_birth": "2005-09-19",
-                    "nationality": "Wales",
-                    "country_code": "WAL",
-                    "height": 182,
-                    "weight": 80,
-                    "jersey_number": 67,
-                    "preferred_foot": "right"
-                },
-                {
                     "id": "sr:player:2352479",
                     "name": "Pecsi, Armin",
                     "type": "goalkeeper",
@@ -7468,17 +7529,6 @@
                     "loaned_to_competitor_id": "sr:competitor:2242"
                 },
                 {
-                    "id": "sr:player:2888525",
-                    "name": "Wright, Will",
-                    "type": "forward",
-                    "date_of_birth": "2008-04-03",
-                    "nationality": "England",
-                    "country_code": "ENG",
-                    "height": 190,
-                    "jersey_number": 79,
-                    "place_of_birth": "Preston"
-                },
-                {
                     "id": "sr:player:2913443",
                     "name": "Munoz, Victor",
                     "type": "forward",
@@ -7503,16 +7553,6 @@
                     "jersey_number": 73,
                     "preferred_foot": "right",
                     "place_of_birth": "London"
-                },
-                {
-                    "id": "sr:player:3095284",
-                    "name": "Mor Talla Ndiaye, El Hadji",
-                    "type": "defender",
-                    "date_of_birth": "2008-01-06",
-                    "nationality": "Senegal",
-                    "country_code": "SEN",
-                    "height": 183,
-                    "jersey_number": 75
                 }
             ]
         },
@@ -8286,7 +8326,8 @@
                     "weight": 69,
                     "jersey_number": 26,
                     "preferred_foot": "right",
-                    "place_of_birth": "Batman (TURKEY)"
+                    "place_of_birth": "Batman (TURKEY)",
+                    "loaned_to_competitor_id": "sr:competitor:92"
                 },
                 {
                     "id": "sr:player:2659953",
@@ -8486,7 +8527,7 @@
                     "country_code": "ENG",
                     "height": 178,
                     "weight": 68,
-                    "jersey_number": 37,
+                    "jersey_number": 28,
                     "preferred_foot": "right",
                     "place_of_birth": "London"
                 },
@@ -8604,6 +8645,7 @@
                     "country_code": "ESP",
                     "height": 186,
                     "weight": 80,
+                    "jersey_number": 24,
                     "preferred_foot": "right",
                     "place_of_birth": "Dos Hermanas (SPAIN)"
                 },
@@ -8629,7 +8671,7 @@
                     "country_code": "CAN",
                     "height": 190,
                     "weight": 84,
-                    "jersey_number": 21,
+                    "jersey_number": 29,
                     "preferred_foot": "right",
                     "place_of_birth": "Oakville"
                 },
@@ -9049,6 +9091,7 @@
                     "country_code": "FRA",
                     "height": 185,
                     "weight": 76,
+                    "jersey_number": 29,
                     "preferred_foot": "right",
                     "place_of_birth": "Paris"
                 },
