@@ -19,6 +19,7 @@ export const eplTeamDisplayNameLookup = {
   'Newcastle United': 'Newcastle',
   'AFC Bournemouth': 'Bournemouth',
   'Brighton & Hove Albion': 'Brighton',
+  'Brighton and Hove Albion': 'Brighton',
   'Brentford FC': 'Brentford',
   'West Ham United': 'West Ham',
   'Crystal Palace': 'Crystal Palace',
@@ -31,4 +32,7 @@ export const eplTeamDisplayNameLookup = {
   'Leicester City': 'Leicester',
   'Burnley FC': 'Burnley', 
   'Sunderland AFC': 'Sunderland',
+  'Coventry City': 'Coventry',
+  'Ipswich Town': 'Ipswich',
+  'Hull City': 'Hull',
 }
