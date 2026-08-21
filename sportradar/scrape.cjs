@@ -33,7 +33,7 @@ async function getMatches (response) {
   await delay(2000); // Wait for 2 seconds
   const savedMatchFiles = fs.readdirSync(path.join(__dirname, config.year.toString(), "sport_event"));
   const matches = response.schedules.filter(match => {
-    return match.sport_event_status.status === "closed" &&
+    return match.sport_event_status.status === "ended" &&
       match.sport_event_status.match_status === "ended" &&
       !savedMatchFiles.includes(`${match.sport_event.id}.json`)
   });
