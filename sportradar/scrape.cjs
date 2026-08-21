@@ -35,7 +35,7 @@ async function getMatches (response) {
   fs.mkdirSync(sportEventDir, { recursive: true });
   const savedMatchFiles = fs.readdirSync(sportEventDir);
   const matches = response.schedules.filter(match => {
-    return match.sport_event_status.status === "ended" &&
+    return match.sport_event_status.status === "closed" &&
       match.sport_event_status.match_status === "ended" &&
       !savedMatchFiles.includes(`${match.sport_event.id}.json`)
   });
