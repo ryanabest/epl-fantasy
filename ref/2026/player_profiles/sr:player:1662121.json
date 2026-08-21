@@ -1,0 +1,73 @@
+{
+    "generated_at": "2026-08-21T16:25:11+00:00",
+    "player": {
+        "id": "sr:player:1662121",
+        "name": "Lewis-Potter, Keane",
+        "type": "forward",
+        "date_of_birth": "2001-02-22",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 170,
+        "weight": 67,
+        "jersey_number": 23,
+        "preferred_foot": "right",
+        "place_of_birth": "Hull",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:50",
+            "name": "Brentford FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "BRE",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6025",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 23
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:96",
+                "name": "Hull City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "HUL",
+                "gender": "male"
+            },
+            "start_date": "2019-01-01 00:00:00",
+            "end_date": "2022-07-11 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:50",
+                "name": "Brentford FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BRE",
+                "gender": "male"
+            },
+            "start_date": "2022-07-12 00:00:00",
+            "jersey_number": 23
+        }
+    ]
+}

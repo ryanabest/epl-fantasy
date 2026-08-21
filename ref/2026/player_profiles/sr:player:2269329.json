@@ -1,0 +1,134 @@
+{
+    "generated_at": "2026-08-21T16:24:11+00:00",
+    "player": {
+        "id": "sr:player:2269329",
+        "name": "Garcia, Gonzalo",
+        "type": "forward",
+        "date_of_birth": "2004-03-24",
+        "nationality": "Spain",
+        "country_code": "ESP",
+        "height": 182,
+        "weight": 71,
+        "jersey_number": 7,
+        "place_of_birth": "Madrid (SPAIN)",
+        "country_of_birth": "Spain",
+        "nickname": "Gonzalo",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:43",
+            "name": "Fulham FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "FUL",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4891",
+            "name": "Spain",
+            "country": "Spain",
+            "country_code": "ESP",
+            "abbreviation": "ESP",
+            "gender": "male",
+            "age_group": "U21"
+        },
+        {
+            "id": "sr:competitor:22560",
+            "name": "Spain",
+            "country": "Spain",
+            "country_code": "ESP",
+            "abbreviation": "ESP",
+            "gender": "male",
+            "age_group": "U19"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4698",
+                "name": "Spain",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "ESP",
+                "gender": "male"
+            },
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4891",
+                "name": "Spain",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "ESP",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:22560",
+                "name": "Spain",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "ESP",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:120854",
+                "name": "Real Madrid",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "RMA",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2021-07-01 00:00:00",
+            "end_date": "2026-08-02 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2829",
+                "name": "Real Madrid",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "RMA",
+                "gender": "male"
+            },
+            "start_date": "2023-07-01 00:00:00",
+            "end_date": "2026-08-02 00:00:00",
+            "jersey_number": 16
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:43",
+                "name": "Fulham FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "FUL",
+                "gender": "male"
+            },
+            "start_date": "2026-08-03 00:00:00",
+            "jersey_number": 7
+        }
+    ]
+}

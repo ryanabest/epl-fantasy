@@ -1,0 +1,125 @@
+{
+    "generated_at": "2026-08-21T16:22:38+00:00",
+    "player": {
+        "id": "sr:player:1398657",
+        "name": "Aaronson, Brenden",
+        "type": "forward",
+        "date_of_birth": "2000-10-22",
+        "nationality": "United states",
+        "country_code": "USA",
+        "height": 177,
+        "weight": 69,
+        "jersey_number": 11,
+        "preferred_foot": "right",
+        "place_of_birth": "Medford",
+        "country_of_birth": "USA",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:34",
+            "name": "Leeds United",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "LEE",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4724",
+            "name": "USA",
+            "country": "USA",
+            "country_code": "USA",
+            "abbreviation": "USA",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4724",
+                "name": "USA",
+                "country": "USA",
+                "country_code": "USA",
+                "abbreviation": "USA",
+                "gender": "male"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:252131",
+                "name": "Philadelphia Union II",
+                "country": "USA",
+                "country_code": "USA",
+                "abbreviation": "PHI",
+                "gender": "male"
+            },
+            "start_date": "2018-03-16 00:00:00",
+            "end_date": "2018-11-30 00:00:00",
+            "jersey_number": 63
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:39833",
+                "name": "Philadelphia Union",
+                "country": "USA",
+                "country_code": "USA",
+                "abbreviation": "PHI",
+                "gender": "male"
+            },
+            "start_date": "2019-01-01 00:00:00",
+            "end_date": "2020-12-31 00:00:00",
+            "jersey_number": 22
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2046",
+                "name": "FC Salzburg",
+                "country": "Austria",
+                "country_code": "AUT",
+                "abbreviation": "RBS",
+                "gender": "male"
+            },
+            "start_date": "2021-01-01 00:00:00",
+            "end_date": "2022-06-30 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:34",
+                "name": "Leeds United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LEE",
+                "gender": "male"
+            },
+            "start_date": "2022-07-01 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2547",
+                "name": "Union Berlin",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "UNI",
+                "gender": "male"
+            },
+            "start_date": "2023-07-08 00:00:00",
+            "end_date": "2024-06-30 00:00:00",
+            "jersey_number": 7
+        }
+    ]
+}

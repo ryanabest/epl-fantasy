@@ -1,0 +1,142 @@
+{
+    "generated_at": "2026-08-21T16:22:20+00:00",
+    "player": {
+        "id": "sr:player:2059277",
+        "name": "Tel, Mathys",
+        "type": "forward",
+        "date_of_birth": "2005-04-27",
+        "nationality": "France",
+        "country_code": "FRA",
+        "height": 183,
+        "weight": 77,
+        "jersey_number": 7,
+        "preferred_foot": "right",
+        "place_of_birth": "Sarcelles (FRANCE)",
+        "country_of_birth": "France",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:5936",
+            "name": "France",
+            "country": "France",
+            "country_code": "FRA",
+            "abbreviation": "FRA",
+            "gender": "male",
+            "age_group": "U21"
+        },
+        {
+            "id": "sr:competitor:33",
+            "name": "Tottenham Hotspur",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "TOT",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:5936",
+                "name": "France",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "FRA",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22474",
+                "name": "France",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "FRA",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 39
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:422905",
+                "name": "Stade Rennais FC",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "REN",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2020-07-01 00:00:00",
+            "end_date": "2021-06-30 00:00:00",
+            "jersey_number": 18
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1658",
+                "name": "Stade Rennais FC",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "REN",
+                "gender": "male"
+            },
+            "start_date": "2021-07-01 00:00:00",
+            "end_date": "2022-07-25 00:00:00",
+            "jersey_number": 39
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2672",
+                "name": "Bayern Munich",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "BMU",
+                "gender": "male"
+            },
+            "start_date": "2022-07-26 00:00:00",
+            "end_date": "2025-06-30 00:00:00",
+            "jersey_number": 39
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:33",
+                "name": "Tottenham Hotspur",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "TOT",
+                "gender": "male"
+            },
+            "start_date": "2025-02-03 00:00:00",
+            "end_date": "2025-06-30 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:33",
+                "name": "Tottenham Hotspur",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "TOT",
+                "gender": "male"
+            },
+            "start_date": "2025-07-01 00:00:00",
+            "jersey_number": 11
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "generated_at": "2026-08-21T16:22:11+00:00",
+    "player": {
+        "id": "sr:player:1391359",
+        "name": "Clarke, Jack",
+        "type": "forward",
+        "date_of_birth": "2000-11-23",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 181,
+        "weight": 73,
+        "jersey_number": 47,
+        "preferred_foot": "right",
+        "place_of_birth": "York",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:32",
+            "name": "Ipswich Town",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "IPS",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:34",
+                "name": "Leeds United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LEE",
+                "gender": "male"
+            },
+            "start_date": "2018-01-01 00:00:00",
+            "end_date": "2019-07-01 00:00:00",
+            "jersey_number": 47
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:33",
+                "name": "Tottenham Hotspur",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "TOT",
+                "gender": "male"
+            },
+            "start_date": "2019-07-02 00:00:00",
+            "end_date": "2022-07-08 00:00:00",
+            "jersey_number": 47
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:34",
+                "name": "Leeds United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LEE",
+                "gender": "male"
+            },
+            "start_date": "2019-07-03 00:00:00",
+            "end_date": "2020-01-15 00:00:00",
+            "jersey_number": 47
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1",
+                "name": "Queens Park Rangers",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "QPR",
+                "gender": "male"
+            },
+            "start_date": "2020-01-16 00:00:00",
+            "end_date": "2020-07-31 00:00:00",
+            "jersey_number": 47
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:29",
+                "name": "Stoke City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "STK",
+                "gender": "male"
+            },
+            "start_date": "2021-01-14 00:00:00",
+            "end_date": "2021-05-31 00:00:00",
+            "jersey_number": 47
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:41",
+                "name": "Sunderland AFC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "SUN",
+                "gender": "male"
+            },
+            "start_date": "2022-01-26 00:00:00",
+            "end_date": "2022-05-31 00:00:00",
+            "jersey_number": 25
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:41",
+                "name": "Sunderland AFC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "SUN",
+                "gender": "male"
+            },
+            "start_date": "2022-07-09 00:00:00",
+            "end_date": "2024-08-23 00:00:00",
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:32",
+                "name": "Ipswich Town",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "IPS",
+                "gender": "male"
+            },
+            "start_date": "2024-08-24 00:00:00",
+            "jersey_number": 47
+        }
+    ]
+}

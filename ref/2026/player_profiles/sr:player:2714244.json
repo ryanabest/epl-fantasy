@@ -1,0 +1,88 @@
+{
+    "generated_at": "2026-08-21T16:23:32+00:00",
+    "player": {
+        "id": "sr:player:2714244",
+        "name": "Estevao",
+        "type": "forward",
+        "date_of_birth": "2007-04-24",
+        "nationality": "Brazil",
+        "country_code": "BRA",
+        "height": 176,
+        "weight": 71,
+        "jersey_number": 41,
+        "preferred_foot": "left",
+        "place_of_birth": "Sao Paulo",
+        "country_of_birth": "Brazil",
+        "nickname": "Estevao",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:38",
+            "name": "Chelsea FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CFC",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4748",
+                "name": "Brazil",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "BRA",
+                "gender": "male"
+            },
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22586",
+                "name": "Brazil",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "BRA",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "end_date": "2025-10-28 00:00:00",
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1963",
+                "name": "SE Palmeiras SP",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "PAL",
+                "gender": "male"
+            },
+            "start_date": "2023-07-01 00:00:00",
+            "end_date": "2025-07-13 00:00:00",
+            "jersey_number": 41
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:38",
+                "name": "Chelsea FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CFC",
+                "gender": "male"
+            },
+            "start_date": "2025-07-14 00:00:00",
+            "jersey_number": 41
+        }
+    ]
+}

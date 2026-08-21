@@ -1,0 +1,130 @@
+{
+    "generated_at": "2026-08-21T16:24:35+00:00",
+    "player": {
+        "id": "sr:player:783126",
+        "name": "Buendia, Emiliano",
+        "type": "midfielder",
+        "date_of_birth": "1996-12-25",
+        "nationality": "Argentina",
+        "country_code": "ARG",
+        "height": 172,
+        "weight": 65,
+        "jersey_number": 10,
+        "preferred_foot": "right",
+        "place_of_birth": "Mar del Plata",
+        "country_of_birth": "Argentina",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:40",
+            "name": "Aston Villa",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "AVL",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4819",
+                "name": "Argentina",
+                "country": "Argentina",
+                "country_code": "ARG",
+                "abbreviation": "ARG",
+                "gender": "male"
+            }
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22666",
+                "name": "Argentina",
+                "country": "Argentina",
+                "country_code": "ARG",
+                "abbreviation": "ARG",
+                "gender": "male",
+                "age_group": "U20"
+            },
+            "jersey_number": 19
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2859",
+                "name": "Getafe CF",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "GET",
+                "gender": "male"
+            },
+            "start_date": "2014-07-01 00:00:00",
+            "end_date": "2018-06-30 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2868",
+                "name": "Cultural Leonesa",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "LEO",
+                "gender": "male"
+            },
+            "start_date": "2017-07-27 00:00:00",
+            "end_date": "2018-06-30 00:00:00",
+            "jersey_number": 17
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:263",
+                "name": "Norwich City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "NOR",
+                "gender": "male"
+            },
+            "start_date": "2018-07-01 00:00:00",
+            "end_date": "2021-06-30 00:00:00",
+            "jersey_number": 17
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:40",
+                "name": "Aston Villa",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "AVL",
+                "gender": "male"
+            },
+            "start_date": "2021-07-01 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2681",
+                "name": "Bayer Leverkusen",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "LEV",
+                "gender": "male"
+            },
+            "start_date": "2025-01-29 00:00:00",
+            "end_date": "2025-06-30 00:00:00",
+            "jersey_number": 16
+        }
+    ]
+}

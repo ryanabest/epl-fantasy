@@ -1,0 +1,150 @@
+{
+    "generated_at": "2026-08-21T16:25:05+00:00",
+    "player": {
+        "id": "sr:player:151545",
+        "name": "Van Dijk, Virgil",
+        "type": "defender",
+        "date_of_birth": "1991-07-08",
+        "nationality": "Netherlands",
+        "country_code": "NLD",
+        "height": 195,
+        "weight": 92,
+        "jersey_number": 4,
+        "preferred_foot": "right",
+        "place_of_birth": "Breda",
+        "country_of_birth": "Netherlands",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:44",
+            "name": "Liverpool FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "LFC",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4705",
+            "name": "Netherlands",
+            "country": "Netherlands",
+            "country_code": "NLD",
+            "abbreviation": "NED",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4705",
+                "name": "Netherlands",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "NED",
+                "gender": "male"
+            },
+            "jersey_number": 4
+        },
+        {
+            "type": "team_captain",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4705",
+                "name": "Netherlands",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "NED",
+                "gender": "male"
+            },
+            "jersey_number": 4
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5024",
+                "name": "Netherlands",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "NED",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 12
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2951",
+                "name": "FC Groningen",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "GRO",
+                "gender": "male"
+            },
+            "start_date": "2011-01-01 00:00:00",
+            "end_date": "2013-06-30 00:00:00",
+            "jersey_number": 4
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2352",
+                "name": "Celtic Glasgow",
+                "country": "Scotland",
+                "country_code": "SCO",
+                "abbreviation": "CEL",
+                "gender": "male"
+            },
+            "start_date": "2013-07-01 00:00:00",
+            "end_date": "2015-08-31 00:00:00",
+            "jersey_number": 5
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:45",
+                "name": "Southampton FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "SOU",
+                "gender": "male"
+            },
+            "start_date": "2015-09-01 00:00:00",
+            "end_date": "2017-12-31 00:00:00",
+            "jersey_number": 17
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:44",
+                "name": "Liverpool FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LFC",
+                "gender": "male"
+            },
+            "start_date": "2018-01-01 00:00:00",
+            "jersey_number": 4
+        },
+        {
+            "type": "team_captain",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:44",
+                "name": "Liverpool FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LFC",
+                "gender": "male"
+            },
+            "start_date": "2025-07-01 00:00:00"
+        }
+    ]
+}

@@ -1,0 +1,133 @@
+{
+    "generated_at": "2026-08-21T16:20:59+00:00",
+    "player": {
+        "id": "sr:player:1742651",
+        "name": "Le Fee, Enzo",
+        "type": "midfielder",
+        "date_of_birth": "2000-02-03",
+        "nationality": "France",
+        "country_code": "FRA",
+        "height": 170,
+        "weight": 69,
+        "jersey_number": 28,
+        "preferred_foot": "right",
+        "place_of_birth": "Lorient",
+        "country_of_birth": "France",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:41",
+            "name": "Sunderland AFC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "SUN",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5936",
+                "name": "France",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "FRA",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "end_date": "2025-05-23 00:00:00",
+            "jersey_number": 6
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:789974",
+                "name": "France",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "FRA",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1656",
+                "name": "FC Lorient",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "FCL",
+                "gender": "male"
+            },
+            "start_date": "2019-01-01 00:00:00",
+            "end_date": "2023-07-06 00:00:00",
+            "jersey_number": 80
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1658",
+                "name": "Stade Rennais FC",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "REN",
+                "gender": "male"
+            },
+            "start_date": "2023-07-07 00:00:00",
+            "end_date": "2024-07-09 00:00:00",
+            "jersey_number": 28
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2702",
+                "name": "AS Roma",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "ROM",
+                "gender": "male"
+            },
+            "start_date": "2024-07-10 00:00:00",
+            "end_date": "2025-06-30 00:00:00",
+            "jersey_number": 28
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:41",
+                "name": "Sunderland AFC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "SUN",
+                "gender": "male"
+            },
+            "start_date": "2025-01-10 00:00:00",
+            "end_date": "2025-06-30 00:00:00",
+            "jersey_number": 28
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:41",
+                "name": "Sunderland AFC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "SUN",
+                "gender": "male"
+            },
+            "start_date": "2025-07-01 00:00:00",
+            "jersey_number": 28
+        }
+    ]
+}

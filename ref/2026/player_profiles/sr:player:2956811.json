@@ -1,0 +1,87 @@
+{
+    "generated_at": "2026-08-21T16:20:41+00:00",
+    "player": {
+        "id": "sr:player:2956811",
+        "name": "Madjo, Brian",
+        "type": "forward",
+        "date_of_birth": "2009-01-12",
+        "nationality": "Luxembourg",
+        "country_code": "LUX",
+        "height": 186,
+        "weight": 75,
+        "jersey_number": 39,
+        "preferred_foot": "right",
+        "place_of_birth": "Enfield Town (ENGLAND)",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:40",
+            "name": "Aston Villa",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "AVL",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4478",
+                "name": "Luxembourg",
+                "country": "Luxembourg",
+                "country_code": "LUX",
+                "abbreviation": "LUX",
+                "gender": "male"
+            },
+            "end_date": "2025-09-02 00:00:00",
+            "jersey_number": 19
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1651",
+                "name": "FC Metz",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "FCM",
+                "gender": "male"
+            },
+            "start_date": "2025-07-10 00:00:00",
+            "end_date": "2026-01-11 00:00:00",
+            "jersey_number": 24
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:40",
+                "name": "Aston Villa",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "AVL",
+                "gender": "male"
+            },
+            "start_date": "2026-01-12 00:00:00",
+            "end_date": "2026-05-15 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:40",
+                "name": "Aston Villa",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "AVL",
+                "gender": "male"
+            },
+            "start_date": "2026-08-04 00:00:00",
+            "jersey_number": 39
+        }
+    ]
+}

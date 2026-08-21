@@ -1,0 +1,199 @@
+{
+    "generated_at": "2026-08-21T16:23:20+00:00",
+    "player": {
+        "id": "sr:player:1345190",
+        "name": "Brobbey, Brian",
+        "type": "forward",
+        "date_of_birth": "2002-02-01",
+        "nationality": "Netherlands",
+        "country_code": "NLD",
+        "height": 181,
+        "weight": 78,
+        "jersey_number": 19,
+        "preferred_foot": "right",
+        "place_of_birth": "Amserdam",
+        "country_of_birth": "Netherlands",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:41",
+            "name": "Sunderland AFC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "SUN",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4705",
+            "name": "Netherlands",
+            "country": "Netherlands",
+            "country_code": "NLD",
+            "abbreviation": "NED",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4705",
+                "name": "Netherlands",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "NED",
+                "gender": "male"
+            },
+            "jersey_number": 19
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5024",
+                "name": "Netherlands",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "NED",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22475",
+                "name": "Netherlands",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "NED",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:90118",
+                "name": "Ajax Amsterdam",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "AJA",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2017-07-01 00:00:00",
+            "end_date": "2019-06-30 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:46160",
+                "name": "Jong Ajax Amsterdam",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "AJA",
+                "gender": "male",
+                "age_group": "Youth"
+            },
+            "start_date": "2018-07-01 00:00:00",
+            "end_date": "2021-06-30 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2953",
+                "name": "Ajax Amsterdam",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "AJA",
+                "gender": "male"
+            },
+            "start_date": "2020-07-01 00:00:00",
+            "end_date": "2021-06-30 00:00:00",
+            "jersey_number": 30
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:36360",
+                "name": "RB Leipzig",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "RBL",
+                "gender": "male"
+            },
+            "start_date": "2021-07-01 00:00:00",
+            "end_date": "2022-07-21 00:00:00",
+            "jersey_number": 21
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2953",
+                "name": "Ajax Amsterdam",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "AJA",
+                "gender": "male"
+            },
+            "start_date": "2022-01-01 00:00:00",
+            "end_date": "2022-06-30 00:00:00",
+            "jersey_number": 18
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:46160",
+                "name": "Jong Ajax Amsterdam",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "AJA",
+                "gender": "male",
+                "age_group": "Youth"
+            },
+            "start_date": "2022-01-01 00:00:00",
+            "end_date": "2022-06-30 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2953",
+                "name": "Ajax Amsterdam",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "AJA",
+                "gender": "male"
+            },
+            "start_date": "2022-07-22 00:00:00",
+            "end_date": "2025-08-31 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:41",
+                "name": "Sunderland AFC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "SUN",
+                "gender": "male"
+            },
+            "start_date": "2025-09-01 00:00:00",
+            "jersey_number": 9
+        }
+    ]
+}

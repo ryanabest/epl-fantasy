@@ -1,0 +1,197 @@
+{
+    "generated_at": "2026-08-21T16:24:08+00:00",
+    "player": {
+        "id": "sr:player:1724622",
+        "name": "Woltemade, Nick",
+        "type": "forward",
+        "date_of_birth": "2002-02-14",
+        "nationality": "Germany",
+        "country_code": "DEU",
+        "height": 198,
+        "weight": 75,
+        "jersey_number": 11,
+        "preferred_foot": "right",
+        "place_of_birth": "Bremen",
+        "country_of_birth": "Germany",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4711",
+            "name": "Germany",
+            "country": "Germany",
+            "country_code": "DEU",
+            "abbreviation": "GER",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:39",
+            "name": "Newcastle United",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "NEW",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4711",
+                "name": "Germany",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "GER",
+                "gender": "male"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4890",
+                "name": "Germany",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "GER",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "end_date": "2025-09-07 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22473",
+                "name": "Germany",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "GER",
+                "gender": "male",
+                "age_group": "U20"
+            },
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22605",
+                "name": "Germany",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "GER",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2577",
+                "name": "SV Werder Bremen II",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "SVW",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "start_date": "2017-07-01 00:00:00",
+            "end_date": "2019-06-30 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:43694",
+                "name": "Werder Bremen",
+                "abbreviation": "SVW",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2020-06-30 00:00:00",
+            "jersey_number": 41
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2534",
+                "name": "Werder Bremen",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "SVW",
+                "gender": "male"
+            },
+            "start_date": "2020-07-01 00:00:00",
+            "end_date": "2024-06-30 00:00:00",
+            "jersey_number": 29
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2577",
+                "name": "SV Werder Bremen II",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "SVW",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "start_date": "2022-01-01 00:00:00",
+            "end_date": "2024-06-30 00:00:00"
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2598",
+                "name": "SV 07 Elversberg",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "SVE",
+                "gender": "male"
+            },
+            "start_date": "2022-08-30 00:00:00",
+            "end_date": "2023-06-30 00:00:00",
+            "jersey_number": 27
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2677",
+                "name": "VfB Stuttgart",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "VFB",
+                "gender": "male"
+            },
+            "start_date": "2024-07-01 00:00:00",
+            "end_date": "2025-08-29 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:39",
+                "name": "Newcastle United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "NEW",
+                "gender": "male"
+            },
+            "start_date": "2025-08-30 00:00:00",
+            "jersey_number": 27
+        }
+    ]
+}

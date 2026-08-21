@@ -1,0 +1,106 @@
+{
+    "generated_at": "2026-08-21T16:21:35+00:00",
+    "player": {
+        "id": "sr:player:2083961",
+        "name": "Mehmeti, Anis",
+        "type": "midfielder",
+        "date_of_birth": "2001-01-09",
+        "nationality": "Albania",
+        "country_code": "ALB",
+        "height": 180,
+        "weight": 63,
+        "jersey_number": 24,
+        "preferred_foot": "right",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4690",
+            "name": "Albania",
+            "country": "Albania",
+            "country_code": "ALB",
+            "abbreviation": "ALB",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:32",
+            "name": "Ipswich Town",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "IPS",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4690",
+                "name": "Albania",
+                "country": "Albania",
+                "country_code": "ALB",
+                "abbreviation": "ALB",
+                "gender": "male"
+            },
+            "jersey_number": 24
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4878",
+                "name": "Albania",
+                "country": "Albania",
+                "country_code": "ALB",
+                "abbreviation": "ALB",
+                "gender": "male",
+                "age_group": "U21"
+            }
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:62",
+                "name": "Wycombe Wanderers",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WYW",
+                "gender": "male"
+            },
+            "start_date": "2020-09-29 00:00:00",
+            "end_date": "2023-01-30 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:58",
+                "name": "Bristol City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BRC",
+                "gender": "male"
+            },
+            "start_date": "2023-02-01 00:00:00",
+            "end_date": "2026-01-22 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:32",
+                "name": "Ipswich Town",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "IPS",
+                "gender": "male"
+            },
+            "start_date": "2026-01-23 00:00:00",
+            "jersey_number": 33
+        }
+    ]
+}

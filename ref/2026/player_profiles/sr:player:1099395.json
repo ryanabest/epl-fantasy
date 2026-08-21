@@ -1,0 +1,139 @@
+{
+    "generated_at": "2026-08-21T16:22:14+00:00",
+    "player": {
+        "id": "sr:player:1099395",
+        "name": "Magalhaes, Gabriel",
+        "type": "defender",
+        "date_of_birth": "1997-12-19",
+        "nationality": "Brazil",
+        "country_code": "BRA",
+        "height": 190,
+        "weight": 87,
+        "jersey_number": 6,
+        "preferred_foot": "left",
+        "place_of_birth": "Sao Paulo",
+        "country_of_birth": "Brazil",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4748",
+            "name": "Brazil",
+            "country": "Brazil",
+            "country_code": "BRA",
+            "abbreviation": "BRA",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:42",
+            "name": "Arsenal FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ARS",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4748",
+                "name": "Brazil",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "BRA",
+                "gender": "male"
+            },
+            "jersey_number": 3
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:7315",
+                "name": "Avai FC SC",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "AVA",
+                "gender": "male"
+            },
+            "start_date": "2016-01-01 00:00:00",
+            "end_date": "2017-01-30 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1643",
+                "name": "Lille OSC",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "LIL",
+                "gender": "male"
+            },
+            "start_date": "2017-01-31 00:00:00",
+            "end_date": "2020-08-31 00:00:00",
+            "jersey_number": 4
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1652",
+                "name": "ESTAC Troyes",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "EST",
+                "gender": "male"
+            },
+            "start_date": "2017-07-01 00:00:00",
+            "end_date": "2018-02-14 00:00:00",
+            "jersey_number": 3
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2032",
+                "name": "GNK Dinamo Zagreb",
+                "country": "Croatia",
+                "country_code": "HRV",
+                "abbreviation": "DIN",
+                "gender": "male"
+            },
+            "start_date": "2018-02-15 00:00:00",
+            "end_date": "2018-06-30 00:00:00",
+            "jersey_number": 21
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:213980",
+                "name": "Gnk Dinamo Zagreb II",
+                "country": "Croatia",
+                "country_code": "HRV",
+                "abbreviation": "DIZ",
+                "gender": "male"
+            },
+            "start_date": "2018-02-15 00:00:00",
+            "end_date": "2018-06-30 00:00:00",
+            "jersey_number": 6
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:42",
+                "name": "Arsenal FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ARS",
+                "gender": "male"
+            },
+            "start_date": "2020-09-01 00:00:00",
+            "jersey_number": 6
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "generated_at": "2026-08-21T16:24:29+00:00",
+    "player": {
+        "id": "sr:player:992069",
+        "name": "Richarlison",
+        "type": "forward",
+        "date_of_birth": "1997-05-10",
+        "nationality": "Brazil",
+        "country_code": "BRA",
+        "height": 184,
+        "weight": 71,
+        "jersey_number": 9,
+        "preferred_foot": "both",
+        "place_of_birth": "Nova Venecia",
+        "country_of_birth": "Brazil",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:33",
+            "name": "Tottenham Hotspur",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "TOT",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4748",
+                "name": "Brazil",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "BRA",
+                "gender": "male"
+            },
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:24249",
+                "name": "Brazil",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "BRA",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1961",
+                "name": "Fluminense FC RJ",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "FLU",
+                "gender": "male"
+            },
+            "start_date": "2016-01-01 00:00:00",
+            "end_date": "2017-08-07 00:00:00",
+            "jersey_number": 19
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:24",
+                "name": "Watford FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WAT",
+                "gender": "male"
+            },
+            "start_date": "2017-08-08 00:00:00",
+            "end_date": "2018-07-23 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:48",
+                "name": "Everton FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "EVE",
+                "gender": "male"
+            },
+            "start_date": "2018-07-24 00:00:00",
+            "end_date": "2022-06-30 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:33",
+                "name": "Tottenham Hotspur",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "TOT",
+                "gender": "male"
+            },
+            "start_date": "2022-07-01 00:00:00",
+            "jersey_number": 9
+        }
+    ]
+}

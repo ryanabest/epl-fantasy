@@ -1,0 +1,95 @@
+{
+    "generated_at": "2026-08-21T16:22:59+00:00",
+    "player": {
+        "id": "sr:player:2265485",
+        "name": "O'Reilly, Nico",
+        "type": "defender",
+        "date_of_birth": "2005-03-21",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 177,
+        "weight": 77,
+        "jersey_number": 33,
+        "preferred_foot": "left",
+        "place_of_birth": "Manchester",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4713",
+            "name": "England",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ENG",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:17",
+            "name": "Manchester City",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "MCI",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4713",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male"
+            },
+            "jersey_number": 3
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22734",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U18"
+            },
+            "jersey_number": 78
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:120856",
+                "name": "Manchester City FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MCI",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2021-07-01 00:00:00",
+            "end_date": "2025-11-28 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:17",
+                "name": "Manchester City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MCI",
+                "gender": "male"
+            },
+            "start_date": "2024-07-01 00:00:00",
+            "jersey_number": 33
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "generated_at": "2026-08-21T16:21:44+00:00",
+    "player": {
+        "id": "sr:player:944820",
+        "name": "Tavernier, Marcus",
+        "type": "midfielder",
+        "date_of_birth": "1999-03-22",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 178,
+        "weight": 70,
+        "jersey_number": 16,
+        "preferred_foot": "left",
+        "place_of_birth": "Leeds (ENGLAND)",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:60",
+            "name": "AFC Bournemouth",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "BOU",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22505",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:224756",
+                "name": "Middlesbrough FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MID",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2015-07-01 00:00:00",
+            "end_date": "2016-06-30 00:00:00",
+            "jersey_number": 18
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:36",
+                "name": "Middlesbrough FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MID",
+                "gender": "male"
+            },
+            "start_date": "2016-07-01 00:00:00",
+            "end_date": "2022-07-31 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4",
+                "name": "Milton Keynes Dons",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MKD",
+                "gender": "male"
+            },
+            "start_date": "2018-01-17 00:00:00",
+            "end_date": "2018-05-30 00:00:00",
+            "jersey_number": 17
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:60",
+                "name": "AFC Bournemouth",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BOU",
+                "gender": "male"
+            },
+            "start_date": "2022-08-01 00:00:00",
+            "jersey_number": 16
+        }
+    ]
+}

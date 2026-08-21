@@ -1,0 +1,136 @@
+{
+    "generated_at": "2026-08-21T16:21:11+00:00",
+    "player": {
+        "id": "sr:player:1056631",
+        "name": "Brooks, David",
+        "type": "midfielder",
+        "date_of_birth": "1997-07-08",
+        "nationality": "Wales",
+        "country_code": "WAL",
+        "height": 173,
+        "weight": 69,
+        "jersey_number": 7,
+        "preferred_foot": "right",
+        "place_of_birth": "Warrington",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:60",
+            "name": "AFC Bournemouth",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "BOU",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4702",
+            "name": "Wales",
+            "country": "Wales",
+            "country_code": "WAL",
+            "abbreviation": "WAL",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4702",
+                "name": "Wales",
+                "country": "Wales",
+                "country_code": "WAL",
+                "abbreviation": "WAL",
+                "gender": "male"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6057",
+                "name": "Wales",
+                "country": "Wales",
+                "country_code": "WAL",
+                "abbreviation": "WAL",
+                "gender": "male",
+                "age_group": "U21"
+            }
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:338787",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "Youth"
+            },
+            "jersey_number": 18
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:87",
+                "name": "FC Halifax Town",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "HAL",
+                "gender": "male"
+            },
+            "start_date": "2015-08-29 00:00:00",
+            "end_date": "2018-07-01 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:15",
+                "name": "Sheffield United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "SHU",
+                "gender": "male"
+            },
+            "start_date": "2016-07-01 00:00:00",
+            "end_date": "2018-06-30 00:00:00",
+            "jersey_number": 36
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:60",
+                "name": "AFC Bournemouth",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BOU",
+                "gender": "male"
+            },
+            "start_date": "2018-07-01 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:45",
+                "name": "Southampton FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "SOU",
+                "gender": "male"
+            },
+            "start_date": "2024-01-30 00:00:00",
+            "end_date": "2024-06-30 00:00:00",
+            "jersey_number": 36
+        }
+    ]
+}

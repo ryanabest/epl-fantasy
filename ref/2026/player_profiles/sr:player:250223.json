@@ -1,0 +1,136 @@
+{
+    "generated_at": "2026-08-21T16:24:59+00:00",
+    "player": {
+        "id": "sr:player:250223",
+        "name": "McGinn, John",
+        "type": "midfielder",
+        "date_of_birth": "1994-10-18",
+        "nationality": "Scotland",
+        "country_code": "SCO",
+        "height": 178,
+        "weight": 68,
+        "jersey_number": 7,
+        "preferred_foot": "left",
+        "place_of_birth": "Glasgow",
+        "country_of_birth": "Scotland",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:40",
+            "name": "Aston Villa",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "AVL",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4695",
+            "name": "Scotland",
+            "country": "Scotland",
+            "country_code": "SCO",
+            "abbreviation": "SCO",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4695",
+                "name": "Scotland",
+                "country": "Scotland",
+                "country_code": "SCO",
+                "abbreviation": "SCO",
+                "gender": "male"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6051",
+                "name": "Scotland",
+                "country": "Scotland",
+                "country_code": "SCO",
+                "abbreviation": "SCO",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 4
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22555",
+                "name": "Scotland",
+                "country": "Scotland",
+                "country_code": "SCO",
+                "abbreviation": "SCO",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 15
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2359",
+                "name": "St Mirren FC",
+                "country": "Scotland",
+                "country_code": "SCO",
+                "abbreviation": "MIR",
+                "gender": "male"
+            },
+            "start_date": "2012-07-01 00:00:00",
+            "end_date": "2015-08-05 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2354",
+                "name": "Hibernian FC",
+                "country": "Scotland",
+                "country_code": "SCO",
+                "abbreviation": "HIB",
+                "gender": "male"
+            },
+            "start_date": "2015-07-31 00:00:00",
+            "end_date": "2018-08-07 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:40",
+                "name": "Aston Villa",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "AVL",
+                "gender": "male"
+            },
+            "start_date": "2018-08-08 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "team_captain",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:40",
+                "name": "Aston Villa",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "AVL",
+                "gender": "male"
+            },
+            "start_date": "2025-07-01 00:00:00"
+        }
+    ]
+}

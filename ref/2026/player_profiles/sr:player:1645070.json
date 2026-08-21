@@ -1,0 +1,212 @@
+{
+    "generated_at": "2026-08-21T16:20:17+00:00",
+    "player": {
+        "id": "sr:player:1645070",
+        "name": "Tzolis, Christos",
+        "type": "forward",
+        "date_of_birth": "2002-01-30",
+        "nationality": "Greece",
+        "country_code": "GRC",
+        "height": 179,
+        "weight": 72,
+        "jersey_number": 10,
+        "preferred_foot": "right",
+        "place_of_birth": "Thessaloniki",
+        "country_of_birth": "Greece",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4710",
+            "name": "Greece",
+            "country": "Greece",
+            "country_code": "GRC",
+            "abbreviation": "GRE",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:42",
+            "name": "Arsenal FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ARS",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4710",
+                "name": "Greece",
+                "country": "Greece",
+                "country_code": "GRC",
+                "abbreviation": "GRE",
+                "gender": "male"
+            },
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6029",
+                "name": "Greece",
+                "country": "Greece",
+                "country_code": "GRC",
+                "abbreviation": "GRE",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22513",
+                "name": "Greece",
+                "country": "Greece",
+                "country_code": "GRC",
+                "abbreviation": "GRE",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 14
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22607",
+                "name": "Greece",
+                "country": "Greece",
+                "country_code": "GRC",
+                "abbreviation": "GRE",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 17
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:285845",
+                "name": "PAOK Thessaloniki",
+                "country": "Greece",
+                "country_code": "GRC",
+                "abbreviation": "PAOK",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2021-08-11 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:3251",
+                "name": "PAOK Thessaloniki",
+                "country": "Greece",
+                "country_code": "GRC",
+                "abbreviation": "PAOK",
+                "gender": "male"
+            },
+            "start_date": "2020-08-03 00:00:00",
+            "end_date": "2021-08-11 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:263",
+                "name": "Norwich City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "NOR",
+                "gender": "male"
+            },
+            "start_date": "2021-08-12 00:00:00",
+            "end_date": "2024-06-30 00:00:00",
+            "jersey_number": 18
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2955",
+                "name": "FC Twente Enschede",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "TWE",
+                "gender": "male"
+            },
+            "start_date": "2022-07-22 00:00:00",
+            "end_date": "2023-01-30 00:00:00",
+            "jersey_number": 19
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2588",
+                "name": "Fortuna Dusseldorf",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "F95",
+                "gender": "male"
+            },
+            "start_date": "2023-08-06 00:00:00",
+            "end_date": "2024-06-30 00:00:00",
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2588",
+                "name": "Fortuna Dusseldorf",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "F95",
+                "gender": "male"
+            },
+            "start_date": "2024-07-01 00:00:00",
+            "end_date": "2024-07-03 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2888",
+                "name": "Club Brugge",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "BRU",
+                "gender": "male"
+            },
+            "start_date": "2024-07-04 00:00:00",
+            "end_date": "2026-07-22 00:00:00",
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:42",
+                "name": "Arsenal FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ARS",
+                "gender": "male"
+            },
+            "start_date": "2026-07-23 00:00:00",
+            "jersey_number": 17
+        }
+    ]
+}

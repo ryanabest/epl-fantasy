@@ -1,0 +1,110 @@
+{
+    "generated_at": "2026-08-21T16:20:35+00:00",
+    "player": {
+        "id": "sr:player:2637209",
+        "name": "Manzambi, Johan",
+        "type": "midfielder",
+        "date_of_birth": "2005-10-14",
+        "nationality": "Switzerland",
+        "country_code": "CHE",
+        "height": 182,
+        "weight": 76,
+        "jersey_number": 9,
+        "preferred_foot": "right",
+        "place_of_birth": "Geneva",
+        "country_of_birth": "Switzerland",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4699",
+            "name": "Switzerland",
+            "country": "Switzerland",
+            "country_code": "CHE",
+            "abbreviation": "SUI",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:40",
+            "name": "Aston Villa",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "AVL",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4699",
+                "name": "Switzerland",
+                "country": "Switzerland",
+                "country_code": "CHE",
+                "abbreviation": "SUI",
+                "gender": "male"
+            },
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4876",
+                "name": "Switzerland",
+                "country": "Switzerland",
+                "country_code": "CHE",
+                "abbreviation": "SUI",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 19
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5889",
+                "name": "SC Freiburg II",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "SCF",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "start_date": "2023-07-01 00:00:00",
+            "end_date": "2026-07-16 00:00:00",
+            "jersey_number": 41
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2538",
+                "name": "SC Freiburg",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "SCF",
+                "gender": "male"
+            },
+            "start_date": "2024-07-01 00:00:00",
+            "end_date": "2026-07-16 00:00:00",
+            "jersey_number": 44
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:40",
+                "name": "Aston Villa",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "AVL",
+                "gender": "male"
+            },
+            "start_date": "2026-07-17 00:00:00",
+            "jersey_number": 44
+        }
+    ]
+}

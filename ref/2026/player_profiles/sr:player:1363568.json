@@ -1,0 +1,183 @@
+{
+    "generated_at": "2026-08-21T16:19:11+00:00",
+    "player": {
+        "id": "sr:player:1363568",
+        "name": "Porro, Pedro",
+        "type": "defender",
+        "date_of_birth": "1999-09-13",
+        "nationality": "Spain",
+        "country_code": "ESP",
+        "height": 173,
+        "weight": 71,
+        "jersey_number": 12,
+        "preferred_foot": "right",
+        "place_of_birth": "Don Benito",
+        "country_of_birth": "Spain",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4698",
+            "name": "Spain",
+            "country": "Spain",
+            "country_code": "ESP",
+            "abbreviation": "ESP",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:33",
+            "name": "Tottenham Hotspur",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "TOT",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4698",
+                "name": "Spain",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "ESP",
+                "gender": "male"
+            },
+            "jersey_number": 12
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4891",
+                "name": "Spain",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "ESP",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 2
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:24264",
+                "name": "Girona FC",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "GIR",
+                "gender": "male"
+            },
+            "start_date": "2017-07-01 00:00:00",
+            "end_date": "2019-08-07 00:00:00",
+            "jersey_number": 24
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:511994",
+                "name": "Girona FC",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "GIR",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2017-07-01 00:00:00",
+            "end_date": "2017-12-01 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:17",
+                "name": "Manchester City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MCI",
+                "gender": "male"
+            },
+            "start_date": "2019-08-08 00:00:00",
+            "end_date": "2022-06-30 00:00:00"
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2831",
+                "name": "Real Valladolid",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "VLL",
+                "gender": "male"
+            },
+            "start_date": "2019-08-12 00:00:00",
+            "end_date": "2020-07-20 00:00:00",
+            "jersey_number": 2
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:3001",
+                "name": "Sporting CP",
+                "country": "Portugal",
+                "country_code": "PRT",
+                "abbreviation": "SPO",
+                "gender": "male"
+            },
+            "start_date": "2020-08-15 00:00:00",
+            "end_date": "2022-06-30 00:00:00",
+            "jersey_number": 24
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:3001",
+                "name": "Sporting CP",
+                "country": "Portugal",
+                "country_code": "PRT",
+                "abbreviation": "SPO",
+                "gender": "male"
+            },
+            "start_date": "2022-07-01 00:00:00",
+            "end_date": "2023-06-30 00:00:00",
+            "jersey_number": 24
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:33",
+                "name": "Tottenham Hotspur",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "TOT",
+                "gender": "male"
+            },
+            "start_date": "2023-01-31 00:00:00",
+            "end_date": "2023-06-30 00:00:00",
+            "jersey_number": 23
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:33",
+                "name": "Tottenham Hotspur",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "TOT",
+                "gender": "male"
+            },
+            "start_date": "2023-07-01 00:00:00",
+            "jersey_number": 23
+        }
+    ]
+}

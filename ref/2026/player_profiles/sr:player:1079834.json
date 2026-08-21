@@ -1,0 +1,107 @@
+{
+    "generated_at": "2026-08-21T16:19:26+00:00",
+    "player": {
+        "id": "sr:player:1079834",
+        "name": "Mason-Clark, Ephron",
+        "type": "forward",
+        "date_of_birth": "1999-08-25",
+        "nationality": "Jamaica",
+        "country_code": "JAM",
+        "height": 185,
+        "weight": 74,
+        "jersey_number": 10,
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4769",
+            "name": "Jamaica",
+            "country": "Jamaica",
+            "country_code": "JAM",
+            "abbreviation": "JAM",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:11",
+            "name": "Coventry City",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "COV",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4769",
+                "name": "Jamaica",
+                "country": "Jamaica",
+                "country_code": "JAM",
+                "abbreviation": "JAM",
+                "gender": "male"
+            },
+            "jersey_number": 4
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:77",
+                "name": "Barnet FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BAR",
+                "gender": "male"
+            },
+            "start_date": "2017-01-17 00:00:00",
+            "end_date": "2022-08-25 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:54",
+                "name": "Peterborough United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "PET",
+                "gender": "male"
+            },
+            "start_date": "2022-08-26 00:00:00",
+            "end_date": "2024-01-31 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:11",
+                "name": "Coventry City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "COV",
+                "gender": "male"
+            },
+            "start_date": "2024-02-01 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:54",
+                "name": "Peterborough United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "PET",
+                "gender": "male"
+            },
+            "start_date": "2024-02-02 00:00:00",
+            "end_date": "2024-05-31 00:00:00",
+            "jersey_number": 10
+        }
+    ]
+}

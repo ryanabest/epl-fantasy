@@ -1,0 +1,124 @@
+{
+    "generated_at": "2026-08-21T16:19:56+00:00",
+    "player": {
+        "id": "sr:player:2307569",
+        "name": "David, Promise",
+        "type": "forward",
+        "date_of_birth": "2001-07-03",
+        "nationality": "Canada",
+        "country_code": "CAN",
+        "height": 195,
+        "weight": 91,
+        "jersey_number": 12,
+        "preferred_foot": "both",
+        "place_of_birth": "Brampton",
+        "country_of_birth": "Canada",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:30",
+            "name": "Brighton & Hove Albion",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "BRI",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4752",
+            "name": "Canada",
+            "country": "Canada",
+            "country_code": "CAN",
+            "abbreviation": "CAN",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4752",
+                "name": "Canada",
+                "country": "Canada",
+                "country_code": "CAN",
+                "abbreviation": "CAN",
+                "gender": "male"
+            },
+            "jersey_number": 24
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5332",
+                "name": "Valletta FC",
+                "country": "Malta",
+                "country_code": "MLT",
+                "abbreviation": "VAL",
+                "gender": "male"
+            },
+            "start_date": "2022-01-07 00:00:00",
+            "end_date": "2022-06-30 00:00:00",
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:80811",
+                "name": "Sirens FC",
+                "country": "Malta",
+                "country_code": "MLT",
+                "abbreviation": "SIR",
+                "gender": "male"
+            },
+            "start_date": "2022-07-01 00:00:00",
+            "end_date": "2023-02-12 00:00:00",
+            "jersey_number": 72
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:8091",
+                "name": "Nomme Kalju FC",
+                "country": "Estonia",
+                "country_code": "EST",
+                "abbreviation": "KAL",
+                "gender": "male"
+            },
+            "start_date": "2023-02-13 00:00:00",
+            "end_date": "2024-07-01 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4860",
+                "name": "Union Saint-Gilloise",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "USG",
+                "gender": "male"
+            },
+            "start_date": "2024-07-02 00:00:00",
+            "jersey_number": 12
+        },
+        {
+            "type": "on_loan",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:30",
+                "name": "Brighton & Hove Albion",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BRI",
+                "gender": "male"
+            },
+            "start_date": "2026-08-18 00:00:00",
+            "end_date": "2026-12-30 00:00:00"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "generated_at": "2026-08-21T16:22:17+00:00",
+    "player": {
+        "id": "sr:player:2052913",
+        "name": "Simms, Ellis Reco",
+        "type": "forward",
+        "date_of_birth": "2001-01-05",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 191,
+        "weight": 73,
+        "jersey_number": 9,
+        "preferred_foot": "right",
+        "place_of_birth": "Oldham",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:11",
+            "name": "Coventry City",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "COV",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:48",
+                "name": "Everton FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "EVE",
+                "gender": "male"
+            },
+            "start_date": "2020-07-01 00:00:00",
+            "end_date": "2023-07-06 00:00:00",
+            "jersey_number": 50
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:67",
+                "name": "Blackpool FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BLP",
+                "gender": "male"
+            },
+            "start_date": "2021-01-20 00:00:00",
+            "end_date": "2021-05-31 00:00:00",
+            "jersey_number": 19
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2353",
+                "name": "Heart of Midlothian FC",
+                "country": "Scotland",
+                "country_code": "SCO",
+                "abbreviation": "HOM",
+                "gender": "male"
+            },
+            "start_date": "2022-01-26 00:00:00",
+            "end_date": "2022-05-30 00:00:00",
+            "jersey_number": 20
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:41",
+                "name": "Sunderland AFC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "SUN",
+                "gender": "male"
+            },
+            "start_date": "2022-07-29 00:00:00",
+            "end_date": "2022-12-31 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:11",
+                "name": "Coventry City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "COV",
+                "gender": "male"
+            },
+            "start_date": "2023-07-07 00:00:00",
+            "jersey_number": 9
+        }
+    ]
+}

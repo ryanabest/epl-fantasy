@@ -1,0 +1,109 @@
+{
+    "generated_at": "2026-08-21T16:21:26+00:00",
+    "player": {
+        "id": "sr:player:2070005",
+        "name": "Gomez, Diego",
+        "type": "midfielder",
+        "date_of_birth": "2003-03-27",
+        "nationality": "Paraguay",
+        "country_code": "PRY",
+        "height": 183,
+        "weight": 77,
+        "jersey_number": 8,
+        "preferred_foot": "right",
+        "place_of_birth": "San Juan Bautista",
+        "country_of_birth": "Paraguay",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4789",
+            "name": "Paraguay",
+            "country": "Paraguay",
+            "country_code": "PRY",
+            "abbreviation": "PAR",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:30",
+            "name": "Brighton & Hove Albion",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "BRI",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4789",
+                "name": "Paraguay",
+                "country": "Paraguay",
+                "country_code": "PRY",
+                "abbreviation": "PAR",
+                "gender": "male"
+            },
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:49086",
+                "name": "Paraguay",
+                "country": "Paraguay",
+                "country_code": "PRY",
+                "abbreviation": "PAR",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5996",
+                "name": "Libertad Asuncion",
+                "country": "Paraguay",
+                "country_code": "PRY",
+                "abbreviation": "LIB",
+                "gender": "male"
+            },
+            "start_date": "2020-07-01 00:00:00",
+            "end_date": "2023-07-18 00:00:00",
+            "jersey_number": 23
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:659691",
+                "name": "Inter Miami CF",
+                "country": "USA",
+                "country_code": "USA",
+                "abbreviation": "MIA",
+                "gender": "male"
+            },
+            "start_date": "2023-07-19 00:00:00",
+            "end_date": "2024-12-31 00:00:00",
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:30",
+                "name": "Brighton & Hove Albion",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BRI",
+                "gender": "male"
+            },
+            "start_date": "2025-01-01 00:00:00",
+            "jersey_number": 25
+        }
+    ]
+}

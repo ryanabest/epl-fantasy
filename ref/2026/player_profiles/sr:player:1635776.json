@@ -1,0 +1,164 @@
+{
+    "generated_at": "2026-08-21T16:25:02+00:00",
+    "player": {
+        "id": "sr:player:1635776",
+        "name": "Anderson, Elliot",
+        "type": "midfielder",
+        "date_of_birth": "2002-11-06",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 179,
+        "weight": 74,
+        "jersey_number": 8,
+        "preferred_foot": "right",
+        "place_of_birth": "Whitley Bay",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:17",
+            "name": "Manchester City",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "MCI",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4713",
+            "name": "England",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ENG",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4695",
+                "name": "Scotland",
+                "country": "Scotland",
+                "country_code": "SCO",
+                "abbreviation": "SCO",
+                "gender": "male"
+            }
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4713",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male"
+            },
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6025",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6051",
+                "name": "Scotland",
+                "country": "Scotland",
+                "country_code": "SCO",
+                "abbreviation": "SCO",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22477",
+                "name": "Scotland",
+                "country": "Scotland",
+                "country_code": "SCO",
+                "abbreviation": "SCO",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:39",
+                "name": "Newcastle United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "NEW",
+                "gender": "male"
+            },
+            "start_date": "2020-07-01 00:00:00",
+            "end_date": "2024-06-30 00:00:00",
+            "jersey_number": 32
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:76",
+                "name": "Bristol Rovers",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BR",
+                "gender": "male"
+            },
+            "start_date": "2022-01-31 00:00:00",
+            "end_date": "2022-05-31 00:00:00",
+            "jersey_number": 12
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:14",
+                "name": "Nottingham Forest",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "NFO",
+                "gender": "male"
+            },
+            "start_date": "2024-07-01 00:00:00",
+            "end_date": "2026-07-22 00:00:00",
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:17",
+                "name": "Manchester City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MCI",
+                "gender": "male"
+            },
+            "start_date": "2026-07-23 00:00:00",
+            "jersey_number": 5
+        }
+    ]
+}

@@ -1,0 +1,197 @@
+{
+    "generated_at": "2026-08-21T16:23:59+00:00",
+    "player": {
+        "id": "sr:player:936120",
+        "name": "Guehi, Marc",
+        "type": "defender",
+        "date_of_birth": "2000-07-13",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 183,
+        "weight": 77,
+        "jersey_number": 6,
+        "preferred_foot": "right",
+        "place_of_birth": "Abidjan",
+        "country_of_birth": "Cote d’Ivoire",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:17",
+            "name": "Manchester City",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "MCI",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4713",
+            "name": "England",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ENG",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4713",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male"
+            },
+            "jersey_number": 6
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6025",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 14
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22505",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 5
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22599",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 5
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:90124",
+                "name": "Chelsea FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CFC",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2015-07-01 00:00:00",
+            "end_date": "2020-06-30 00:00:00",
+            "jersey_number": 3
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:38",
+                "name": "Chelsea FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CFC",
+                "gender": "male"
+            },
+            "start_date": "2019-01-01 00:00:00",
+            "end_date": "2021-07-17 00:00:00",
+            "jersey_number": 44
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:74",
+                "name": "Swansea City",
+                "country": "Wales",
+                "country_code": "WAL",
+                "abbreviation": "SWA",
+                "gender": "male"
+            },
+            "start_date": "2020-01-10 00:00:00",
+            "end_date": "2020-07-31 00:00:00",
+            "jersey_number": 2
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:74",
+                "name": "Swansea City",
+                "country": "Wales",
+                "country_code": "WAL",
+                "abbreviation": "SWA",
+                "gender": "male"
+            },
+            "start_date": "2020-08-26 00:00:00",
+            "end_date": "2021-05-31 00:00:00",
+            "jersey_number": 5
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:7",
+                "name": "Crystal Palace",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CRY",
+                "gender": "male"
+            },
+            "start_date": "2021-07-18 00:00:00",
+            "end_date": "2026-01-18 00:00:00",
+            "jersey_number": 6
+        },
+        {
+            "type": "team_captain",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:7",
+                "name": "Crystal Palace",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CRY",
+                "gender": "male"
+            },
+            "start_date": "2025-07-01 00:00:00",
+            "end_date": "2026-01-18 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:17",
+                "name": "Manchester City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MCI",
+                "gender": "male"
+            },
+            "start_date": "2026-01-19 00:00:00",
+            "jersey_number": 6
+        }
+    ]
+}

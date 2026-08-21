@@ -1,0 +1,92 @@
+{
+    "generated_at": "2026-08-21T16:24:44+00:00",
+    "player": {
+        "id": "sr:player:2631331",
+        "name": "Dorgu, Patrick",
+        "type": "defender",
+        "date_of_birth": "2004-10-26",
+        "nationality": "Denmark",
+        "country_code": "DNK",
+        "height": 185,
+        "weight": 80,
+        "preferred_foot": "left",
+        "place_of_birth": "Copenhagen (DENMARK)",
+        "country_of_birth": "Denmark",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4476",
+            "name": "Denmark",
+            "country": "Denmark",
+            "country_code": "DNK",
+            "abbreviation": "DEN",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:35",
+            "name": "Manchester United",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "MUN",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4476",
+                "name": "Denmark",
+                "country": "Denmark",
+                "country_code": "DNK",
+                "abbreviation": "DEN",
+                "gender": "male"
+            }
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6023",
+                "name": "Denmark",
+                "country": "Denmark",
+                "country_code": "DNK",
+                "abbreviation": "DEN",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 5
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2689",
+                "name": "US Lecce",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "LEC",
+                "gender": "male"
+            },
+            "start_date": "2023-07-01 00:00:00",
+            "end_date": "2025-02-01 00:00:00",
+            "jersey_number": 13
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:35",
+                "name": "Manchester United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MUN",
+                "gender": "male"
+            },
+            "start_date": "2025-02-02 00:00:00",
+            "jersey_number": 13
+        }
+    ]
+}

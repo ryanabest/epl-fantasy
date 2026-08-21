@@ -1,0 +1,86 @@
+{
+    "generated_at": "2026-08-21T16:23:35+00:00",
+    "player": {
+        "id": "sr:player:2532547",
+        "name": "Hinshelwood, Jack",
+        "type": "midfielder",
+        "date_of_birth": "2005-04-11",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 181,
+        "weight": 76,
+        "jersey_number": 8,
+        "preferred_foot": "right",
+        "place_of_birth": "Worthing",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:169150",
+            "name": "Brighton and Hove Albion",
+            "abbreviation": "BHA",
+            "gender": "male",
+            "age_group": "U21"
+        },
+        {
+            "id": "sr:competitor:30",
+            "name": "Brighton & Hove Albion",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "BRI",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:6025",
+            "name": "England",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ENG",
+            "gender": "male",
+            "age_group": "U21"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:6025",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 16
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:30",
+                "name": "Brighton & Hove Albion",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BRI",
+                "gender": "male"
+            },
+            "start_date": "2022-07-01 00:00:00",
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:169150",
+                "name": "Brighton and Hove Albion",
+                "abbreviation": "BHA",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "start_date": "2022-07-01 00:00:00"
+        }
+    ]
+}

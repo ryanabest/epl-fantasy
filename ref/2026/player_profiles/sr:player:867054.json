@@ -1,0 +1,140 @@
+{
+    "generated_at": "2026-08-21T16:24:23+00:00",
+    "player": {
+        "id": "sr:player:867054",
+        "name": "Robinson, Antonee",
+        "type": "defender",
+        "date_of_birth": "1997-08-08",
+        "nationality": "United states",
+        "country_code": "USA",
+        "height": 183,
+        "weight": 73,
+        "jersey_number": 33,
+        "preferred_foot": "left",
+        "place_of_birth": "Milton Keynes",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4724",
+            "name": "USA",
+            "country": "USA",
+            "country_code": "USA",
+            "abbreviation": "USA",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:43",
+            "name": "Fulham FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "FUL",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4724",
+                "name": "USA",
+                "country": "USA",
+                "country_code": "USA",
+                "abbreviation": "USA",
+                "gender": "male"
+            },
+            "jersey_number": 5
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:48",
+                "name": "Everton FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "EVE",
+                "gender": "male"
+            },
+            "start_date": "2015-07-01 00:00:00",
+            "end_date": "2015-08-31 00:00:00",
+            "jersey_number": 49
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:36553",
+                "name": "FC Everton",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "EVE",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "start_date": "2016-01-01 00:00:00",
+            "end_date": "2019-07-14 00:00:00"
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5",
+                "name": "Bolton Wanderers",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BOL",
+                "gender": "male"
+            },
+            "start_date": "2017-08-04 00:00:00",
+            "end_date": "2018-05-31 00:00:00",
+            "jersey_number": 15
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:49",
+                "name": "Wigan Athletic",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WIG",
+                "gender": "male"
+            },
+            "start_date": "2018-08-03 00:00:00",
+            "end_date": "2019-05-31 00:00:00",
+            "jersey_number": 3
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:49",
+                "name": "Wigan Athletic",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WIG",
+                "gender": "male"
+            },
+            "start_date": "2019-07-15 00:00:00",
+            "end_date": "2020-08-19 00:00:00",
+            "jersey_number": 3
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:43",
+                "name": "Fulham FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "FUL",
+                "gender": "male"
+            },
+            "start_date": "2020-08-20 00:00:00",
+            "jersey_number": 33
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+{
+    "generated_at": "2026-08-21T16:21:47+00:00",
+    "player": {
+        "id": "sr:player:2134236",
+        "name": "Philogene, Jaden",
+        "type": "forward",
+        "date_of_birth": "2002-02-08",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 181,
+        "weight": 67,
+        "jersey_number": 11,
+        "preferred_foot": "right",
+        "place_of_birth": "London",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:32",
+            "name": "Ipswich Town",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "IPS",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6025",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "end_date": "2025-09-07 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:40",
+                "name": "Aston Villa",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "AVL",
+                "gender": "male"
+            },
+            "start_date": "2021-01-01 00:00:00",
+            "end_date": "2023-08-30 00:00:00",
+            "jersey_number": 33
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:29",
+                "name": "Stoke City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "STK",
+                "gender": "male"
+            },
+            "start_date": "2022-01-21 00:00:00",
+            "end_date": "2022-05-31 00:00:00",
+            "jersey_number": 47
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:61",
+                "name": "Cardiff City",
+                "country": "Wales",
+                "country_code": "WAL",
+                "abbreviation": "CAR",
+                "gender": "male"
+            },
+            "start_date": "2022-07-26 00:00:00",
+            "end_date": "2023-05-31 00:00:00",
+            "jersey_number": 25
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:96",
+                "name": "Hull City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "HUL",
+                "gender": "male"
+            },
+            "start_date": "2023-09-01 00:00:00",
+            "end_date": "2024-07-18 00:00:00",
+            "jersey_number": 23
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:40",
+                "name": "Aston Villa",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "AVL",
+                "gender": "male"
+            },
+            "start_date": "2024-07-19 00:00:00",
+            "end_date": "2025-01-14 00:00:00",
+            "jersey_number": 19
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:32",
+                "name": "Ipswich Town",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "IPS",
+                "gender": "male"
+            },
+            "start_date": "2025-01-15 00:00:00",
+            "jersey_number": 11
+        }
+    ]
+}

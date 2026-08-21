@@ -1,0 +1,180 @@
+{
+    "generated_at": "2026-08-21T16:19:02+00:00",
+    "player": {
+        "id": "sr:player:1725982",
+        "name": "Zubimendi, Martin",
+        "type": "midfielder",
+        "date_of_birth": "1999-02-02",
+        "nationality": "Spain",
+        "country_code": "ESP",
+        "height": 181,
+        "weight": 73,
+        "jersey_number": 18,
+        "preferred_foot": "right",
+        "place_of_birth": "San Sebastian",
+        "country_of_birth": "Spain",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4698",
+            "name": "Spain",
+            "country": "Spain",
+            "country_code": "ESP",
+            "abbreviation": "ESP",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:42",
+            "name": "Arsenal FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ARS",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4698",
+                "name": "Spain",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "ESP",
+                "gender": "male"
+            },
+            "jersey_number": 18
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4891",
+                "name": "Spain",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "ESP",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 6
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6370",
+                "name": "Croatia",
+                "country": "Croatia",
+                "country_code": "HRV",
+                "abbreviation": "CRO",
+                "gender": "male",
+                "age_group": "U21"
+            }
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:69238",
+                "name": "Spain",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "ESP",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "jersey_number": 18
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:120850",
+                "name": "Real Sociedad",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "RSO",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2016-07-01 00:00:00",
+            "end_date": "2017-06-30 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:306254",
+                "name": "Real Sociedad C",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "RSO",
+                "gender": "male"
+            },
+            "start_date": "2017-07-01 00:00:00",
+            "end_date": "2018-06-30 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:24360",
+                "name": "Real Sociedad San Sebastian B",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "RSO",
+                "gender": "male"
+            },
+            "start_date": "2018-07-01 00:00:00",
+            "end_date": "2020-09-09 00:00:00",
+            "jersey_number": 36
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2824",
+                "name": "Real Sociedad San Sebastian",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "RSO",
+                "gender": "male"
+            },
+            "start_date": "2019-01-01 00:00:00",
+            "end_date": "2019-06-30 00:00:00",
+            "jersey_number": 36
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2824",
+                "name": "Real Sociedad San Sebastian",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "RSO",
+                "gender": "male"
+            },
+            "start_date": "2020-02-09 00:00:00",
+            "end_date": "2025-07-05 00:00:00",
+            "jersey_number": 4
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:42",
+                "name": "Arsenal FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ARS",
+                "gender": "male"
+            },
+            "start_date": "2025-07-06 00:00:00",
+            "jersey_number": 36
+        }
+    ]
+}

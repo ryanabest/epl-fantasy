@@ -22,6 +22,25 @@ export const colors = {
     "Dan": "#6454A2",
     "Skye": "#377eb8",
     "Kelsea": "#9ACCFF",
+  },
+  2026: {
+    "Junghye": "#C73C0E",
+    "Elliot": "#FA7067",
+    "Thomas": "#ff7f00",
+    "Ryan": "#dede40",
+    "Will": "#E5C68A",
+    "Artur": "#A6D854",
+    "Eamonn": "#088449",
+    "Yuriko": "#136060",
+    "Emily": "#2FBFB0",
+    "Skye": "#377eb8",
+    "Kelsea": "#9ACCFF",
+    "John": "#B1A2E9",
+    "Dan": "#6454A2",
+    "Kevin": "#A64CA6",
+    "David": "#f781bf",
+    "Kavya": "#D62839",
+    "Jonah": "#A65628"
   }
 
 }

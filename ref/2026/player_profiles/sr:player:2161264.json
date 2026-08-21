@@ -1,0 +1,139 @@
+{
+    "generated_at": "2026-08-21T16:24:38+00:00",
+    "player": {
+        "id": "sr:player:2161264",
+        "name": "Osula, William",
+        "type": "forward",
+        "date_of_birth": "2003-08-04",
+        "nationality": "Denmark",
+        "country_code": "DNK",
+        "height": 191,
+        "weight": 80,
+        "jersey_number": 10,
+        "preferred_foot": "right",
+        "place_of_birth": "Copenhagen (DENMARK)",
+        "country_of_birth": "Denmark",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:39",
+            "name": "Newcastle United",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "NEW",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4476",
+            "name": "Denmark",
+            "country": "Denmark",
+            "country_code": "DNK",
+            "abbreviation": "DEN",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4476",
+                "name": "Denmark",
+                "country": "Denmark",
+                "country_code": "DNK",
+                "abbreviation": "DEN",
+                "gender": "male"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6023",
+                "name": "Denmark",
+                "country": "Denmark",
+                "country_code": "DNK",
+                "abbreviation": "DEN",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:15",
+                "name": "Sheffield United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "SHU",
+                "gender": "male"
+            },
+            "start_date": "2021-01-01 00:00:00",
+            "end_date": "2021-06-30 00:00:00",
+            "jersey_number": 41
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:15",
+                "name": "Sheffield United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "SHU",
+                "gender": "male"
+            },
+            "start_date": "2022-01-01 00:00:00",
+            "end_date": "2022-08-31 00:00:00",
+            "jersey_number": 32
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:27",
+                "name": "Derby County",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "DER",
+                "gender": "male"
+            },
+            "start_date": "2022-09-01 00:00:00",
+            "end_date": "2023-01-03 00:00:00",
+            "jersey_number": 23
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:15",
+                "name": "Sheffield United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "SHU",
+                "gender": "male"
+            },
+            "start_date": "2023-01-04 00:00:00",
+            "end_date": "2024-08-07 00:00:00",
+            "jersey_number": 32
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:39",
+                "name": "Newcastle United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "NEW",
+                "gender": "male"
+            },
+            "start_date": "2024-08-08 00:00:00",
+            "jersey_number": 10
+        }
+    ]
+}

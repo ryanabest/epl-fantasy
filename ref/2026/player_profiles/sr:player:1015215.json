@@ -1,0 +1,110 @@
+{
+    "generated_at": "2026-08-21T16:21:29+00:00",
+    "player": {
+        "id": "sr:player:1015215",
+        "name": "Thomas-Asante, Brandon",
+        "type": "forward",
+        "date_of_birth": "1998-12-29",
+        "nationality": "Ghana",
+        "country_code": "GHA",
+        "height": 182,
+        "weight": 80,
+        "jersey_number": 23,
+        "preferred_foot": "right",
+        "place_of_birth": "Milton Keynes",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4764",
+            "name": "Ghana",
+            "country": "Ghana",
+            "country_code": "GHA",
+            "abbreviation": "GHA",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:11",
+            "name": "Coventry City",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "COV",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4764",
+                "name": "Ghana",
+                "country": "Ghana",
+                "country_code": "GHA",
+                "abbreviation": "GHA",
+                "gender": "male"
+            },
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4",
+                "name": "Milton Keynes Dons",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MKD",
+                "gender": "male"
+            },
+            "start_date": "2016-07-01 00:00:00",
+            "end_date": "2019-07-01 00:00:00",
+            "jersey_number": 23
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:37998",
+                "name": "Salford City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "SAL",
+                "gender": "male"
+            },
+            "start_date": "2019-09-03 00:00:00",
+            "end_date": "2022-08-31 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:8",
+                "name": "West Bromwich Albion",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "WBA",
+                "gender": "male"
+            },
+            "start_date": "2022-09-01 00:00:00",
+            "end_date": "2024-07-31 00:00:00",
+            "jersey_number": 21
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:11",
+                "name": "Coventry City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "COV",
+                "gender": "male"
+            },
+            "start_date": "2024-08-01 00:00:00",
+            "jersey_number": 23
+        }
+    ]
+}

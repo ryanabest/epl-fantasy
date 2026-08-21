@@ -1,0 +1,122 @@
+{
+    "generated_at": "2026-08-21T16:24:20+00:00",
+    "player": {
+        "id": "sr:player:2704398",
+        "name": "Gozo, Zavier",
+        "type": "midfielder",
+        "date_of_birth": "2007-03-22",
+        "nationality": "United states",
+        "country_code": "USA",
+        "jersey_number": 20,
+        "place_of_birth": "West Valley",
+        "country_of_birth": "USA",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:7",
+            "name": "Crystal Palace",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CRY",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:22722",
+            "name": "USA",
+            "country": "USA",
+            "country_code": "USA",
+            "abbreviation": "USA",
+            "gender": "male",
+            "age_group": "U20"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:22722",
+                "name": "USA",
+                "country": "USA",
+                "country_code": "USA",
+                "abbreviation": "USA",
+                "gender": "male",
+                "age_group": "U20"
+            },
+            "jersey_number": 20
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5133",
+                "name": "Real Salt Lake",
+                "country": "USA",
+                "country_code": "USA",
+                "abbreviation": "RSL",
+                "gender": "male"
+            },
+            "start_date": "2023-07-01 00:00:00",
+            "end_date": "2023-12-31 00:00:00",
+            "jersey_number": 72
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:206019",
+                "name": "Real Monarchs SLC",
+                "country": "USA",
+                "country_code": "USA",
+                "abbreviation": "RMO",
+                "gender": "male"
+            },
+            "start_date": "2024-01-01 00:00:00",
+            "end_date": "2024-02-19 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5133",
+                "name": "Real Salt Lake",
+                "country": "USA",
+                "country_code": "USA",
+                "abbreviation": "RSL",
+                "gender": "male"
+            },
+            "start_date": "2024-02-20 00:00:00",
+            "end_date": "2026-08-17 00:00:00",
+            "jersey_number": 72
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:24000",
+                "name": "MLS All Stars",
+                "country": "USA",
+                "country_code": "USA",
+                "abbreviation": "MLS",
+                "gender": "male"
+            },
+            "start_date": "2026-07-01 00:00:00",
+            "end_date": "2026-08-17 00:00:00",
+            "jersey_number": 72
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:7",
+                "name": "Crystal Palace",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CRY",
+                "gender": "male"
+            },
+            "start_date": "2026-08-18 00:00:00"
+        }
+    ]
+}

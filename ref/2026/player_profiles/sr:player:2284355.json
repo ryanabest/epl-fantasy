@@ -1,0 +1,85 @@
+{
+    "generated_at": "2026-08-21T16:21:53+00:00",
+    "player": {
+        "id": "sr:player:2284355",
+        "name": "Wharton, Adam",
+        "type": "midfielder",
+        "date_of_birth": "2004-02-06",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 182,
+        "weight": 80,
+        "jersey_number": 20,
+        "preferred_foot": "left",
+        "place_of_birth": "Blackburn",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:7",
+            "name": "Crystal Palace",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CRY",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4713",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male"
+            },
+            "jersey_number": 4
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6025",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U21"
+            }
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:46",
+                "name": "Blackburn Rovers",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BLA",
+                "gender": "male"
+            },
+            "start_date": "2022-01-01 00:00:00",
+            "end_date": "2024-01-31 00:00:00",
+            "jersey_number": 23
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:7",
+                "name": "Crystal Palace",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CRY",
+                "gender": "male"
+            },
+            "start_date": "2024-02-01 00:00:00",
+            "jersey_number": 20
+        }
+    ]
+}

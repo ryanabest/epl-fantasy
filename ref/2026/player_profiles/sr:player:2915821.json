@@ -1,0 +1,95 @@
+{
+    "generated_at": "2026-08-21T16:21:08+00:00",
+    "player": {
+        "id": "sr:player:2915821",
+        "name": "Ngumoha, Rio",
+        "type": "forward",
+        "date_of_birth": "2008-08-29",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 170,
+        "weight": 75,
+        "jersey_number": 73,
+        "preferred_foot": "right",
+        "place_of_birth": "London",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:90134",
+            "name": "Liverpool",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "LFC",
+            "gender": "male",
+            "age_group": "U19"
+        },
+        {
+            "id": "sr:competitor:44",
+            "name": "Liverpool FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "LFC",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4713",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male"
+            },
+            "jersey_number": 31
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22599",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "end_date": "2025-11-02 00:00:00",
+            "jersey_number": 19
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:90134",
+                "name": "Liverpool",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LFC",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:44",
+                "name": "Liverpool FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LFC",
+                "gender": "male"
+            },
+            "start_date": "2024-12-01 00:00:00",
+            "jersey_number": 73
+        }
+    ]
+}

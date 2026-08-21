@@ -1,0 +1,125 @@
+{
+    "generated_at": "2026-08-21T16:19:47+00:00",
+    "player": {
+        "id": "sr:player:903830",
+        "name": "Rashford, Marcus",
+        "type": "forward",
+        "date_of_birth": "1997-10-31",
+        "nationality": "England",
+        "country_code": "ENG",
+        "height": 180,
+        "weight": 70,
+        "jersey_number": 9,
+        "preferred_foot": "right",
+        "place_of_birth": "Manchester",
+        "country_of_birth": "England",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:35",
+            "name": "Manchester United",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "MUN",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4713",
+            "name": "England",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ENG",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4713",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:6025",
+                "name": "England",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "ENG",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:35",
+                "name": "Manchester United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MUN",
+                "gender": "male"
+            },
+            "start_date": "2015-07-01 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:120848",
+                "name": "Manchester United FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MUN",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2015-07-01 00:00:00",
+            "end_date": "2017-09-08 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:40",
+                "name": "Aston Villa",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "AVL",
+                "gender": "male"
+            },
+            "start_date": "2025-02-02 00:00:00",
+            "end_date": "2025-06-30 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2817",
+                "name": "FC Barcelona",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "BAR",
+                "gender": "male"
+            },
+            "start_date": "2025-07-23 00:00:00",
+            "end_date": "2026-06-30 00:00:00",
+            "jersey_number": 14
+        }
+    ]
+}

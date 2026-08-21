@@ -1,0 +1,116 @@
+{
+    "generated_at": "2026-08-21T16:21:23+00:00",
+    "player": {
+        "id": "sr:player:1744189",
+        "name": "Igor Jesus",
+        "type": "forward",
+        "date_of_birth": "2001-02-25",
+        "nationality": "Brazil",
+        "country_code": "BRA",
+        "height": 179,
+        "weight": 74,
+        "jersey_number": 19,
+        "preferred_foot": "left",
+        "place_of_birth": "Cuiaba",
+        "country_of_birth": "Brazil",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:14",
+            "name": "Nottingham Forest",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "NFO",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4748",
+                "name": "Brazil",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "BRA",
+                "gender": "male"
+            },
+            "jersey_number": 26
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1982",
+                "name": "Coritiba FC PR",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "COR",
+                "gender": "male"
+            },
+            "start_date": "2019-01-01 00:00:00",
+            "end_date": "2020-09-23 00:00:00",
+            "jersey_number": 19
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:34060",
+                "name": "Sharjah FC",
+                "country": "United Arab Emirates",
+                "country_code": "ARE",
+                "abbreviation": "SHJ",
+                "gender": "male"
+            },
+            "start_date": "2020-09-24 00:00:00",
+            "end_date": "2020-10-01 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:370464",
+                "name": "Shabab Al Ahli Dubai",
+                "country": "United Arab Emirates",
+                "country_code": "ARE",
+                "abbreviation": "SAH",
+                "gender": "male"
+            },
+            "start_date": "2020-10-02 00:00:00",
+            "end_date": "2024-07-09 00:00:00",
+            "jersey_number": 99
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1958",
+                "name": "Botafogo FR RJ",
+                "country": "Brazil",
+                "country_code": "BRA",
+                "abbreviation": "BOT",
+                "gender": "male"
+            },
+            "start_date": "2024-07-01 00:00:00",
+            "end_date": "2025-07-04 00:00:00",
+            "jersey_number": 99
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:14",
+                "name": "Nottingham Forest",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "NFO",
+                "gender": "male"
+            },
+            "start_date": "2025-07-05 00:00:00",
+            "jersey_number": 19
+        }
+    ]
+}

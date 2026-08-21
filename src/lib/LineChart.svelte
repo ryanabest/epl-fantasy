@@ -5,18 +5,22 @@
   import { colors } from "../js/utils/teamColors";
   import { slugify } from "../js/utils/format";
 
-  const chartHeight = (465 / 8) * teams.length;
+  const strokeWidth = 4;
+  const radius = year === '2026' ? 22 : 25;
+  const swoopyWidth = 25;
+
+  const margin = { top: 30, bottom: 20, left: 30, right: 80 };
+  const chartHeight = year === '2026'
+    ? ((radius + (strokeWidth / 2)) * 2) * teams.length + margin.top + margin.bottom
+    : (465 / 8) * teams.length;
 
   let width; // this will be populated with the width of our chart containers via svelte's bind:clientWidth={w}
   let height; // this will be populated with the height of our chart containers via svelte's bind:clientHeight={w}
-  const margin = { top: 30, bottom: 20, left: 30, right: 80 };
 
   const startDate = teams[0].pointsByDate[0].date;
   const endDate = teams[0].pointsByDate[teams[0].pointsByDate.length - 1].date;
 
   const maxPts = Math.max(...teams.map(d => d.points));
-
-  const strokeWidth = 4;
 
   // ~~ LINE SCALES ~~ //
   $: xScale = d3.scaleUtc([new Date(startDate), new Date(endDate)],[margin.left, width - margin.right - margin.left]);
@@ -107,10 +111,6 @@
 
       zeroTick.classed('zero', true);
     });
-
-  // ~~ CIRCLE PARAMS ~~ //
-  const radius = 25;
-  const swoopyWidth = 25;
 
   // ~~ SWOOPY DATA ~~ //
   $: _genSwoopyData = (team, i) => {

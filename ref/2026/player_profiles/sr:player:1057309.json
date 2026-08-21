@@ -1,0 +1,183 @@
+{
+    "generated_at": "2026-08-21T16:20:56+00:00",
+    "player": {
+        "id": "sr:player:1057309",
+        "name": "Okafor, Noah",
+        "type": "forward",
+        "date_of_birth": "2000-05-24",
+        "nationality": "Switzerland",
+        "country_code": "CHE",
+        "height": 185,
+        "weight": 85,
+        "jersey_number": 19,
+        "preferred_foot": "right",
+        "place_of_birth": "Binningen",
+        "country_of_birth": "Switzerland",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:34",
+            "name": "Leeds United",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "LEE",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4699",
+            "name": "Switzerland",
+            "country": "Switzerland",
+            "country_code": "CHE",
+            "abbreviation": "SUI",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4699",
+                "name": "Switzerland",
+                "country": "Switzerland",
+                "country_code": "CHE",
+                "abbreviation": "SUI",
+                "gender": "male"
+            },
+            "jersey_number": 19
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:4876",
+                "name": "Switzerland",
+                "country": "Switzerland",
+                "country_code": "CHE",
+                "abbreviation": "SUI",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 7
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22480",
+                "name": "Switzerland",
+                "country": "Switzerland",
+                "country_code": "CHE",
+                "abbreviation": "SUI",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 17
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22562",
+                "name": "Switzerland",
+                "country": "Switzerland",
+                "country_code": "CHE",
+                "abbreviation": "SUI",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:120858",
+                "name": "FC Basel",
+                "country": "Switzerland",
+                "country_code": "CHE",
+                "abbreviation": "BAS",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2017-07-01 00:00:00",
+            "end_date": "2018-06-30 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2501",
+                "name": "FC Basel 1893",
+                "country": "Switzerland",
+                "country_code": "CHE",
+                "abbreviation": "FCB",
+                "gender": "male"
+            },
+            "start_date": "2018-01-01 00:00:00",
+            "end_date": "2020-01-30 00:00:00",
+            "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2046",
+                "name": "FC Salzburg",
+                "country": "Austria",
+                "country_code": "AUT",
+                "abbreviation": "RBS",
+                "gender": "male"
+            },
+            "start_date": "2020-01-31 00:00:00",
+            "end_date": "2023-07-21 00:00:00",
+            "jersey_number": 77
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2692",
+                "name": "AC Milan",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "ACM",
+                "gender": "male"
+            },
+            "start_date": "2023-07-22 00:00:00",
+            "end_date": "2025-08-20 00:00:00",
+            "jersey_number": 17
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2714",
+                "name": "SSC Napoli",
+                "country": "Italy",
+                "country_code": "ITA",
+                "abbreviation": "NAP",
+                "gender": "male"
+            },
+            "start_date": "2025-02-03 00:00:00",
+            "end_date": "2025-06-30 00:00:00",
+            "jersey_number": 9
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:34",
+                "name": "Leeds United",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LEE",
+                "gender": "male"
+            },
+            "start_date": "2025-08-21 00:00:00",
+            "jersey_number": 19
+        }
+    ]
+}

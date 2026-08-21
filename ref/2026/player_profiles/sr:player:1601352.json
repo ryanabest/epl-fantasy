@@ -1,0 +1,138 @@
+{
+    "generated_at": "2026-08-21T16:22:29+00:00",
+    "player": {
+        "id": "sr:player:1601352",
+        "name": "Cherki, Rayan",
+        "type": "midfielder",
+        "date_of_birth": "2003-08-17",
+        "nationality": "France",
+        "country_code": "FRA",
+        "height": 180,
+        "weight": 71,
+        "jersey_number": 24,
+        "preferred_foot": "right",
+        "place_of_birth": "Lyon",
+        "country_of_birth": "France",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:17",
+            "name": "Manchester City",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "MCI",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4481",
+            "name": "France",
+            "country": "France",
+            "country_code": "FRA",
+            "abbreviation": "FRA",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4481",
+                "name": "France",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "FRA",
+                "gender": "male"
+            },
+            "jersey_number": 24
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5936",
+                "name": "France",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "FRA",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:789974",
+                "name": "France",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "FRA",
+                "gender": "male",
+                "age_group": "U23"
+            },
+            "jersey_number": 18
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:222416",
+                "name": "Olympique Lyon",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "OL",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2018-07-01 00:00:00",
+            "end_date": "2019-12-31 00:00:00",
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1649",
+                "name": "Olympique Lyon",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "OL",
+                "gender": "male"
+            },
+            "start_date": "2019-07-07 00:00:00",
+            "end_date": "2025-06-09 00:00:00",
+            "jersey_number": 18
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:476700",
+                "name": "Olympique Lyon 2",
+                "country": "France",
+                "country_code": "FRA",
+                "abbreviation": "OLY",
+                "gender": "male"
+            },
+            "start_date": "2019-07-07 00:00:00",
+            "end_date": "2019-12-31 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:17",
+                "name": "Manchester City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MCI",
+                "gender": "male"
+            },
+            "start_date": "2025-06-10 00:00:00",
+            "jersey_number": 10
+        }
+    ]
+}

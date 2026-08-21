@@ -1,0 +1,169 @@
+{
+    "generated_at": "2026-08-21T16:23:53+00:00",
+    "player": {
+        "id": "sr:player:1319220",
+        "name": "Gravenberch, Ryan",
+        "type": "midfielder",
+        "date_of_birth": "2002-05-16",
+        "nationality": "Netherlands",
+        "country_code": "NLD",
+        "height": 190,
+        "weight": 77,
+        "jersey_number": 8,
+        "preferred_foot": "right",
+        "place_of_birth": "Amserdam",
+        "country_of_birth": "Netherlands",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4705",
+            "name": "Netherlands",
+            "country": "Netherlands",
+            "country_code": "NLD",
+            "abbreviation": "NED",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:44",
+            "name": "Liverpool FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "LFC",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4705",
+                "name": "Netherlands",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "NED",
+                "gender": "male"
+            },
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5024",
+                "name": "Netherlands",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "NED",
+                "gender": "male",
+                "age_group": "U21"
+            },
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22475",
+                "name": "Netherlands",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "NED",
+                "gender": "male",
+                "age_group": "U17"
+            },
+            "jersey_number": 12
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:22543",
+                "name": "Netherlands",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "NED",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:90118",
+                "name": "Ajax Amsterdam",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "AJA",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2017-07-01 00:00:00",
+            "end_date": "2018-06-30 00:00:00",
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2953",
+                "name": "Ajax Amsterdam",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "AJA",
+                "gender": "male"
+            },
+            "start_date": "2018-07-01 00:00:00",
+            "end_date": "2022-06-30 00:00:00",
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:46160",
+                "name": "Jong Ajax Amsterdam",
+                "country": "Netherlands",
+                "country_code": "NLD",
+                "abbreviation": "AJA",
+                "gender": "male",
+                "age_group": "Youth"
+            },
+            "start_date": "2018-07-01 00:00:00",
+            "end_date": "2019-09-11 00:00:00",
+            "jersey_number": 8
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2672",
+                "name": "Bayern Munich",
+                "country": "Germany",
+                "country_code": "DEU",
+                "abbreviation": "BMU",
+                "gender": "male"
+            },
+            "start_date": "2022-07-01 00:00:00",
+            "end_date": "2023-08-31 00:00:00",
+            "jersey_number": 38
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:44",
+                "name": "Liverpool FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LFC",
+                "gender": "male"
+            },
+            "start_date": "2023-09-01 00:00:00",
+            "jersey_number": 38
+        }
+    ]
+}

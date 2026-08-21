@@ -1,0 +1,110 @@
+{
+    "generated_at": "2026-08-21T16:22:02+00:00",
+    "player": {
+        "id": "sr:player:1796106",
+        "name": "Caicedo, Moises",
+        "type": "midfielder",
+        "date_of_birth": "2001-11-02",
+        "nationality": "Ecuador",
+        "country_code": "ECU",
+        "height": 178,
+        "weight": 73,
+        "jersey_number": 23,
+        "preferred_foot": "right",
+        "place_of_birth": "Santo Domingo",
+        "country_of_birth": "Ecuador",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:4757",
+            "name": "Ecuador",
+            "country": "Ecuador",
+            "country_code": "ECU",
+            "abbreviation": "ECU",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:38",
+            "name": "Chelsea FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "CFC",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4757",
+                "name": "Ecuador",
+                "country": "Ecuador",
+                "country_code": "ECU",
+                "abbreviation": "ECU",
+                "gender": "male"
+            },
+            "jersey_number": 23
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:39723",
+                "name": "CSD Independiente del Valle",
+                "country": "Ecuador",
+                "country_code": "ECU",
+                "abbreviation": "IND",
+                "gender": "male"
+            },
+            "start_date": "2019-07-01 00:00:00",
+            "end_date": "2021-01-31 00:00:00",
+            "jersey_number": 55
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:30",
+                "name": "Brighton & Hove Albion",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "BRI",
+                "gender": "male"
+            },
+            "start_date": "2021-02-01 00:00:00",
+            "end_date": "2023-08-13 00:00:00",
+            "jersey_number": 25
+        },
+        {
+            "type": "on_loan",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:169260",
+                "name": "K Beerschot VA",
+                "country": "Belgium",
+                "country_code": "BEL",
+                "abbreviation": "BEE",
+                "gender": "male"
+            },
+            "start_date": "2021-09-01 00:00:00",
+            "end_date": "2022-01-11 00:00:00",
+            "jersey_number": 6
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:38",
+                "name": "Chelsea FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "CFC",
+                "gender": "male"
+            },
+            "start_date": "2023-08-14 00:00:00",
+            "jersey_number": 25
+        }
+    ]
+}

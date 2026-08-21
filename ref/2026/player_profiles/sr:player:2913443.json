@@ -1,0 +1,139 @@
+{
+    "generated_at": "2026-08-21T16:24:17+00:00",
+    "player": {
+        "id": "sr:player:2913443",
+        "name": "Munoz, Victor",
+        "type": "forward",
+        "date_of_birth": "2003-07-13",
+        "nationality": "Spain",
+        "country_code": "ESP",
+        "height": 173,
+        "weight": 70,
+        "jersey_number": 25,
+        "preferred_foot": "right",
+        "place_of_birth": "Barcelona",
+        "country_of_birth": "Spain",
+        "gender": "male"
+    },
+    "competitors": [
+        {
+            "id": "sr:competitor:44",
+            "name": "Liverpool FC",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "LFC",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4698",
+            "name": "Spain",
+            "country": "Spain",
+            "country_code": "ESP",
+            "abbreviation": "ESP",
+            "gender": "male"
+        }
+    ],
+    "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4698",
+                "name": "Spain",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "ESP",
+                "gender": "male"
+            },
+            "jersey_number": 25
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:120854",
+                "name": "Real Madrid",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "RMA",
+                "gender": "male",
+                "age_group": "U19"
+            },
+            "start_date": "2021-07-01 00:00:00",
+            "end_date": "2022-06-30 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:1036059",
+                "name": "Real Madrid C",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "RMA",
+                "gender": "male"
+            },
+            "start_date": "2022-07-01 00:00:00",
+            "end_date": "2023-06-30 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:5069",
+                "name": "Real Madrid Castilla",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "RMA",
+                "gender": "male",
+                "age_group": "Youth"
+            },
+            "start_date": "2023-07-01 00:00:00",
+            "end_date": "2025-07-10 00:00:00"
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2829",
+                "name": "Real Madrid",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "RMA",
+                "gender": "male"
+            },
+            "start_date": "2024-12-14 00:00:00",
+            "end_date": "2025-07-10 00:00:00",
+            "jersey_number": 44
+        },
+        {
+            "type": "player",
+            "active": false,
+            "competitor": {
+                "id": "sr:competitor:2820",
+                "name": "CA Osasuna",
+                "country": "Spain",
+                "country_code": "ESP",
+                "abbreviation": "OSA",
+                "gender": "male"
+            },
+            "start_date": "2025-07-11 00:00:00",
+            "end_date": "2026-06-30 00:00:00",
+            "jersey_number": 21
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:44",
+                "name": "Liverpool FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "LFC",
+                "gender": "male"
+            },
+            "start_date": "2026-07-01 00:00:00",
+            "jersey_number": 23
+        }
+    ]
+}
