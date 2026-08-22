@@ -1,9 +1,11 @@
 name: Update EPL Fantasy Data
 
 on:
-  # schedule:
-  #   - cron: '22 */3 * * *'
-  # ~~ disabled until the 26/27 season kicks off (2026-08-21) — re-enable the schedule above then
+  schedule:
+    # Weekends: every 15 min, 11:00-23:59 UTC (covers all PL kickoff windows in BST/GMT)
+    - cron: '7,22,37,52 11-23 * * 0,6'
+    # Weekday evenings: every 15 min, 17:00-22:59 UTC (midweek/Friday fixtures)
+    - cron: '7,22,37,52 17-22 * * 1-5'
   workflow_dispatch:
 
 concurrency:

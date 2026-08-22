@@ -13,7 +13,7 @@
   }
 
   onMount(() => {
-    document.querySelectorAll('div.team').forEach(parent => setTeamExpanded(parent, false));
+    document.querySelectorAll('div.team').forEach(parent => setTeamExpanded(parent, true));
   });
 
   const handleTeamClick = (e) => {
@@ -23,7 +23,7 @@
     setTeamExpanded(parent, isCollapsed);
   }
 
-  let allExpanded = false;
+  let allExpanded = true;
 
   const handleExpandAllClick = () => {
     allExpanded = !allExpanded;

@@ -10,8 +10,11 @@
   const swoopyWidth = 25;
 
   const margin = { top: 30, bottom: 20, left: 30, right: 80 };
+  const circleDiameter = (radius + (strokeWidth / 2)) * 2;
+  // shrink the frame below the full circle stack so the lowest circles overflow past the x-axis
+  const stackOverflow = 0.85;
   const chartHeight = year === '2026'
-    ? ((radius + (strokeWidth / 2)) * 2) * teams.length + margin.top + margin.bottom
+    ? circleDiameter * teams.length * stackOverflow + margin.top + margin.bottom
     : (465 / 8) * teams.length;
 
   let width; // this will be populated with the width of our chart containers via svelte's bind:clientWidth={w}
@@ -74,7 +77,7 @@
       // Desktop format (text with year only on first tick or year change)
       const monthText = d3.timeFormat('%b')(d);
       if (tickIndex === 0 || (tickIndex > 0 && customTicks[tickIndex - 1].getFullYear() !== year)) {
-        return `${monthText} ${d3.timeFormat('%y')(d)}`;
+        return `${monthText} '${d3.timeFormat('%y')(d)}`;
       }
       
       return monthText;
