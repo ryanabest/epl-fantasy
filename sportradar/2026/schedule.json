@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-23T13:41:09+00:00",
+    "generated_at": "2026-08-23T14:07:00+00:00",
     "schedules": [
         {
             "sport_event": {
@@ -870,7 +870,7 @@
             },
             "sport_event_status": {
                 "status": "live",
-                "match_status": "1st_half",
+                "match_status": "2nd_half",
                 "home_score": 4,
                 "away_score": 0,
                 "period_scores": [
@@ -879,10 +879,16 @@
                         "away_score": 0,
                         "type": "regular_period",
                         "number": 1
+                    },
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
                     }
                 ],
                 "clock": {
-                    "played": "40:55"
+                    "played": "46:23"
                 }
             }
         },
@@ -993,7 +999,7 @@
             },
             "sport_event_status": {
                 "status": "live",
-                "match_status": "1st_half",
+                "match_status": "2nd_half",
                 "home_score": 0,
                 "away_score": 1,
                 "period_scores": [
@@ -1002,10 +1008,16 @@
                         "away_score": 1,
                         "type": "regular_period",
                         "number": 1
+                    },
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
                     }
                 ],
                 "clock": {
-                    "played": "37:38"
+                    "played": "46:01"
                 }
             }
         },
