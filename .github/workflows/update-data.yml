@@ -81,7 +81,29 @@ jobs:
           fi
           cat /tmp/scrape_output.txt
 
+      - name: Discard timestamp-only scrape changes
+        run: |
+          for f in $(git diff --name-only -- sportradar/ google/); do
+            content_lines=$(git diff -- "$f" | grep -E '^[+-][^+-]')
+            non_timestamp_lines=$(echo "$content_lines" | grep -vE '"(generated_at|last_updated)"\s*:')
+            if [ -z "$non_timestamp_lines" ]; then
+              echo "Reverting timestamp-only change: $f"
+              git checkout -- "$f"
+            fi
+          done
+
+      - name: Check for real source data changes
+        id: check_source
+        run: |
+          CHANGED=$(git status --porcelain -- sportradar/ google/)
+          if [ -n "$CHANGED" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Compile data.json
+        if: steps.check_source.outputs.has_changes == 'true'
         env:
           YEAR: ${{ steps.season.outputs.year }}
         run: |
@@ -93,6 +115,7 @@ jobs:
 
       - name: Check for updates
         id: check
+        if: steps.check_source.outputs.has_changes == 'true'
         run: |
           CHANGED=$(git status --porcelain -- sportradar/ google/ src/assets/)
           if [ -n "$CHANGED" ]; then
