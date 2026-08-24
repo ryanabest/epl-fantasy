@@ -88,10 +88,10 @@ jobs:
           # they flip constantly ahead of kickoff independent of real data.
           COVERAGE_FLAGS='lineups|formations|venue|extended_play_by_play|extended_player_stats|extended_team_stats|lineups_availability|ballspotting|commentary|fun_facts|goal_scorers|goal_scorers_live|scores|game_clock|deeper_play_by_play|deeper_player_stats|deeper_team_stats|basic_play_by_play|basic_player_stats|basic_team_stats'
           for f in $(git diff --name-only -- sportradar/ google/); do
-            content_lines=$(git diff -- "$f" | grep -E '^[+-][^+-]')
+            content_lines=$(git diff -- "$f" | grep -E '^[+-][^+-]' || true)
             non_noise_lines=$(echo "$content_lines" \
               | grep -vE '"(generated_at|last_updated)"\s*:' \
-              | grep -vE "\"($COVERAGE_FLAGS)\"\s*:\s*(true|false|\"[^\"]*\")\s*,?\s*\$")
+              | grep -vE "\"($COVERAGE_FLAGS)\"\s*:\s*(true|false|\"[^\"]*\")\s*,?\s*\$" || true)
             if [ -z "$non_noise_lines" ]; then
               echo "Reverting noise-only change: $f"
               git checkout -- "$f"
