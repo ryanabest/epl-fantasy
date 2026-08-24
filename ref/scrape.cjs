@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 const keys = require('../keys.json');
-const request = require('request');
 const options = {method: 'GET', headers: {accept: 'application/json'}};
 const config = require('../config').default;
 
