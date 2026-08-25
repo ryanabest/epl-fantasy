@@ -1,66 +1,66 @@
 <script>
-  export let year;
-  export let teams;
+  let { year, teams } = $props();
   import d3 from "../js/d3";
   import { colors } from "../js/utils/teamColors";
   import { slugify } from "../js/utils/format";
 
   const strokeWidth = 4;
-  const radius = year === '2026' ? 22 : 25;
+  const radius = $derived(year === '2026' ? 22 : 25);
   const swoopyWidth = 25;
 
   const margin = { top: 30, bottom: 20, left: 30, right: 80 };
-  const circleDiameter = (radius + (strokeWidth / 2)) * 2;
+  const circleDiameter = $derived((radius + (strokeWidth / 2)) * 2);
   // shrink the frame below the full circle stack so the lowest circles overflow past the x-axis
   const stackOverflow = 0.85;
-  const chartHeight = year === '2026'
+  const chartHeight = $derived(year === '2026'
     ? circleDiameter * teams.length * stackOverflow + margin.top + margin.bottom
-    : (465 / 8) * teams.length;
+    : (465 / 8) * teams.length);
 
-  let width; // this will be populated with the width of our chart containers via svelte's bind:clientWidth={w}
-  let height; // this will be populated with the height of our chart containers via svelte's bind:clientHeight={w}
+  let width = $state(); // this will be populated with the width of our chart containers via svelte's bind:clientWidth={w}
+  let height = $state(); // this will be populated with the height of our chart containers via svelte's bind:clientHeight={w}
 
-  const startDate = teams[0].pointsByDate[0].date;
-  const endDate = teams[0].pointsByDate[teams[0].pointsByDate.length - 1].date;
+  const startDate = $derived(teams[0].pointsByDate[0].date);
+  const endDate = $derived(teams[0].pointsByDate[teams[0].pointsByDate.length - 1].date);
 
-  const maxPts = Math.max(...teams.map(d => d.points));
+  const maxPts = $derived(Math.max(...teams.map(d => d.points)));
 
   // ~~ LINE SCALES ~~ //
-  $: xScale = d3.scaleUtc([new Date(startDate), new Date(endDate)],[margin.left, width - margin.right - margin.left]);
-  $: yScale = d3.scaleLinear([0, maxPts],[height - margin.bottom - margin.top, margin.top]);
-  $: line = d3.line()
+  const xScale = $derived(d3.scaleUtc([new Date(startDate), new Date(endDate)],[margin.left, width - margin.right - margin.left]));
+  const yScale = $derived(d3.scaleLinear([0, maxPts],[height - margin.bottom - margin.top, margin.top]));
+  const line = $derived(d3.line()
     .x((d) => xScale(new Date(d.date)))
     .y((d) => yScale(d.points))
-    .curve(d3.curveStepAfter);
+    .curve(d3.curveStepAfter));
 
-  let gy;
-  let gx;
-  
-  $: tickInterval = width > 600 ? 1 : width > 400 ? 2 : 3;
-  
-  $: yAxisFunc = d3.axisLeft(yScale)
+  let gy = $state();
+  let gx = $state();
+
+  const tickInterval = $derived(width > 600 ? 1 : width > 400 ? 2 : 3);
+
+  const yAxisFunc = $derived(d3.axisLeft(yScale)
     .ticks(6)
     .tickSize(-width + margin.left + margin.right)
     .tickSizeOuter(0)
-    .tickPadding(7);
+    .tickPadding(7));
 
-  $: customTicks = (() => {
+  const customTicks = $derived.by(() => {
     const start = new Date(startDate);
     const end = new Date(endDate);
     const ticks = [start];
-    
+
+    // eslint-disable-next-line svelte/prefer-svelte-reactivity -- local scratch value, never stored in state
     let current = new Date(start);
     current.setMonth(current.getMonth() + tickInterval);
-    
+
     while (current <= end) {
       ticks.push(new Date(current));
       current.setMonth(current.getMonth() + tickInterval);
     }
-    
-    return ticks;
-  })();
 
-  $: xAxisFunc = d3.axisBottom(xScale)
+    return ticks;
+  });
+
+  const xAxisFunc = $derived(d3.axisBottom(xScale)
     .tickValues(customTicks)
     .tickSize(8)
     .tickSizeOuter(2)
@@ -68,55 +68,59 @@
       const year = d.getFullYear();
       const month = d.getMonth() + 1;
       const tickIndex = customTicks.findIndex(t => t.getTime() === d.getTime());
-      
+
       // Mobile format (numeric with year always)
       if (width <= 400) {
         return `${month}/${d3.timeFormat('%y')(d)}`;
       }
-      
+
       // Desktop format (text with year only on first tick or year change)
       const monthText = d3.timeFormat('%b')(d);
       if (tickIndex === 0 || (tickIndex > 0 && customTicks[tickIndex - 1].getFullYear() !== year)) {
         return `${monthText} '${d3.timeFormat('%y')(d)}`;
       }
-      
+
       return monthText;
-    });
+    }));
 
-  $: d3.select(gx)
-    .call(xAxisFunc);
+  $effect(() => {
+    d3.select(gx)
+      .call(xAxisFunc);
+  });
 
-  $: d3.select(gy)
-    .call(yAxisFunc)
-    .call(g => {
-      if (!g.node()) return;
-      
-      const zeroTick = g.select('g.tick:nth-child(2)');
-      const lastTick = g.select('g.tick:last-child');
+  $effect(() => {
+    d3.select(gy)
+      .call(yAxisFunc)
+      .call(g => {
+        if (!g.node()) return;
 
-      lastTick
-        .append('text').attr('class', 'pts-bg')
-        .attr('x', lastTick.select('text').attr('x'))
-        .attr('dy', lastTick.select('text').attr('dy'))
-        .attr('dx', '0.5em')
-        .attr('text-anchor', 'start')
-        .style('stroke', '#ffffff')
-        .style('stroke-width', '10px')
-        .text('points');
+        const zeroTick = g.select('g.tick:nth-child(2)');
+        const lastTick = g.select('g.tick:last-child');
 
-      lastTick
-        .append('text').attr('class', 'pts')
-        .attr('x', lastTick.select('text').attr('x'))
-        .attr('dy', lastTick.select('text').attr('dy'))
-        .attr('dx', '0.5em')
-        .attr('text-anchor', 'start')
-        .text('points');
+        lastTick
+          .append('text').attr('class', 'pts-bg')
+          .attr('x', lastTick.select('text').attr('x'))
+          .attr('dy', lastTick.select('text').attr('dy'))
+          .attr('dx', '0.5em')
+          .attr('text-anchor', 'start')
+          .style('stroke', '#ffffff')
+          .style('stroke-width', '10px')
+          .text('points');
 
-      zeroTick.classed('zero', true);
-    });
+        lastTick
+          .append('text').attr('class', 'pts')
+          .attr('x', lastTick.select('text').attr('x'))
+          .attr('dy', lastTick.select('text').attr('dy'))
+          .attr('dx', '0.5em')
+          .attr('text-anchor', 'start')
+          .text('points');
+
+        zeroTick.classed('zero', true);
+      });
+  });
 
   // ~~ SWOOPY DATA ~~ //
-  $: _genSwoopyData = (team, i) => {
+  const _genSwoopyData = $derived((team, i) => {
     const swoopyData = [];
     const d = team.pointsByDate[team.pointsByDate.length - 1];
     if (!xScale || !yScale) return [];
@@ -136,20 +140,20 @@
     function sigmoid (t) {
       return 1 / (1 + Math.pow(Math.E, -t));
     }
-    
+
     return swoopyData;
-  }
+  });
 
-  $: swoopyLine = d3.line()
+  const swoopyLine = $derived(d3.line()
     .x(d => d.x)
-    .y(d => d.y);
+    .y(d => d.y));
 
-  $: teamsSorted = teams
+  const teamsSorted = $derived(teams
     .sort((a, b) => a.points - b.points)
     .map((team, i) => {
       const swoopyData = _genSwoopyData(team, i);
       return { ...team, swoopyData }
-    });
+    }));
 </script>
 
 <div class="chart-cont" style={`height:${chartHeight}px;`} bind:clientWidth={width} bind:clientHeight={height}>
@@ -158,12 +162,12 @@
       <g class="axis-g" bind:this={gy}></g>
       <g class="axis-x-g" bind:this={gx} transform="translate(0,{height - margin.top - margin.bottom})"></g>
       <g class="swoop-g">
-        {#each teamsSorted as d}
+        {#each teamsSorted as d (d.team)}
           <path d={swoopyLine(d.swoopyData)} stroke={colors[year][d.team]} stroke-width=2 stroke-linecap="round" stroke-dasharray="0 4"></path>
         {/each}
       </g>
       <g class="line-g">
-        {#each teamsSorted as d}
+        {#each teamsSorted as d (d.team)}
           <g class="team" data-team={d.team}>
             <path stroke="#ffffff" stroke-width={strokeWidth * 1.5} d={line(d.pointsByDate)}></path>
             <path stroke={colors[year][d.team]} stroke-width={strokeWidth} d={line(d.pointsByDate)}></path>
@@ -171,7 +175,7 @@
         {/each}
       </g>
       <g class="circle-g">
-        {#each teamsSorted as d, i}
+        {#each teamsSorted as d, i (d.team)}
           <circle
             id='circle-{slugify(d.team)}'
             r={radius}
@@ -186,7 +190,7 @@
       </g>
     </g>
     <defs>
-      {#each teamsSorted as d}
+      {#each teamsSorted as d (d.team)}
         <pattern id="pattern-{slugify(d.team)}" height=100% width=100% patternContentUnits="objectBoundingBox">
           <image x="0" y="0" height=1 width=1 preserveAspectRatio="xMidYMid slice" xlink:href="{year}/{slugify(d.team)}.png" />
         </pattern>

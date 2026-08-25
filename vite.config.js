@@ -9,10 +9,10 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html'),
-        2024: resolve(__dirname, '2024.html'),
-        2025: resolve(__dirname, '2025.html'),
-        2026: resolve(__dirname, '2026.html'),
+        main: resolve(import.meta.dirname, 'index.html'),
+        2024: resolve(import.meta.dirname, '2024.html'),
+        2025: resolve(import.meta.dirname, '2025.html'),
+        2026: resolve(import.meta.dirname, '2026.html'),
       },
     },
   },

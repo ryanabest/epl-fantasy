@@ -1,6 +1,5 @@
 <script>
-  export let data;
-  export let year;
+  let { data, year } = $props();
   import Intro from "./lib/Intro.svelte";
   import LineChart from './lib/LineChart.svelte';
   import Teams from './lib/Teams.svelte';

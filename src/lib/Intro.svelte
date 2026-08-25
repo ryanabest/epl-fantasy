@@ -1,9 +1,8 @@
 <script>
-  export let lastUpdated;
-  export let year;
+  let { lastUpdated, year } = $props();
   import dayjs from 'dayjs';
-  const date = dayjs(lastUpdated).format("MMM D, YYYY")
-  const time = dayjs(lastUpdated).format("h:mm A")
+  const date = $derived(dayjs(lastUpdated).format("MMM D, YYYY"));
+  const time = $derived(dayjs(lastUpdated).format("h:mm A"));
 </script>
 
 <div id="intro">

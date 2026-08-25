@@ -1,28 +1,26 @@
 <script>
-  export let year;
-  export let team;
-  export let maxPts;
+  let { year, team, maxPts } = $props();
   import d3 from "../js/d3";
   import { colors } from "../js/utils/teamColors";
 
-  let width; // this will be populated with the width of our chart containers via svelte's bind:clientWidth={w}
-  let height; // this will be populated with the height of our chart containers via svelte's bind:clientHeight={w}
+  let width = $state(); // this will be populated with the width of our chart containers via svelte's bind:clientWidth={w}
+  let height = $state(); // this will be populated with the height of our chart containers via svelte's bind:clientHeight={w}
   const margin = { top: 0, bottom: 0, left: 0, right: 0 };
 
-  const startDate = team.pointsByDate[0].date;
-  const endDate = team.pointsByDate[team.pointsByDate.length - 1].date;
-  $: xScale = d3.scaleUtc([new Date(startDate), new Date(endDate)],[margin.left, width - margin.right - margin.left]);
-  $: yScale = d3.scaleLinear([0, maxPts],[height - margin.bottom - margin.top, margin.top]);
-  $: line = d3.line()
+  const startDate = $derived(team.pointsByDate[0].date);
+  const endDate = $derived(team.pointsByDate[team.pointsByDate.length - 1].date);
+  const xScale = $derived(d3.scaleUtc([new Date(startDate), new Date(endDate)],[margin.left, width - margin.right - margin.left]));
+  const yScale = $derived(d3.scaleLinear([0, maxPts],[height - margin.bottom - margin.top, margin.top]));
+  const line = $derived(d3.line()
     .x((d) => xScale(new Date(d.date)))
     .y((d) => yScale(d.points))
-    .curve(d3.curveStepAfter);
+    .curve(d3.curveStepAfter));
 
-  $: area = d3.area()
+  const area = $derived(d3.area()
       .x((d) => xScale(new Date(d.date)))
-      .y0((d) => yScale(0))
+      .y0(() => yScale(0))
       .y1((d) => yScale(d.points))
-      .curve(d3.curveStepAfter);
+      .curve(d3.curveStepAfter));
 
 </script>
 
@@ -54,15 +52,6 @@
       overflow: visible;
       width: 100%;
       height: 100%;
-      path.points-area {
-        stroke-width: 0px;
-        stroke: variables.$black;
-      }
-
-      path.points-line {
-        stroke-width: 3px;
-        fill: none;
-      }
     }
   }
 </style>

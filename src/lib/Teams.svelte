@@ -1,10 +1,9 @@
 <script>
-  export let year;
-  export let teams;
+  let { year, teams } = $props();
   import { onMount } from "svelte";
   import { formatNum, eplTeamDisplayNameLookup } from "../js/utils/format";
   import Sparkline from "./Sparkline.svelte";
-  const teamsSorted = teams.sort((a, b) => b.points - a.points);
+  const teamsSorted = $derived(teams.sort((a, b) => b.points - a.points));
 
   const setTeamExpanded = (parent, expand) => {
     parent.classList.toggle('no-margin-bottom', !expand);
@@ -23,24 +22,24 @@
     setTeamExpanded(parent, isCollapsed);
   }
 
-  let allExpanded = true;
+  let allExpanded = $state(true);
 
   const handleExpandAllClick = () => {
     allExpanded = !allExpanded;
     document.querySelectorAll('div.team').forEach(parent => setTeamExpanded(parent, allExpanded));
   }
 
-  const maxPts = Math.max(...teams.map(d => d.points));
+  const maxPts = $derived(Math.max(...teams.map(d => d.points)));
 </script>
 
 
-<button class="expand-all" on:click={handleExpandAllClick}>
+<button class="expand-all" onclick={handleExpandAllClick}>
   {allExpanded ? '– Collapse all' : '+ Expand all'}
 </button>
 
-{#each teamsSorted as team}
+{#each teamsSorted as team (team.team)}
   <div class=team>
-    <button class=h2 on:click={(e) => handleTeamClick(e)}>
+    <button class=h2 onclick={(e) => handleTeamClick(e)}>
       <span>{team.team}</span>
       <span class=points>{team.points} point{team.points === 1 ? '' : 's'}</span>
     </button>
@@ -66,7 +65,7 @@
             else if (a.stats.own_goals > b.stats.own_goals) return 1;
             else if (a.stats.own_goals < b.stats.own_goals) return -1;
             else return 1;
-          }) as player}
+          }) as player (player.playerName)}
             <tr>
               <td class=player>
                 {player.playerName}
@@ -145,13 +144,6 @@
           margin-left: 5px;
           text-transform: uppercase;
         }
-        &.trophy {
-          position: absolute;
-          margin-left: 5px;
-          top: -4px;
-          font-size: 32px;
-          background-image: none;
-        }
       }
     }
   }
@@ -169,11 +161,6 @@
   table {
     width: 100%;
     margin: auto;
-    @media screen and (max-width: variables.$M) {
-      &.with-ih {
-        width: calc(100% + 25px);
-      }
-    }
     tr {
       th {
         font-family: variables.$sans;
@@ -181,12 +168,6 @@
         font-weight: 700;
         text-align: center;
         height: 15px;
-        &.in_hand {
-          border-left: 1px dotted variables.$black;
-          @media screen and (max-width: variables.$M) {
-            border-left: none;
-          }
-        }
       }
       td {
         text-wrap: balance;
@@ -204,13 +185,7 @@
             white-space: normal;
           }
         }
-        &.in_hand {
-          border-left: 1px dotted variables.$black;
-          @media screen and (max-width: variables.$M) {
-            border-left: none;
-          }
-        }
-        &.goals, &.assists, &.points, &.own_goals, &.in_hand {
+        &.goals, &.assists, &.points, &.own_goals {
           text-align: center;
           width: 50px;
           @media screen and (max-width: variables.$M) {
@@ -230,25 +205,10 @@
             font-size: 10px;
           }
         }
-
-        span.thru {
-          text-decoration: line-through;
-        }
       }
       &:not(:last-child) {
         td {
           border-bottom: 1px dotted variables.$gray-grid;
-        }
-      }
-      &.blank {
-        line-height: 0.05;
-        td {
-          border-bottom: none;
-        }
-      }
-      &.inactive-title-row {
-        td.inactive-title {
-          font-weight: 700;
         }
       }
     }
