@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-21T14:51:08+00:00",
+    "generated_at": "2026-08-25T16:38:57+00:00",
     "season_competitor_players": [
         {
             "id": "sr:competitor:7",
@@ -277,7 +277,7 @@
                     "country_code": "MAR",
                     "height": 186,
                     "weight": 85,
-                    "jersey_number": 34,
+                    "jersey_number": 4,
                     "preferred_foot": "left",
                     "place_of_birth": "Palma"
                 },
@@ -315,6 +315,7 @@
                     "country_code": "ISR",
                     "height": 183,
                     "weight": 77,
+                    "jersey_number": 25,
                     "preferred_foot": "right"
                 },
                 {
@@ -461,6 +462,18 @@
             "abbreviation": "COV",
             "players": [
                 {
+                    "id": "sr:player:101367",
+                    "name": "Bentley, Daniel",
+                    "type": "goalkeeper",
+                    "date_of_birth": "1993-07-13",
+                    "nationality": "England",
+                    "country_code": "ENG",
+                    "height": 193,
+                    "weight": 72,
+                    "preferred_foot": "right",
+                    "place_of_birth": "Basildon (ENGLAND)"
+                },
+                {
                     "id": "sr:player:103115",
                     "name": "Bidwell, Jake",
                     "type": "defender",
@@ -567,7 +580,7 @@
                     "country_code": "NLD",
                     "height": 169,
                     "weight": 61,
-                    "jersey_number": 8,
+                    "jersey_number": 38,
                     "preferred_foot": "right"
                 },
                 {
@@ -725,7 +738,7 @@
                     "country_code": "FRA",
                     "height": 180,
                     "weight": 68,
-                    "jersey_number": 17,
+                    "jersey_number": 18,
                     "preferred_foot": "left",
                     "place_of_birth": "N'Djamena"
                 },
@@ -843,7 +856,7 @@
                     "country_code": "GHA",
                     "height": 182,
                     "weight": 77,
-                    "jersey_number": 36,
+                    "jersey_number": 8,
                     "preferred_foot": "right",
                     "place_of_birth": "Bechem"
                 }
@@ -864,7 +877,7 @@
                     "country_code": "NZL",
                     "height": 191,
                     "weight": 91,
-                    "jersey_number": 11,
+                    "jersey_number": 9,
                     "preferred_foot": "right",
                     "place_of_birth": "Auckland"
                 },
@@ -942,7 +955,7 @@
                     "country_code": "BRA",
                     "height": 196,
                     "weight": 83,
-                    "jersey_number": 13,
+                    "jersey_number": 12,
                     "preferred_foot": "right",
                     "place_of_birth": "Diadema (BRAZIL)"
                 },
@@ -1010,19 +1023,6 @@
                     "jersey_number": 8,
                     "preferred_foot": "right",
                     "place_of_birth": "heido"
-                },
-                {
-                    "id": "sr:player:1249404",
-                    "name": "Richards, Omar",
-                    "type": "defender",
-                    "date_of_birth": "1998-02-15",
-                    "nationality": "England",
-                    "country_code": "ENG",
-                    "height": 185,
-                    "weight": 69,
-                    "jersey_number": 27,
-                    "preferred_foot": "left",
-                    "place_of_birth": "London"
                 },
                 {
                     "id": "sr:player:1298482",
@@ -1098,7 +1098,7 @@
                     "country_code": "BRA",
                     "height": 179,
                     "weight": 74,
-                    "jersey_number": 19,
+                    "jersey_number": 11,
                     "preferred_foot": "left",
                     "place_of_birth": "Cuiaba"
                 },
@@ -1540,19 +1540,6 @@
                     "jersey_number": 78,
                     "preferred_foot": "right",
                     "place_of_birth": "Bobo-Dioulasso"
-                },
-                {
-                    "id": "sr:player:2057939",
-                    "name": "Savinho",
-                    "type": "midfielder",
-                    "date_of_birth": "2004-04-10",
-                    "nationality": "Brazil",
-                    "country_code": "BRA",
-                    "height": 176,
-                    "weight": 71,
-                    "jersey_number": 26,
-                    "preferred_foot": "left",
-                    "place_of_birth": "Sao Mateus"
                 },
                 {
                     "id": "sr:player:2223424",
@@ -2033,6 +2020,7 @@
                     "country_code": "CAN",
                     "height": 195,
                     "weight": 91,
+                    "jersey_number": 12,
                     "preferred_foot": "both",
                     "place_of_birth": "Brampton",
                     "on_loan": true
@@ -2316,6 +2304,7 @@
                     "country_code": "SRB",
                     "height": 183,
                     "weight": 77,
+                    "jersey_number": 23,
                     "preferred_foot": "right",
                     "place_of_birth": "Sabac"
                 },
@@ -2354,7 +2343,7 @@
                     "country_code": "ENG",
                     "height": 180,
                     "weight": 76,
-                    "jersey_number": 19,
+                    "jersey_number": 2,
                     "preferred_foot": "right",
                     "place_of_birth": "Luton"
                 },
@@ -2442,6 +2431,7 @@
                     "country_code": "NLD",
                     "height": 204,
                     "weight": 85,
+                    "jersey_number": 37,
                     "preferred_foot": "both",
                     "place_of_birth": "Emmen"
                 },
@@ -2481,7 +2471,8 @@
                     "weight": 67,
                     "jersey_number": 18,
                     "preferred_foot": "right",
-                    "place_of_birth": "London"
+                    "place_of_birth": "London",
+                    "loaned_to_competitor_id": "sr:competitor:29"
                 },
                 {
                     "id": "sr:player:1391359",
@@ -2518,6 +2509,7 @@
                     "country_code": "PRY",
                     "height": 168,
                     "weight": 63,
+                    "jersey_number": 10,
                     "preferred_foot": "right",
                     "place_of_birth": "Caaguazu"
                 },
@@ -2595,7 +2587,7 @@
                     "country_code": "GHA",
                     "height": 177,
                     "weight": 73,
-                    "jersey_number": 23,
+                    "jersey_number": 7,
                     "preferred_foot": "left",
                     "place_of_birth": "Tamale"
                 },
@@ -2608,7 +2600,7 @@
                     "country_code": "BRA",
                     "height": 193,
                     "weight": 78,
-                    "jersey_number": 15,
+                    "jersey_number": 19,
                     "preferred_foot": "right",
                     "place_of_birth": "Cachoeiro de Itapemirim (BRAZIL)"
                 },
@@ -2681,6 +2673,7 @@
                     "country_code": "FRA",
                     "height": 178,
                     "weight": 68,
+                    "jersey_number": 42,
                     "preferred_foot": "right",
                     "place_of_birth": "Zoukpangbeu"
                 },
@@ -2694,7 +2687,8 @@
                     "height": 199,
                     "weight": 85,
                     "jersey_number": 31,
-                    "preferred_foot": "right"
+                    "preferred_foot": "right",
+                    "loaned_to_competitor_id": "sr:competitor:2828"
                 },
                 {
                     "id": "sr:player:2464227",
@@ -3048,6 +3042,19 @@
                     "place_of_birth": "Thiaroye"
                 },
                 {
+                    "id": "sr:player:2057939",
+                    "name": "Savinho",
+                    "type": "midfielder",
+                    "date_of_birth": "2004-04-10",
+                    "nationality": "Brazil",
+                    "country_code": "BRA",
+                    "height": 176,
+                    "weight": 71,
+                    "jersey_number": 17,
+                    "preferred_foot": "left",
+                    "place_of_birth": "Sao Mateus"
+                },
+                {
                     "id": "sr:player:2059277",
                     "name": "Tel, Mathys",
                     "type": "forward",
@@ -3301,19 +3308,6 @@
                     "place_of_birth": "Doncaster (ENGLAND)"
                 },
                 {
-                    "id": "sr:player:254713",
-                    "name": "Byram, Sam",
-                    "type": "defender",
-                    "date_of_birth": "1993-09-16",
-                    "nationality": "England",
-                    "country_code": "ENG",
-                    "height": 180,
-                    "weight": 72,
-                    "jersey_number": 25,
-                    "preferred_foot": "right",
-                    "place_of_birth": "Thurrock"
-                },
-                {
                     "id": "sr:player:282229",
                     "name": "Elvedi, Nico",
                     "type": "defender",
@@ -3322,6 +3316,7 @@
                     "country_code": "CHE",
                     "height": 189,
                     "weight": 84,
+                    "jersey_number": 30,
                     "preferred_foot": "right",
                     "place_of_birth": "Zurich"
                 },
@@ -3347,7 +3342,7 @@
                     "country_code": "WAL",
                     "height": 173,
                     "weight": 70,
-                    "jersey_number": 17,
+                    "jersey_number": 10,
                     "preferred_foot": "left",
                     "place_of_birth": "Wrexham (WALES)"
                 },
@@ -3531,7 +3526,7 @@
                     "country_code": "BRA",
                     "height": 197,
                     "weight": 98,
-                    "jersey_number": 1,
+                    "jersey_number": 23,
                     "preferred_foot": "right",
                     "place_of_birth": "Campinas (BRAZIL)"
                 },
@@ -3649,7 +3644,6 @@
                     "country_code": "ESP",
                     "height": 185,
                     "weight": 80,
-                    "jersey_number": 19,
                     "preferred_foot": "right",
                     "place_of_birth": "Santander (SPAIN)"
                 },
@@ -3687,6 +3681,24 @@
                     "nationality": "England",
                     "country_code": "ENG",
                     "jersey_number": 95
+                },
+                {
+                    "id": "sr:player:3194754",
+                    "name": "Lienou, Jayden",
+                    "type": "defender",
+                    "date_of_birth": "2008-04-08",
+                    "nationality": "Wales",
+                    "country_code": "WAL",
+                    "jersey_number": 65
+                },
+                {
+                    "id": "sr:player:3196906",
+                    "name": "Cresswell, Alfie",
+                    "type": "midfielder",
+                    "date_of_birth": "2007-07-15",
+                    "nationality": "England",
+                    "country_code": "ENG",
+                    "jersey_number": 50
                 },
                 {
                     "id": "sr:player:3234708",
@@ -4106,7 +4118,7 @@
                     "country_code": "ENG",
                     "height": 167,
                     "weight": 69,
-                    "jersey_number": 46,
+                    "jersey_number": 31,
                     "preferred_foot": "left",
                     "place_of_birth": "Liverpool (ENGLAND)"
                 },
@@ -4298,6 +4310,7 @@
                     "country_code": "FRA",
                     "height": 192,
                     "weight": 88,
+                    "jersey_number": 5,
                     "preferred_foot": "right",
                     "place_of_birth": "Villeneuve-Saint-Georges"
                 },
@@ -4325,7 +4338,8 @@
                     "weight": 75,
                     "jersey_number": 5,
                     "preferred_foot": "left",
-                    "place_of_birth": "Limoges"
+                    "place_of_birth": "Limoges",
+                    "loaned_to_competitor_id": "sr:competitor:2714"
                 },
                 {
                     "id": "sr:player:1299850",
@@ -4401,7 +4415,7 @@
                     "country_code": "BRA",
                     "height": 182,
                     "weight": 72,
-                    "jersey_number": 20,
+                    "jersey_number": 9,
                     "preferred_foot": "right",
                     "place_of_birth": "Ribeirao Preto"
                 },
@@ -4519,6 +4533,7 @@
                     "country_code": "ESP",
                     "height": 174,
                     "weight": 70,
+                    "jersey_number": 29,
                     "preferred_foot": "left",
                     "place_of_birth": "Figueres"
                 },
@@ -4593,6 +4608,7 @@
                     "country_code": "ARG",
                     "height": 172,
                     "weight": 64,
+                    "jersey_number": 4,
                     "preferred_foot": "left",
                     "place_of_birth": "25 de Mayo"
                 },
@@ -4621,19 +4637,6 @@
                     "jersey_number": 35,
                     "preferred_foot": "right",
                     "place_of_birth": "Kingston upon Thames (ENGLAND)"
-                },
-                {
-                    "id": "sr:player:2262627",
-                    "name": "Kellyman, Omari",
-                    "type": "forward",
-                    "date_of_birth": "2005-09-15",
-                    "nationality": "England",
-                    "country_code": "ENG",
-                    "height": 191,
-                    "weight": 85,
-                    "jersey_number": 33,
-                    "preferred_foot": "left",
-                    "place_of_birth": "Derby"
                 },
                 {
                     "id": "sr:player:2265039",
@@ -4774,7 +4777,7 @@
                     "country_code": "PRT",
                     "height": 172,
                     "weight": 68,
-                    "jersey_number": 47,
+                    "jersey_number": 23,
                     "preferred_foot": "left"
                 },
                 {
@@ -5494,19 +5497,6 @@
                     "place_of_birth": "Marseille"
                 },
                 {
-                    "id": "sr:player:942488",
-                    "name": "Konsa, Ezri",
-                    "type": "defender",
-                    "date_of_birth": "1997-10-23",
-                    "nationality": "England",
-                    "country_code": "ENG",
-                    "height": 180,
-                    "weight": 77,
-                    "jersey_number": 4,
-                    "preferred_foot": "right",
-                    "place_of_birth": "London"
-                },
-                {
                     "id": "sr:player:944170",
                     "name": "Torres, Pau",
                     "type": "defender",
@@ -5531,6 +5521,19 @@
                     "jersey_number": 2,
                     "preferred_foot": "right",
                     "place_of_birth": "Slough"
+                },
+                {
+                    "id": "sr:player:1086144",
+                    "name": "Wan-Bissaka, Aaron",
+                    "type": "defender",
+                    "date_of_birth": "1997-11-26",
+                    "nationality": "Congo democratic republic",
+                    "country_code": "COD",
+                    "height": 183,
+                    "weight": 72,
+                    "preferred_foot": "right",
+                    "place_of_birth": "London",
+                    "on_loan": true
                 },
                 {
                     "id": "sr:player:1322508",
@@ -6251,6 +6254,19 @@
                     "loaned_to_competitor_id": "sr:competitor:5152"
                 },
                 {
+                    "id": "sr:player:2839271",
+                    "name": "Methalie, Dayann",
+                    "type": "defender",
+                    "date_of_birth": "2006-02-15",
+                    "nationality": "France",
+                    "country_code": "FRA",
+                    "height": 186,
+                    "weight": 70,
+                    "jersey_number": 6,
+                    "preferred_foot": "left",
+                    "place_of_birth": "Toulouse"
+                },
+                {
                     "id": "sr:player:3026632",
                     "name": "Jones, Jenson",
                     "type": "defender",
@@ -6259,6 +6275,17 @@
                     "country_code": "ENG",
                     "height": 182,
                     "jersey_number": 48,
+                    "preferred_foot": "right"
+                },
+                {
+                    "id": "sr:player:3054867",
+                    "name": "Ahoka, Jules",
+                    "type": "midfielder",
+                    "date_of_birth": "2006-05-08",
+                    "nationality": "Congo democratic republic",
+                    "country_code": "COD",
+                    "height": 178,
+                    "weight": 75,
                     "preferred_foot": "right"
                 },
                 {
@@ -6398,6 +6425,19 @@
                     "jersey_number": 29,
                     "preferred_foot": "left",
                     "place_of_birth": "Aachen"
+                },
+                {
+                    "id": "sr:player:942488",
+                    "name": "Konsa, Ezri",
+                    "type": "defender",
+                    "date_of_birth": "1997-10-23",
+                    "nationality": "England",
+                    "country_code": "ENG",
+                    "height": 180,
+                    "weight": 77,
+                    "jersey_number": 15,
+                    "preferred_foot": "right",
+                    "place_of_birth": "London"
                 },
                 {
                     "id": "sr:player:1015179",
@@ -6977,7 +7017,8 @@
                     "height": 177,
                     "weight": 72,
                     "jersey_number": 36,
-                    "preferred_foot": "right"
+                    "preferred_foot": "right",
+                    "loaned_to_competitor_id": "sr:competitor:49"
                 },
                 {
                     "id": "sr:player:2269329",
@@ -7292,19 +7333,6 @@
                     "place_of_birth": "Pribram"
                 },
                 {
-                    "id": "sr:player:1298510",
-                    "name": "Jones, Curtis",
-                    "type": "midfielder",
-                    "date_of_birth": "2001-01-30",
-                    "nationality": "England",
-                    "country_code": "ENG",
-                    "height": 185,
-                    "weight": 81,
-                    "jersey_number": 17,
-                    "preferred_foot": "right",
-                    "place_of_birth": "Liverpool"
-                },
-                {
                     "id": "sr:player:1299404",
                     "name": "Frimpong, Jeremie",
                     "type": "defender",
@@ -7368,7 +7396,8 @@
                     "weight": 75,
                     "jersey_number": 47,
                     "preferred_foot": "right",
-                    "place_of_birth": "Aberdeen (SCOTLAND)"
+                    "place_of_birth": "Aberdeen (SCOTLAND)",
+                    "loaned_to_competitor_id": "sr:competitor:2359"
                 },
                 {
                     "id": "sr:player:1939984",
@@ -7460,6 +7489,18 @@
                     "jersey_number": 43,
                     "preferred_foot": "right",
                     "place_of_birth": "Vigo"
+                },
+                {
+                    "id": "sr:player:2281075",
+                    "name": "Koumas, Lewis",
+                    "type": "midfielder",
+                    "date_of_birth": "2005-09-19",
+                    "nationality": "Wales",
+                    "country_code": "WAL",
+                    "height": 182,
+                    "weight": 80,
+                    "jersey_number": 67,
+                    "preferred_foot": "right"
                 },
                 {
                     "id": "sr:player:2352479",
@@ -7740,7 +7781,7 @@
                     "country_code": "ENG",
                     "height": 195,
                     "weight": 89,
-                    "jersey_number": 32,
+                    "jersey_number": 4,
                     "preferred_foot": "left",
                     "place_of_birth": "Carlisle"
                 },
@@ -8466,6 +8507,20 @@
                     "place_of_birth": "Leeds (ENGLAND)"
                 },
                 {
+                    "id": "sr:player:1010329",
+                    "name": "Di Gregorio, Michele",
+                    "type": "goalkeeper",
+                    "date_of_birth": "1997-07-27",
+                    "nationality": "Italy",
+                    "country_code": "ITA",
+                    "height": 187,
+                    "weight": 81,
+                    "jersey_number": 20,
+                    "preferred_foot": "right",
+                    "place_of_birth": "Milan",
+                    "on_loan": true
+                },
+                {
                     "id": "sr:player:1056631",
                     "name": "Brooks, David",
                     "type": "midfielder",
@@ -8553,7 +8608,7 @@
                     "country_code": "ENG",
                     "height": 184,
                     "weight": 73,
-                    "jersey_number": 23,
+                    "jersey_number": 5,
                     "preferred_foot": "right",
                     "place_of_birth": "Bristol (ENGLAND)"
                 },
@@ -8882,7 +8937,7 @@
                     "country_code": "NIR",
                     "height": 189,
                     "weight": 72,
-                    "jersey_number": 37,
+                    "jersey_number": 17,
                     "preferred_foot": "right",
                     "place_of_birth": "Ballyclare"
                 },
@@ -8921,6 +8976,7 @@
                     "country_code": "ENG",
                     "height": 183,
                     "weight": 70,
+                    "jersey_number": 23,
                     "preferred_foot": "left",
                     "place_of_birth": "Eastleigh"
                 },
@@ -9171,6 +9227,7 @@
                     "country_code": "SWE",
                     "height": 185,
                     "weight": 80,
+                    "jersey_number": 21,
                     "preferred_foot": "left",
                     "place_of_birth": "Uddevalla"
                 },
@@ -9258,6 +9315,7 @@
                     "country_code": "AUS",
                     "height": 193,
                     "weight": 82,
+                    "jersey_number": 22,
                     "preferred_foot": "right",
                     "place_of_birth": "Brisbane"
                 }
