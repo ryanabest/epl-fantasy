@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-25T16:43:44+00:00",
+    "generated_at": "2026-08-27T16:59:36+00:00",
     "player": {
         "id": "sr:player:1107697",
         "name": "Marmoush, Omar",
@@ -17,11 +17,11 @@
     },
     "competitors": [
         {
-            "id": "sr:competitor:17",
-            "name": "Manchester City",
+            "id": "sr:competitor:33",
+            "name": "Tottenham Hotspur",
             "country": "England",
             "country_code": "ENG",
-            "abbreviation": "MCI",
+            "abbreviation": "TOT",
             "gender": "male"
         },
         {
@@ -178,6 +178,21 @@
             },
             "start_date": "2025-01-23 00:00:00",
             "jersey_number": 7
+        },
+        {
+            "type": "on_loan",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:33",
+                "name": "Tottenham Hotspur",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "TOT",
+                "gender": "male"
+            },
+            "start_date": "2026-08-27 00:00:00",
+            "end_date": "2027-06-30 00:00:00",
+            "jersey_number": 22
         }
     ]
 }
