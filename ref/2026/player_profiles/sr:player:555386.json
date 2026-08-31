@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T16:57:45+00:00",
+    "generated_at": "2026-08-31T13:55:16+00:00",
     "player": {
         "id": "sr:player:555386",
         "name": "Watkins, Ollie",
@@ -9,7 +9,7 @@
         "country_code": "ENG",
         "height": 180,
         "weight": 70,
-        "jersey_number": 11,
+        "jersey_number": 19,
         "preferred_foot": "right",
         "place_of_birth": "Torquay",
         "country_of_birth": "England",
@@ -17,11 +17,11 @@
     },
     "competitors": [
         {
-            "id": "sr:competitor:40",
-            "name": "Aston Villa",
-            "country": "England",
-            "country_code": "ENG",
-            "abbreviation": "AVL",
+            "id": "sr:competitor:21895",
+            "name": "Al Hilal SFC",
+            "country": "Saudi Arabia",
+            "country_code": "SAU",
+            "abbreviation": "HIL",
             "gender": "male"
         },
         {
@@ -93,7 +93,7 @@
         },
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:40",
                 "name": "Aston Villa",
@@ -103,7 +103,21 @@
                 "gender": "male"
             },
             "start_date": "2020-09-09 00:00:00",
+            "end_date": "2026-08-29 00:00:00",
             "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:21895",
+                "name": "Al Hilal SFC",
+                "country": "Saudi Arabia",
+                "country_code": "SAU",
+                "abbreviation": "HIL",
+                "gender": "male"
+            },
+            "start_date": "2026-08-30 00:00:00"
         }
     ]
 }

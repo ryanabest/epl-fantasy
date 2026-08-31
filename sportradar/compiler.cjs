@@ -31,7 +31,8 @@ class Compiler {
   }
 
   compilePlayersRef () {
-    // const competitorPlayers = require(path.join(__dirname, '..', 'ref', config.year.toString(), 'competitor_players.json'));
+    const competitorPlayers = require(path.join(__dirname, '..', 'ref', config.year.toString(), 'competitor_players.json'));
+    this.epl_teams = competitorPlayers.season_competitor_players.map(t => t.name);
     // const allTeams = competitorPlayers.season_competitor_players;
 
     const allPlayerProfiles = [];
@@ -78,6 +79,7 @@ class Compiler {
 
       const playerTeam = p.competitors?.find(d => {
         return (
+          !d.age_group &&
           (d.name !== d.country) &&
           (d.name !== "Ivory Coast")
         )
@@ -93,7 +95,7 @@ class Compiler {
   }
 
   compileData () {
-    this.data = { last_updated: this.last_updated };
+    this.data = { last_updated: this.last_updated, eplTeams: this.epl_teams };
     this.data.teams = this.rosters.map(roster => {
       const players = roster.players.map(p => {
         // ~~ player ref ~~ //

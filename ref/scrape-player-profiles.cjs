@@ -4,7 +4,19 @@ const config = require('../config').default;
 const keys = require('../keys.json');
 const options = {method: 'GET', headers: {accept: 'application/json'}};
 
+const withoutGeneratedAt = (obj) => {
+  const {generated_at, ...rest} = obj;
+  return rest;
+}
+
 const save = (response, filePath) => {
+  if (fs.existsSync(filePath)) {
+    const previous = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    if (JSON.stringify(withoutGeneratedAt(previous)) === JSON.stringify(withoutGeneratedAt(response))) {
+      console.log(`~~~~~~ SKIPPED ${filePath} (no changes) ~~~~~~`);
+      return;
+    }
+  }
   fs.writeFileSync(filePath, JSON.stringify(response, null, 4));
   console.log(`~~~~~~ SAVED ${filePath} ~~~~~~`);
 }

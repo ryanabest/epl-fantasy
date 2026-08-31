@@ -1,9 +1,11 @@
 <script>
-  let { year, teams } = $props();
+  let { year, teams, eplTeams } = $props();
   import { onMount } from "svelte";
   import { formatNum, eplTeamDisplayNameLookup } from "../js/utils/format";
   import Sparkline from "./Sparkline.svelte";
   const teamsSorted = $derived(teams.sort((a, b) => b.points - a.points));
+  const eplTeamSet = $derived(new Set(eplTeams || []));
+  const isEplTeam = (teamName) => eplTeamSet.has(teamName);
 
   const setTeamExpanded = (parent, expand) => {
     parent.classList.toggle('no-margin-bottom', !expand);
@@ -56,6 +58,9 @@
             <th class=points>Pts</th>
           </tr>
           {#each team.players.sort((a, b) => {
+            const aEpl = isEplTeam(a.playerTeam);
+            const bEpl = isEplTeam(b.playerTeam);
+            if (aEpl !== bEpl) return aEpl ? -1 : 1;
             if (a.stats.points > b.stats.points) return -1;
             else if (a.stats.points < b.stats.points) return 1;
             else if (a.stats.goals > b.stats.goals) return -1;
@@ -66,10 +71,10 @@
             else if (a.stats.own_goals < b.stats.own_goals) return -1;
             else return 1;
           }) as player (player.playerName)}
-            <tr>
+            <tr class:non-epl={!isEplTeam(player.playerTeam)}>
               <td class=player>
                 {player.playerName}
-                {#if player.jersey}<span class=pos>#{player.jersey}</span>{/if}
+                {#if player.jersey && isEplTeam(player.playerTeam)}<span class=pos>#{player.jersey}</span>{/if}
               </td>
               <td class=team>{eplTeamDisplayNameLookup[player.playerTeam] || player.playerTeam}</td>
               <td class=goals>{formatNum(player.stats.goals)}</td>
@@ -205,6 +210,9 @@
             font-size: 10px;
           }
         }
+      }
+      &.non-epl td.player, &.non-epl td.team {
+        color: rgba(variables.$black, 0.5);
       }
       &:not(:last-child) {
         td {

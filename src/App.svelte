@@ -8,7 +8,7 @@
 <main>
   <Intro lastUpdated={data.last_updated} year={year} />
   <LineChart teams={data.teams} year={year} />
-  <Teams teams={data.teams} year={year} />
+  <Teams teams={data.teams} year={year} eplTeams={data.eplTeams} />
 </main>
 
 <style>
