@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T16:59:30+00:00",
+    "generated_at": "2026-09-02T15:54:35+00:00",
     "player": {
         "id": "sr:player:2120122",
         "name": "Ndiaye, Iliman",
@@ -17,11 +17,11 @@
     },
     "competitors": [
         {
-            "id": "sr:competitor:48",
-            "name": "Everton FC",
+            "id": "sr:competitor:17",
+            "name": "Manchester City",
             "country": "England",
             "country_code": "ENG",
-            "abbreviation": "EVE",
+            "abbreviation": "MCI",
             "gender": "male"
         },
         {
@@ -107,7 +107,7 @@
         },
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:48",
                 "name": "Everton FC",
@@ -117,7 +117,21 @@
                 "gender": "male"
             },
             "start_date": "2024-07-03 00:00:00",
+            "end_date": "2026-08-31 00:00:00",
             "jersey_number": 10
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:17",
+                "name": "Manchester City",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "MCI",
+                "gender": "male"
+            },
+            "start_date": "2026-09-01 00:00:00"
         }
     ]
 }

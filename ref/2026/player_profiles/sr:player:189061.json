@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T17:00:03+00:00",
+    "generated_at": "2026-09-02T15:55:08+00:00",
     "player": {
         "id": "sr:player:189061",
         "name": "Grealish, Jack",
@@ -17,11 +17,11 @@
     },
     "competitors": [
         {
-            "id": "sr:competitor:17",
-            "name": "Manchester City",
+            "id": "sr:competitor:48",
+            "name": "Everton FC",
             "country": "England",
             "country_code": "ENG",
-            "abbreviation": "MCI",
+            "abbreviation": "EVE",
             "gender": "male"
         }
     ],
@@ -153,6 +153,21 @@
             },
             "start_date": "2025-08-12 00:00:00",
             "end_date": "2026-06-30 00:00:00",
+            "jersey_number": 18
+        },
+        {
+            "type": "on_loan",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:48",
+                "name": "Everton FC",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "EVE",
+                "gender": "male"
+            },
+            "start_date": "2026-09-01 00:00:00",
+            "end_date": "2027-06-30 00:00:00",
             "jersey_number": 18
         }
     ]

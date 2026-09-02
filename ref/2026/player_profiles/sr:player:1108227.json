@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T17:00:48+00:00",
+    "generated_at": "2026-09-02T15:55:53+00:00",
     "player": {
         "id": "sr:player:1108227",
         "name": "Munoz, Daniel",
@@ -17,11 +17,11 @@
     },
     "competitors": [
         {
-            "id": "sr:competitor:7",
-            "name": "Crystal Palace",
+            "id": "sr:competitor:14",
+            "name": "Nottingham Forest",
             "country": "England",
             "country_code": "ENG",
-            "abbreviation": "CRY",
+            "abbreviation": "NFO",
             "gender": "male"
         },
         {
@@ -94,7 +94,7 @@
         },
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:7",
                 "name": "Crystal Palace",
@@ -104,7 +104,21 @@
                 "gender": "male"
             },
             "start_date": "2024-01-30 00:00:00",
+            "end_date": "2026-08-30 00:00:00",
             "jersey_number": 2
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:14",
+                "name": "Nottingham Forest",
+                "country": "England",
+                "country_code": "ENG",
+                "abbreviation": "NFO",
+                "gender": "male"
+            },
+            "start_date": "2026-08-31 00:00:00"
         }
     ]
 }
