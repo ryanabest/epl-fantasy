@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-09-19T14:18:10+00:00",
+    "generated_at": "2026-09-19T16:14:25+00:00",
     "schedules": [
         {
             "sport_event": {
@@ -5441,21 +5441,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "live",
-                "match_status": "1st_half",
-                "home_score": 0,
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 3,
                 "away_score": 0,
+                "winner_id": "sr:competitor:30",
                 "period_scores": [
                     {
-                        "home_score": 0,
+                        "home_score": 2,
                         "away_score": 0,
                         "type": "regular_period",
                         "number": 1
+                    },
+                    {
+                        "home_score": 1,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
                     }
-                ],
-                "clock": {
-                    "played": "17:52"
-                }
+                ]
             }
         },
         {
@@ -5564,21 +5568,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "live",
-                "match_status": "1st_half",
+                "status": "closed",
+                "match_status": "ended",
                 "home_score": 1,
                 "away_score": 0,
+                "winner_id": "sr:competitor:48",
                 "period_scores": [
                     {
                         "home_score": 1,
                         "away_score": 0,
                         "type": "regular_period",
                         "number": 1
+                    },
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
                     }
-                ],
-                "clock": {
-                    "played": "17:46"
-                }
+                ]
             }
         },
         {
@@ -5687,21 +5695,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "live",
-                "match_status": "1st_half",
+                "status": "closed",
+                "match_status": "ended",
                 "home_score": 2,
-                "away_score": 0,
+                "away_score": 1,
+                "winner_id": "sr:competitor:39",
                 "period_scores": [
                     {
                         "home_score": 2,
                         "away_score": 0,
                         "type": "regular_period",
                         "number": 1
+                    },
+                    {
+                        "home_score": 0,
+                        "away_score": 1,
+                        "type": "regular_period",
+                        "number": 2
                     }
-                ],
-                "clock": {
-                    "played": "17:58"
-                }
+                ]
             }
         },
         {
