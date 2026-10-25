@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-10-24T19:26:04+00:00",
+    "generated_at": "2026-10-25T14:52:38+00:00",
     "schedules": [
         {
             "sport_event": {
@@ -9632,8 +9632,21 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "live",
+                "match_status": "halftime",
+                "home_score": 0,
+                "away_score": 0,
+                "period_scores": [
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    }
+                ],
+                "clock": {
+                    "played": "45:00"
+                }
             }
         },
         {
@@ -9742,8 +9755,21 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "live",
+                "match_status": "halftime",
+                "home_score": 1,
+                "away_score": 0,
+                "period_scores": [
+                    {
+                        "home_score": 1,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    }
+                ],
+                "clock": {
+                    "played": "45:00"
+                }
             }
         },
         {
@@ -9852,8 +9878,21 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "live",
+                "match_status": "halftime",
+                "home_score": 2,
+                "away_score": 0,
+                "period_scores": [
+                    {
+                        "home_score": 2,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    }
+                ],
+                "clock": {
+                    "played": "45:00"
+                }
             }
         },
         {
@@ -9962,8 +10001,21 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "live",
+                "match_status": "halftime",
+                "home_score": 0,
+                "away_score": 2,
+                "period_scores": [
+                    {
+                        "home_score": 0,
+                        "away_score": 2,
+                        "type": "regular_period",
+                        "number": 1
+                    }
+                ],
+                "clock": {
+                    "played": "45:00"
+                }
             }
         },
         {
