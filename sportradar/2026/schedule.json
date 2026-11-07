@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-11-06T21:59:59+00:00",
+    "generated_at": "2026-11-07T16:47:24+00:00",
     "schedules": [
         {
             "sport_event": {
@@ -11664,8 +11664,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 1,
+                "away_score": 0,
+                "winner_id": "sr:competitor:34",
+                "period_scores": [
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 1,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ]
             }
         },
         {
@@ -11774,8 +11791,27 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "live",
+                "match_status": "2nd_half",
+                "home_score": 1,
+                "away_score": 0,
+                "period_scores": [
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 1,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ],
+                "clock": {
+                    "played": "86:58"
+                }
             }
         },
         {
@@ -11884,8 +11920,27 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "live",
+                "match_status": "2nd_half",
+                "home_score": 1,
+                "away_score": 1,
+                "period_scores": [
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 1,
+                        "away_score": 1,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ],
+                "clock": {
+                    "played": "88:21"
+                }
             }
         },
         {
