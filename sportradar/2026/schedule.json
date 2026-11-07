@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-11-07T16:47:24+00:00",
+    "generated_at": "2026-11-07T19:54:21+00:00",
     "schedules": [
         {
             "sport_event": {
@@ -11791,10 +11791,11 @@
                 }
             },
             "sport_event_status": {
-                "status": "live",
-                "match_status": "2nd_half",
+                "status": "closed",
+                "match_status": "ended",
                 "home_score": 1,
                 "away_score": 0,
+                "winner_id": "sr:competitor:42",
                 "period_scores": [
                     {
                         "home_score": 0,
@@ -11808,10 +11809,7 @@
                         "type": "regular_period",
                         "number": 2
                     }
-                ],
-                "clock": {
-                    "played": "86:58"
-                }
+                ]
             }
         },
         {
@@ -11920,8 +11918,8 @@
                 }
             },
             "sport_event_status": {
-                "status": "live",
-                "match_status": "2nd_half",
+                "status": "closed",
+                "match_status": "ended",
                 "home_score": 1,
                 "away_score": 1,
                 "period_scores": [
@@ -11938,9 +11936,7 @@
                         "number": 2
                     }
                 ],
-                "clock": {
-                    "played": "88:21"
-                }
+                "match_tie": true
             }
         },
         {
@@ -12049,8 +12045,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 3,
+                "away_score": 1,
+                "winner_id": "sr:competitor:14",
+                "period_scores": [
+                    {
+                        "home_score": 2,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 1,
+                        "away_score": 1,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ]
             }
         },
         {
