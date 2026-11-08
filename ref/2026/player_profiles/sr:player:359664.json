@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T17:00:54+00:00",
+    "generated_at": "2026-11-08T16:50:51+00:00",
     "player": {
         "id": "sr:player:359664",
         "name": "Awoniyi, Taiwo",
@@ -9,7 +9,7 @@
         "country_code": "NGA",
         "height": 185,
         "weight": 74,
-        "jersey_number": 14,
+        "jersey_number": 19,
         "preferred_foot": "right",
         "place_of_birth": "Ilorin",
         "country_of_birth": "Nigeria",
@@ -23,12 +23,20 @@
             "country_code": "ENG",
             "abbreviation": "COV",
             "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4785",
+            "name": "Nigeria",
+            "country": "Nigeria",
+            "country_code": "NGA",
+            "abbreviation": "NGR",
+            "gender": "male"
         }
     ],
     "roles": [
         {
             "type": "player",
-            "active": false,
+            "active": true,
             "competitor": {
                 "id": "sr:competitor:4785",
                 "name": "Nigeria",
@@ -37,7 +45,7 @@
                 "abbreviation": "NGR",
                 "gender": "male"
             },
-            "end_date": "2025-11-15 00:00:00"
+            "jersey_number": 19
         },
         {
             "type": "player",

@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-09-02T15:55:53+00:00",
+    "generated_at": "2026-11-08T16:50:51+00:00",
     "player": {
         "id": "sr:player:1108227",
         "name": "Munoz, Daniel",
@@ -17,19 +17,19 @@
     },
     "competitors": [
         {
-            "id": "sr:competitor:14",
-            "name": "Nottingham Forest",
-            "country": "England",
-            "country_code": "ENG",
-            "abbreviation": "NFO",
-            "gender": "male"
-        },
-        {
             "id": "sr:competitor:4820",
             "name": "Colombia",
             "country": "Colombia",
             "country_code": "COL",
             "abbreviation": "COL",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:14",
+            "name": "Nottingham Forest",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "NFO",
             "gender": "male"
         }
     ],
@@ -118,7 +118,8 @@
                 "abbreviation": "NFO",
                 "gender": "male"
             },
-            "start_date": "2026-08-31 00:00:00"
+            "start_date": "2026-08-31 00:00:00",
+            "jersey_number": 27
         }
     ]
 }

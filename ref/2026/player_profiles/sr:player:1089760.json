@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T16:59:45+00:00",
+    "generated_at": "2026-11-08T16:50:51+00:00",
     "player": {
         "id": "sr:player:1089760",
         "name": "Gibbs-White, Morgan",
@@ -23,12 +23,20 @@
             "country_code": "ENG",
             "abbreviation": "NFO",
             "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4713",
+            "name": "England",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ENG",
+            "gender": "male"
         }
     ],
     "roles": [
         {
             "type": "player",
-            "active": false,
+            "active": true,
             "competitor": {
                 "id": "sr:competitor:4713",
                 "name": "England",
@@ -37,8 +45,7 @@
                 "abbreviation": "ENG",
                 "gender": "male"
             },
-            "end_date": "2025-11-11 00:00:00",
-            "jersey_number": 16
+            "jersey_number": 20
         },
         {
             "type": "player",

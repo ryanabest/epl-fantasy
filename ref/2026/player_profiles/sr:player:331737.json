@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T17:01:14+00:00",
+    "generated_at": "2026-11-08T16:50:51+00:00",
     "player": {
         "id": "sr:player:331737",
         "name": "Tielemans, Youri",
@@ -9,21 +9,13 @@
         "country_code": "BEL",
         "height": 176,
         "weight": 72,
-        "jersey_number": 8,
+        "jersey_number": 18,
         "preferred_foot": "right",
         "place_of_birth": "Sint-Pieters-Leeuw",
         "country_of_birth": "Belgium",
         "gender": "male"
     },
     "competitors": [
-        {
-            "id": "sr:competitor:4717",
-            "name": "Belgium",
-            "country": "Belgium",
-            "country_code": "BEL",
-            "abbreviation": "BEL",
-            "gender": "male"
-        },
         {
             "id": "sr:competitor:35",
             "name": "Manchester United",
@@ -36,7 +28,7 @@
     "roles": [
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:4717",
                 "name": "Belgium",
@@ -49,7 +41,7 @@
         },
         {
             "type": "team_captain",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:4717",
                 "name": "Belgium",

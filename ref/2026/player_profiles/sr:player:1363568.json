@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T16:55:18+00:00",
+    "generated_at": "2026-11-08T16:35:33+00:00",
     "player": {
         "id": "sr:player:1363568",
         "name": "Porro, Pedro",
@@ -9,21 +9,13 @@
         "country_code": "ESP",
         "height": 173,
         "weight": 71,
-        "jersey_number": 12,
+        "jersey_number": 23,
         "preferred_foot": "right",
         "place_of_birth": "Don Benito",
         "country_of_birth": "Spain",
         "gender": "male"
     },
     "competitors": [
-        {
-            "id": "sr:competitor:4698",
-            "name": "Spain",
-            "country": "Spain",
-            "country_code": "ESP",
-            "abbreviation": "ESP",
-            "gender": "male"
-        },
         {
             "id": "sr:competitor:33",
             "name": "Tottenham Hotspur",
@@ -36,7 +28,7 @@
     "roles": [
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:4698",
                 "name": "Spain",
@@ -45,7 +37,7 @@
                 "abbreviation": "ESP",
                 "gender": "male"
             },
-            "jersey_number": 12
+            "end_date": "2026-09-26 00:00:00"
         },
         {
             "type": "player",

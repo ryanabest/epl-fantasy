@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T16:58:09+00:00",
+    "generated_at": "2026-11-08T16:38:24+00:00",
     "player": {
         "id": "sr:player:1796106",
         "name": "Caicedo, Moises",
@@ -9,21 +9,13 @@
         "country_code": "ECU",
         "height": 178,
         "weight": 73,
-        "jersey_number": 23,
+        "jersey_number": 25,
         "preferred_foot": "right",
         "place_of_birth": "Santo Domingo",
         "country_of_birth": "Ecuador",
         "gender": "male"
     },
     "competitors": [
-        {
-            "id": "sr:competitor:4757",
-            "name": "Ecuador",
-            "country": "Ecuador",
-            "country_code": "ECU",
-            "abbreviation": "ECU",
-            "gender": "male"
-        },
         {
             "id": "sr:competitor:38",
             "name": "Chelsea FC",
@@ -36,7 +28,7 @@
     "roles": [
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:4757",
                 "name": "Ecuador",
@@ -45,7 +37,7 @@
                 "abbreviation": "ECU",
                 "gender": "male"
             },
-            "jersey_number": 23
+            "end_date": "2026-09-26 00:00:00"
         },
         {
             "type": "player",

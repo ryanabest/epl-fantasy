@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T16:58:51+00:00",
+    "generated_at": "2026-11-08T16:39:06+00:00",
     "player": {
         "id": "sr:player:117777",
         "name": "Xhaka, Granit",
@@ -9,21 +9,13 @@
         "country_code": "CHE",
         "height": 183,
         "weight": 80,
-        "jersey_number": 10,
+        "jersey_number": 34,
         "preferred_foot": "left",
         "place_of_birth": "Basel",
         "country_of_birth": "Switzerland",
         "gender": "male"
     },
     "competitors": [
-        {
-            "id": "sr:competitor:4699",
-            "name": "Switzerland",
-            "country": "Switzerland",
-            "country_code": "CHE",
-            "abbreviation": "SUI",
-            "gender": "male"
-        },
         {
             "id": "sr:competitor:41",
             "name": "Sunderland AFC",
@@ -36,7 +28,7 @@
     "roles": [
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:4699",
                 "name": "Switzerland",
@@ -45,7 +37,7 @@
                 "abbreviation": "SUI",
                 "gender": "male"
             },
-            "jersey_number": 10
+            "end_date": "2026-09-26 00:00:00"
         },
         {
             "type": "team_captain",

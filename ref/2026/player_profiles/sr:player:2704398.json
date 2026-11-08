@@ -1,9 +1,9 @@
 {
-    "generated_at": "2026-08-31T13:57:58+00:00",
+    "generated_at": "2026-11-08T16:50:51+00:00",
     "player": {
         "id": "sr:player:2704398",
         "name": "Gozo, Zavier",
-        "type": "midfielder",
+        "type": "forward",
         "date_of_birth": "2007-03-22",
         "nationality": "United states",
         "country_code": "USA",
@@ -13,6 +13,14 @@
         "gender": "male"
     },
     "competitors": [
+        {
+            "id": "sr:competitor:4724",
+            "name": "USA",
+            "country": "USA",
+            "country_code": "USA",
+            "abbreviation": "USA",
+            "gender": "male"
+        },
         {
             "id": "sr:competitor:7",
             "name": "Crystal Palace",
@@ -32,6 +40,19 @@
         }
     ],
     "roles": [
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:4724",
+                "name": "USA",
+                "country": "USA",
+                "country_code": "USA",
+                "abbreviation": "USA",
+                "gender": "male"
+            },
+            "jersey_number": 11
+        },
         {
             "type": "player",
             "active": true,

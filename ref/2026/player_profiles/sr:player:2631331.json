@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T17:00:51+00:00",
+    "generated_at": "2026-11-08T16:50:51+00:00",
     "player": {
         "id": "sr:player:2631331",
         "name": "Dorgu, Patrick",
@@ -9,20 +9,13 @@
         "country_code": "DNK",
         "height": 185,
         "weight": 80,
+        "jersey_number": 13,
         "preferred_foot": "left",
         "place_of_birth": "Copenhagen (DENMARK)",
         "country_of_birth": "Denmark",
         "gender": "male"
     },
     "competitors": [
-        {
-            "id": "sr:competitor:4476",
-            "name": "Denmark",
-            "country": "Denmark",
-            "country_code": "DNK",
-            "abbreviation": "DEN",
-            "gender": "male"
-        },
         {
             "id": "sr:competitor:35",
             "name": "Manchester United",
@@ -35,7 +28,7 @@
     "roles": [
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:4476",
                 "name": "Denmark",
@@ -43,7 +36,8 @@
                 "country_code": "DNK",
                 "abbreviation": "DEN",
                 "gender": "male"
-            }
+            },
+            "jersey_number": 17
         },
         {
             "type": "player",

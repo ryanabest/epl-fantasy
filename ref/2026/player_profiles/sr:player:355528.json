@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T16:59:48+00:00",
+    "generated_at": "2026-11-08T16:50:51+00:00",
     "player": {
         "id": "sr:player:355528",
         "name": "Wilson, Harry",
@@ -9,21 +9,13 @@
         "country_code": "WAL",
         "height": 173,
         "weight": 70,
-        "jersey_number": 8,
+        "jersey_number": 10,
         "preferred_foot": "left",
         "place_of_birth": "Wrexham (WALES)",
         "country_of_birth": "Wales",
         "gender": "male"
     },
     "competitors": [
-        {
-            "id": "sr:competitor:4702",
-            "name": "Wales",
-            "country": "Wales",
-            "country_code": "WAL",
-            "abbreviation": "WAL",
-            "gender": "male"
-        },
         {
             "id": "sr:competitor:34",
             "name": "Leeds United",
@@ -36,7 +28,7 @@
     "roles": [
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:4702",
                 "name": "Wales",

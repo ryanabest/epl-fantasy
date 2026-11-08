@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T17:00:09+00:00",
+    "generated_at": "2026-11-08T16:50:51+00:00",
     "player": {
         "id": "sr:player:1710063",
         "name": "Joao Pedro",
@@ -9,7 +9,7 @@
         "country_code": "BRA",
         "height": 182,
         "weight": 72,
-        "jersey_number": 9,
+        "jersey_number": 19,
         "preferred_foot": "right",
         "place_of_birth": "Ribeirao Preto",
         "country_of_birth": "Brazil",
@@ -23,12 +23,20 @@
             "country_code": "ENG",
             "abbreviation": "CFC",
             "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4748",
+            "name": "Brazil",
+            "country": "Brazil",
+            "country_code": "BRA",
+            "abbreviation": "BRA",
+            "gender": "male"
         }
     ],
     "roles": [
         {
             "type": "player",
-            "active": false,
+            "active": true,
             "competitor": {
                 "id": "sr:competitor:4748",
                 "name": "Brazil",
@@ -37,7 +45,7 @@
                 "abbreviation": "BRA",
                 "gender": "male"
             },
-            "jersey_number": 9
+            "jersey_number": 19
         },
         {
             "type": "player",

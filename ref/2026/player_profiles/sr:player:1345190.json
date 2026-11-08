@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T16:59:27+00:00",
+    "generated_at": "2026-11-08T16:39:42+00:00",
     "player": {
         "id": "sr:player:1345190",
         "name": "Brobbey, Brian",
@@ -9,7 +9,7 @@
         "country_code": "NLD",
         "height": 181,
         "weight": 78,
-        "jersey_number": 19,
+        "jersey_number": 9,
         "preferred_foot": "right",
         "place_of_birth": "Amserdam",
         "country_of_birth": "Netherlands",
@@ -23,20 +23,12 @@
             "country_code": "ENG",
             "abbreviation": "SUN",
             "gender": "male"
-        },
-        {
-            "id": "sr:competitor:4705",
-            "name": "Netherlands",
-            "country": "Netherlands",
-            "country_code": "NLD",
-            "abbreviation": "NED",
-            "gender": "male"
         }
     ],
     "roles": [
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:4705",
                 "name": "Netherlands",
@@ -45,7 +37,7 @@
                 "abbreviation": "NED",
                 "gender": "male"
             },
-            "jersey_number": 19
+            "jersey_number": 9
         },
         {
             "type": "player",

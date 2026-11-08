@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T16:56:24+00:00",
+    "generated_at": "2026-11-08T16:36:39+00:00",
     "player": {
         "id": "sr:player:1645070",
         "name": "Tzolis, Christos",
@@ -9,21 +9,13 @@
         "country_code": "GRC",
         "height": 179,
         "weight": 72,
-        "jersey_number": 10,
+        "jersey_number": 17,
         "preferred_foot": "right",
         "place_of_birth": "Thessaloniki",
         "country_of_birth": "Greece",
         "gender": "male"
     },
     "competitors": [
-        {
-            "id": "sr:competitor:4710",
-            "name": "Greece",
-            "country": "Greece",
-            "country_code": "GRC",
-            "abbreviation": "GRE",
-            "gender": "male"
-        },
         {
             "id": "sr:competitor:42",
             "name": "Arsenal FC",
@@ -36,7 +28,7 @@
     "roles": [
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:4710",
                 "name": "Greece",
@@ -45,6 +37,7 @@
                 "abbreviation": "GRE",
                 "gender": "male"
             },
+            "end_date": "2026-10-04 00:00:00",
             "jersey_number": 10
         },
         {

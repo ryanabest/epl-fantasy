@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T16:59:00+00:00",
+    "generated_at": "2026-11-08T16:39:15+00:00",
     "player": {
         "id": "sr:player:367228",
         "name": "McBurnie, Oli",
@@ -23,12 +23,20 @@
             "country_code": "ENG",
             "abbreviation": "HUL",
             "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4695",
+            "name": "Scotland",
+            "country": "Scotland",
+            "country_code": "SCO",
+            "abbreviation": "SCO",
+            "gender": "male"
         }
     ],
     "roles": [
         {
             "type": "player",
-            "active": false,
+            "active": true,
             "competitor": {
                 "id": "sr:competitor:4695",
                 "name": "Scotland",
@@ -37,8 +45,7 @@
                 "abbreviation": "SCO",
                 "gender": "male"
             },
-            "end_date": "2021-06-15 00:00:00",
-            "jersey_number": 20
+            "jersey_number": 9
         },
         {
             "type": "player",

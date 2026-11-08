@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T16:59:42+00:00",
+    "generated_at": "2026-11-08T16:39:57+00:00",
     "player": {
         "id": "sr:player:2532547",
         "name": "Hinshelwood, Jack",
@@ -17,19 +17,19 @@
     },
     "competitors": [
         {
-            "id": "sr:competitor:169150",
-            "name": "Brighton and Hove Albion",
-            "abbreviation": "BHA",
-            "gender": "male",
-            "age_group": "U21"
-        },
-        {
             "id": "sr:competitor:30",
             "name": "Brighton & Hove Albion",
             "country": "England",
             "country_code": "ENG",
             "abbreviation": "BRI",
             "gender": "male"
+        },
+        {
+            "id": "sr:competitor:169150",
+            "name": "Brighton and Hove Albion",
+            "abbreviation": "BHA",
+            "gender": "male",
+            "age_group": "U21"
         },
         {
             "id": "sr:competitor:6025",
@@ -80,7 +80,8 @@
                 "gender": "male",
                 "age_group": "U21"
             },
-            "start_date": "2022-07-01 00:00:00"
+            "start_date": "2022-07-01 00:00:00",
+            "jersey_number": 8
         }
     ]
 }

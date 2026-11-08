@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T16:59:39+00:00",
+    "generated_at": "2026-11-08T16:39:54+00:00",
     "player": {
         "id": "sr:player:2714244",
         "name": "Estevao",
@@ -18,6 +18,14 @@
     },
     "competitors": [
         {
+            "id": "sr:competitor:4748",
+            "name": "Brazil",
+            "country": "Brazil",
+            "country_code": "BRA",
+            "abbreviation": "BRA",
+            "gender": "male"
+        },
+        {
             "id": "sr:competitor:38",
             "name": "Chelsea FC",
             "country": "England",
@@ -29,7 +37,7 @@
     "roles": [
         {
             "type": "player",
-            "active": false,
+            "active": true,
             "competitor": {
                 "id": "sr:competitor:4748",
                 "name": "Brazil",
@@ -38,7 +46,7 @@
                 "abbreviation": "BRA",
                 "gender": "male"
             },
-            "jersey_number": 20
+            "jersey_number": 11
         },
         {
             "type": "player",

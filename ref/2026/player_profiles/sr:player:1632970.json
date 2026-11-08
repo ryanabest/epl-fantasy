@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T16:57:48+00:00",
+    "generated_at": "2026-11-08T16:38:03+00:00",
     "player": {
         "id": "sr:player:1632970",
         "name": "Sesko, Benjamin",
@@ -9,20 +9,13 @@
         "country_code": "SVN",
         "height": 194,
         "weight": 85,
+        "jersey_number": 30,
         "preferred_foot": "right",
         "place_of_birth": "Radece (SLOVENIA)",
         "country_of_birth": "Slovenia",
         "gender": "male"
     },
     "competitors": [
-        {
-            "id": "sr:competitor:4484",
-            "name": "Slovenia",
-            "country": "Slovenia",
-            "country_code": "SVN",
-            "abbreviation": "SLO",
-            "gender": "male"
-        },
         {
             "id": "sr:competitor:35",
             "name": "Manchester United",
@@ -35,7 +28,7 @@
     "roles": [
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:4484",
                 "name": "Slovenia",
@@ -43,7 +36,8 @@
                 "country_code": "SVN",
                 "abbreviation": "SLO",
                 "gender": "male"
-            }
+            },
+            "end_date": "2026-09-26 00:00:00"
         },
         {
             "type": "player",

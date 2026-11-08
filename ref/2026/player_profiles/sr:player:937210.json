@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T16:56:39+00:00",
+    "generated_at": "2026-11-08T16:36:54+00:00",
     "player": {
         "id": "sr:player:937210",
         "name": "Havertz, Kai",
@@ -9,21 +9,13 @@
         "country_code": "DEU",
         "height": 190,
         "weight": 77,
-        "jersey_number": 7,
+        "jersey_number": 29,
         "preferred_foot": "left",
         "place_of_birth": "Aachen",
         "country_of_birth": "Germany",
         "gender": "male"
     },
     "competitors": [
-        {
-            "id": "sr:competitor:4711",
-            "name": "Germany",
-            "country": "Germany",
-            "country_code": "DEU",
-            "abbreviation": "GER",
-            "gender": "male"
-        },
         {
             "id": "sr:competitor:42",
             "name": "Arsenal FC",
@@ -36,7 +28,7 @@
     "roles": [
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:4711",
                 "name": "Germany",
@@ -45,7 +37,7 @@
                 "abbreviation": "GER",
                 "gender": "male"
             },
-            "jersey_number": 7
+            "end_date": "2026-10-04 00:00:00"
         },
         {
             "type": "player",

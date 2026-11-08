@@ -1,21 +1,29 @@
 {
-    "generated_at": "2026-08-27T16:57:57+00:00",
+    "generated_at": "2026-11-08T16:38:12+00:00",
     "player": {
         "id": "sr:player:1336192",
         "name": "Damsgaard, Mikkel",
-        "type": "forward",
+        "type": "midfielder",
         "date_of_birth": "2000-07-03",
         "nationality": "Denmark",
         "country_code": "DNK",
         "height": 180,
         "weight": 70,
-        "jersey_number": 24,
+        "jersey_number": 14,
         "preferred_foot": "right",
         "place_of_birth": "Roskilde",
         "country_of_birth": "Denmark",
         "gender": "male"
     },
     "competitors": [
+        {
+            "id": "sr:competitor:4476",
+            "name": "Denmark",
+            "country": "Denmark",
+            "country_code": "DNK",
+            "abbreviation": "DEN",
+            "gender": "male"
+        },
         {
             "id": "sr:competitor:50",
             "name": "Brentford FC",
@@ -28,7 +36,7 @@
     "roles": [
         {
             "type": "player",
-            "active": false,
+            "active": true,
             "competitor": {
                 "id": "sr:competitor:4476",
                 "name": "Denmark",

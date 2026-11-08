@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T16:56:00+00:00",
+    "generated_at": "2026-11-08T16:36:15+00:00",
     "player": {
         "id": "sr:player:1321798",
         "name": "Kudus, Mohammed",
@@ -23,6 +23,14 @@
             "country_code": "ENG",
             "abbreviation": "TOT",
             "gender": "male"
+        },
+        {
+            "id": "sr:competitor:4764",
+            "name": "Ghana",
+            "country": "Ghana",
+            "country_code": "GHA",
+            "abbreviation": "GHA",
+            "gender": "male"
         }
     ],
     "roles": [
@@ -42,7 +50,7 @@
         },
         {
             "type": "player",
-            "active": false,
+            "active": true,
             "competitor": {
                 "id": "sr:competitor:4764",
                 "name": "Ghana",

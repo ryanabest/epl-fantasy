@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-09-02T15:54:56+00:00",
+    "generated_at": "2026-11-08T16:50:51+00:00",
     "player": {
         "id": "sr:player:1658367",
         "name": "Beto",
@@ -17,19 +17,19 @@
     },
     "competitors": [
         {
-            "id": "sr:competitor:2693",
-            "name": "ACF Fiorentina",
-            "country": "Italy",
-            "country_code": "ITA",
-            "abbreviation": "FIO",
-            "gender": "male"
-        },
-        {
             "id": "sr:competitor:23478",
             "name": "Guinea-Bissau",
             "country": "Guinea-Bissau",
             "country_code": "GNB",
             "abbreviation": "GBS",
+            "gender": "male"
+        },
+        {
+            "id": "sr:competitor:2693",
+            "name": "ACF Fiorentina",
+            "country": "Italy",
+            "country_code": "ITA",
+            "abbreviation": "FIO",
             "gender": "male"
         }
     ],
@@ -149,7 +149,8 @@
                 "abbreviation": "FIO",
                 "gender": "male"
             },
-            "start_date": "2026-09-01 00:00:00"
+            "start_date": "2026-09-01 00:00:00",
+            "jersey_number": 23
         }
     ]
 }

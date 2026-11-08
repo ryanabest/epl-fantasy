@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T16:57:15+00:00",
+    "generated_at": "2026-11-08T16:37:30+00:00",
     "player": {
         "id": "sr:player:2915821",
         "name": "Ngumoha, Rio",
@@ -26,6 +26,14 @@
             "age_group": "U19"
         },
         {
+            "id": "sr:competitor:4713",
+            "name": "England",
+            "country": "England",
+            "country_code": "ENG",
+            "abbreviation": "ENG",
+            "gender": "male"
+        },
+        {
             "id": "sr:competitor:44",
             "name": "Liverpool FC",
             "country": "England",
@@ -37,7 +45,7 @@
     "roles": [
         {
             "type": "player",
-            "active": false,
+            "active": true,
             "competitor": {
                 "id": "sr:competitor:4713",
                 "name": "England",
@@ -46,7 +54,7 @@
                 "abbreviation": "ENG",
                 "gender": "male"
             },
-            "jersey_number": 31
+            "jersey_number": 14
         },
         {
             "type": "player",
@@ -60,7 +68,6 @@
                 "gender": "male",
                 "age_group": "U17"
             },
-            "end_date": "2025-11-02 00:00:00",
             "jersey_number": 19
         },
         {

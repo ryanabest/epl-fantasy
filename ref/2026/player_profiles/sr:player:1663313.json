@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-08-27T16:57:12+00:00",
+    "generated_at": "2026-11-08T16:37:27+00:00",
     "player": {
         "id": "sr:player:1663313",
         "name": "Martinelli, Gabriel",
@@ -9,7 +9,7 @@
         "country_code": "BRA",
         "height": 178,
         "weight": 75,
-        "jersey_number": 11,
+        "jersey_number": 20,
         "preferred_foot": "right",
         "place_of_birth": "Guarulhos",
         "country_of_birth": "Brazil",
@@ -17,11 +17,11 @@
     },
     "competitors": [
         {
-            "id": "sr:competitor:42",
-            "name": "Arsenal FC",
-            "country": "England",
-            "country_code": "ENG",
-            "abbreviation": "ARS",
+            "id": "sr:competitor:21895",
+            "name": "Al Hilal SFC",
+            "country": "Saudi Arabia",
+            "country_code": "SAU",
+            "abbreviation": "HIL",
             "gender": "male"
         },
         {
@@ -45,7 +45,7 @@
                 "abbreviation": "BRA",
                 "gender": "male"
             },
-            "jersey_number": 22
+            "jersey_number": 20
         },
         {
             "type": "player",
@@ -79,7 +79,7 @@
         },
         {
             "type": "player",
-            "active": true,
+            "active": false,
             "competitor": {
                 "id": "sr:competitor:42",
                 "name": "Arsenal FC",
@@ -89,7 +89,22 @@
                 "gender": "male"
             },
             "start_date": "2019-07-02 00:00:00",
+            "end_date": "2026-09-02 00:00:00",
             "jersey_number": 11
+        },
+        {
+            "type": "player",
+            "active": true,
+            "competitor": {
+                "id": "sr:competitor:21895",
+                "name": "Al Hilal SFC",
+                "country": "Saudi Arabia",
+                "country_code": "SAU",
+                "abbreviation": "HIL",
+                "gender": "male"
+            },
+            "start_date": "2026-09-03 00:00:00",
+            "jersey_number": 7
         }
     ]
 }
