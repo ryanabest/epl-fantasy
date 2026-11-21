@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-11-21T15:31:52+00:00",
+    "generated_at": "2026-11-21T17:53:24+00:00",
     "schedules": [
         {
             "sport_event": {
@@ -12934,8 +12934,8 @@
                 }
             },
             "sport_event_status": {
-                "status": "live",
-                "match_status": "1st_half",
+                "status": "closed",
+                "match_status": "ended",
                 "home_score": 0,
                 "away_score": 0,
                 "period_scores": [
@@ -12944,11 +12944,15 @@
                         "away_score": 0,
                         "type": "regular_period",
                         "number": 1
+                    },
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
                     }
                 ],
-                "clock": {
-                    "played": "31:20"
-                }
+                "match_tie": true
             }
         },
         {
@@ -13057,21 +13061,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "live",
-                "match_status": "1st_half",
-                "home_score": 1,
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 2,
                 "away_score": 0,
+                "winner_id": "sr:competitor:60",
                 "period_scores": [
                     {
-                        "home_score": 1,
+                        "home_score": 2,
                         "away_score": 0,
                         "type": "regular_period",
                         "number": 1
+                    },
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
                     }
-                ],
-                "clock": {
-                    "played": "31:35"
-                }
+                ]
             }
         },
         {
@@ -13180,21 +13188,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "live",
-                "match_status": "1st_half",
+                "status": "closed",
+                "match_status": "ended",
                 "home_score": 1,
-                "away_score": 1,
+                "away_score": 4,
+                "winner_id": "sr:competitor:34",
                 "period_scores": [
                     {
                         "home_score": 1,
                         "away_score": 1,
                         "type": "regular_period",
                         "number": 1
+                    },
+                    {
+                        "home_score": 0,
+                        "away_score": 3,
+                        "type": "regular_period",
+                        "number": 2
                     }
-                ],
-                "clock": {
-                    "played": "31:26"
-                }
+                ]
             }
         },
         {
@@ -13303,21 +13315,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "live",
-                "match_status": "1st_half",
-                "home_score": 2,
-                "away_score": 1,
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 3,
+                "away_score": 2,
+                "winner_id": "sr:competitor:11",
                 "period_scores": [
                     {
                         "home_score": 2,
-                        "away_score": 1,
+                        "away_score": 2,
                         "type": "regular_period",
                         "number": 1
+                    },
+                    {
+                        "home_score": 1,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
                     }
-                ],
-                "clock": {
-                    "played": "31:19"
-                }
+                ]
             }
         },
         {
@@ -13426,21 +13442,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "live",
-                "match_status": "1st_half",
-                "home_score": 1,
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 2,
                 "away_score": 0,
+                "winner_id": "sr:competitor:33",
                 "period_scores": [
                     {
                         "home_score": 1,
                         "away_score": 0,
                         "type": "regular_period",
                         "number": 1
+                    },
+                    {
+                        "home_score": 1,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
                     }
-                ],
-                "clock": {
-                    "played": "30:49"
-                }
+                ]
             }
         },
         {
@@ -13549,8 +13569,21 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "live",
+                "match_status": "1st_half",
+                "home_score": 0,
+                "away_score": 0,
+                "period_scores": [
+                    {
+                        "home_score": 0,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    }
+                ],
+                "clock": {
+                    "played": "23:12"
+                }
             }
         },
         {
