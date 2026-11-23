@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-11-22T18:24:43+00:00",
+    "generated_at": "2026-11-23T22:19:14+00:00",
     "schedules": [
         {
             "sport_event": {
@@ -13950,8 +13950,25 @@
                 }
             },
             "sport_event_status": {
-                "status": "not_started",
-                "match_status": "not_started"
+                "status": "closed",
+                "match_status": "ended",
+                "home_score": 4,
+                "away_score": 0,
+                "winner_id": "sr:competitor:50",
+                "period_scores": [
+                    {
+                        "home_score": 2,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 1
+                    },
+                    {
+                        "home_score": 2,
+                        "away_score": 0,
+                        "type": "regular_period",
+                        "number": 2
+                    }
+                ]
             }
         },
         {
@@ -16209,7 +16226,7 @@
                         "formations": true,
                         "venue": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "game_clock": true,
@@ -16319,7 +16336,7 @@
                         "formations": true,
                         "venue": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "game_clock": true,
@@ -16539,7 +16556,7 @@
                         "formations": true,
                         "venue": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "game_clock": true,
@@ -16649,7 +16666,7 @@
                         "formations": true,
                         "venue": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "game_clock": true,
@@ -16759,7 +16776,7 @@
                         "formations": true,
                         "venue": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "game_clock": true,
@@ -16869,7 +16886,7 @@
                         "formations": true,
                         "venue": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "game_clock": true,
@@ -16979,7 +16996,7 @@
                         "formations": true,
                         "venue": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "game_clock": true,
@@ -17089,7 +17106,7 @@
                         "formations": true,
                         "venue": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "game_clock": true,
@@ -17199,7 +17216,7 @@
                         "formations": true,
                         "venue": true,
                         "lineups_availability": "pre",
-                        "ballspotting": false,
+                        "ballspotting": true,
                         "commentary": true,
                         "fun_facts": true,
                         "game_clock": true,
@@ -24079,8 +24096,8 @@
             "sport_event": {
                 "id": "sr:sport_event:72221602",
                 "start_time": "2027-01-16T15:00:00+00:00",
-                "start_time_confirmed": false,
-                "date_confirmed": false,
+                "start_time_confirmed": true,
+                "date_confirmed": true,
                 "sport_event_context": {
                     "sport": {
                         "id": "sr:sport:1",
@@ -24189,8 +24206,8 @@
             "sport_event": {
                 "id": "sr:sport_event:72221606",
                 "start_time": "2027-01-16T15:00:00+00:00",
-                "start_time_confirmed": false,
-                "date_confirmed": false,
+                "start_time_confirmed": true,
+                "date_confirmed": true,
                 "sport_event_context": {
                     "sport": {
                         "id": "sr:sport:1",
@@ -24299,8 +24316,8 @@
             "sport_event": {
                 "id": "sr:sport_event:72221608",
                 "start_time": "2027-01-16T15:00:00+00:00",
-                "start_time_confirmed": false,
-                "date_confirmed": false,
+                "start_time_confirmed": true,
+                "date_confirmed": true,
                 "sport_event_context": {
                     "sport": {
                         "id": "sr:sport:1",
@@ -24409,8 +24426,8 @@
             "sport_event": {
                 "id": "sr:sport_event:72221610",
                 "start_time": "2027-01-16T15:00:00+00:00",
-                "start_time_confirmed": false,
-                "date_confirmed": false,
+                "start_time_confirmed": true,
+                "date_confirmed": true,
                 "sport_event_context": {
                     "sport": {
                         "id": "sr:sport:1",
@@ -24519,8 +24536,8 @@
             "sport_event": {
                 "id": "sr:sport_event:72221612",
                 "start_time": "2027-01-16T15:00:00+00:00",
-                "start_time_confirmed": false,
-                "date_confirmed": false,
+                "start_time_confirmed": true,
+                "date_confirmed": true,
                 "sport_event_context": {
                     "sport": {
                         "id": "sr:sport:1",
@@ -25069,8 +25086,8 @@
             "sport_event": {
                 "id": "sr:sport_event:72221624",
                 "start_time": "2027-01-23T15:00:00+00:00",
-                "start_time_confirmed": false,
-                "date_confirmed": false,
+                "start_time_confirmed": true,
+                "date_confirmed": true,
                 "sport_event_context": {
                     "sport": {
                         "id": "sr:sport:1",
@@ -25179,8 +25196,8 @@
             "sport_event": {
                 "id": "sr:sport_event:72221626",
                 "start_time": "2027-01-23T15:00:00+00:00",
-                "start_time_confirmed": false,
-                "date_confirmed": false,
+                "start_time_confirmed": true,
+                "date_confirmed": true,
                 "sport_event_context": {
                     "sport": {
                         "id": "sr:sport:1",
@@ -26279,8 +26296,8 @@
             "sport_event": {
                 "id": "sr:sport_event:72221636",
                 "start_time": "2027-01-30T15:00:00+00:00",
-                "start_time_confirmed": false,
-                "date_confirmed": false,
+                "start_time_confirmed": true,
+                "date_confirmed": true,
                 "sport_event_context": {
                     "sport": {
                         "id": "sr:sport:1",
@@ -26389,8 +26406,8 @@
             "sport_event": {
                 "id": "sr:sport_event:72221652",
                 "start_time": "2027-01-30T15:00:00+00:00",
-                "start_time_confirmed": false,
-                "date_confirmed": false,
+                "start_time_confirmed": true,
+                "date_confirmed": true,
                 "sport_event_context": {
                     "sport": {
                         "id": "sr:sport:1",
